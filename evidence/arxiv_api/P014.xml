@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/D1+EaWt3mewp2Sm/iz1lGRZ98cU</id>
+  <title>arXiv Query: search_query=ti:"PlanGuard Defending Agents against Indirect Prompt Injection via Planning based Consistency Verification"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:01:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22PlanGuard+Defending+Agents+against+Indirect+Prompt+Injection+via+Planning+based+Consistency+Verification%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2604.10134v1</id>
+    <title>PlanGuard: Defending Agents against Indirect Prompt Injection via Planning-based Consistency Verification</title>
+    <updated>2026-04-11T09:59:46Z</updated>
+    <link href="https://arxiv.org/abs/2604.10134v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.10134v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agents are increasingly integrated into critical systems, leveraging external tools to interact with the real world. However, this capability exposes them to Indirect Prompt Injection (IPI), where attackers embed malicious instructions into retrieved content to manipulate the agent into executing unauthorized or unintended actions. Existing defenses predominantly focus on the pre-processing stage, neglecting the monitoring of the model's actual behavior. In this paper, we propose PlanGuard, a training-free defense framework based on the principle of Context Isolation. Unlike prior methods, PlanGuard introduces an isolated Planner that generates a reference set of valid actions derived solely from user instructions. In addition, we design a Hierarchical Verification Mechanism that first enforces strict hard constraints to block unauthorized tool invocations, and subsequently employs an Intent Verifier to validate whether parameter deviations are benign formatting variances or malicious hijacking. Experiments on the InjecAgent benchmark demonstrate that PlanGuard effectively neutralizes these attacks, reducing the Attack Success Rate (ASR) from 72.8% to 0%, while maintaining an acceptable False Positive Rate of 1.49%. Furthermore, our method is model-agnostic and highly compatible.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-11T09:59:46Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Guangyu Gong</name>
+    </author>
+    <author>
+      <name>Zizhuang Deng</name>
+    </author>
+  </entry>
+</feed>

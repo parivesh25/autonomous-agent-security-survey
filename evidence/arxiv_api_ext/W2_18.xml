@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GgkoxWGBe0+e71sWGukcI6FkksA</id>
+  <title>arXiv Query: search_query=ti:"Red Teaming LLM Multi Agent Systems via Communication Attacks"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:05:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Red+Teaming+LLM+Multi+Agent+Systems+via+Communication+Attacks%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2502.14847v2</id>
+    <title>Red-Teaming LLM Multi-Agent Systems via Communication Attacks</title>
+    <updated>2025-06-02T01:51:09Z</updated>
+    <link href="https://arxiv.org/abs/2502.14847v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.14847v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model-based Multi-Agent Systems (LLM-MAS) have revolutionized complex problem-solving capability by enabling sophisticated agent collaboration through message-based communications. While the communication framework is crucial for agent coordination, it also introduces a critical yet unexplored security vulnerability. In this work, we introduce Agent-in-the-Middle (AiTM), a novel attack that exploits the fundamental communication mechanisms in LLM-MAS by intercepting and manipulating inter-agent messages. Unlike existing attacks that compromise individual agents, AiTM demonstrates how an adversary can compromise entire multi-agent systems by only manipulating the messages passing between agents. To enable the attack under the challenges of limited control and role-restricted communication format, we develop an LLM-powered adversarial agent with a reflection mechanism that generates contextually-aware malicious instructions. Our comprehensive evaluation across various frameworks, communication structures, and real-world applications demonstrates that LLM-MAS is vulnerable to communication-based attacks, highlighting the need for robust security measures in multi-agent systems.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-20T18:55:39Z</published>
+    <arxiv:comment>ACL 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Pengfei He</name>
+    </author>
+    <author>
+      <name>Yupin Lin</name>
+    </author>
+    <author>
+      <name>Shen Dong</name>
+    </author>
+    <author>
+      <name>Han Xu</name>
+    </author>
+    <author>
+      <name>Yue Xing</name>
+    </author>
+    <author>
+      <name>Hui Liu</name>
+    </author>
+  </entry>
+</feed>

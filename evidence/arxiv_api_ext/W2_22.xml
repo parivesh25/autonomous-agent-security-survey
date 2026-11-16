@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TWz9zbI4NFwQOWKSaZYbiAldEa4</id>
+  <title>arXiv Query: search_query=ti:"Ctrl Z Controlling AI Agents via Resampling"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:05:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Ctrl+Z+Controlling+AI+Agents+via+Resampling%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.10374v1</id>
+    <title>Ctrl-Z: Controlling AI Agents via Resampling</title>
+    <updated>2025-04-14T16:22:11Z</updated>
+    <link href="https://arxiv.org/abs/2504.10374v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.10374v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Control evaluations measure whether monitoring and security protocols for AI systems prevent intentionally subversive AI models from causing harm. Our work presents the first control evaluation performed in an agent environment. We construct BashBench, a dataset of 257 challenging multi-step system administration tasks, and evaluate whether various safety measures can prevent an adversarially constructed AI agent from covertly downloading and executing malicious code in this environment. This multi-step setting introduces new attack and defense dynamics, which we investigate in order to design novel control protocols that prevent safety failures without hindering the ability of non-malicious agents to perform useful work. We introduce a class of control protocols called resample protocols that dynamically take additional samples of certain actions. We find these protocols significantly improve on existing techniques by selectively blocking the AI agent from executing suspicious code and incriminating the agent by generating additional examples of dangerous behavior. We measure the tradeoff between attack prevention and usefulness; our best protocol combines resampling with analysis of previous steps, reducing the success rate of attacks from 58% to 7% at a 5% cost to the performance of a non-malicious agent.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-14T16:22:11Z</published>
+    <arxiv:comment>bashcontrol.com</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aryan Bhatt</name>
+    </author>
+    <author>
+      <name>Cody Rushing</name>
+    </author>
+    <author>
+      <name>Adam Kaufman</name>
+    </author>
+    <author>
+      <name>Tyler Tracy</name>
+    </author>
+    <author>
+      <name>Vasil Georgiev</name>
+    </author>
+    <author>
+      <name>David Matolcsi</name>
+    </author>
+    <author>
+      <name>Akbir Khan</name>
+    </author>
+    <author>
+      <name>Buck Shlegeris</name>
+    </author>
+  </entry>
+</feed>

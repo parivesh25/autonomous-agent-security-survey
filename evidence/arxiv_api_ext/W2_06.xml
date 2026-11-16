@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zVg52Ulpohenf9iY4g/Fi+Yawgo</id>
+  <title>arXiv Query: search_query=ti:"Identifying the Risks of LM Agents with an LM Emulated Sandbox"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:04:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Identifying+the+Risks+of+LM+Agents+with+an+LM+Emulated+Sandbox%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2309.15817v2</id>
+    <title>Identifying the Risks of LM Agents with an LM-Emulated Sandbox</title>
+    <updated>2024-05-17T17:17:45Z</updated>
+    <link href="https://arxiv.org/abs/2309.15817v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.15817v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in Language Model (LM) agents and tool use, exemplified by applications like ChatGPT Plugins, enable a rich set of capabilities but also amplify potential risks - such as leaking private data or causing financial losses. Identifying these risks is labor-intensive, necessitating implementing the tools, setting up the environment for each test scenario manually, and finding risky cases. As tools and agents become more complex, the high cost of testing these agents will make it increasingly difficult to find high-stakes, long-tailed risks. To address these challenges, we introduce ToolEmu: a framework that uses an LM to emulate tool execution and enables the testing of LM agents against a diverse range of tools and scenarios, without manual instantiation. Alongside the emulator, we develop an LM-based automatic safety evaluator that examines agent failures and quantifies associated risks. We test both the tool emulator and evaluator through human evaluation and find that 68.8% of failures identified with ToolEmu would be valid real-world agent failures. Using our curated initial benchmark consisting of 36 high-stakes tools and 144 test cases, we provide a quantitative risk analysis of current LM agents and identify numerous failures with potentially severe outcomes. Notably, even the safest LM agent exhibits such failures 23.9% of the time according to our evaluator, underscoring the need to develop safer LM agents for real-world deployment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-25T17:08:02Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yangjun Ruan</name>
+    </author>
+    <author>
+      <name>Honghua Dong</name>
+    </author>
+    <author>
+      <name>Andrew Wang</name>
+    </author>
+    <author>
+      <name>Silviu Pitis</name>
+    </author>
+    <author>
+      <name>Yongchao Zhou</name>
+    </author>
+    <author>
+      <name>Jimmy Ba</name>
+    </author>
+    <author>
+      <name>Yann Dubois</name>
+    </author>
+    <author>
+      <name>Chris J. Maddison</name>
+    </author>
+    <author>
+      <name>Tatsunori Hashimoto</name>
+    </author>
+  </entry>
+</feed>

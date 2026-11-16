@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/biswMSmx8g1DTbB8FU5EOfySE/M</id>
+  <title>arXiv Query: search_query=ti:"TraceGuard Structured Multi Dimensional Monitoring as a Collusion Resistant Control Protocol"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:02:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22TraceGuard+Structured+Multi+Dimensional+Monitoring+as+a+Collusion+Resistant+Control+Protocol%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2604.03968v1</id>
+    <title>TraceGuard: Structured Multi-Dimensional Monitoring as a Collusion-Resistant Control Protocol</title>
+    <updated>2026-04-05T05:05:59Z</updated>
+    <link href="https://arxiv.org/abs/2604.03968v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.03968v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI control protocols use monitors to detect attacks by untrusted AI agents, but standard single-score monitors face two limitations: they miss subtle attacks where outputs look clean but reasoning is off, and they collapse to near-zero safety when the monitor is the same model as the agent (collusion). We present TraceGuard, a structured multi-dimensional monitoring protocol that evaluates agent actions across five dimensions -- goal alignment, constraint adherence, reasoning coherence, safety awareness, and action-trace consistency -- scored in parallel by independent LLM calls, augmented by seven heuristic detectors and an LLM-based intent analyzer. We evaluate on BashArena (637 bash tasks, 4 attack categories) within the ControlArena framework. Our results on 519 samples (279 honest, 240 attack) show that: (1) the hybrid approach achieves clear attack-honest separation (attack mean 0.616 vs. honest mean 0.206, Delta=0.410); (2) structured scoring constrains collusion -- the untrusted structured monitor achieves 95% safety vs. 0% for single-score untrusted monitoring; (3) goal alignment and constraint adherence are the most discriminative dimensions; and (4) a separation-of-duties variant splitting dimensions across trusted and untrusted models achieves 100% safety while preventing any single model from seeing the full evaluation. TraceGuard is implemented as a new monitor type for the open-source ControlArena framework.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-05T05:05:59Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Khanh Linh Nguyen</name>
+    </author>
+    <author>
+      <name>Hoa Nghiem</name>
+    </author>
+    <author>
+      <name>Tu Tran</name>
+    </author>
+  </entry>
+</feed>

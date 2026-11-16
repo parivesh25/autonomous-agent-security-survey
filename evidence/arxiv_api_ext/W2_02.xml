@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SnkxuVfARkmmf6PdSLGf5gjePMs</id>
+  <title>arXiv Query: search_query=ti:"InjecAgent Benchmarking Indirect Prompt Injections in Tool Integrated Large Language Model Agents"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:04:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22InjecAgent+Benchmarking+Indirect+Prompt+Injections+in+Tool+Integrated+Large+Language+Model+Agents%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2403.02691v3</id>
+    <title>InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents</title>
+    <updated>2024-08-04T04:52:35Z</updated>
+    <link href="https://arxiv.org/abs/2403.02691v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.02691v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work has embodied LLMs as agents, allowing them to access tools, perform actions, and interact with external content (e.g., emails or websites). However, external content introduces the risk of indirect prompt injection (IPI) attacks, where malicious instructions are embedded within the content processed by LLMs, aiming to manipulate these agents into executing detrimental actions against users. Given the potentially severe consequences of such attacks, establishing benchmarks to assess and mitigate these risks is imperative.
+  In this work, we introduce InjecAgent, a benchmark designed to assess the vulnerability of tool-integrated LLM agents to IPI attacks. InjecAgent comprises 1,054 test cases covering 17 different user tools and 62 attacker tools. We categorize attack intentions into two primary types: direct harm to users and exfiltration of private data. We evaluate 30 different LLM agents and show that agents are vulnerable to IPI attacks, with ReAct-prompted GPT-4 vulnerable to attacks 24% of the time. Further investigation into an enhanced setting, where the attacker instructions are reinforced with a hacking prompt, shows additional increases in success rates, nearly doubling the attack success rate on the ReAct-prompted GPT-4. Our findings raise questions about the widespread deployment of LLM Agents. Our benchmark is available at https://github.com/uiuc-kang-lab/InjecAgent.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-05T06:21:45Z</published>
+    <arxiv:comment>36 pages, 6 figures, 13 tables (ACL 2024 Findings)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Qiusi Zhan</name>
+    </author>
+    <author>
+      <name>Zhixiang Liang</name>
+    </author>
+    <author>
+      <name>Zifan Ying</name>
+    </author>
+    <author>
+      <name>Daniel Kang</name>
+    </author>
+  </entry>
+</feed>

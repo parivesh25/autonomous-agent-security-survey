@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/f8TL64qE6jFdvvPeGZcVbO8gO6Q</id>
+  <title>arXiv Query: search_query=ti:"Multi Agent Systems Execute Arbitrary Malicious Code"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:05:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Multi+Agent+Systems+Execute+Arbitrary+Malicious+Code%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.12188v2</id>
+    <title>Multi-Agent Systems Execute Arbitrary Malicious Code</title>
+    <updated>2025-09-12T19:53:17Z</updated>
+    <link href="https://arxiv.org/abs/2503.12188v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.12188v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent systems coordinate LLM-based agents to perform tasks on users' behalf. In real-world applications, multi-agent systems will inevitably interact with untrusted inputs, such as malicious Web content, files, email attachments, and more.
+  Using several recently proposed multi-agent frameworks as concrete examples, we demonstrate that adversarial content can hijack control and communication within the system to invoke unsafe agents and functionalities. This results in a complete security breach, up to execution of arbitrary malicious code on the user's device or exfiltration of sensitive data from the user's containerized environment. For example, when agents are instantiated with GPT-4o, Web-based attacks successfully cause the multi-agent system execute arbitrary malicious code in 58-90\% of trials (depending on the orchestrator). In some model-orchestrator configurations, the attack success rate is 100\%. We also demonstrate that these attacks succeed even if individual agents are not susceptible to direct or indirect prompt injection, and even if they refuse to perform harmful actions. We hope that these results will motivate development of trust and security models for multi-agent systems before they are widely deployed.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-15T16:16:08Z</published>
+    <arxiv:comment>33 pages, 5 figures, 7 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Harold Triedman</name>
+    </author>
+    <author>
+      <name>Rishi Jha</name>
+    </author>
+    <author>
+      <name>Vitaly Shmatikov</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HvFm6xGXFWsTdTF7xni3LNwcuL0</id>
+  <title>arXiv Query: search_query=ti:"Defeating Prompt Injections by Design"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:04:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Defeating+Prompt+Injections+by+Design%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.18813v2</id>
+    <title>Defeating Prompt Injections by Design</title>
+    <updated>2025-06-24T08:05:33Z</updated>
+    <link href="https://arxiv.org/abs/2503.18813v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.18813v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are increasingly deployed in agentic systems that interact with an untrusted environment. However, LLM agents are vulnerable to prompt injection attacks when handling untrusted data. In this paper we propose CaMeL, a robust defense that creates a protective system layer around the LLM, securing it even when underlying models are susceptible to attacks. To operate, CaMeL explicitly extracts the control and data flows from the (trusted) query; therefore, the untrusted data retrieved by the LLM can never impact the program flow. To further improve security, CaMeL uses a notion of a capability to prevent the exfiltration of private data over unauthorized data flows by enforcing security policies when tools are called. We demonstrate effectiveness of CaMeL by solving $77\%$ of tasks with provable security (compared to $84\%$ with an undefended system) in AgentDojo. We release CaMeL at https://github.com/google-research/camel-prompt-injection.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-24T15:54:10Z</published>
+    <arxiv:comment>Updated version with newer models and link to the code</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Edoardo Debenedetti</name>
+    </author>
+    <author>
+      <name>Ilia Shumailov</name>
+    </author>
+    <author>
+      <name>Tianqi Fan</name>
+    </author>
+    <author>
+      <name>Jamie Hayes</name>
+    </author>
+    <author>
+      <name>Nicholas Carlini</name>
+    </author>
+    <author>
+      <name>Daniel Fabian</name>
+    </author>
+    <author>
+      <name>Christoph Kern</name>
+    </author>
+    <author>
+      <name>Chongyang Shi</name>
+    </author>
+    <author>
+      <name>Andreas Terzis</name>
+    </author>
+    <author>
+      <name>Florian Tramèr</name>
+    </author>
+  </entry>
+</feed>

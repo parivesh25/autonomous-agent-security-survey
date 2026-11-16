@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/AS/s9MVHFWM4WdH0i+SoaCniC3g</id>
+  <title>arXiv Query: search_query=ti:"Evaluating Control Protocols for Untrusted AI Agents"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:02:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Evaluating+Control+Protocols+for+Untrusted+AI+Agents%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.02997v1</id>
+    <title>Evaluating Control Protocols for Untrusted AI Agents</title>
+    <updated>2025-11-04T21:04:49Z</updated>
+    <link href="https://arxiv.org/abs/2511.02997v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.02997v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As AI systems become more capable and widely deployed as agents, ensuring their safe operation becomes critical. AI control offers one approach to mitigating the risk from untrusted AI agents by monitoring their actions and intervening or auditing when necessary. Evaluating the safety of these protocols requires understanding both their effectiveness against current attacks and their robustness to adaptive adversaries. In this work, we systematically evaluate a range of control protocols in SHADE-Arena, a dataset of diverse agentic environments. First, we evaluate blue team protocols, including deferral to trusted models, resampling, and deferring on critical actions, against a default attack policy. We find that resampling for incrimination and deferring on critical actions perform best, increasing safety from 50% to 96%. We then iterate on red team strategies against these protocols and find that attack policies with additional affordances, such as knowledge of when resampling occurs or the ability to simulate monitors, can substantially improve attack success rates against our resampling strategy, decreasing safety to 17%. However, deferring on critical actions is highly robust to even our strongest red team strategies, demonstrating the importance of denying attack policies access to protocol internals.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-04T21:04:49Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jon Kutasov</name>
+    </author>
+    <author>
+      <name>Chloe Loughridge</name>
+    </author>
+    <author>
+      <name>Yuqi Sun</name>
+    </author>
+    <author>
+      <name>Henry Sleight</name>
+    </author>
+    <author>
+      <name>Buck Shlegeris</name>
+    </author>
+    <author>
+      <name>Tyler Tracy</name>
+    </author>
+    <author>
+      <name>Joe Benton</name>
+    </author>
+  </entry>
+</feed>

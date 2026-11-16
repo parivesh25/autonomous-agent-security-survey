@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vj00PevqExpa/3GEKIXlbp/OiNA</id>
+  <title>arXiv Query: search_query=ti:"Reward Tampering Problems and Solutions in Reinforcement Learning A Causal Influence Diagram Perspective"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:06:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Reward+Tampering+Problems+and+Solutions+in+Reinforcement+Learning+A+Causal+Influence+Diagram+Perspective%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1908.04734v5</id>
+    <title>Reward Tampering Problems and Solutions in Reinforcement Learning: A Causal Influence Diagram Perspective</title>
+    <updated>2021-03-26T11:13:59Z</updated>
+    <link href="https://arxiv.org/abs/1908.04734v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.04734v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Can humans get arbitrarily capable reinforcement learning (RL) agents to do their bidding? Or will sufficiently capable RL agents always find ways to bypass their intended objectives by shortcutting their reward signal? This question impacts how far RL can be scaled, and whether alternative paradigms must be developed in order to build safe artificial general intelligence. In this paper, we study when an RL agent has an instrumental goal to tamper with its reward process, and describe design principles that prevent instrumental goals for two different types of reward tampering (reward function tampering and RF-input tampering). Combined, the design principles can prevent both types of reward tampering from being instrumental goals. The analysis benefits from causal influence diagrams to provide intuitive yet precise formalizations.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-13T16:50:00Z</published>
+    <arxiv:comment>Accepted to Synthese, March 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tom Everitt</name>
+    </author>
+    <author>
+      <name>Marcus Hutter</name>
+    </author>
+    <author>
+      <name>Ramana Kumar</name>
+    </author>
+    <author>
+      <name>Victoria Krakovna</name>
+    </author>
+  </entry>
+</feed>

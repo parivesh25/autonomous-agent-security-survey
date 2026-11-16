@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/54fBpjPaZ5OhTS66HfVCuLUMi04</id>
+  <title>arXiv Query: search_query=ti:"Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:04:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Adaptive+Attacks+Break+Defenses+Against+Indirect+Prompt+Injection+Attacks+on+LLM+Agents%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.00061v2</id>
+    <title>Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents</title>
+    <updated>2025-03-04T03:32:46Z</updated>
+    <link href="https://arxiv.org/abs/2503.00061v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.00061v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agents exhibit remarkable performance across diverse applications by using external tools to interact with environments. However, integrating external tools introduces security risks, such as indirect prompt injection (IPI) attacks. Despite defenses designed for IPI attacks, their robustness remains questionable due to insufficient testing against adaptive attacks. In this paper, we evaluate eight different defenses and bypass all of them using adaptive attacks, consistently achieving an attack success rate of over 50%. This reveals critical vulnerabilities in current defenses. Our research underscores the need for adaptive attack evaluation when designing defenses to ensure robustness and reliability. The code is available at https://github.com/uiuc-kang-lab/AdaptiveAttackAgent.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-27T04:04:50Z</published>
+    <arxiv:comment>17 pages, 5 figures, 6 tables (NAACL 2025 Findings)</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Qiusi Zhan</name>
+    </author>
+    <author>
+      <name>Richard Fang</name>
+    </author>
+    <author>
+      <name>Henil Shalin Panchal</name>
+    </author>
+    <author>
+      <name>Daniel Kang</name>
+    </author>
+  </entry>
+</feed>

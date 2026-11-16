@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/A1NH8DpLB0G10jGNWkDvYvJcqds</id>
+  <title>arXiv Query: search_query=ti:"EvilGenie A Reward Hacking Benchmark"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:01:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22EvilGenie+A+Reward+Hacking+Benchmark%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.21654v2</id>
+    <title>EvilGenie: A Reward Hacking Benchmark</title>
+    <updated>2026-05-17T22:54:07Z</updated>
+    <link href="https://arxiv.org/abs/2511.21654v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.21654v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce EvilGenie, a benchmark for reward hacking in programming settings. We source problems from LiveCodeBench and create an environment in which agents can easily reward hack, such as by hardcoding test cases or editing the testing files. We measure reward hacking in three ways: held out unit tests, LLM judges, and test file edit detection. We verify these methods against human review and each other. We find the LLM judge to be highly effective at detecting reward hacking in unambiguous cases, and observe only minimal improvement from the use of held out test cases. In addition to testing many models using Inspect's basic\_agent scaffold, we also measure reward hacking rates for three popular proprietary coding agents: OpenAI's Codex, Anthropic's Claude Code, and Google's Gemini CLI. We observe explicit reward hacking by both Codex and Claude Code, and misaligned behavior by all three agents. Our codebase can be found at https://github.com/JonathanGabor/evilgenie_inspect .</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-26T18:27:17Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jonathan Gabor</name>
+    </author>
+    <author>
+      <name>Jayson Lynch</name>
+    </author>
+    <author>
+      <name>Jonathan Rosenfeld</name>
+    </author>
+  </entry>
+</feed>

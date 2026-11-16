@@ -1,0 +1,35 @@
+[
+  {
+    "search_id": "S1",
+    "executed_date": "2026-11-16",
+    "source": "SciSpace",
+    "query": "What empirical studies evaluate specification gaming, reward tampering and evaluation cheating in tool-using language model agents? year:2023-2026 limit:10",
+    "retrieval_limit": 10,
+    "returned_count": 10,
+    "total_database_hits": null,
+    "status": "fulfilled",
+    "notes": "Returned records, not total database hits. New reproducible pilot batch; prior exploratory searches are not included."
+  },
+  {
+    "search_id": "S2",
+    "executed_date": "2026-11-16",
+    "source": "SciSpace",
+    "query": "What empirical studies evaluate unauthorized tool use, indirect prompt injection and isolation defenses in autonomous language model agents? year:2023-2026 limit:10",
+    "retrieval_limit": 10,
+    "returned_count": 10,
+    "total_database_hits": null,
+    "status": "fulfilled",
+    "notes": "Returned records, not total database hits. New reproducible pilot batch; prior exploratory searches are not included."
+  },
+  {
+    "search_id": "S3",
+    "executed_date": "2026-11-16",
+    "source": "SciSpace",
+    "query": "What empirical studies evaluate multi-agent security, trusted monitoring and control protocols for autonomous language model agents? year:2023-2026 limit:10",
+    "retrieval_limit": 10,
+    "returned_count": 10,
+    "total_database_hits": null,
+    "status": "fulfilled",
+    "notes": "Returned records, not total database hits. New reproducible pilot batch; prior exploratory searches are not included."
+  }
+]

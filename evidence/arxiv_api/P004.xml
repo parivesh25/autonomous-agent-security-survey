@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9Ph6TMV6NqlzrY7JZxrt4oyLYn4</id>
+  <title>arXiv Query: search_query=ti:"RewardHackingAgents Benchmarking Evaluation Integrity for LLM ML Engineering Agents"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:01:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22RewardHackingAgents+Benchmarking+Evaluation+Integrity+for+LLM+ML+Engineering+Agents%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2603.11337v1</id>
+    <title>RewardHackingAgents: Benchmarking Evaluation Integrity for LLM ML-Engineering Agents</title>
+    <updated>2026-03-11T22:06:44Z</updated>
+    <link href="https://arxiv.org/abs/2603.11337v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.11337v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents increasingly perform end-to-end ML engineering tasks where success is judged by a single scalar test metric. This creates a structural vulnerability: an agent can increase the reported score by compromising the evaluation pipeline rather than improving the model. We introduce RewardHackingAgents, a workspace-based benchmark that makes two compromise vectors explicit and measurable: evaluator tampering (modifying metric computation or reporting) and train/test leakage (accessing held-out data or labels during training). Each episode runs in a fresh workspace with patch tracking and runtime file-access logging; detectors compare the agent-reported metric to a trusted reference to assign auditable integrity labels. Across three tasks and two LLM backbones, scripted attacks succeed on both vectors in fully mutable workspaces; single-mechanism defenses block only one vector; and a combined regime blocks both. In natural-agent runs, evaluator-tampering attempts occur in about 50% of episodes and are eliminated by evaluator locking, with a 25-31% median runtime overhead. Overall, we demonstrate that evaluation integrity for ML-engineering agents can be benchmarked as a first-class outcome rather than assumed.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-11T22:06:44Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yonas Atinafu</name>
+    </author>
+    <author>
+      <name>Robin Cohen</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mpoKSYOL8GjNrW5zfKnnrI4gpns</id>
+  <title>arXiv Query: search_query=ti:"Multi Agent AI Control Distributed Attacks Hamper Per Instance Monitors"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:02:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Multi+Agent+AI+Control+Distributed+Attacks+Hamper+Per+Instance+Monitors%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2607.07368v2</id>
+    <title>Multi-Agent AI Control: Distributed Attacks Hamper Per-Instance Monitors</title>
+    <updated>2026-10-12T14:59:07Z</updated>
+    <link href="https://arxiv.org/abs/2607.07368v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.07368v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI control is a family of techniques to prevent an AI with malicious goals from subverting its operator's intent. AI Control usually studies a single agent in one trajectory, but real deployments run many agents over shared infrastructure, and the most severe risks (model-weight exfiltration, training-run poisoning) plausibly need several agents acting in concert. We initiate the empirical study of multi-agent AI control, formalising distributed attacks in which several agents jointly aim for a malicious goal. We develop FakeLab: a synthetic AI-lab codebase (9 services, 86 benign tasks, 4 attack objectives). We evaluate single agent monitoring against distributed attacks, varying the number of agents, their coordination, model capabilities and precise monitoring configuration.
+  Our central finding is the fragmentation effect: as more agents coordinate to attack, per-agent monitoring becomes less likely to catch any of the attackers. Secondly, this is not driven by the ratio of benign to malicious code -- we argue this is likely dependent on model capability. Third, an explicit planner amplifies the fragmentation effect, raises the rate of completing the attack up to sevenfold, and mildly sharpens executors' poor monitor-theory-of-mind. Finally: a weak "trusted" monitor misses most attacks, while a stronger one cuts undetected success by more than an order of magnitude but remains imperfect. We are happy to share FakeLab, our control setting, with safety researchers on request.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-08T13:03:25Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Oliver Makins</name>
+    </author>
+    <author>
+      <name>Orazio Angelini</name>
+    </author>
+    <author>
+      <name>Zohreh Shams</name>
+    </author>
+    <author>
+      <name>Mary Phuong</name>
+    </author>
+  </entry>
+</feed>

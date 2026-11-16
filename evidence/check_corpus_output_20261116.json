@@ -1,0 +1,76 @@
+{
+ "discovery_records": 144,
+ "records_by_search": {
+  "S1": 10,
+  "S2": 10,
+  "S3": 10,
+  "S4": 25,
+  "S5": 25,
+  "S6": 25,
+  "S7": 13,
+  "W2": 26
+ },
+ "record_status": {
+  "include_for_reading": 51,
+  "context_review": 1,
+  "duplicate": 1,
+  "metadata_unverified": 4,
+  "reserve": 43,
+  "awaiting_full_text": 1,
+  "excluded_at_abstract": 34,
+  "context_only": 9
+ },
+ "repeat_or_duplicate_records": 10,
+ "records_without_verified_primary_record": [
+  "P013",
+  "P018",
+  "P020",
+  "P025"
+ ],
+ "non_arxiv_records_verified_via_crossref": [
+  "P002",
+  "P011",
+  "P017",
+  "P019"
+ ],
+ "unique_arxiv_works": 126,
+ "work_screening_decisions": {
+  "include_for_reading": 42,
+  "reserve": 42,
+  "excluded_at_abstract": 33,
+  "context_only": 9
+ },
+ "include_for_reading_by_category": {
+  "A": 11,
+  "B": 12,
+  "C": 9,
+  "D": 10
+ },
+ "include_for_reading_by_first_public_year": {
+  "2023": 2,
+  "2024": 9,
+  "2025": 16,
+  "2026": 15
+ },
+ "reserve_by_category": {
+  "A": 1,
+  "B": 23,
+  "C": 12,
+  "D": 4,
+  "None": 2
+ },
+ "works_outside_window": [
+  [
+   "W125",
+   "2016-06-21"
+  ],
+  [
+   "W126",
+   "2019-08-13"
+  ]
+ ],
+ "works_past_cutoff": [],
+ "full_text_read_works": 0,
+ "included_works": 0,
+ "caveat": "Gate 4 (abstract screened) only. No work is read in full or included. Year/category counts describe a reading queue, not the field and not the final corpus."
+}

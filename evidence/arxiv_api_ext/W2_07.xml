@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gnNXhIGmI/mmdyFMClgylGENpB0</id>
+  <title>arXiv Query: search_query=ti:"AgentHarm A Benchmark for Measuring Harmfulness of LLM Agents"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:04:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22AgentHarm+A+Benchmark+for+Measuring+Harmfulness+of+LLM+Agents%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.09024v3</id>
+    <title>AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents</title>
+    <updated>2025-04-18T14:30:31Z</updated>
+    <link href="https://arxiv.org/abs/2410.09024v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.09024v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The robustness of LLMs to jailbreak attacks, where users design prompts to circumvent safety measures and misuse model capabilities, has been studied primarily for LLMs acting as simple chatbots. Meanwhile, LLM agents -- which use external tools and can execute multi-stage tasks -- may pose a greater risk if misused, but their robustness remains underexplored. To facilitate research on LLM agent misuse, we propose a new benchmark called AgentHarm. The benchmark includes a diverse set of 110 explicitly malicious agent tasks (440 with augmentations), covering 11 harm categories including fraud, cybercrime, and harassment. In addition to measuring whether models refuse harmful agentic requests, scoring well on AgentHarm requires jailbroken agents to maintain their capabilities following an attack to complete a multi-step task. We evaluate a range of leading LLMs, and find (1) leading LLMs are surprisingly compliant with malicious agent requests without jailbreaking, (2) simple universal jailbreak templates can be adapted to effectively jailbreak agents, and (3) these jailbreaks enable coherent and malicious multi-step agent behavior and retain model capabilities. To enable simple and reliable evaluation of attacks and defenses for LLM-based agents, we publicly release AgentHarm at https://huggingface.co/datasets/ai-safety-institute/AgentHarm.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-11T17:39:22Z</published>
+    <arxiv:comment>Accepted at ICLR 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Maksym Andriushchenko</name>
+    </author>
+    <author>
+      <name>Alexandra Souly</name>
+    </author>
+    <author>
+      <name>Mateusz Dziemian</name>
+    </author>
+    <author>
+      <name>Derek Duenas</name>
+    </author>
+    <author>
+      <name>Maxwell Lin</name>
+    </author>
+    <author>
+      <name>Justin Wang</name>
+    </author>
+    <author>
+      <name>Dan Hendrycks</name>
+    </author>
+    <author>
+      <name>Andy Zou</name>
+    </author>
+    <author>
+      <name>Zico Kolter</name>
+    </author>
+    <author>
+      <name>Matt Fredrikson</name>
+    </author>
+    <author>
+      <name>Eric Winsor</name>
+    </author>
+    <author>
+      <name>Jerome Wynne</name>
+    </author>
+    <author>
+      <name>Yarin Gal</name>
+    </author>
+    <author>
+      <name>Xander Davies</name>
+    </author>
+  </entry>
+</feed>

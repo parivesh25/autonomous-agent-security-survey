@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GKbRFbfmqDXN2TrglYQJC0NB4vk</id>
+  <title>arXiv Query: search_query=ti:"Games for AI Control Models of Safety Evaluations of AI Deployment Protocols"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:02:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Games+for+AI+Control+Models+of+Safety+Evaluations+of+AI+Deployment+Protocols%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2409.07985v2</id>
+    <title>Games for AI Control: Models of Safety Evaluations of AI Deployment Protocols</title>
+    <updated>2026-05-07T14:31:00Z</updated>
+    <link href="https://arxiv.org/abs/2409.07985v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.07985v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To evaluate the safety and usefulness of deployment protocols for untrusted AIs, AI Control uses a red-teaming exercise played between a protocol designer and an adversary. This paper introduces AI-Control Games, a formal decision-making model of the red-teaming exercise as a multi-objective, partially observable, stochastic game. We also introduce reductions from AI-Control Games to a special case of zero-sum partially observable stochastic games that allow us to leverage existing algorithms to find Pareto-optimal protocols. We apply our formalism to model, evaluate and synthesise protocols for deploying untrusted language models as programming assistants, focusing on Trusted Monitoring protocols, which use weaker language models and limited human assistance. To demonstrate the utility of our formalism, we show improvements over empirical studies in existing settings, evaluate protocols in new settings, and analyse how modelling assumptions affect the safety and usefulness of protocols. Finally, we leverage our formalism to precisely describe some of the implicit assumptions in prior control work.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-12T12:30:07Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Charlie Griffin</name>
+    </author>
+    <author>
+      <name>Louis Thomson</name>
+    </author>
+    <author>
+      <name>Buck Shlegeris</name>
+    </author>
+    <author>
+      <name>Alessandro Abate</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,101 @@
+[
+ {
+  "search_id": "S1",
+  "executed_date": "2026-11-16",
+  "source": "SciSpace",
+  "query": "What empirical studies evaluate specification gaming, reward tampering and evaluation cheating in tool-using language model agents? year:2023-2026 limit:10",
+  "retrieval_limit": 10,
+  "returned_count": 10,
+  "total_database_hits": null,
+  "status": "fulfilled",
+  "notes": "Returned records, not total database hits. New reproducible pilot batch; prior exploratory searches are not included."
+ },
+ {
+  "search_id": "S2",
+  "executed_date": "2026-11-16",
+  "source": "SciSpace",
+  "query": "What empirical studies evaluate unauthorized tool use, indirect prompt injection and isolation defenses in autonomous language model agents? year:2023-2026 limit:10",
+  "retrieval_limit": 10,
+  "returned_count": 10,
+  "total_database_hits": null,
+  "status": "fulfilled",
+  "notes": "Returned records, not total database hits. New reproducible pilot batch; prior exploratory searches are not included."
+ },
+ {
+  "search_id": "S3",
+  "executed_date": "2026-11-16",
+  "source": "SciSpace",
+  "query": "What empirical studies evaluate multi-agent security, trusted monitoring and control protocols for autonomous language model agents? year:2023-2026 limit:10",
+  "retrieval_limit": 10,
+  "returned_count": 10,
+  "total_database_hits": null,
+  "status": "fulfilled",
+  "notes": "Returned records, not total database hits. New reproducible pilot batch; prior exploratory searches are not included."
+ },
+ {
+  "search_id": "S4",
+  "executed_date": "2026-11-16",
+  "source": "arXiv API (export.arxiv.org), sortBy=relevance",
+  "query": "abs:\"prompt injection\" AND abs:agent AND (abs:benchmark OR abs:defense) AND submittedDate:[202301010000 TO 202512312359]",
+  "retrieval_limit": 25,
+  "returned_count": 25,
+  "total_database_hits": 97,
+  "status": "fulfilled",
+  "notes": "Year-bounded extension for Q002 (2023-2025 submission dates). total_database_hits is the API's opensearch:totalResults for this query; only the top records by relevance were retrieved and screened. Raw response: evidence/arxiv_api_ext/S4.xml"
+ },
+ {
+  "search_id": "S5",
+  "executed_date": "2026-11-16",
+  "source": "arXiv API (export.arxiv.org), sortBy=relevance",
+  "query": "(abs:\"reward hacking\" OR abs:\"specification gaming\" OR abs:\"reward tampering\") AND (abs:\"language model\" OR abs:LLM) AND submittedDate:[202301010000 TO 202512312359]",
+  "retrieval_limit": 25,
+  "returned_count": 25,
+  "total_database_hits": 173,
+  "status": "fulfilled",
+  "notes": "Year-bounded extension for Q002 (2023-2025 submission dates). total_database_hits is the API's opensearch:totalResults for this query; only the top records by relevance were retrieved and screened. Raw response: evidence/arxiv_api_ext/S5.xml"
+ },
+ {
+  "search_id": "S6",
+  "executed_date": "2026-11-16",
+  "source": "arXiv API (export.arxiv.org), sortBy=relevance",
+  "query": "abs:\"multi-agent\" AND (abs:\"prompt injection\" OR abs:collusion OR abs:infection) AND (abs:LLM OR abs:\"language model\") AND submittedDate:[202301010000 TO 202512312359]",
+  "retrieval_limit": 25,
+  "returned_count": 25,
+  "total_database_hits": 33,
+  "status": "fulfilled",
+  "notes": "Year-bounded extension for Q002 (2023-2025 submission dates). total_database_hits is the API's opensearch:totalResults for this query; only the top records by relevance were retrieved and screened. Raw response: evidence/arxiv_api_ext/S6.xml"
+ },
+ {
+  "search_id": "S7",
+  "executed_date": "2026-11-16",
+  "source": "arXiv API (export.arxiv.org), sortBy=relevance",
+  "query": "(abs:\"AI control\" OR abs:\"trusted monitoring\" OR abs:sabotage) AND abs:agent AND (abs:LLM OR abs:\"language model\") AND submittedDate:[202301010000 TO 202512312359]",
+  "retrieval_limit": 25,
+  "returned_count": 13,
+  "total_database_hits": 13,
+  "status": "fulfilled",
+  "notes": "Year-bounded extension for Q002 (2023-2025 submission dates). total_database_hits is the API's opensearch:totalResults for this query; only the top records by relevance were retrieved and screened. Raw response: evidence/arxiv_api_ext/S7.xml"
+ },
+ {
+  "search_id": "W2",
+  "executed_date": "2026-11-16",
+  "source": "arXiv API exact-title checks",
+  "query": "26 separate ti:\"<exact title>\" queries; titles listed in tools/extend_search.py; 2 unresolved titles looked up by arXiv identifier",
+  "retrieval_limit": 5,
+  "returned_count": 26,
+  "total_database_hits": null,
+  "status": "fulfilled",
+  "notes": "Purposive, not systematic: the 26 titles were leads recalled by the reviewing agent and confirmed at arXiv. returned_count counts one confirmed record per title. Report as 'other sources/citation leads' in the selection flow, not as database hits."
+ },
+ {
+  "search_id": "V1",
+  "executed_date": "2026-11-16",
+  "source": "arXiv API + Crossref API",
+  "query": "Exact-title metadata verification of P001-P030 (tools/verify_arxiv.py; Crossref query.title for the 8 records absent from arXiv)",
+  "retrieval_limit": null,
+  "returned_count": 0,
+  "total_database_hits": null,
+  "status": "fulfilled",
+  "notes": "Verification pass, not a discovery search; adds no records. OpenAlex returned HTTP 429 for all 8 queries and contributed nothing."
+ }
+]

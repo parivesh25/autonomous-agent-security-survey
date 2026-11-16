@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/c3FwOsiANMQCerTOEclOTGEq54w</id>
+  <title>arXiv Query: search_query=ti:"WASP Benchmarking Web Agent Security Against Prompt Injection Attacks"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:05:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22WASP+Benchmarking+Web+Agent+Security+Against+Prompt+Injection+Attacks%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.18575v3</id>
+    <title>WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks</title>
+    <updated>2025-05-16T22:42:29Z</updated>
+    <link href="https://arxiv.org/abs/2504.18575v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.18575v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous UI agents powered by AI have tremendous potential to boost human productivity by automating routine tasks such as filing taxes and paying bills. However, a major challenge in unlocking their full potential is security, which is exacerbated by the agent's ability to take action on their user's behalf. Existing tests for prompt injections in web agents either over-simplify the threat by testing unrealistic scenarios or giving the attacker too much power, or look at single-step isolated tasks. To more accurately measure progress for secure web agents, we introduce WASP -- a new publicly available benchmark for end-to-end evaluation of Web Agent Security against Prompt injection attacks. Evaluating with WASP shows that even top-tier AI models, including those with advanced reasoning capabilities, can be deceived by simple, low-effort human-written injections in very realistic scenarios. Our end-to-end evaluation reveals a previously unobserved insight: while attacks partially succeed in up to 86% of the case, even state-of-the-art agents often struggle to fully complete the attacker goals -- highlighting the current state of security by incompetence.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-22T17:51:03Z</published>
+    <arxiv:comment>Code and data: https://github.com/facebookresearch/wasp</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ivan Evtimov</name>
+    </author>
+    <author>
+      <name>Arman Zharmagambetov</name>
+    </author>
+    <author>
+      <name>Aaron Grattafiori</name>
+    </author>
+    <author>
+      <name>Chuan Guo</name>
+    </author>
+    <author>
+      <name>Kamalika Chaudhuri</name>
+    </author>
+  </entry>
+</feed>

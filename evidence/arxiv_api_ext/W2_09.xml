@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/foNZyUN5SZACMYLU0T/hHivODJI</id>
+  <title>arXiv Query: search_query=ti:"Design Patterns for Securing LLM Agents against Prompt Injections"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:05:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Design+Patterns+for+Securing+LLM+Agents+against+Prompt+Injections%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2506.08837v3</id>
+    <title>Design Patterns for Securing LLM Agents against Prompt Injections</title>
+    <updated>2025-06-27T11:13:27Z</updated>
+    <link href="https://arxiv.org/abs/2506.08837v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.08837v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As AI agents powered by Large Language Models (LLMs) become increasingly versatile and capable of addressing a broad spectrum of tasks, ensuring their security has become a critical challenge. Among the most pressing threats are prompt injection attacks, which exploit the agent's resilience on natural language inputs -- an especially dangerous threat when agents are granted tool access or handle sensitive information. In this work, we propose a set of principled design patterns for building AI agents with provable resistance to prompt injection. We systematically analyze these patterns, discuss their trade-offs in terms of utility and security, and illustrate their real-world applicability through a series of case studies.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-10T14:23:55Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Luca Beurer-Kellner</name>
+    </author>
+    <author>
+      <name>Beat Buesser</name>
+    </author>
+    <author>
+      <name>Ana-Maria Creţu</name>
+    </author>
+    <author>
+      <name>Edoardo Debenedetti</name>
+    </author>
+    <author>
+      <name>Daniel Dobos</name>
+    </author>
+    <author>
+      <name>Daniel Fabian</name>
+    </author>
+    <author>
+      <name>Marc Fischer</name>
+    </author>
+    <author>
+      <name>David Froelicher</name>
+    </author>
+    <author>
+      <name>Kathrin Grosse</name>
+    </author>
+    <author>
+      <name>Daniel Naeff</name>
+    </author>
+    <author>
+      <name>Ezinwanne Ozoani</name>
+    </author>
+    <author>
+      <name>Andrew Paverd</name>
+    </author>
+    <author>
+      <name>Florian Tramèr</name>
+    </author>
+    <author>
+      <name>Václav Volhejn</name>
+    </author>
+  </entry>
+</feed>
