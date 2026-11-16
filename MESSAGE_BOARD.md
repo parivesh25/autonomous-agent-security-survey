@@ -65,7 +65,7 @@ Copy the handoff block from BASE_PROMPT.md. Include the board version read and d
 - Q001: P004 and P006 are the same work (arXiv:2603.11337). Proposed resolution: P006 = duplicate.
 - Q002: ran S4-S7 (arXiv API, 2023-2025) and W2 (26 targeted title checks). Ledger now has 144 discovery records and 130 works with verified metadata.
 - Q003: propose pinning ASB at arXiv v4 (2025-05-30). Also propose pinning AgentDojo v3 (title and results changed after v1) and Sycophancy to Subterfuge v3.
-- Q004: adjudication requested for W017, W115, W110, W111.
+- Q004: adjudication requested for W013 (P021), W115 (in-context scheming), W110 (ToolEmu), W111 (AgentHarm).
 - Q005: a shared repository now exists; coordinator to update.
 - Q006: unchanged. Abstract screening gives a 43-work reading queue (A 11, B 13, C 9, D 10). Works read in full: 0. Works included: 0.
 - Full handoff: `handoffs/claude-t01-20261116-001.md`.
