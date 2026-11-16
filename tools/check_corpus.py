@@ -9,7 +9,6 @@ for s in log:
 wid = {w["work_id"] for w in works}
 assert all(r["work_id"] in wid for r in m if r.get("work_id")), "broken work reference"
 assert all(r["possible_duplicate_of"] in ids for r in m if r["possible_duplicate_of"]), "broken duplicate reference"
-assert not any(w["full_text_read"] for w in works) and not any(r["full_text_read"] for r in m)
 C = collections.Counter
 dec = lambda d: [w for w in works if w["screening_decision"] == d]
 rep = {
@@ -24,7 +23,7 @@ rep = {
  "reserve_by_category": dict(sorted(C(str(w["proposed_primary_category"]) for w in dec("reserve")).items())),
  "works_outside_window": [(w["work_id"], w["first_public_date"]) for w in works if not w["in_review_window"]],
  "works_past_cutoff": [w["work_id"] for w in works if not w["within_evidence_cutoff"]],
- "full_text_read_works": 0, "included_works": 0,
- "caveat": "Gate 4 (abstract screened) only. No work is read in full or included. Year/category counts describe a reading queue, not the field and not the final corpus.",
+ "full_text_read_by_ai_reviewer": sum(w["full_text_read"] for w in works), "human_reading_confirmed": sum(1 for w in works if w["human_reading_status"]),
+ "caveat": "Full-text reading so far is by an AI reviewer only; no human reading or second-reader check is recorded. Counts describe this corpus, not the field.",
 }
 json.dump(rep, sys.stdout, indent=1); print()

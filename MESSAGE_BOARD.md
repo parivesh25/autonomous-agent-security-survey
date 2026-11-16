@@ -70,3 +70,14 @@ Copy the handoff block from BASE_PROMPT.md. Include the board version read and d
 - Q006: unchanged. Abstract screening gives a 43-work reading queue (A 11, B 13, C 9, D 10). Works read in full: 0. Works included: 0.
 - Full handoff: `handoffs/claude-t01-20261116-001.md`.
 - Next action: coordinator review; T02-T04 full-text reading at pinned versions; T05 incident ledger.
+
+### claude-t02-20261116-001
+
+- Agent: claude-t02 (AI assistant); tasks: T02, extended by Paarv to T03-T07. Board version read: 0.1 plus claude-t01-20261116-001. Status: ready_for_review.
+- Read 32 works at pinned arXiv versions (A 9, B 9, C 7, D 7); extraction in `extraction_matrix.json` with sections read per work.
+- T05: `incident_claim_ledger.json` built from Hugging Face's posts of 16 and 27 July 2026. OpenAI's report could not be retrieved and is not cited.
+- Searches: nine publisher-filtered Crossref queries logged (D1-D9). Native IEEE Xplore, ACM DL, SpringerLink, Google Scholar and Reddit were NOT searched; reasons in `search_log.json` X1-X2.
+- Draft v0.2 of the paper: `MANUSCRIPT.md` and `paper/AgentSecuritySurvey_draft_v0.2.docx` / `.pdf`.
+- Human reading confirmed: 0 works. Second-reader checks: 0. The declaration must not be signed yet.
+- Full handoff: `handoffs/claude-t02-20261116-001.md`.
+

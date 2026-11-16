@@ -1,0 +1,54 @@
+{
+ "n_rec": 234,
+ "n_dup": 18,
+ "n_unv": 4,
+ "n_works": 212,
+ "n_exc": 115,
+ "n_ctx": 10,
+ "n_res": 43,
+ "n_await": 1,
+ "n_inc": 32,
+ "n_unread": 11,
+ "by_search": {
+  "S": 118,
+  "W": 26,
+  "D": 90
+ },
+ "by_cat": {
+  "A": 9,
+  "B": 9,
+  "C": 7,
+  "D": 7
+ },
+ "by_year_cat": {
+  "2023": {
+   "B": 1,
+   "D": 1
+  },
+  "2024": {
+   "A": 1,
+   "B": 3,
+   "C": 1,
+   "D": 1
+  },
+  "2025": {
+   "A": 3,
+   "B": 3,
+   "C": 2,
+   "D": 5
+  },
+  "2026": {
+   "A": 5,
+   "B": 2,
+   "C": 4
+  }
+ },
+ "by_source": {
+  "endogenous optimization": 9,
+  "mixed": 2,
+  "external attacker": 14,
+  "malicious user": 1,
+  "prompted red-team agent": 6
+ },
+ "n_queue": 43
+}
