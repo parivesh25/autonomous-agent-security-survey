@@ -81,3 +81,14 @@ Copy the handoff block from BASE_PROMPT.md. Include the board version read and d
 - Human reading confirmed: 0 works. Second-reader checks: 0. The declaration must not be signed yet.
 - Full handoff: `handoffs/claude-t02-20261116-001.md`.
 
+### claude-t02-20261116-002
+
+- Agent: claude-t02 (AI assistant). Status: ready_for_review. Supersedes the counts and incident reading in claude-t02-20261116-001.
+- Read OpenAI's report of 26 Aug 2026 (saved copy supplied by Paarv) and METR's investigation of the same date; incident ledger now has 29 entries. The three accounts are recorded as not independent.
+- Second reading batch: 3 more works included (35 total: A 10, B 9, C 8, D 8), 6 read and set aside, 2 not read.
+- Draft v0.3: `paper/AgentSecuritySurvey_draft_v0.3.docx` / `.pdf`, `MANUSCRIPT.md`. 40 references.
+- `tools/audit_paper.py` added: arithmetic and structure checks pass; 102 of 102 cited numbers found in the cited sources.
+- Not accessed: Black Hat talk video, OpenAI's full technical report, P011, IsolateGPT.
+- Human reading confirmed: 0 works. Second-reader checks: 0.
+- Full handoff: `handoffs/claude-t02-20261116-002.md`.
+

@@ -159,18 +159,18 @@
   "discovery_record_ids": [
    "P005"
   ],
-  "gate": 4,
-  "screening_decision": "include_for_reading",
+  "gate": 5,
+  "screening_decision": "read_not_included",
   "screening_basis": "title + abstract from arXiv API record",
-  "screening_reason": "Text adaptation of AI Safety Gridworlds; observed vs hidden objective.",
+  "screening_reason": "Small open models on text gridworlds; overlaps the propensity benchmarks already included.",
   "evidence_class": "primary",
   "proposed_primary_category": "A",
   "secondary_tags": [],
   "proposed_behaviour_source": "endogenous optimization",
-  "coding_status": "provisional, from abstract only; confirm at full-text gate",
-  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "coding_status": "not extracted",
+  "agent_reading_status": "read at reduced depth 2026-11-16 at 2606.15385v1: Abstract; 3 (opening); 4.1",
   "human_reading_status": null,
-  "full_text_read": false,
+  "full_text_read": true,
   "extraction": null
  },
  {
@@ -389,18 +389,18 @@
   "discovery_record_ids": [
    "P012"
   ],
-  "gate": 4,
-  "screening_decision": "include_for_reading",
+  "gate": 5,
+  "screening_decision": "read_not_included",
   "screening_basis": "title + abstract from arXiv API record",
-  "screening_reason": "Defences vs indirect prompt injection in multi-step tool-calling environments.",
+  "screening_reason": "Defence comparison on one suite of a benchmark already represented by three included works.",
   "evidence_class": "primary",
   "proposed_primary_category": "B",
   "secondary_tags": [],
   "proposed_behaviour_source": "external attacker",
-  "coding_status": "provisional, from abstract only; confirm at full-text gate",
-  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "coding_status": "not extracted",
+  "agent_reading_status": "read at reduced depth 2026-11-16 at 2604.03870v1: Abstract; 3.1; 4 Conclusion",
   "human_reading_status": null,
-  "full_text_read": false,
+  "full_text_read": true,
   "extraction": null
  },
  {
@@ -597,18 +597,18 @@
   "discovery_record_ids": [
    "P022"
   ],
-  "gate": 4,
-  "screening_decision": "include_for_reading",
+  "gate": 5,
+  "screening_decision": "read_not_included",
   "screening_basis": "title + abstract from arXiv API record",
-  "screening_reason": "Evaluation framework jointly varying attack, defence and architecture in multi-agent systems.",
+  "screening_reason": "Evaluation framework paper; results section read only at its opening.",
   "evidence_class": "primary",
   "proposed_primary_category": "C",
   "secondary_tags": [],
   "proposed_behaviour_source": "mixed/unclear",
-  "coding_status": "provisional, from abstract only; confirm at full-text gate",
-  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "coding_status": "not extracted",
+  "agent_reading_status": "read at reduced depth 2026-11-16 at 2609.33102v1: Abstract; 5 (opening); 6 Conclusion (opening)",
   "human_reading_status": null,
-  "full_text_read": false,
+  "full_text_read": true,
   "extraction": null
  },
  {
@@ -768,18 +768,18 @@
   "discovery_record_ids": [
    "P027"
   ],
-  "gate": 4,
-  "screening_decision": "include_for_reading",
+  "gate": 5,
+  "screening_decision": "read_not_included",
   "screening_basis": "title + abstract from arXiv API record",
-  "screening_reason": "Formal game model of control evaluations; formal study, eligible under protocol if assumptions are substantive.",
+  "screening_reason": "Formal model of the control evaluation defined by an included work; no new empirical setting.",
   "evidence_class": "primary",
   "proposed_primary_category": "D",
   "secondary_tags": [],
   "proposed_behaviour_source": "prompted red-team agent",
-  "coding_status": "provisional, from abstract only; confirm at full-text gate",
-  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "coding_status": "not extracted",
+  "agent_reading_status": "read at reduced depth 2026-11-16 at 2409.07985v2: Abstract; 6 (opening); 9 Conclusions",
   "human_reading_status": null,
-  "full_text_read": false,
+  "full_text_read": true,
   "extraction": null
  },
  {
@@ -809,18 +809,18 @@
   "discovery_record_ids": [
    "P028"
   ],
-  "gate": 4,
-  "screening_decision": "include_for_reading",
+  "gate": 5,
+  "screening_decision": "read_not_included",
   "screening_basis": "title + abstract from arXiv API record",
-  "screening_reason": "Monitoring protocol evaluated in a control setting, including same-model monitor collusion.",
+  "screening_reason": "Single monitoring protocol on a test bed represented by an included work.",
   "evidence_class": "primary",
   "proposed_primary_category": "D",
   "secondary_tags": [],
   "proposed_behaviour_source": "prompted red-team agent",
-  "coding_status": "provisional, from abstract only; confirm at full-text gate",
-  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "coding_status": "not extracted",
+  "agent_reading_status": "read at reduced depth 2026-11-16 at 2604.03968v1: Abstract; Limitations; 6 Conclusion (opening)",
   "human_reading_status": null,
-  "full_text_read": false,
+  "full_text_read": true,
   "extraction": null
  },
  {
@@ -2236,19 +2236,21 @@
    "P062",
    "P116"
   ],
-  "gate": 4,
-  "screening_decision": "include_for_reading",
+  "gate": 6,
+  "screening_decision": "included_pending_human_reading",
   "screening_basis": "title + abstract from arXiv API record",
   "screening_reason": "Reward hacking arising in realistic RL training and its downstream effects.",
   "evidence_class": "primary",
   "proposed_primary_category": "A",
-  "secondary_tags": [],
+  "secondary_tags": [
+   "D"
+  ],
   "proposed_behaviour_source": "endogenous optimization",
-  "coding_status": "provisional, from abstract only; confirm at full-text gate",
-  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "coding_status": "coded from full text by one AI reviewer; second-reader check pending",
+  "agent_reading_status": "sections read 2026-11-16 at 2511.18397v1: Abstract; 2 Methods (opening); 3 Results; 3.1 (table); 4.1; 6.1; Limitations",
   "human_reading_status": null,
-  "full_text_read": false,
-  "extraction": null
+  "full_text_read": true,
+  "extraction": "extraction_matrix.json#emergent"
  },
  {
   "work_id": "W052",
@@ -4150,19 +4152,19 @@
    "P106",
    "P142"
   ],
-  "gate": 4,
-  "screening_decision": "include_for_reading",
+  "gate": 6,
+  "screening_decision": "included_pending_human_reading",
   "screening_basis": "title + abstract from arXiv API record",
   "screening_reason": "Control setting with privileged agents; testbed for 2604.03968.",
   "evidence_class": "primary",
   "proposed_primary_category": "D",
   "secondary_tags": [],
   "proposed_behaviour_source": "prompted red-team agent",
-  "coding_status": "provisional, from abstract only; confirm at full-text gate",
-  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "coding_status": "coded from full text by one AI reviewer; second-reader check pending",
+  "agent_reading_status": "sections read 2026-11-16 at 2512.15688v1: Abstract; 2.1; 2.2; 2.4; 4.2; 4.3; 5 Limitations",
   "human_reading_status": null,
-  "full_text_read": false,
-  "extraction": null
+  "full_text_read": true,
+  "extraction": "extraction_matrix.json#basharena"
  },
  {
   "work_id": "W095",
@@ -4981,18 +4983,18 @@
   "discovery_record_ids": [
    "P126"
   ],
-  "gate": 4,
-  "screening_decision": "include_for_reading",
+  "gate": 5,
+  "screening_decision": "read_not_included",
   "screening_basis": "title + abstract from arXiv API record",
-  "screening_reason": "Web-agent injection benchmark with end-to-end attacker goals.",
+  "screening_reason": "Web-agent injection benchmark; closest in purpose to an included live-environment benchmark.",
   "evidence_class": "primary",
   "proposed_primary_category": "B",
   "secondary_tags": [],
   "proposed_behaviour_source": "external attacker",
-  "coding_status": "provisional, from abstract only; confirm at full-text gate",
-  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "coding_status": "not extracted",
+  "agent_reading_status": "read at reduced depth 2026-11-16 at 2504.18575v3: Abstract; Threat model; 4.1",
   "human_reading_status": null,
-  "full_text_read": false,
+  "full_text_read": true,
   "extraction": null
  },
  {
@@ -5085,7 +5087,7 @@
   "secondary_tags": [],
   "proposed_behaviour_source": "external attacker",
   "coding_status": "provisional, from abstract only; confirm at full-text gate",
-  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "agent_reading_status": "Full text fetched; only the outline was read. Remains in the queue.",
   "human_reading_status": null,
   "full_text_read": false,
   "extraction": null
@@ -5298,8 +5300,8 @@
   "discovery_record_ids": [
    "P134"
   ],
-  "gate": 4,
-  "screening_decision": "include_for_reading",
+  "gate": 6,
+  "screening_decision": "included_pending_human_reading",
   "screening_basis": "title + abstract from arXiv API record",
   "screening_reason": "Steganographic collusion between agents and limits of monitoring.",
   "evidence_class": "primary",
@@ -5307,12 +5309,12 @@
   "secondary_tags": [
    "D"
   ],
-  "proposed_behaviour_source": "mixed/unclear",
-  "coding_status": "provisional, from abstract only; confirm at full-text gate",
-  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "proposed_behaviour_source": "mixed",
+  "coding_status": "coded from full text by one AI reviewer; second-reader check pending",
+  "agent_reading_status": "sections read 2026-11-16 at 2402.07510v5: Abstract; 4 (opening); 6 (opening, capability statements); 7 (opening); 8 Conclusion (opening)",
   "human_reading_status": null,
-  "full_text_read": false,
-  "extraction": null
+  "full_text_read": true,
+  "extraction": "extraction_matrix.json#collusion"
  },
  {
   "work_id": "W120",

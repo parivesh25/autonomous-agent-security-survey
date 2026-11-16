@@ -16,7 +16,7 @@ from docx.table import Table
 N = json.load(open("paper/counts.json"))
 works = {w["identifiers"]["arxiv"]: w for w in json.load(open("works.json"))}
 EX = {e["key"]: e for e in X.E}
-OUT_DOCX, OUT_MD = "paper/AgentSecuritySurvey_draft_v0.2.docx", "MANUSCRIPT.md"
+OUT_DOCX, OUT_MD = "paper/AgentSecuritySurvey_draft_v0.3.docx", "MANUSCRIPT.md"
 ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
 
 # ---------- references
@@ -30,6 +30,7 @@ def auphrase(k):
 def refentry(k):
     if k in X.INCIDENT_SOURCES:
         s = X.INCIDENT_SOURCES[k]; who = s.get("authors", s["publisher"])
+        s = dict(s, title=s["title"].replace(" - ", " — "))
         d = s["published"]; pub = f"{calendar.month_abbr[int(d[5:7])]}. {int(d[8:])}, {d[:4]}"
         return f"{who}, “{s['title']},” {s['publisher']}, {pub}. [Online]. Available: {s['url']}. [Accessed: 16 Nov 2026]."
     w = works[EX[k]["arxiv"]]; a = w["authors"]
@@ -43,7 +44,7 @@ def cite(m):
     if k not in ORDER: ORDER.append(k)
     return f"[{ORDER.index(k) + 1}]"
 def T(s):
-    s = s.format_map(type("D", (dict,), {"__missing__": lambda self, k: "{" + k + "}"})(N)) if "{n_" in s else s
+    s = re.sub(r"\{(n_\w+)\}", lambda m: str(N[m.group(1)]), s)
     s = re.sub(r"\{au:(\w+)\}", lambda m: auphrase(m.group(1)), s)
     return re.sub(r"\{c:(\w+)\}", cite, s)
 
@@ -79,7 +80,7 @@ def fig1():
             f"Works read in full text and included (n = {N['n_inc']})"]
     side = [f"Removed:\n{N['n_dup']} repeated or duplicate records\n{N['n_unv']} with no primary record", None,
             f"Not queued:\n{N['n_exc']} out of scope\n{N['n_ctx']} context only\n{N['n_res']} eligible, held in reserve\n{N['n_await']} awaiting full text",
-            f"Not reached: {N['n_unread']}"]
+            f"Read, not included: {N['n_rni']}\nNot read: {N['n_notread']}"]
     ys = [8.0, 6.1, 4.3, 2.5, 0.7]; hs = [1.7, 1.0, 1.0, 1.0, 1.0]
     for i, (t, y, h) in enumerate(zip(main, ys, hs)):
         box(ax, 0.1, y, 6.0, h, t, fc="#eef3fa" if i == 4 else "white", bold=(i == 4), fs=8.5)
@@ -91,10 +92,10 @@ def fig1():
                 ax.text(6.6, ym, side[i], ha="left", va="center", fontsize=8, color=INK, linespacing=1.25)
     fig.savefig("paper/fig1_selection_flow.png", dpi=300, bbox_inches="tight", facecolor="white"); plt.close(fig)
 def fig2():
-    leaves = {"A": [("How it arises", ["denison", "chess"]), ("How often it occurs", ["impossible", "evilgenie", "rhb", "nishimura", "huang"]), ("Evaluation audited", ["rha", "hackdetect"])],
+    leaves = {"A": [("How it arises", ["denison", "emergent", "chess"]), ("How often it occurs", ["impossible", "evilgenie", "rhb", "nishimura", "huang"]), ("Evaluation audited", ["rha", "hackdetect"])],
               "B": [("Threat and benchmarks", ["greshake", "injecagent", "agentdojo", "asb"]), ("Benchmarks questioned", ["silent", "firewalls", "adaptive", "livepi"]), ("Defence by design", ["camel"])],
-              "C": [("Attacks on channels", ["infection", "aitm", "masexec"]), ("Composition tests", ["camelstalk", "macontrol"]), ("System design", ["arch", "delegation"])],
-              "D": [("Control protocols", ["aicontrol", "ctrlz", "shade"]), ("Adaptive attackers", ["evalcp", "adaptmon"]), ("Uninstructed behaviour", ["cot", "scheming"])]}
+              "C": [("Attacks on channels", ["infection", "aitm", "masexec"]), ("Composition and\ncovert channels", ["camelstalk", "macontrol", "collusion"]), ("System design", ["arch", "delegation"])],
+              "D": [("Control protocols\nand test beds", ["aicontrol", "ctrlz", "shade", "basharena"]), ("Adaptive attackers", ["evalcp", "adaptmon"]), ("Uninstructed behaviour", ["cot", "scheming"])]}
     names = {"A": "A. Objective and\nevaluation integrity", "B": "B. Input and tool\nauthorization", "C": "C. Inter-agent trust\nand communication", "D": "D. Oversight and\ncontrol integrity"}
     fig, ax = plt.subplots(figsize=(6.9, 3.9)); ax.set_xlim(0, 10); ax.set_ylim(0, 10); ax.axis("off")
     box(ax, 2.6, 8.7, 4.8, 1.0, "Security failures in autonomous AI agents\n(grouped by the boundary under test)", fs=8.5, bold=True)
@@ -108,7 +109,7 @@ def fig2():
             y = 4.6 - j * 1.75
             ax.plot([cx, cx], [6.55 if j == 0 else y + 1.75, y + 1.25], color=INK, lw=0.6)
             refs = ", ".join(f"[{n}]" for n in sorted(num(k) for k in ks))
-            box(ax, x, y, 2.3, 1.25, f"{lab}\n{refs}", fs=7.6)
+            box(ax, x, y, 2.3, 1.25, f"{lab}\n{refs}", fs=7.2)
     fig.savefig("paper/fig2_taxonomy.png", dpi=300, bbox_inches="tight", facecolor="white"); plt.close(fig)
 def fig3():
     yrs = ["2023", "2024", "2025", "2026"]; lab = {"A": "A. Objective and evaluation integrity", "B": "B. Input and tool authorization", "C": "C. Inter-agent trust", "D": "D. Oversight and control"}
@@ -133,7 +134,7 @@ FIG3CAP = f"Fig. 3. Included works by year first made public and by category (n 
 TABLES = {
  1: ("Sources Searched and Search Strings Used", ["Source", "Search string used", "Date searched", "Hits"], C.TABLE_I),
  2: ("Inclusion and Exclusion Criteria", ["A work was included if", "A work was excluded if"], C.TABLE_II),
- 3: ("Categories of the Taxonomy and Where Each Is Reviewed", ["Category", "What the works in it have in common", "Works", "Reviewed in"], C.TABLE_III),
+ 3: ("Categories of the Taxonomy and Where Each Is Reviewed", ["Category", "What the works in it have in common", "Works", "Reviewed in"], [tuple(T(x) for x in r) for r in C.TABLE_III]),
  8: ("Comparison of the Reviewed Works Across Categories", ["Ref.", "Year", "Category", "Approach", "Data or test bed", "Measure used", "Main finding"], [(r[0], r[1], r[2], r[3], r[4], r[5], r[6]) for r in MASTER]),
  9: ("Datasets, Tools and Measures Used in the Reviewed Work", ["Dataset, tool or measure", "Used by", "Why it is used", "Known caveat"], T9),
  10: ("Research Gaps Identified by This Review", ["Gap", "What is missing", "Evidence from the reviewed work"], GAPS),
@@ -158,7 +159,7 @@ F = [("PaperTitle", C.TITLE),
 for i, cat in enumerate("ABCD"):
     F += [("H2", f"{cat}. {S4[cat]['title']}"), *[("Body", p) for p in S4[cat]["paras"]], ("table", 4 + i), ("Body", S4[cat]["close"])]
 F += [("H1", "V. Comparative Analysis and Discussion"), ("H2", "A. Comparison across categories"),
-      ("Body", "Table VIII places fifteen of the included works side by side; the full extraction for all of them is in the evidence repository."), ("table", 8),
+      ("Body", "Table VIII places twelve of the included works side by side; the full extraction for all of them is in the evidence repository."), ("table", 8),
       ("H2", "B. Trends observed"), ("fig", ("paper/fig3_trend.png", 11.5, FIG3CAP)), *[("Body", p) for p in S5B],
       ("H2", "C. Datasets, tools and measures in common use"), ("Body", "Table IX lists the test beds and measures that recur across the included works, with the caveat that most affects comparison."), ("table", 9),
       ("H2", "D. Reading the motivating incident against the reviewed work"), ("Body", S5D),
@@ -167,7 +168,7 @@ F += [("H1", "V. Comparative Analysis and Discussion"), ("H2", "A. Comparison ac
       ("H1", "Acknowledgment"), ("Fill", C.ACK), ("H1", "References"), *[("RefItem", r) for r in REFS]]
 
 # ---------- Markdown
-md = [f"# {C.TITLE}", "", "Draft v0.2 | 16 November 2026 | Reading and drafting by an AI assistant; human reading, checking and authorship details pending (see handoffs/claude-t02-20261116-001.md).", ""]
+md = [f"# {C.TITLE}", "", "Draft v0.3 | 16 November 2026 | Reading and drafting by an AI assistant; human reading, checking and authorship details pending (see handoffs/).", ""]
 for kind, p in F[1:]:
     if kind == "H1": md += ["", f"## {p}", ""]
     elif kind == "H2": md += ["", f"### {p}", ""]
@@ -268,7 +269,7 @@ for t in d.tables:
              "Reference library export": "references_candidates.bib", "Search log file": "search_log.json",
              "Works identified, screened and included": f"{N['n_rec']} records identified, {N['n_works']} works screened, {N['n_inc']} included"}.get(k)
         if v: cell_set(row.cells[1]._tc, v)
-fill_para("Use of AI tools:", "Use of AI tools: [ DRAFT FOR THE TEAM TO CONFIRM OR CORRECT. ChatGPT with SciSpace was used for the pilot search. Claude (Anthropic) was used to verify metadata at arXiv and Crossref, run further searches, screen abstracts, read the full text of the 32 included works, extract the matrix, and draft this paper. As of 16 November 2026 no team member has yet confirmed reading any included work; the declaration above must not be signed until each member has read the works in their categories and checked the numbers quoted from them. ]", keep_red=True)
+fill_para("Use of AI tools:", "Use of AI tools: [ DRAFT FOR THE TEAM TO CONFIRM OR CORRECT. ChatGPT with SciSpace was used for the pilot search. Claude (Anthropic) was used to verify metadata at arXiv and Crossref, run further searches, screen abstracts, read the full text of the included works, extract the matrix, and draft this paper. As of 16 November 2026 no team member has yet confirmed reading any included work; the declaration above must not be signed until each member has read the works in their categories and checked the numbers quoted from them. ]", keep_red=True)
 d.save(OUT_DOCX)
 words = sum(len(p.split()) for k, p in F if k in ("Body",)) + len(A["abstract"].split())
 print("refs", len(REFS), "| body+abstract words", words, "| table words", sum(len(" ".join(map(str, r)).split()) for n in TABLES for r in TABLES[n][2]))

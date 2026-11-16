@@ -23,10 +23,16 @@ for e in X.E:
              coding_status="coded from full text by one AI reviewer; second-reader check pending",
              agent_reading_status=f"sections read {TODAY} at {w['version_checked']}: {e['sections_read']}",
              extraction=f"extraction_matrix.json#{e['key']}")
+for ax, (why, secs) in X.READ_NOT_INCLUDED.items():
+    byax[ax].update(gate=5, screening_decision="read_not_included", full_text_read=True, screening_reason=why,
+        agent_reading_status=f"read at reduced depth {TODAY} at {byax[ax]['version_checked']}: {secs}", coding_status="not extracted")
+byax["2403.04960"].update(screening_decision="include_for_reading", agent_reading_status=X.NOT_READ["2403.04960"])
+for r in matrix:
+    if r["id"] == "P011": r.update(status="awaiting_full_text", screening_reason=X.NOT_READ["P011"])
 for r in matrix:
     w = next((x for x in works if x["work_id"] == r.get("work_id")), None)
     if w and w["full_text_read"] and r["status"] not in ("duplicate",):
-        r.update(status="included_pending_human_reading", full_text_read=True, category=w["proposed_primary_category"])
+        r.update(status=w["screening_decision"], full_text_read=True, category=w["proposed_primary_category"])
 json.dump(ext, open("extraction_matrix.json", "w"), indent=1, ensure_ascii=False)
 json.dump(dict(sources=X.INCIDENT_SOURCES, claims=X.INCIDENT,
                note="T05 ledger. Claims are attributed to the named report and date. The two Hugging Face posts are one party's account, not independent replications."),
@@ -59,7 +65,10 @@ for sid, src, q, note in [
  ("X2", "Google Scholar; Reddit", "not executed", "The hosts could not be added to this session's network allowlist (the change was rejected twice). Not searched."),
  ("X3", "Web search (general)", "OpenAI Hugging Face incident autonomous agent unauthorized 2026", "Used only to locate primary report URLs. Search-engine summaries are not evidence and are not cited."),
  ("X4", "Web search restricted to metr.org", "METR reward hacking frontier models report", "Used only to locate report URLs; the 2025-06-05 report was then opened at metr.org."),
- ("X5", "openai.com", "https://openai.com/index/hugging-face-model-evaluation-security-incident/", "HTTP 403 to automated requests (direct and via fetch tool). Operator's report NOT read."),
+ ("X5", "openai.com", "https://openai.com/index/hugging-face-model-evaluation-security-incident/", "HTTP 403 to automated requests (direct and via fetch tool). This earlier operator post was NOT read. The operator's 26 Aug 2026 summary report was later read from a saved copy supplied by the student (ledger I15)."),
+ ("X7", "metr.org", "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/", "Retrieved directly; sections read are listed in incident_claim_ledger.json."),
+ ("X8", "YouTube (Black Hat USA 2026 talk)", "not executed", "Video host outside the network allowlist; no transcript available. Not accessed."),
+ ("X9", "www.mdpi.com", "https://www.mdpi.com/2073-431X/15/9/570/htm", "HTTP 403 to automated requests; P011 remains awaiting full text."),
  ("X6", "huggingface.co; en.wikipedia.org; metr.org", "direct retrieval of three primary reports and one tertiary article", "See incident_claim_ledger.json for what was read."),
 ]:
     log.append({"search_id": sid, "executed_date": TODAY, "source": src, "query": q, "retrieval_limit": None, "returned_count": 0, "total_database_hits": None,
@@ -78,11 +87,14 @@ wd = C(w["screening_decision"] for w in works)
 nonarx = {r["id"]: r["status"] for r in matrix if r.get("metadata_basis")}
 counts = dict(n_rec=len(matrix), n_dup=dup, n_unv=unv, n_works=len(matrix) - dup - unv,
     n_exc=wd["excluded_at_abstract"] + crossref_new, n_ctx=wd["context_only"] + 1, n_res=wd["reserve"] + 1, n_await=1,
-    n_inc=wd["included_pending_human_reading"], n_unread=wd["include_for_reading"] + 1,
+    n_inc=wd["included_pending_human_reading"], n_rni=wd["read_not_included"], n_notread=wd["include_for_reading"] + 1,
     by_search=dict(C(re.sub(r"\d+$", "", r["search_id"]) for r in matrix)),
     by_cat=dict(sorted(C(e["category"] for e in X.E).items())),
     by_year_cat={y: dict(sorted(C(e["category"] for e in X.E if byax[e["arxiv"]]["first_public_date"][:4] == y).items())) for y in ("2023", "2024", "2025", "2026")},
     by_source=dict(C(e["behaviour_source"] for e in X.E)))
-counts["n_queue"] = counts["n_inc"] + counts["n_unread"]
+counts["n_queue"] = counts["n_inc"] + counts["n_rni"] + counts["n_notread"]
+for c in "ABCD": counts["n_cat" + c] = counts["by_cat"][c]
+counts["n_a26"] = counts["by_year_cat"]["2026"].get("A", 0); counts["n_c26"] = counts["by_year_cat"]["2026"].get("C", 0)
+assert sum(counts["by_cat"].values()) == counts["n_inc"] == sum(sum(v.values()) for v in counts["by_year_cat"].values()) == sum(counts["by_source"].values())
 assert counts["n_works"] == counts["n_exc"] + counts["n_ctx"] + counts["n_res"] + counts["n_await"] + counts["n_queue"], counts
 json.dump(counts, open("paper/counts.json", "w"), indent=1); print(json.dumps(counts, indent=1))

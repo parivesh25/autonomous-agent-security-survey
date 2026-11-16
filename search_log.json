@@ -250,7 +250,40 @@
   "returned_count": 0,
   "total_database_hits": null,
   "status": "fulfilled",
-  "notes": "HTTP 403 to automated requests (direct and via fetch tool). Operator's report NOT read."
+  "notes": "HTTP 403 to automated requests (direct and via fetch tool). This earlier operator post was NOT read. The operator's 26 Aug 2026 summary report was later read from a saved copy supplied by the student (ledger I15)."
+ },
+ {
+  "search_id": "X7",
+  "executed_date": "2026-11-16",
+  "source": "metr.org",
+  "query": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+  "retrieval_limit": null,
+  "returned_count": 0,
+  "total_database_hits": null,
+  "status": "fulfilled",
+  "notes": "Retrieved directly; sections read are listed in incident_claim_ledger.json."
+ },
+ {
+  "search_id": "X8",
+  "executed_date": "2026-11-16",
+  "source": "YouTube (Black Hat USA 2026 talk)",
+  "query": "not executed",
+  "retrieval_limit": null,
+  "returned_count": 0,
+  "total_database_hits": null,
+  "status": "not_executed",
+  "notes": "Video host outside the network allowlist; no transcript available. Not accessed."
+ },
+ {
+  "search_id": "X9",
+  "executed_date": "2026-11-16",
+  "source": "www.mdpi.com",
+  "query": "https://www.mdpi.com/2073-431X/15/9/570/htm",
+  "retrieval_limit": null,
+  "returned_count": 0,
+  "total_database_hits": null,
+  "status": "fulfilled",
+  "notes": "HTTP 403 to automated requests; P011 remains awaiting full text."
  },
  {
   "search_id": "X6",
