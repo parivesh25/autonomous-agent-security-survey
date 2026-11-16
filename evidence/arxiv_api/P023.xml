@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UPRs1jm/8bTipJBQaxqLttDFV0A</id>
+  <title>arXiv Query: search_query=ti:"Architecture Matters for Multi Agent Security"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:02:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Architecture+Matters+for+Multi+Agent+Security%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2604.23459v1</id>
+    <title>Architecture Matters for Multi-Agent Security</title>
+    <updated>2026-04-25T22:25:58Z</updated>
+    <link href="https://arxiv.org/abs/2604.23459v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.23459v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent systems (MAS), composed of networks of two or more autonomous AI agents, have become increasingly popular in production deployments, yet introduce security risks that do not arise in single-agent settings. Even if individual agents exhibit robust security, architectural decisions governing their coordination can create attack surfaces that have not been systematically characterized. In this work, we present an empirical study of how MAS design decisions shape the tradeoff between task performance and attack resistance. Across three agentic environments (browser, desktop, and code) and 13 architectural configurations, we use stagewise evaluations that distinguish planning refusal, execution-stage interception, partial harmful execution, and successful attack completion to study three key design choices: (i) agent roles, which determine how authority and responsibility are allocated; (ii) communication topology, which shapes how and when agents interact; and (iii) memory, which determines the context and state visibility accessible to each agent. We find that multi-agent architectures are more vulnerable than standalone agents in the majority of configurations, with attack success rates varying by up to 3.8x at comparable or higher benign accuracy, and that no single design is universally safer. These results motivate the development of further evaluations that move beyond the security properties of a single agent.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-25T22:25:58Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Ben Hagag</name>
+    </author>
+    <author>
+      <name>William L. Anderson</name>
+    </author>
+    <author>
+      <name>Christian Schroeder de Witt</name>
+    </author>
+    <author>
+      <name>Sarah Scheffler</name>
+    </author>
+  </entry>
+</feed>

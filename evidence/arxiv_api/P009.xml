@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Je3IdM0DiSwVDyVOs8pL5rLj7fg</id>
+  <title>arXiv Query: search_query=ti:"Towards Understanding Specification Gaming in Reasoning Models"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:01:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Towards+Understanding+Specification+Gaming+in+Reasoning+Models%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2605.02269v1</id>
+    <title>Towards Understanding Specification Gaming in Reasoning Models</title>
+    <updated>2026-05-04T06:22:22Z</updated>
+    <link href="https://arxiv.org/abs/2605.02269v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.02269v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Specification gaming is a critical failure mode of LLM agents. Despite this, there has been little systematic research into when it arises and what drives it. To address this, we build and open source a diverse suite of tasks where models can score highly by taking unintended actions. We find that all tested models exploit their specifications at non-negligible rates in most of our eight settings, including five non-coding settings. We see the highest rates of specification gaming in Grok 4 and the lowest rates in Claude models. We use our evaluation suite to study what drives specification gaming, and find that: 1. RL reasoning training substantially increases the rate at which models exploit their specifications, 2. Increasing RL reasoning budget has a weakly positive effect on exploit rate, and 3. Test-time mitigations reduce but do not eliminate the rate of specification gaming. Our results suggest that specification gaming is a fundamental challenge arising from RL reasoning training; we release our evaluation suite to support further work on this problem.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-04T06:22:22Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Kei Nishimura-Gasparian</name>
+    </author>
+    <author>
+      <name>Robert McCarthy</name>
+    </author>
+    <author>
+      <name>David Lindner</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/W3e++gS0O0Q1qunR07DZnOGvo60</id>
+  <title>arXiv Query: search_query=ti:"Sycophancy to Subterfuge Investigating Reward Tampering in Large Language Models"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:01:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Sycophancy+to+Subterfuge+Investigating+Reward+Tampering+in+Large+Language+Models%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2406.10162v3</id>
+    <title>Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models</title>
+    <updated>2024-06-29T00:28:47Z</updated>
+    <link href="https://arxiv.org/abs/2406.10162v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.10162v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In reinforcement learning, specification gaming occurs when AI systems learn undesired behaviors that are highly rewarded due to misspecified training goals. Specification gaming can range from simple behaviors like sycophancy to sophisticated and pernicious behaviors like reward-tampering, where a model directly modifies its own reward mechanism. However, these more pernicious behaviors may be too complex to be discovered via exploration. In this paper, we study whether Large Language Model (LLM) assistants which find easily discovered forms of specification gaming will generalize to perform rarer and more blatant forms, up to and including reward-tampering. We construct a curriculum of increasingly sophisticated gameable environments and find that training on early-curriculum environments leads to more specification gaming on remaining environments. Strikingly, a small but non-negligible proportion of the time, LLM assistants trained on the full curriculum generalize zero-shot to directly rewriting their own reward function. Retraining an LLM not to game early-curriculum environments mitigates, but does not eliminate, reward-tampering in later environments. Moreover, adding harmlessness training to our gameable environments does not prevent reward-tampering. These results demonstrate that LLMs can generalize from common forms of specification gaming to more pernicious reward tampering and that such behavior may be nontrivial to remove.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-14T16:26:20Z</published>
+    <arxiv:comment>Make it easier to find samples from the model, and highlight that our operational definition of reward tampering has false positives where the model attempts to complete the task honestly but edits the reward. Add paragraph to conclusion to this effect, and add sentence to figure 1 to this effect</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Carson Denison</name>
+    </author>
+    <author>
+      <name>Monte MacDiarmid</name>
+    </author>
+    <author>
+      <name>Fazl Barez</name>
+    </author>
+    <author>
+      <name>David Duvenaud</name>
+    </author>
+    <author>
+      <name>Shauna Kravec</name>
+    </author>
+    <author>
+      <name>Samuel Marks</name>
+    </author>
+    <author>
+      <name>Nicholas Schiefer</name>
+    </author>
+    <author>
+      <name>Ryan Soklaski</name>
+    </author>
+    <author>
+      <name>Alex Tamkin</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+    <author>
+      <name>Buck Shlegeris</name>
+    </author>
+    <author>
+      <name>Samuel R. Bowman</name>
+    </author>
+    <author>
+      <name>Ethan Perez</name>
+    </author>
+    <author>
+      <name>Evan Hubinger</name>
+    </author>
+  </entry>
+</feed>

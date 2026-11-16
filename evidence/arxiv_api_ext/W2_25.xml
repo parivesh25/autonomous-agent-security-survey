@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JtvlDqOf8mKpVzIWtDGejJ5E9C0</id>
+  <title>arXiv Query: search_query=ti:"Concrete Problems in AI Safety"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:06:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Concrete+Problems+in+AI+Safety%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1606.06565v2</id>
+    <title>Concrete Problems in AI Safety</title>
+    <updated>2016-07-25T17:23:29Z</updated>
+    <link href="https://arxiv.org/abs/1606.06565v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.06565v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Rapid progress in machine learning and artificial intelligence (AI) has brought increasing attention to the potential impacts of AI technologies on society. In this paper we discuss one such potential impact: the problem of accidents in machine learning systems, defined as unintended and harmful behavior that may emerge from poor design of real-world AI systems. We present a list of five practical research problems related to accident risk, categorized according to whether the problem originates from having the wrong objective function ("avoiding side effects" and "avoiding reward hacking"), an objective function that is too expensive to evaluate frequently ("scalable supervision"), or undesirable behavior during the learning process ("safe exploration" and "distributional shift"). We review previous work in these areas as well as suggesting research directions with a focus on relevance to cutting-edge AI systems. Finally, we consider the high-level question of how to think most productively about the safety of forward-looking applications of AI.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-21T13:37:05Z</published>
+    <arxiv:comment>29 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Chris Olah</name>
+    </author>
+    <author>
+      <name>Jacob Steinhardt</name>
+    </author>
+    <author>
+      <name>Paul Christiano</name>
+    </author>
+    <author>
+      <name>John Schulman</name>
+    </author>
+    <author>
+      <name>Dan Mané</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.10899v1</id>
+    <title>Concrete Problems in AI Safety, Revisited</title>
+    <updated>2023-12-18T23:38:05Z</updated>
+    <link href="https://arxiv.org/abs/2401.10899v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.10899v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As AI systems proliferate in society, the AI community is increasingly preoccupied with the concept of AI Safety, namely the prevention of failures due to accidents that arise from an unanticipated departure of a system's behavior from designer intent in AI deployment. We demonstrate through an analysis of real world cases of such incidents that although current vocabulary captures a range of the encountered issues of AI deployment, an expanded socio-technical framing will be required for a more complete understanding of how AI systems and implemented safety mechanisms fail and succeed in real life.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-18T23:38:05Z</published>
+    <arxiv:comment>Published at ICLR workshop on ML in the Real World, 2020</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Inioluwa Deborah Raji</name>
+    </author>
+    <author>
+      <name>Roel Dobbe</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,720 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wibcbnMOTjSkM1gQu7A9VueOWzY</id>
+  <title>arXiv Query: search_query=abs:"multi-agent" AND (abs:"prompt injection" OR abs:collusion OR abs:infection) AND (abs:LLM OR abs:"language model") AND submittedDate:"202301010000 TO 202512312359"&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-11-16T17:04:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22multi-agent%22+AND+((abs:%22prompt+injection%22+OR+(abs:collusion+OR+abs:infection))+AND+((abs:LLM+OR+abs:%22language+model%22)+AND+submittedDate:%22202301010000+TO+202512312359%22))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>33</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.07283v1</id>
+    <title>Prompt Infection: LLM-to-LLM Prompt Injection within Multi-Agent Systems</title>
+    <updated>2024-10-09T11:01:29Z</updated>
+    <link href="https://arxiv.org/abs/2410.07283v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.07283v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As Large Language Models (LLMs) grow increasingly powerful, multi-agent systems are becoming more prevalent in modern AI applications. Most safety research, however, has focused on vulnerabilities in single-agent LLMs. These include prompt injection attacks, where malicious prompts embedded in external content trick the LLM into executing unintended or harmful actions, compromising the victim's application. In this paper, we reveal a more dangerous vector: LLM-to-LLM prompt injection within multi-agent systems. We introduce Prompt Infection, a novel attack where malicious prompts self-replicate across interconnected agents, behaving much like a computer virus. This attack poses severe threats, including data theft, scams, misinformation, and system-wide disruption, all while propagating silently through the system. Our extensive experiments demonstrate that multi-agent systems are highly susceptible, even when agents do not publicly share all communications. To address this, we propose LLM Tagging, a defense mechanism that, when combined with existing safeguards, significantly mitigates infection spread. This work underscores the urgent need for advanced security measures as multi-agent LLM systems become more widely adopted.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-09T11:01:29Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Donghyun Lee</name>
+    </author>
+    <author>
+      <name>Mo Tiwari</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.14285v4</id>
+    <title>A Multi-Agent LLM Defense Pipeline Against Prompt Injection Attacks</title>
+    <updated>2025-12-17T16:48:31Z</updated>
+    <link href="https://arxiv.org/abs/2509.14285v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.14285v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prompt injection attacks represent a major vulnerability in Large Language Model (LLM) deployments, where malicious instructions embedded in user inputs can override system prompts and induce unintended behaviors. This paper presents a novel multi-agent defense framework that employs specialized LLM agents in coordinated pipelines to detect and neutralize prompt injection attacks in real-time. We evaluate our approach using two distinct architectures: a sequential chain-of-agents pipeline and a hierarchical coordinator-based system. Our comprehensive evaluation on 55 unique prompt injection attacks, grouped into 8 categories and totaling 400 attack instances across two LLM platforms (ChatGLM and Llama2), demonstrates significant security improvements. Without defense mechanisms, baseline Attack Success Rates (ASR) reached 30% for ChatGLM and 20% for Llama2. Our multi-agent pipeline achieved 100% mitigation, reducing ASR to 0% across all tested scenarios. The framework demonstrates robustness across multiple attack categories including direct overrides, code execution attempts, data exfiltration, and obfuscation techniques, while maintaining system functionality for legitimate queries.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-16T19:11:28Z</published>
+    <arxiv:comment>Accepted at the 11th IEEE WIECON-ECE 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>S M Asif Hossain</name>
+    </author>
+    <author>
+      <name>Ruksat Khan Shayoni</name>
+    </author>
+    <author>
+      <name>Mohd Ruhul Ameen</name>
+    </author>
+    <author>
+      <name>Akif Islam</name>
+    </author>
+    <author>
+      <name>M. F. Mridha</name>
+    </author>
+    <author>
+      <name>Jungpil Shin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.13169v1</id>
+    <title>Prompt Injection 2.0: Hybrid AI Threats</title>
+    <updated>2025-07-17T14:33:36Z</updated>
+    <link href="https://arxiv.org/abs/2507.13169v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.13169v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prompt injection attacks, where malicious input is designed to manipulate AI systems into ignoring their original instructions and following unauthorized commands instead, were first discovered by Preamble, Inc. in May 2022 and responsibly disclosed to OpenAI. Over the last three years, these attacks have continued to pose a critical security threat to LLM-integrated systems. The emergence of agentic AI systems, where LLMs autonomously perform multistep tasks through tools and coordination with other agents, has fundamentally transformed the threat landscape. Modern prompt injection attacks can now combine with traditional cybersecurity exploits to create hybrid threats that systematically evade traditional security controls. This paper presents a comprehensive analysis of Prompt Injection 2.0, examining how prompt injections integrate with Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and other web security vulnerabilities to bypass traditional security measures. We build upon Preamble's foundational research and mitigation technologies, evaluating them against contemporary threats, including AI worms, multi-agent infections, and hybrid cyber-AI attacks. Our analysis incorporates recent benchmarks that demonstrate how traditional web application firewalls, XSS filters, and CSRF tokens fail against AI-enhanced attacks. We also present architectural solutions that combine prompt isolation, runtime security, and privilege separation with novel threat detection capabilities.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-17T14:33:36Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jeremy McHugh</name>
+    </author>
+    <author>
+      <name>Kristina Šekrst</name>
+    </author>
+    <author>
+      <name>Jon Cefalu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.24201v1</id>
+    <title>SentinelAgent: Graph-based Anomaly Detection in Multi-Agent Systems</title>
+    <updated>2025-05-30T04:25:19Z</updated>
+    <link href="https://arxiv.org/abs/2505.24201v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.24201v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rise of large language model (LLM)-based multi-agent systems (MAS) introduces new security and reliability challenges. While these systems show great promise in decomposing and coordinating complex tasks, they also face multi-faceted risks across prompt manipulation, unsafe tool usage, and emergent agent miscoordination. Existing guardrail mechanisms offer only partial protection, primarily at the input-output level, and fall short in addressing systemic or multi-point failures in MAS. In this work, we present a system-level anomaly detection framework tailored for MAS, integrating structural modeling with runtime behavioral oversight. Our approach consists of two components. First, we propose a graph-based framework that models agent interactions as dynamic execution graphs, enabling semantic anomaly detection at node, edge, and path levels. Second, we introduce a pluggable SentinelAgent, an LLM-powered oversight agent that observes, analyzes, and intervenes in MAS execution based on security policies and contextual reasoning. By bridging abstract detection logic with actionable enforcement, our method detects not only single-point faults and prompt injections but also multi-agent collusion and latent exploit paths. We validate our framework through two case studies, including an email assistant and Microsoft's Magentic-One system, demonstrating its ability to detect covert risks and provide explainable root-cause attribution. Our work lays the foundation for more trustworthy, monitorable, and secure agent-based AI ecosystems.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-30T04:25:19Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xu He</name>
+    </author>
+    <author>
+      <name>Di Wu</name>
+    </author>
+    <author>
+      <name>Yan Zhai</name>
+    </author>
+    <author>
+      <name>Kun Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.02859v1</id>
+    <title>ATAG: AI-Agent Application Threat Assessment with Attack Graphs</title>
+    <updated>2025-06-03T13:25:40Z</updated>
+    <link href="https://arxiv.org/abs/2506.02859v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.02859v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Evaluating the security of multi-agent systems (MASs) powered by large language models (LLMs) is challenging, primarily because of the systems' complex internal dynamics and the evolving nature of LLM vulnerabilities. Traditional attack graph (AG) methods often lack the specific capabilities to model attacks on LLMs. This paper introduces AI-agent application Threat assessment with Attack Graphs (ATAG), a novel framework designed to systematically analyze the security risks associated with AI-agent applications. ATAG extends the MulVAL logic-based AG generation tool with custom facts and interaction rules to accurately represent AI-agent topologies, vulnerabilities, and attack scenarios. As part of this research, we also created the LLM vulnerability database (LVD) to initiate the process of standardizing LLM vulnerabilities documentation. To demonstrate ATAG's efficacy, we applied it to two multi-agent applications. Our case studies demonstrated the framework's ability to model and generate AGs for sophisticated, multi-step attack scenarios exploiting vulnerabilities such as prompt injection, excessive agency, sensitive information disclosure, and insecure output handling across interconnected agents. ATAG is an important step toward a robust methodology and toolset to help understand, visualize, and prioritize complex attack paths in multi-agent AI systems (MAASs). It facilitates proactive identification and mitigation of AI-agent threats in multi-agent applications.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-03T13:25:40Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Parth Atulbhai Gandhi</name>
+    </author>
+    <author>
+      <name>Akansha Shukla</name>
+    </author>
+    <author>
+      <name>David Tayouri</name>
+    </author>
+    <author>
+      <name>Beni Ifland</name>
+    </author>
+    <author>
+      <name>Yuval Elovici</name>
+    </author>
+    <author>
+      <name>Rami Puzis</name>
+    </author>
+    <author>
+      <name>Asaf Shabtai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.11127v1</id>
+    <title>G-Safeguard: A Topology-Guided Security Lens and Treatment on LLM-based Multi-agent Systems</title>
+    <updated>2025-02-16T13:48:41Z</updated>
+    <link href="https://arxiv.org/abs/2502.11127v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.11127v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM)-based Multi-agent Systems (MAS) have demonstrated remarkable capabilities in various complex tasks, ranging from collaborative problem-solving to autonomous decision-making. However, as these systems become increasingly integrated into critical applications, their vulnerability to adversarial attacks, misinformation propagation, and unintended behaviors have raised significant concerns. To address this challenge, we introduce G-Safeguard, a topology-guided security lens and treatment for robust LLM-MAS, which leverages graph neural networks to detect anomalies on the multi-agent utterance graph and employ topological intervention for attack remediation. Extensive experiments demonstrate that G-Safeguard: (I) exhibits significant effectiveness under various attack strategies, recovering over 40% of the performance for prompt injection; (II) is highly adaptable to diverse LLM backbones and large-scale MAS; (III) can seamlessly combine with mainstream MAS with security guarantees. The code is available at https://github.com/wslong20/G-safeguard.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-16T13:48:41Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Shilong Wang</name>
+    </author>
+    <author>
+      <name>Guibin Zhang</name>
+    </author>
+    <author>
+      <name>Miao Yu</name>
+    </author>
+    <author>
+      <name>Guancheng Wan</name>
+    </author>
+    <author>
+      <name>Fanci Meng</name>
+    </author>
+    <author>
+      <name>Chongye Guo</name>
+    </author>
+    <author>
+      <name>Kun Wang</name>
+    </author>
+    <author>
+      <name>Yang Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.04799v5</id>
+    <title>Maris: A Formally Verifiable Privacy Policy Enforcement Paradigm for Multi-Agent Collaboration Systems</title>
+    <updated>2026-06-08T05:07:52Z</updated>
+    <link href="https://arxiv.org/abs/2505.04799v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.04799v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent collaboration systems (MACS), powered by large language models (LLMs), solve complex problems efficiently by leveraging each agent's specialization and communication between agents. However, the inherent exchange of information between agents and their interaction with external environments, such as LLM, tools, and users, inevitably introduces significant risks of sensitive data leakage, including vulnerabilities to attacks such as eavesdropping and prompt injection. Existing MACS lack fine-grained data protection controls, making it challenging to manage sensitive information securely. In this paper, we take the first step to mitigate the MACS's data leakage threat through a privacy-enhanced MACS development paradigm, Maris. Maris enables rigorous message flow control within MACS by embedding reference monitors into key multi-agent conversation components. We implemented Maris as an integral part of widely-adopted open-source multi-agent development frameworks, AutoGen and LangChain. To evaluate its effectiveness, we develop a Privacy Assessment Framework that emulates MACS under different threat scenarios. Our evaluation shows that Maris effectively mitigated sensitive data leakage threats across three different task suites while maintaining a high task success rate.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-07T20:54:43Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jian Cui</name>
+    </author>
+    <author>
+      <name>Zichuan Li</name>
+    </author>
+    <author>
+      <name>Chi Wang</name>
+    </author>
+    <author>
+      <name>Luyi Xing</name>
+    </author>
+    <author>
+      <name>Xiaojing Liao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.03097v1</id>
+    <title>Many-to-One Adversarial Consensus: Exposing Multi-Agent Collusion Risks in AI-Based Healthcare</title>
+    <updated>2025-12-01T12:17:28Z</updated>
+    <link href="https://arxiv.org/abs/2512.03097v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.03097v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The integration of large language models (LLMs) into healthcare IoT systems promises faster decisions and improved medical support. LLMs are also deployed as multi-agent teams to assist AI doctors by debating, voting, or advising on decisions. However, when multiple assistant agents interact, coordinated adversaries can collude to create false consensus, pushing an AI doctor toward harmful prescriptions. We develop an experimental framework with scripted and unscripted doctor agents, adversarial assistants, and a verifier agent that checks decisions against clinical guidelines. Using 50 representative clinical questions, we find that collusion drives the Attack Success Rate (ASR) and Harmful Recommendation Rates (HRR) up to 100% in unprotected systems. In contrast, the verifier agent restores 100% accuracy by blocking adversarial consensus. This work provides the first systematic evidence of collusion risk in AI healthcare and demonstrates a practical, lightweight defence that ensures guideline fidelity.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-01T12:17:28Z</published>
+    <arxiv:comment>7 pages Conference level paper</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Adeela Bashir</name>
+    </author>
+    <author>
+      <name>The Anh han</name>
+    </author>
+    <author>
+      <name>Zia Ush Shamszaman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.06850v6</id>
+    <title>The Dark Side of LLMs: Agent-based Attack Vectors for System-level Compromise</title>
+    <updated>2026-05-09T07:47:24Z</updated>
+    <link href="https://arxiv.org/abs/2507.06850v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.06850v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid adoption of Large Language Model (LLM) agents and multi-agent systems enables remarkable capabilities in natural language processing and generation. However, these systems introduce security vulnerabilities that extend beyond traditional content generation to system-level compromises. This paper presents a comprehensive evaluation of the LLMs security used as reasoning engines within autonomous agents, highlighting how they can be exploited as attack vectors capable of achieving computer takeovers. We focus on how different attack surfaces and trust boundaries can be leveraged to orchestrate such takeovers. We demonstrate that adversaries can effectively coerce popular LLMs into autonomously installing and executing malware on victim machines. Our evaluation of 18 state-of-the-art LLMs reveals that 94.4% of models succumb to Direct Prompt Injection, and 83.3% are vulnerable to the more stealthy and evasive RAG Backdoor Attack. Notably, we tested trust boundaries within multi-agent systems, where LLM agents interact and influence each other, and we revealed that LLMs which successfully resist direct injection or RAG backdoor attacks will execute identical payloads when requested by peer agents. We found that 100.0% of tested LLMs can be compromised through Inter-Agent Trust Exploitation attacks, and that every model exhibits context-dependent security behaviors that create exploitable blind spots.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-09T13:54:58Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Matteo Lupinacci</name>
+    </author>
+    <author>
+      <name>Francesco Aurelio Pironti</name>
+    </author>
+    <author>
+      <name>Francesco Blefari</name>
+    </author>
+    <author>
+      <name>Francesco Romeo</name>
+    </author>
+    <author>
+      <name>Luigi Arena</name>
+    </author>
+    <author>
+      <name>Angelo Furfaro</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-032-35586-7_1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-032-35586-7_1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.12921v1</id>
+    <title>Cisco Integrated AI Security and Safety Framework Report</title>
+    <updated>2025-12-15T02:12:12Z</updated>
+    <link href="https://arxiv.org/abs/2512.12921v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.12921v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Artificial intelligence (AI) systems are being readily and rapidly adopted, increasingly permeating critical domains: from consumer platforms and enterprise software to networked systems with embedded agents. While this has unlocked potential for human productivity gains, the attack surface has expanded accordingly: threats now span content safety failures (e.g., harmful or deceptive outputs), model and data integrity compromise (e.g., poisoning, supply-chain tampering), runtime manipulations (e.g., prompt injection, tool and agent misuse), and ecosystem risks (e.g., orchestration abuse, multi-agent collusion). Existing frameworks such as MITRE ATLAS, National Institute of Standards and Technology (NIST) AI 100-2 Adversarial Machine Learning (AML) taxonomy, and OWASP Top 10s for Large Language Models (LLMs) and Agentic AI Applications provide valuable viewpoints, but each covers only slices of this multi-dimensional space.
+  This paper presents Cisco's Integrated AI Security and Safety Framework ("AI Security Framework"), a unified, lifecycle-aware taxonomy and operationalization framework that can be used to classify, integrate, and operationalize the full range of AI risks. It integrates AI security and AI safety across modalities, agents, pipelines, and the broader ecosystem. The AI Security Framework is designed to be practical for threat identification, red-teaming, risk prioritization, and it is comprehensive in scope and can be extensible to emerging deployments in multimodal contexts, humanoids, wearables, and sensory infrastructures. We analyze gaps in prevailing frameworks, discuss design principles for our framework, and demonstrate how the taxonomy provides structure for understanding how modern AI systems fail, how adversaries exploit these failures, and how organizations can build defenses across the AI lifecycle that evolve alongside capability advancements.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T02:12:12Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Amy Chang</name>
+    </author>
+    <author>
+      <name>Tiffany Saade</name>
+    </author>
+    <author>
+      <name>Sanket Mendapara</name>
+    </author>
+    <author>
+      <name>Adam Swanda</name>
+    </author>
+    <author>
+      <name>Ankit Garg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.15236v4</id>
+    <title>Jailbreaking and Mitigation of Vulnerabilities in Large Language Models</title>
+    <updated>2026-05-27T16:38:46Z</updated>
+    <link href="https://arxiv.org/abs/2410.15236v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.15236v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have transformed artificial intelligence by advancing natural language understanding and generation, enabling applications across fields beyond healthcare, software engineering, and conversational systems. Despite these advancements in the past few years, LLMs have shown considerable vulnerabilities, particularly to prompt injection and jailbreaking attacks. This review analyzes the state of research on these vulnerabilities and presents available defense strategies. We roughly categorize attack approaches into prompt-based, model-based, multimodal, and multilingual, covering techniques such as adversarial prompting, backdoor injections, and cross-modality exploits. We also review various defense mechanisms, including prompt filtering, transformation, alignment techniques, multi-agent defenses, and self-regulation, evaluating their strengths and shortcomings. We also discuss key metrics and benchmarks used to assess LLM safety and robustness, noting challenges like the quantification of attack success in interactive contexts and biases in existing datasets. Identifying current research gaps, we suggest future directions for resilient alignment strategies, advanced defenses against evolving attacks, automation of jailbreak detection, and consideration of ethical and societal impacts. This review emphasizes the need for continued research and cooperation within the AI community to enhance LLM security and ensure their safe deployment.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-20T00:00:56Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <arxiv:journal_ref>Eureka 1(1) (2026) 26-61</arxiv:journal_ref>
+    <author>
+      <name>Benji Peng</name>
+    </author>
+    <author>
+      <name>Hanxuan Chen</name>
+    </author>
+    <author>
+      <name>Keyu Chen</name>
+    </author>
+    <author>
+      <name>Qian Niu</name>
+    </author>
+    <author>
+      <name>Ziqian Bi</name>
+    </author>
+    <author>
+      <name>Ming Liu</name>
+    </author>
+    <author>
+      <name>Pohsun Feng</name>
+    </author>
+    <author>
+      <name>Tianyang Wang</name>
+    </author>
+    <author>
+      <name>Lawrence K. Q. Yan</name>
+    </author>
+    <author>
+      <name>Yizhu Wen</name>
+    </author>
+    <author>
+      <name>Yichao Zhang</name>
+    </author>
+    <author>
+      <name>Caitlyn Heqi Yin</name>
+    </author>
+    <author>
+      <name>Xinyuan Song</name>
+    </author>
+    <author>
+      <name>Riyang Bao</name>
+    </author>
+    <author>
+      <name>Jiacheng Shi</name>
+    </author>
+    <arxiv:doi>10.63336/Eureka.47</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.63336/Eureka.47" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.11733v3</id>
+    <title>SafeSieve: From Heuristics to Experience in Progressive Pruning for LLM-based Multi-Agent Communication</title>
+    <updated>2026-03-25T03:59:19Z</updated>
+    <link href="https://arxiv.org/abs/2508.11733v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.11733v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM-based multi-agent systems exhibit strong collaborative capabilities but often suffer from redundant communication and excessive token overhead. Existing methods typically enhance efficiency through pretrained GNNs or greedy algorithms, but often isolate pre- and post-task optimization, lacking a unified strategy. To this end, we present SafeSieve, a progressive and adaptive multi-agent pruning algorithm that dynamically refines the inter-agent communication through a novel dual-mechanism. SafeSieve integrates initial LLM-based semantic evaluation with accumulated performance feedback, enabling a smooth transition from heuristic initialization to experience-driven refinement. Unlike existing greedy Top-k pruning methods, SafeSieve employs 0-extension clustering to preserve structurally coherent agent groups while eliminating ineffective links. Experiments across benchmarks (SVAMP, HumanEval, etc.) showcase that SafeSieve achieves 94.01% average accuracy while reducing token usage by 12.4%-27.8%. Results further demonstrate robustness under prompt injection attacks (1.23% average accuracy drop). In heterogeneous settings, SafeSieve reduces deployment costs by 13.3% while maintaining performance. These results establish SafeSieve as an efficient, GPU-free, and scalable framework for practical multi-agent systems. Our code can be found here: https://github.com/csgen/SafeSieve</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-15T13:44:50Z</published>
+    <arxiv:comment>AAAI-2026 poster; 7 pages for main content, 5 figures, 4 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Ruijia Zhang</name>
+    </author>
+    <author>
+      <name>Xinyan Zhao</name>
+    </author>
+    <author>
+      <name>Ruixiang Wang</name>
+    </author>
+    <author>
+      <name>Sigen Chen</name>
+    </author>
+    <author>
+      <name>Guibin Zhang</name>
+    </author>
+    <author>
+      <name>An Zhang</name>
+    </author>
+    <author>
+      <name>Kun Wang</name>
+    </author>
+    <author>
+      <name>Qingsong Wen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.12188v2</id>
+    <title>Multi-Agent Systems Execute Arbitrary Malicious Code</title>
+    <updated>2025-09-12T19:53:17Z</updated>
+    <link href="https://arxiv.org/abs/2503.12188v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.12188v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent systems coordinate LLM-based agents to perform tasks on users' behalf. In real-world applications, multi-agent systems will inevitably interact with untrusted inputs, such as malicious Web content, files, email attachments, and more.
+  Using several recently proposed multi-agent frameworks as concrete examples, we demonstrate that adversarial content can hijack control and communication within the system to invoke unsafe agents and functionalities. This results in a complete security breach, up to execution of arbitrary malicious code on the user's device or exfiltration of sensitive data from the user's containerized environment. For example, when agents are instantiated with GPT-4o, Web-based attacks successfully cause the multi-agent system execute arbitrary malicious code in 58-90\% of trials (depending on the orchestrator). In some model-orchestrator configurations, the attack success rate is 100\%. We also demonstrate that these attacks succeed even if individual agents are not susceptible to direct or indirect prompt injection, and even if they refuse to perform harmful actions. We hope that these results will motivate development of trust and security models for multi-agent systems before they are widely deployed.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-15T16:16:08Z</published>
+    <arxiv:comment>33 pages, 5 figures, 7 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Harold Triedman</name>
+    </author>
+    <author>
+      <name>Rishi Jha</name>
+    </author>
+    <author>
+      <name>Vitaly Shmatikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.09230v1</id>
+    <title>Cowpox: Towards the Immunity of VLM-based Multi-Agent Systems</title>
+    <updated>2025-08-12T07:48:51Z</updated>
+    <link href="https://arxiv.org/abs/2508.09230v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.09230v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision Language Model (VLM)-based agents are stateful, autonomous entities capable of perceiving and interacting with their environments through vision and language. Multi-agent systems comprise specialized agents who collaborate to solve a (complex) task. A core security property is robustness, stating that the system should maintain its integrity under adversarial attacks. However, the design of existing multi-agent systems lacks the robustness consideration, as a successful exploit against one agent can spread and infect other agents to undermine the entire system's assurance. To address this, we propose a new defense approach, Cowpox, to provably enhance the robustness of multi-agent systems. It incorporates a distributed mechanism, which improves the recovery rate of agents by limiting the expected number of infections to other agents. The core idea is to generate and distribute a special cure sample that immunizes an agent against the attack before exposure and helps recover the already infected agents. We demonstrate the effectiveness of Cowpox empirically and provide theoretical robustness guarantees.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-12T07:48:51Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Yutong Wu</name>
+    </author>
+    <author>
+      <name>Jie Zhang</name>
+    </author>
+    <author>
+      <name>Yiming Li</name>
+    </author>
+    <author>
+      <name>Chao Zhang</name>
+    </author>
+    <author>
+      <name>Qing Guo</name>
+    </author>
+    <author>
+      <name>Nils Lukas</name>
+    </author>
+    <author>
+      <name>Tianwei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.08290v2</id>
+    <title>Systematization of Knowledge: Security and Safety in the Model Context Protocol Ecosystem</title>
+    <updated>2025-12-13T20:37:14Z</updated>
+    <link href="https://arxiv.org/abs/2512.08290v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.08290v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Model Context Protocol (MCP) has emerged as the de facto standard for connecting Large Language Models (LLMs) to external data and tools, effectively functioning as the "USB-C for Agentic AI." While this decoupling of context and execution solves critical interoperability challenges, it introduces a profound new threat landscape where the boundary between epistemic errors (hallucinations) and security breaches (unauthorized actions) dissolves. This Systematization of Knowledge (SoK) aims to provide a comprehensive taxonomy of risks in the MCP ecosystem, distinguishing between adversarial security threats (e.g., indirect prompt injection, tool poisoning) and epistemic safety hazards (e.g., alignment failures in distributed tool delegation). We analyze the structural vulnerabilities of MCP primitives, specifically Resources, Prompts, and Tools, and demonstrate how "context" can be weaponized to trigger unauthorized operations in multi-agent environments. Furthermore, we survey state-of-the-art defenses, ranging from cryptographic provenance (ETDI) to runtime intent verification, and conclude with a roadmap for securing the transition from conversational chatbots to autonomous agentic operating systems.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-09T06:39:21Z</published>
+    <arxiv:comment>All authors contributed equally to this work</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Shiva Gaire</name>
+    </author>
+    <author>
+      <name>Srijan Gyawali</name>
+    </author>
+    <author>
+      <name>Saroj Mishra</name>
+    </author>
+    <author>
+      <name>Suman Niroula</name>
+    </author>
+    <author>
+      <name>Dilip Thakur</name>
+    </author>
+    <author>
+      <name>Umesh Yadav</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.23557v1</id>
+    <title>Toward Trustworthy Agentic AI: A Multimodal Framework for Preventing Prompt Injection Attacks</title>
+    <updated>2025-12-29T15:54:33Z</updated>
+    <link href="https://arxiv.org/abs/2512.23557v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.23557v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Powerful autonomous systems, which reason, plan, and converse using and between numerous tools and agents, are made possible by Large Language Models (LLMs), Vision-Language Models (VLMs), and new agentic AI systems, like LangChain and GraphChain. Nevertheless, this agentic environment increases the probability of the occurrence of multimodal prompt injection (PI) attacks, in which concealed or malicious instructions carried in text, pictures, metadata, or agent-to-agent messages may spread throughout the graph and lead to unintended behavior, a breach of policy, or corruption of state. In order to mitigate these risks, this paper suggests a Cross-Agent Multimodal Provenanc- Aware Defense Framework whereby all the prompts, either user-generated or produced by upstream agents, are sanitized and all the outputs generated by an LLM are verified independently before being sent to downstream nodes. This framework contains a Text sanitizer agent, visual sanitizer agent, and output validator agent all coordinated by a provenance ledger, which keeps metadata of modality, source, and trust level throughout the entire agent network. This architecture makes sure that agent-to-agent communication abides by clear trust frames such such that injected instructions are not propagated down LangChain or GraphChain-style-workflows. The experimental assessments show that multimodal injection detection accuracy is significantly enhanced, and the cross-agent trust leakage is minimized, as well as, agentic execution pathways become stable. The framework, which expands the concept of provenance tracking and validation to the multi-agent orchestration, enhances the establishment of secure, understandable and reliable agentic AI systems.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-29T15:54:33Z</published>
+    <arxiv:comment>It is accepted in a conference paper, ICCA 2025 in Bahrain on 21 to 23 December</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Toqeer Ali Syed</name>
+    </author>
+    <author>
+      <name>Mishal Ateeq Almutairi</name>
+    </author>
+    <author>
+      <name>Mahmoud Abdel Moaty</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.19483v1</id>
+    <title>Z-Space: A Multi-Agent Tool Orchestration Framework for Enterprise-Grade LLM Automation</title>
+    <updated>2025-11-23T03:59:14Z</updated>
+    <link href="https://arxiv.org/abs/2511.19483v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.19483v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models can break through knowledge and timeliness limitations by invoking external tools within the Model Context Protocol framework to achieve automated execution of complex tasks. However, with the rapid growth of enterprise-scale MCP services, efficiently and accurately matching target functionalities among thousands of heterogeneous tools has become a core challenge restricting system practicality. Existing approaches generally rely on full-prompt injection or static semantic retrieval, facing issues including semantic disconnection between user queries and tool descriptions, context inflation in LLM input, and high inference latency. To address these challenges, this paper proposes Z-Space, a data-generation-oriented multi-agent collaborative tool invocation framework Z-Space. The Z-Space framework establishes a multi-agent collaborative architecture and tool filtering algorithm: (1) A structured semantic understanding of user queries is achieved through an intent parsing model; (2) A tool filtering module (FSWW) based on fused subspace weighted algorithm realizes fine-grained semantic alignment between intents and tools without parameter tuning; (3) An inference execution agent is constructed to support dynamic planning and fault-tolerant execution for multi-step tasks. This framework has been deployed in the Eleme platform's technical division, serving large-scale test data generation scenarios across multiple business units including Taotian, Gaode, and Hema. Production data demonstrates that the system reduces average token consumption in tool inference by 96.26\% while achieving a 92\% tool invocation accuracy rate, significantly enhancing the efficiency and reliability of intelligent test data generation systems.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-23T03:59:14Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Qingsong He</name>
+    </author>
+    <author>
+      <name>Jing Nan</name>
+    </author>
+    <author>
+      <name>Jiayu Jiao</name>
+    </author>
+    <author>
+      <name>Liangjie Tang</name>
+    </author>
+    <author>
+      <name>Xiaodong Xu</name>
+    </author>
+    <author>
+      <name>Mengmeng Sun</name>
+    </author>
+    <author>
+      <name>Qingyao Wang</name>
+    </author>
+    <author>
+      <name>Minghui Yan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.13038v1</id>
+    <title>MAD-Spear: A Conformity-Driven Prompt Injection Attack on Multi-Agent Debate Systems</title>
+    <updated>2025-07-17T12:09:39Z</updated>
+    <link href="https://arxiv.org/abs/2507.13038v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.13038v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent debate (MAD) systems leverage collaborative interactions among large language models (LLMs) agents to improve reasoning capabilities. While recent studies have focused on increasing the accuracy and scalability of MAD systems, their security vulnerabilities have received limited attention. In this work, we introduce MAD-Spear, a targeted prompt injection attack that compromises a small subset of agents but significantly disrupts the overall MAD process. Manipulated agents produce multiple plausible yet incorrect responses, exploiting LLMs' conformity tendencies to propagate misinformation and degrade consensus quality. Furthermore, the attack can be composed with other strategies, such as communication attacks, to further amplify its impact by increasing the exposure of agents to incorrect responses. To assess MAD's resilience under attack, we propose a formal definition of MAD fault-tolerance and develop a comprehensive evaluation framework that jointly considers accuracy, consensus efficiency, and scalability. Extensive experiments on five benchmark datasets with varying difficulty levels demonstrate that MAD-Spear consistently outperforms the baseline attack in degrading system performance. Additionally, we observe that agent diversity substantially improves MAD performance in mathematical reasoning tasks, which challenges prior work suggesting that agent diversity has minimal impact on performance. These findings highlight the urgent need to improve the security in MAD design.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-17T12:09:39Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yu Cui</name>
+    </author>
+    <author>
+      <name>Hongyang Du</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.06556v2</id>
+    <title>Semantic Attacks on Tool-Augmented LLMs: Securing the Model Context Protocol Against Descriptor-Level Manipulation</title>
+    <updated>2026-05-21T13:44:50Z</updated>
+    <link href="https://arxiv.org/abs/2512.06556v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.06556v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Model Context Protocol (MCP) enables Large Language Models (LLMs) to interact with external tools via tool descriptors, thereby extending their capabilities for task execution, autonomous decision-making, and multi-agent coordination. Existing MCP deployments treat tool descriptors as trusted metadata, despite their direct integration into the LLM reasoning context. This introduces a previously underexplored semantic attack surface. Current defenses primarily target prompt injection, neglecting descriptor-level manipulation that can bias tool selection and downstream reasoning. To address this gap, we formalize three descriptor-driven attack classes: Tool Poisoning, Shadowing, and Rug Pull. We propose a layered defense solution that integrates descriptor integrity verification, pre-context semantic vetting with an auxiliary LLM, and lightweight runtime guardrails, without requiring model retraining. We evaluate GPT-5.3, DeepSeek-V3, and LLaMA-3.5 across eight prompting strategies in controlled, adversarial MCP scenarios in which tool metadata is manipulated to simulate realistic attacks. Results demonstrate that descriptor manipulation can substantially alter tool-selection behavior, producing unsafe tool invocations in up to 36% of trials under baseline configurations. The proposed full-stack mitigation reduces unsafe invocations to 15% while increasing the block rate to 74%, demonstrating substantial improvement in resistance to descriptor-driven attacks. Cross-model analysis further reveals significant differences in robustness, latency, and sensitivity to descriptor-level manipulation across LLM architectures and prompting strategies. This study provides a controlled cross-model evaluation of descriptor-level threats and mitigation strategies in tool-calling LLM systems, establishing an empirical foundation for deploying secure and resilient tool-augmented LLMs.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-06T20:07:58Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Saeid Jamshidi</name>
+    </author>
+    <author>
+      <name>Arghavan Moradi Dakhel</name>
+    </author>
+    <author>
+      <name>Kawser Wazed Nafi</name>
+    </author>
+    <author>
+      <name>Foutse Khomh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.00055v1</id>
+    <title>LLM-Virus: Evolutionary Jailbreak Attack on Large Language Models</title>
+    <updated>2024-12-28T07:48:57Z</updated>
+    <link href="https://arxiv.org/abs/2501.00055v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.00055v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While safety-aligned large language models (LLMs) are increasingly used as the cornerstone for powerful systems such as multi-agent frameworks to solve complex real-world problems, they still suffer from potential adversarial queries, such as jailbreak attacks, which attempt to induce harmful content. Researching attack methods allows us to better understand the limitations of LLM and make trade-offs between helpfulness and safety. However, existing jailbreak attacks are primarily based on opaque optimization techniques (e.g. token-level gradient descent) and heuristic search methods like LLM refinement, which fall short in terms of transparency, transferability, and computational cost. In light of these limitations, we draw inspiration from the evolution and infection processes of biological viruses and propose LLM-Virus, a jailbreak attack method based on evolutionary algorithm, termed evolutionary jailbreak. LLM-Virus treats jailbreak attacks as both an evolutionary and transfer learning problem, utilizing LLMs as heuristic evolutionary operators to ensure high attack efficiency, transferability, and low time cost. Our experimental results on multiple safety benchmarks show that LLM-Virus achieves competitive or even superior performance compared to existing attack methods.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-28T07:48:57Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Miao Yu</name>
+    </author>
+    <author>
+      <name>Junfeng Fang</name>
+    </author>
+    <author>
+      <name>Yingjie Zhou</name>
+    </author>
+    <author>
+      <name>Xing Fan</name>
+    </author>
+    <author>
+      <name>Kun Wang</name>
+    </author>
+    <author>
+      <name>Shirui Pan</name>
+    </author>
+    <author>
+      <name>Qingsong Wen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.13597v1</id>
+    <title>Agentic JWT: A Secure Delegation Protocol for Autonomous AI Agents</title>
+    <updated>2025-09-16T23:43:24Z</updated>
+    <link href="https://arxiv.org/abs/2509.13597v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.13597v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous LLM agents can issue thousands of API calls per hour without human oversight. OAuth 2.0 assumes deterministic clients, but in agentic settings stochastic reasoning, prompt injection, or multi-agent orchestration can silently expand privileges.
+  We introduce Agentic JWT (A-JWT), a dual-faceted intent token that binds each agent's action to verifiable user intent and, optionally, to a specific workflow step. A-JWT carries an agent's identity as a one-way checksum hash derived from its prompt, tools and configuration, and a chained delegation assertion to prove which downstream agent may execute a given task, and per-agent proof-of-possession keys to prevent replay and in-process impersonation. We define a new authorization mechanism and add a lightweight client shim library that self-verifies code at run time, mints intent tokens, tracks workflow steps and derives keys, thus enabling secure agent identity and separation even within a single process.
+  We illustrate a comprehensive threat model for agentic applications, implement a Python proof-of-concept and show functional blocking of scope-violating requests, replay, impersonation, and prompt-injection pathways with sub-millisecond overhead on commodity hardware. The design aligns with ongoing OAuth agent discussions and offers a drop-in path toward zero-trust guarantees for agentic applications. A comprehensive performance and security evaluation with experimental results will appear in our forthcoming journal publication</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-16T23:43:24Z</published>
+    <arxiv:comment>17 pages, 6 figures, 2 Tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Abhishek Goswami</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.15253v3</id>
+    <title>Specification-based Security Evaluation of Real-World Agents Tool-Calling under Long-Horizon Context Tasks</title>
+    <updated>2026-11-11T04:07:21Z</updated>
+    <link href="https://arxiv.org/abs/2506.15253v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.15253v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As large language model (LLM) agents are increasingly deployed in long-horizon unattended scenarios, security evaluation of them before deployment becomes increasingly essential and challenging. Existing evaluation methods mainly follow the paradigms of LLM-as-a-Judge or Agent-as-a-Judge. However, such judges are themselves often vulnerable to hallucination and can even be affected by perturbations. Furthermore, because capturing full environment states at every step is often prohibitively expensive in open-ended environments, existing evaluations typically rely on textual logs and the final environment state. As a result, they may miss transient violations that are overwritten before the trajectory ends or never reflected in textual logs. We present RAS-Eval, a specification-based security evaluation framework for LLM agents. RAS-Eval uniformly expresses utility and security objectives as Linear Temporal Logic (LTL) specifications over tool-call trajectories and dynamic environment observations, and verifies them with an off-the-shelf model checker. This design addresses both limitations above. First, unlike LLM-as-a-Judge and Agent-as-a-Judge, RAS-Eval derives deterministic verdicts from formally defined properties, eliminating evaluator-side uncertainty and remaining reliable even for long-horizon trajectories. Second, RAS-Eval observes exactly the states on which the verdict depends, making it affordable to monitor the environment throughout execution and detect transient violations that leave little trace in the logs or final environment state. Moreover, we design a multi-agent-based dataset construction pipeline. Using it, we construct a benchmark (https://github.com/lanzer-tree/RAS-Eval) of 200 normal tasks and 800 attack tasks spanning four attack surfaces: indirect prompt injection, tool poisoning, skill code injection, and tool code injection.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-18T08:30:36Z</published>
+    <arxiv:comment>22 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yuchuan Fu</name>
+    </author>
+    <author>
+      <name>Minghe Wang</name>
+    </author>
+    <author>
+      <name>Xiaohan Yuan</name>
+    </author>
+    <author>
+      <name>Chenlin Zou</name>
+    </author>
+    <author>
+      <name>Kaitong Jia</name>
+    </author>
+    <author>
+      <name>Jinfeng Li</name>
+    </author>
+    <author>
+      <name>Dongxia Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.02736v2</id>
+    <title>AgentSight: System-Level Observability for AI Agents Using eBPF</title>
+    <updated>2025-08-15T11:45:40Z</updated>
+    <link href="https://arxiv.org/abs/2508.02736v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.02736v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern software infrastructure increasingly relies on LLM agents for development and maintenance, such as Claude Code and Gemini-cli. However, these AI agents differ fundamentally from traditional deterministic software, posing a significant challenge to conventional monitoring and debugging. This creates a critical semantic gap: existing tools observe either an agent's high-level intent (via LLM prompts) or its low-level actions (e.g., system calls), but cannot correlate these two views. This blindness makes it difficult to distinguish between benign operations, malicious attacks, and costly failures. We introduce AgentSight, an AgentOps observability framework that bridges this semantic gap using a hybrid approach. Our approach, boundary tracing, monitors agents from outside their application code at stable system interfaces using eBPF. AgentSight intercepts TLS-encrypted LLM traffic to extract semantic intent, monitors kernel events to observe system-wide effects, and causally correlates these two streams across process boundaries using a real-time engine and secondary LLM analysis. This instrumentation-free technique is framework-agnostic, resilient to rapid API changes, and incurs less than 3% performance overhead. Our evaluation shows AgentSight detects prompt injection attacks, identifies resource-wasting reasoning loops, and reveals hidden coordination bottlenecks in multi-agent systems. AgentSight is released as an open-source project at https://github.com/agent-sight/agentsight.</summary>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-02T01:43:39Z</published>
+    <arxiv:primary_category term="cs.OS"/>
+    <arxiv:journal_ref>PACMI'2025</arxiv:journal_ref>
+    <author>
+      <name>Yusheng Zheng</name>
+    </author>
+    <author>
+      <name>Yanpeng Hu</name>
+    </author>
+    <author>
+      <name>Tong Yu</name>
+    </author>
+    <author>
+      <name>Andi Quinn</name>
+    </author>
+    <arxiv:doi>10.1145/3766882.3767169</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3766882.3767169" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.04303v2</id>
+    <title>Audit the Whisper: Detecting Steganographic Collusion in Multi-Agent LLMs</title>
+    <updated>2025-10-17T19:12:39Z</updated>
+    <link href="https://arxiv.org/abs/2510.04303v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.04303v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent deployments of large language models (LLMs) are increasingly embedded in market, allocation, and governance workflows, yet covert coordination among agents can silently erode trust and social welfare. Existing audits are dominated by heuristics that lack theoretical guarantees, struggle to transfer across tasks, and seldom ship with the infrastructure needed for independent replication. We introduce Audit the Whisper, a conference-grade research artifact that spans theory, benchmark design, detection, and reproducibility. Our contributions are: (i) a channel-capacity analysis showing how interventions such as paraphrase, rate limiting, and role permutation impose quantifiable capacity penalties-operationalised via paired-run Kullback--Leibler diagnostics-that tighten mutual-information thresholds with finite-sample guarantees and full proofs; (ii) ColludeBench-v0, covering pricing, first-price auctions, peer review, and hosted Gemini/Groq APIs with configurable covert schemes, deterministic manifests, and reward instrumentation; and (iii) a calibrated auditing pipeline that fuses cross-run mutual information, permutation invariance, watermark variance, and fairness-aware acceptance bias, each tuned to a $10^{-3}$ false-positive budget and validated by 10k honest runs plus an e-value martingale. Across ColludeBench and external suites including Secret Collusion, CASE, Perfect Collusion Benchmark, and SentinelAgent, the union meta-test attains state-of-the-art power at fixed FPR while ablations surface price-of-auditing trade-offs and fairness-driven colluders invisible to MI alone. We release regeneration scripts, anonymized manifests, and documentation so that external auditors can reproduce every figure, satisfy double-blind requirements, and extend the framework with minimal effort.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-05T17:51:52Z</published>
+    <arxiv:comment>13 pages, 0 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Om Tailor</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.11933v1</id>
+    <title>The Agentic Regulator: Risks for AI in Finance and a Proposed Agent-based Framework for Governance</title>
+    <updated>2025-12-12T05:57:32Z</updated>
+    <link href="https://arxiv.org/abs/2512.11933v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.11933v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative and agentic artificial intelligence is entering financial markets faster than existing governance can adapt. Current model-risk frameworks assume static, well-specified algorithms and one-time validations; large language models and multi-agent trading systems violate those assumptions by learning continuously, exchanging latent signals, and exhibiting emergent behavior. Drawing on complex adaptive systems theory, we model these technologies as decentralized ensembles whose risks propagate along multiple time-scales. We then propose a modular governance architecture. The framework decomposes oversight into four layers of "regulatory blocks": (i) self-regulation modules embedded beside each model, (ii) firm-level governance blocks that aggregate local telemetry and enforce policy, (iii) regulator-hosted agents that monitor sector-wide indicators for collusive or destabilizing patterns, and (iv) independent audit blocks that supply third-party assurance. Eight design strategies enable the blocks to evolve as fast as the models they police. A case study on emergent spoofing in multi-agent trading shows how the layered controls quarantine harmful behavior in real time while preserving innovation. The architecture remains compatible with today's model-risk rules yet closes critical observability and control gaps, providing a practical path toward resilient, adaptive AI governance in financial systems.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-12T05:57:32Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Eren Kurshan</name>
+    </author>
+    <author>
+      <name>Tucker Balch</name>
+    </author>
+    <author>
+      <name>David Byrd</name>
+    </author>
+  </entry>
+</feed>

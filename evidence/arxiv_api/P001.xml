@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gaz6Vw/zTuU0xcuE9EV54m7PGgk</id>
+  <title>arXiv Query: search_query=ti:"Reward Hacking Benchmark Measuring Exploits in LLM Agents with Tool Use"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:01:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Reward+Hacking+Benchmark+Measuring+Exploits+in+LLM+Agents+with+Tool+Use%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2605.02964v1</id>
+    <title>Reward Hacking Benchmark: Measuring Exploits in LLM Agents with Tool Use</title>
+    <updated>2026-05-03T07:10:42Z</updated>
+    <link href="https://arxiv.org/abs/2605.02964v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.02964v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) trained language model agents with tool access are increasingly deployed in coding assistants, research tools, and autonomous systems. We introduce the Reward Hacking Benchmark (RHB), a suite of multi-step tasks requiring sequential tool operations with naturalistic shortcut opportunities such as skipping verification steps, inferring answers from task-adjacent metadata, or tampering with evaluation-relevant functions. RHB supports independent and chained task regimes, where chain length acts as a proxy for longer-horizon agent behavior.
+  We evaluate 13 frontier models from OpenAI, Anthropic, Google, and DeepSeek. Exploit rates range from 0% (Claude Sonnet 4.5) to 13.9% (DeepSeek-R1-Zero), varying sharply by post-training style. A controlled sibling comparison (DeepSeek-V3 vs. DeepSeek-R1-Zero) shows RL post-training is associated with substantially higher reward hacking (0.6% vs. 13.9%), with consistent gaps across all four task families. We identify six exploit categories and find that 72% of reward hacking episodes include explicit chain-of-thought rationale, suggesting models often frame exploits as legitimate problem-solving.
+  Simple environmental hardening reduces exploit rates by 5.7 percentage points (87.7% relative) without degrading task success. Models with near-zero exploit rates on standard tasks show elevated rates on harder variants, suggesting that production-aligned post-training appears to suppress reward hacking only below a complexity threshold where honest solutions remain tractable.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-03T07:10:42Z</published>
+    <arxiv:comment>16 pages, 2 figures. Accepted to ICML 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Proceedings of the 43rd International Conference on Machine Learning, PMLR 306:120372-120389, 2026</arxiv:journal_ref>
+    <author>
+      <name>Kunvar Thaman</name>
+    </author>
+  </entry>
+</feed>

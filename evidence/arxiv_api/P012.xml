@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/z3J+O+qQMhcXTHh456d0lN9lcxA</id>
+  <title>arXiv Query: search_query=ti:"Your Agent is More Brittle Than You Think Uncovering Indirect Injection Vulnerabilities in Agentic LLMs"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:01:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Your+Agent+is+More+Brittle+Than+You+Think+Uncovering+Indirect+Injection+Vulnerabilities+in+Agentic+LLMs%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2604.03870v1</id>
+    <title>Your Agent is More Brittle Than You Think: Uncovering Indirect Injection Vulnerabilities in Agentic LLMs</title>
+    <updated>2026-04-04T21:27:04Z</updated>
+    <link href="https://arxiv.org/abs/2604.03870v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.03870v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid deployment of open-source frameworks has significantly advanced the development of modern multi-agent systems. However, expanded action spaces, including uncontrolled privilege exposure and hidden inter-system interactions, pose severe security challenges. Specifically, Indirect Prompt Injections (IPI), which conceal malicious instructions within third-party content, can trigger unauthorized actions such as data exfiltration during normal operations. While current security evaluations predominantly rely on isolated single-turn benchmarks, the systemic vulnerabilities of these agents within complex dynamic environments remain critically underexplored. To bridge this gap, we systematically evaluate six defense strategies against four sophisticated IPI attack vectors across nine LLM backbones. Crucially, we conduct our evaluation entirely within dynamic multi-step tool-calling environments to capture the true attack surface of modern autonomous agents. Moving beyond binary success rates, our multidimensional analysis reveals a pronounced fragility. Advanced injections successfully bypass nearly all baseline defenses, and some surface-level mitigations even produce counterproductive side effects. Furthermore, while agents execute malicious instructions almost instantaneously, their internal states exhibit abnormally high decision entropy. Motivated by this latent hesitation, we investigate Representation Engineering (RepE) as a robust detection strategy. By extracting hidden states at the tool-input position, we revealed that the RepE-based circuit breaker successfully identifies and intercepts unauthorized actions before the agent commits to them, achieving high detection accuracy across diverse LLM backbones. This study exposes the limitations of current IPI defenses and provides a highly practical paradigm for building resilient multi-agent architectures.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-04T21:27:04Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wenhui Zhu</name>
+    </author>
+    <author>
+      <name>Xuanzhao Dong</name>
+    </author>
+    <author>
+      <name>Xiwen Chen</name>
+    </author>
+    <author>
+      <name>Rui Cai</name>
+    </author>
+    <author>
+      <name>Peijie Qiu</name>
+    </author>
+    <author>
+      <name>Zhipeng Wang</name>
+    </author>
+    <author>
+      <name>Oana Frunza</name>
+    </author>
+    <author>
+      <name>Shao Tang</name>
+    </author>
+    <author>
+      <name>Jindong Gu</name>
+    </author>
+    <author>
+      <name>Yalin Wang</name>
+    </author>
+  </entry>
+</feed>

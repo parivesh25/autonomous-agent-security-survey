@@ -1,0 +1,5669 @@
+[
+ {
+  "work_id": "W001",
+  "title": "Reward Hacking Benchmark: Measuring Exploits in LLM Agents with Tool Use",
+  "authors": [
+   "Kunvar Thaman"
+  ],
+  "identifiers": {
+   "arxiv": "2605.02964",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2605.02964",
+  "first_public_date": "2026-05-03",
+  "version_checked": "2605.02964v1",
+  "version_date": "2026-05-03",
+  "venue_claim": "Proceedings of the 43rd International Conference on Machine Learning, PMLR 306:120372-120389, 2026; 16 pages, 2 figures. Accepted to ICML 2026",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S1"
+  ],
+  "discovery_record_ids": [
+   "P001"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Benchmark of shortcut/tampering opportunities for tool-using agents; empirical.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "A",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "endogenous optimization",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W002",
+  "title": "Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models",
+  "authors": [
+   "Carson Denison",
+   "Monte MacDiarmid",
+   "Fazl Barez",
+   "David Duvenaud",
+   "Shauna Kravec",
+   "Samuel Marks",
+   "Nicholas Schiefer",
+   "Ryan Soklaski",
+   "Alex Tamkin",
+   "Jared Kaplan",
+   "Buck Shlegeris",
+   "Samuel R. Bowman",
+   "Ethan Perez",
+   "Evan Hubinger"
+  ],
+  "identifiers": {
+   "arxiv": "2406.10162",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2406.10162",
+  "first_public_date": "2024-06-14",
+  "version_checked": "2406.10162v3",
+  "version_date": "2024-06-29",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S1",
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P003",
+   "P056"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Seed study: curriculum from specification gaming to reward tampering.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "A",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "endogenous optimization",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W003",
+  "title": "RewardHackingAgents: Benchmarking Evaluation Integrity for LLM ML-Engineering Agents",
+  "authors": [
+   "Yonas Atinafu",
+   "Robin Cohen"
+  ],
+  "identifiers": {
+   "arxiv": "2603.11337",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2603.11337",
+  "first_public_date": "2026-03-11",
+  "version_checked": "2603.11337v1",
+  "version_date": "2026-03-11",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S1"
+  ],
+  "discovery_record_ids": [
+   "P004",
+   "P006"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Evaluator tampering and train/test leakage in ML-engineering agent workspaces; abstract reports scripted attacks plus agent runs.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "A",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "mixed/unclear",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W004",
+  "title": "Reward Hacking in Language Model Agents: Revisiting AI Safety Gridworlds",
+  "authors": [
+   "Ömer Veysel Çağatan",
+   "Xuandong Zhao"
+  ],
+  "identifiers": {
+   "arxiv": "2606.15385",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2606.15385",
+  "first_public_date": "2026-06-13",
+  "version_checked": "2606.15385v1",
+  "version_date": "2026-06-13",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S1"
+  ],
+  "discovery_record_ids": [
+   "P005"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Text adaptation of AI Safety Gridworlds; observed vs hidden objective.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "A",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "endogenous optimization",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W005",
+  "title": "Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI",
+  "authors": [
+   "Jiaqi Shao",
+   "Hanck Chen",
+   "Wei Zhang",
+   "Maxm Pan",
+   "Bing Luo"
+  ],
+  "identifiers": {
+   "arxiv": "2607.22368",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2607.22368",
+  "first_public_date": "2026-07-24",
+  "version_checked": "2607.22368v1",
+  "version_date": "2026-07-24",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S1"
+  ],
+  "discovery_record_ids": [
+   "P007"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Audit procedure for benchmark protocol validity and score inflation.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "A",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "endogenous optimization",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W006",
+  "title": "Reward Hacking Challenges Oversight of Autonomous Research Agents",
+  "authors": [
+   "Yue Huang",
+   "Zhangchen Xu",
+   "Yuchen Ma",
+   "Wenjie Wang",
+   "Zheyuan Liu",
+   "Ziwei Xu",
+   "Pin-Yu Chen",
+   "Michel Galley",
+   "Zinan Lin",
+   "Stefan Feuerriegel",
+   "Radha Poovendran",
+   "Misha Sra",
+   "Alex Pentland",
+   "Xiangliang Zhang",
+   "Zichen Chen"
+  ],
+  "identifiers": {
+   "arxiv": "2609.28614",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2609.28614",
+  "first_public_date": "2026-09-23",
+  "version_checked": "2609.28614v1",
+  "version_date": "2026-09-23",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S1"
+  ],
+  "discovery_record_ids": [
+   "P008"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward hacking by research agents and its detectability by a review panel; both spontaneous and permitted-hacking conditions.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "A",
+  "secondary_tags": [
+   "D"
+  ],
+  "proposed_behaviour_source": "mixed/unclear",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W007",
+  "title": "Towards Understanding Specification Gaming in Reasoning Models",
+  "authors": [
+   "Kei Nishimura-Gasparian",
+   "Robert McCarthy",
+   "David Lindner"
+  ],
+  "identifiers": {
+   "arxiv": "2605.02269",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2605.02269",
+  "first_public_date": "2026-05-04",
+  "version_checked": "2605.02269v1",
+  "version_date": "2026-05-04",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S1"
+  ],
+  "discovery_record_ids": [
+   "P009"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Task suite measuring specification gaming across models and mitigations.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "A",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "endogenous optimization",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W008",
+  "title": "EvilGenie: A Reward Hacking Benchmark",
+  "authors": [
+   "Jonathan Gabor",
+   "Jayson Lynch",
+   "Jonathan Rosenfeld"
+  ],
+  "identifiers": {
+   "arxiv": "2511.21654",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2511.21654",
+  "first_public_date": "2025-11-26",
+  "version_checked": "2511.21654v2",
+  "version_date": "2026-05-17",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S1",
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P010",
+   "P059"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-hacking benchmark for coding agents with three detection methods.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "A",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "endogenous optimization",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W009",
+  "title": "Your Agent is More Brittle Than You Think: Uncovering Indirect Injection Vulnerabilities in Agentic LLMs",
+  "authors": [
+   "Wenhui Zhu",
+   "Xuanzhao Dong",
+   "Xiwen Chen",
+   "Rui Cai",
+   "Peijie Qiu",
+   "Zhipeng Wang",
+   "Oana Frunza",
+   "Shao Tang",
+   "Jindong Gu",
+   "Yalin Wang"
+  ],
+  "identifiers": {
+   "arxiv": "2604.03870",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2604.03870",
+  "first_public_date": "2026-04-04",
+  "version_checked": "2604.03870v1",
+  "version_date": "2026-04-04",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S2"
+  ],
+  "discovery_record_ids": [
+   "P012"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Defences vs indirect prompt injection in multi-step tool-calling environments.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W010",
+  "title": "PlanGuard: Defending Agents against Indirect Prompt Injection via Planning-based Consistency Verification",
+  "authors": [
+   "Guangyu Gong",
+   "Zizhuang Deng"
+  ],
+  "identifiers": {
+   "arxiv": "2604.10134",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2604.10134",
+  "first_public_date": "2026-04-11",
+  "version_checked": "2604.10134v1",
+  "version_date": "2026-04-11",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S2"
+  ],
+  "discovery_record_ids": [
+   "P014"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Single defence proposal (planner-based verification); read if defence coverage is thin.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W011",
+  "title": "LivePI: More Realistic Benchmarking of Agents Against Indirect Prompt Injection",
+  "authors": [
+   "Lei Zhao",
+   "Abhay Bhaskar",
+   "Edgar Dobriban"
+  ],
+  "identifiers": {
+   "arxiv": "2605.17986",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2605.17986",
+  "first_public_date": "2026-05-18",
+  "version_checked": "2605.17986v3",
+  "version_date": "2026-06-17",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S2"
+  ],
+  "discovery_record_ids": [
+   "P015"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Injection benchmark on a live but test-controlled VM; relevant to RQ3 (lab-to-operational gap).",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W012",
+  "title": "Silent Failures in Agentic Security Evaluation: A Validated Harness for Tool-Call Mediation Under Indirect Prompt Injection",
+  "authors": [
+   "Animesh Shaw"
+  ],
+  "identifiers": {
+   "arxiv": "2609.32691",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2609.32691",
+  "first_public_date": "2026-09-26",
+  "version_checked": "2609.32691v1",
+  "version_date": "2026-09-26",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S2"
+  ],
+  "discovery_record_ids": [
+   "P016"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Audit of an injection benchmark harness; directly relevant to RQ2 comparability.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [
+   "evaluation-validity"
+  ],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W013",
+  "title": "Multi-Agent AI Control: Distributed Attacks Hamper Per-Instance Monitors",
+  "authors": [
+   "Oliver Makins",
+   "Orazio Angelini",
+   "Zohreh Shams",
+   "Mary Phuong"
+  ],
+  "identifiers": {
+   "arxiv": "2607.07368",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2607.07368",
+  "first_public_date": "2026-07-08",
+  "version_checked": "2607.07368v2",
+  "version_date": "2026-10-12",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S3"
+  ],
+  "discovery_record_ids": [
+   "P021"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Distributed attacks by coordinating agents against per-agent monitors. Primary C vs D is ambiguous: adjudication requested.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [
+   "D"
+  ],
+  "proposed_behaviour_source": "prompted red-team agent",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W014",
+  "title": "ORBIT: A Framework for Multi-Agent Safety and Security Evaluations",
+  "authors": [
+   "Ben Hagag",
+   "William L. Anderson",
+   "Srija Chakraborty",
+   "Christian Schroeder de Witt"
+  ],
+  "identifiers": {
+   "arxiv": "2609.33102",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2609.33102",
+  "first_public_date": "2026-09-27",
+  "version_checked": "2609.33102v1",
+  "version_date": "2026-09-27",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S3"
+  ],
+  "discovery_record_ids": [
+   "P022"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Evaluation framework jointly varying attack, defence and architecture in multi-agent systems.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "mixed/unclear",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W015",
+  "title": "Architecture Matters for Multi-Agent Security",
+  "authors": [
+   "Ben Hagag",
+   "William L. Anderson",
+   "Christian Schroeder de Witt",
+   "Sarah Scheffler"
+  ],
+  "identifiers": {
+   "arxiv": "2604.23459",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2604.23459",
+  "first_public_date": "2026-04-25",
+  "version_checked": "2604.23459v1",
+  "version_date": "2026-04-25",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S3"
+  ],
+  "discovery_record_ids": [
+   "P023"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Empirical study of how multi-agent architecture changes attack resistance and task performance.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W016",
+  "title": "Can CaMeLs Talk? Securing Multi-Agent Systems Against Indirect Prompt Injection Attacks",
+  "authors": [
+   "James Peters-Gill",
+   "Avi Semler",
+   "Henning Bartsch",
+   "Ilia Shumailov",
+   "Christian Schroeder de Witt"
+  ],
+  "identifiers": {
+   "arxiv": "2610.05640",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2610.05640",
+  "first_public_date": "2026-10-05",
+  "version_checked": "2610.05640v1",
+  "version_date": "2026-10-05",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S3"
+  ],
+  "discovery_record_ids": [
+   "P024"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Tests whether a single-agent isolation defence composes across agents.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [
+   "B"
+  ],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W017",
+  "title": "Delegation Without Trust: An Empirical Gap Analysis of Identity, Authorization, and Runtime Governance in Multi-Agent LLM Systems",
+  "authors": [
+   "Panduranga Sai Varma Dantuluri",
+   "Jyotirmoy Sundi"
+  ],
+  "identifiers": {
+   "arxiv": "2609.00267",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2609.00267",
+  "first_public_date": "2026-08-31",
+  "version_checked": "2609.00267v1",
+  "version_date": "2026-08-31",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S3"
+  ],
+  "discovery_record_ids": [
+   "P026"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Delegation/authorization gap analysis under an untrusted-model assumption.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [
+   "B"
+  ],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W018",
+  "title": "Games for AI Control: Models of Safety Evaluations of AI Deployment Protocols",
+  "authors": [
+   "Charlie Griffin",
+   "Louis Thomson",
+   "Buck Shlegeris",
+   "Alessandro Abate"
+  ],
+  "identifiers": {
+   "arxiv": "2409.07985",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2409.07985",
+  "first_public_date": "2024-09-12",
+  "version_checked": "2409.07985v2",
+  "version_date": "2026-05-07",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S3"
+  ],
+  "discovery_record_ids": [
+   "P027"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Formal game model of control evaluations; formal study, eligible under protocol if assumptions are substantive.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "D",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "prompted red-team agent",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W019",
+  "title": "TraceGuard: Structured Multi-Dimensional Monitoring as a Collusion-Resistant Control Protocol",
+  "authors": [
+   "Khanh Linh Nguyen",
+   "Hoa Nghiem",
+   "Tu Tran"
+  ],
+  "identifiers": {
+   "arxiv": "2604.03968",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2604.03968",
+  "first_public_date": "2026-04-05",
+  "version_checked": "2604.03968v1",
+  "version_date": "2026-04-05",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S3"
+  ],
+  "discovery_record_ids": [
+   "P028"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Monitoring protocol evaluated in a control setting, including same-model monitor collusion.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "D",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "prompted red-team agent",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W020",
+  "title": "Sentinel Agents for Secure and Trustworthy Agentic AI in Multi-Agent Systems",
+  "authors": [
+   "Diego Gosmar",
+   "Deborah A. Dahl"
+  ],
+  "identifiers": {
+   "arxiv": "2509.14956",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2509.14956",
+  "first_public_date": "2025-09-18",
+  "version_checked": "2509.14956v2",
+  "version_date": "2026-11-05",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S3"
+  ],
+  "discovery_record_ids": [
+   "P029"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Architecture proposal evaluated on synthetic message classification; agent-action relevance to be checked at full text. Read v2 (evaluation replaced).",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [
+   "D"
+  ],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W021",
+  "title": "Evaluating Control Protocols for Untrusted AI Agents",
+  "authors": [
+   "Jon Kutasov",
+   "Chloe Loughridge",
+   "Yuqi Sun",
+   "Henry Sleight",
+   "Buck Shlegeris",
+   "Tyler Tracy",
+   "Joe Benton"
+  ],
+  "identifiers": {
+   "arxiv": "2511.02997",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2511.02997",
+  "first_public_date": "2025-11-04",
+  "version_checked": "2511.02997v1",
+  "version_date": "2025-11-04",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S3"
+  ],
+  "discovery_record_ids": [
+   "P030"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Control protocols evaluated against default and adaptive red-team policies.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "D",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "prompted red-team agent",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W022",
+  "title": "BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents",
+  "authors": [
+   "Kaiyuan Zhang",
+   "Mark Tenenholtz",
+   "Kyle Polley",
+   "Jerry Ma",
+   "Denis Yarats",
+   "Ninghui Li"
+  ],
+  "identifiers": {
+   "arxiv": "2511.20597",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2511.20597",
+  "first_public_date": "2025-11-25",
+  "version_checked": "2511.20597v2",
+  "version_date": "2026-08-12",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P031"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Browser-agent benchmark and defence.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W023",
+  "title": "Securing AI Agents Against Prompt Injection Attacks",
+  "authors": [
+   "Badrinath Ramakrishnan",
+   "Akshaya Balaji"
+  ],
+  "identifiers": {
+   "arxiv": "2511.15759",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2511.15759",
+  "first_public_date": "2025-11-19",
+  "version_checked": "2511.15759v1",
+  "version_date": "2025-11-19",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P032"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "RAG prompt-injection benchmark; abstract shows no tool/action channel.",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W024",
+  "title": "PromptArmor: Simple yet Effective Prompt Injection Defenses",
+  "authors": [
+   "Tianneng Shi",
+   "Kaijie Zhu",
+   "Zhun Wang",
+   "Yuqi Jia",
+   "Will Cai",
+   "Weida Liang",
+   "Haonan Wang",
+   "Hend Alzahrani",
+   "Joshua Lu",
+   "Kenji Kawaguchi",
+   "Basel Alomair",
+   "Xuandong Zhao",
+   "William Yang Wang",
+   "Neil Gong",
+   "Wenbo Guo",
+   "Dawn Song"
+  ],
+  "identifiers": {
+   "arxiv": "2507.15219",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2507.15219",
+  "first_public_date": "2025-07-21",
+  "version_checked": "2507.15219v1",
+  "version_date": "2025-07-21",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P033"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Defence proposal.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W025",
+  "title": "PromptSleuth: Detecting Prompt Injection via Semantic Intent Invariance",
+  "authors": [
+   "Mengxiao Wang",
+   "Yuxuan Zhang",
+   "Guofei Gu"
+  ],
+  "identifiers": {
+   "arxiv": "2508.20890",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2508.20890",
+  "first_public_date": "2025-08-28",
+  "version_checked": "2508.20890v2",
+  "version_date": "2025-09-16",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P034"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Generic prompt-injection detector; abstract shows no agent-action evaluation.",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W026",
+  "title": "Real AI Agents with Fake Memories: Fatal Context Manipulation Attacks on Web3 Agents",
+  "authors": [
+   "Atharv Singh Patlan",
+   "Peiyao Sheng",
+   "S. Ashwin Hebbar",
+   "Prateek Mittal",
+   "Pramod Viswanath"
+  ],
+  "identifiers": {
+   "arxiv": "2503.16248",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2503.16248",
+  "first_public_date": "2025-03-20",
+  "version_checked": "2503.16248v3",
+  "version_date": "2025-07-09",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P035"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Memory/context manipulation of Web3 agents.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W027",
+  "title": "To Protect the LLM Agent Against the Prompt Injection Attack with Polymorphic Prompt",
+  "authors": [
+   "Zhilong Wang",
+   "Neha Nagaraja",
+   "Lan Zhang",
+   "Hayretdin Bahsi",
+   "Pawan Patil",
+   "Peng Liu"
+  ],
+  "identifiers": {
+   "arxiv": "2506.05739",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2506.05739",
+  "first_public_date": "2025-06-06",
+  "version_checked": "2506.05739v1",
+  "version_date": "2025-06-06",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P036"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Defence proposal.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W028",
+  "title": "Simple Prompt Injection Attacks Can Leak Personal Data Observed by LLM Agents During Task Execution",
+  "authors": [
+   "Meysam Alizadeh",
+   "Zeynab Samei",
+   "Daria Stetsenko",
+   "Fabrizio Gilardi"
+  ],
+  "identifiers": {
+   "arxiv": "2506.01055",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2506.01055",
+  "first_public_date": "2025-06-01",
+  "version_checked": "2506.01055v1",
+  "version_date": "2025-06-01",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P037"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Data-leak injection study.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W029",
+  "title": "Defending Against Prompt Injection with DataFilter",
+  "authors": [
+   "Yizhu Wang",
+   "Sizhe Chen",
+   "Raghad Alkhudair",
+   "Basel Alomair",
+   "David Wagner"
+  ],
+  "identifiers": {
+   "arxiv": "2510.19207",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2510.19207",
+  "first_public_date": "2025-10-22",
+  "version_checked": "2510.19207v2",
+  "version_date": "2026-02-04",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P038"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Defence proposal.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W030",
+  "title": "Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents",
+  "authors": [
+   "Hanrong Zhang",
+   "Jingyuan Huang",
+   "Kai Mei",
+   "Yifei Yao",
+   "Zhenting Wang",
+   "Chenlu Zhan",
+   "Hongwei Wang",
+   "Yongfeng Zhang"
+  ],
+  "identifiers": {
+   "arxiv": "2410.02644",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2410.02644",
+  "first_public_date": "2024-10-03",
+  "version_checked": "2410.02644v4",
+  "version_date": "2025-05-30",
+  "venue_claim": "Accepted by ICLR 2025",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P039"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Agent Security Bench. Pin v4 (see Q003).",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W031",
+  "title": "Indirect Prompt Injections: Are Firewalls All You Need, or Stronger Benchmarks?",
+  "authors": [
+   "Rishika Bhagwatkar",
+   "Kevin Kasa",
+   "Abhay Puri",
+   "Gabriel Huang",
+   "Irina Rish",
+   "Graham W. Taylor",
+   "Krishnamurthy Dj Dvijotham",
+   "Alexandre Lacoste"
+  ],
+  "identifiers": {
+   "arxiv": "2510.05244",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2510.05244",
+  "first_public_date": "2025-10-06",
+  "version_checked": "2510.05244v2",
+  "version_date": "2026-03-23",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P040"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Questions whether current injection benchmarks are strong enough to rank defences; RQ2.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [
+   "evaluation-validity"
+  ],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W032",
+  "title": "A Multi-Agent LLM Defense Pipeline Against Prompt Injection Attacks",
+  "authors": [
+   "S M Asif Hossain",
+   "Ruksat Khan Shayoni",
+   "Mohd Ruhul Ameen",
+   "Akif Islam",
+   "M. F. Mridha",
+   "Jungpil Shin"
+  ],
+  "identifiers": {
+   "arxiv": "2509.14285",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2509.14285",
+  "first_public_date": "2025-09-16",
+  "version_checked": "2509.14285v4",
+  "version_date": "2025-12-17",
+  "venue_claim": "Accepted at the 11th IEEE WIECON-ECE 2025",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4",
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P041",
+   "P082"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Direct injection through user input with an LLM filtering pipeline; no agent action channel in abstract.",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W033",
+  "title": "Meta-SecAlign: Training LLMs against Prompt Injection for Robust Agents",
+  "authors": [
+   "Sizhe Chen",
+   "Arman Zharmagambetov",
+   "David Wagner",
+   "Chuan Guo"
+  ],
+  "identifiers": {
+   "arxiv": "2507.02735",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2507.02735",
+  "first_public_date": "2025-07-03",
+  "version_checked": "2507.02735v4",
+  "version_date": "2026-09-28",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P042"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Training-based defence.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W034",
+  "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+  "authors": [
+   "Edoardo Debenedetti",
+   "Jie Zhang",
+   "Mislav Balunović",
+   "Luca Beurer-Kellner",
+   "Marc Fischer",
+   "Florian Tramèr"
+  ],
+  "identifiers": {
+   "arxiv": "2406.13352",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2406.13352",
+  "first_public_date": "2024-06-19",
+  "version_checked": "2406.13352v3",
+  "version_date": "2024-11-24",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P043"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Seed benchmark. Pin v3: title and results changed after v1 (see findings).",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W035",
+  "title": "Prompt Injection Attack to Tool Selection in LLM Agents",
+  "authors": [
+   "Jiawen Shi",
+   "Zenghui Yuan",
+   "Guiyao Tie",
+   "Pan Zhou",
+   "Neil Zhenqiang Gong",
+   "Lichao Sun"
+  ],
+  "identifiers": {
+   "arxiv": "2504.19793",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2504.19793",
+  "first_public_date": "2025-04-28",
+  "version_checked": "2504.19793v3",
+  "version_date": "2025-08-24",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P044"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Injection targeting tool selection.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W036",
+  "title": "Preventing Prompt Injection with Type-Directed Privilege Separation",
+  "authors": [
+   "Dennis Jacob",
+   "Emad Alghamdi",
+   "Zhanhao Hu",
+   "Basel Alomair",
+   "David Wagner"
+  ],
+  "identifiers": {
+   "arxiv": "2509.25926",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2509.25926",
+  "first_public_date": "2025-09-30",
+  "version_checked": "2509.25926v2",
+  "version_date": "2026-05-08",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P045"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Privilege-separation defence.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W037",
+  "title": "How Not to Detect Prompt Injections with an LLM",
+  "authors": [
+   "Sarthak Choudhary",
+   "Divyam Anshumaan",
+   "Nils Palumbo",
+   "Somesh Jha"
+  ],
+  "identifiers": {
+   "arxiv": "2507.05630",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2507.05630",
+  "first_public_date": "2025-07-08",
+  "version_checked": "2507.05630v3",
+  "version_date": "2025-12-06",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P046"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Failure analysis of LLM-based injection detection.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W038",
+  "title": "AgentVigil: Generic Black-Box Red-teaming for Indirect Prompt Injection against LLM Agents",
+  "authors": [
+   "Zhun Wang",
+   "Vincent Siu",
+   "Zhe Ye",
+   "Tianneng Shi",
+   "Yuzhou Nie",
+   "Xuandong Zhao",
+   "Chenguang Wang",
+   "Wenbo Guo",
+   "Dawn Song"
+  ],
+  "identifiers": {
+   "arxiv": "2505.05849",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2505.05849",
+  "first_public_date": "2025-05-09",
+  "version_checked": "2505.05849v4",
+  "version_date": "2025-06-14",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P047"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Black-box red-teaming method.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W039",
+  "title": "RL Is a Hammer and LLMs Are Nails: A Simple Reinforcement Learning Recipe for Strong Prompt Injection",
+  "authors": [
+   "Yuxin Wen",
+   "Arman Zharmagambetov",
+   "Ivan Evtimov",
+   "Narine Kokhlikyan",
+   "Tom Goldstein",
+   "Kamalika Chaudhuri",
+   "Chuan Guo"
+  ],
+  "identifiers": {
+   "arxiv": "2510.04885",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2510.04885",
+  "first_public_date": "2025-10-06",
+  "version_checked": "2510.04885v1",
+  "version_date": "2025-10-06",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P048"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "RL-trained attacker; adaptive-attack evidence.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W040",
+  "title": "MELON: Provable Defense Against Indirect Prompt Injection Attacks in AI Agents",
+  "authors": [
+   "Kaijie Zhu",
+   "Xianjun Yang",
+   "Jindong Wang",
+   "Wenbo Guo",
+   "William Yang Wang"
+  ],
+  "identifiers": {
+   "arxiv": "2502.05174",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2502.05174",
+  "first_public_date": "2025-02-07",
+  "version_checked": "2502.05174v4",
+  "version_date": "2025-06-10",
+  "venue_claim": "ICML 2025",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P049"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Defence proposal.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W041",
+  "title": "RTBAS: Defending LLM Agents Against Prompt Injection and Privacy Leakage",
+  "authors": [
+   "Peter Yong Zhong",
+   "Siyuan Chen",
+   "Ruiqi Wang",
+   "McKenna McCall",
+   "Ben L. Titzer",
+   "Heather Miller",
+   "Phillip B. Gibbons"
+  ],
+  "identifiers": {
+   "arxiv": "2502.08966",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2502.08966",
+  "first_public_date": "2025-02-13",
+  "version_checked": "2502.08966v2",
+  "version_date": "2025-02-14",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P050"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Information-flow style defence.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W042",
+  "title": "Taxonomy, Evaluation and Exploitation of IPI-Centric LLM Agent Defense Frameworks",
+  "authors": [
+   "Zimo Ji",
+   "Xunguang Wang",
+   "Zongjie Li",
+   "Pingchuan Ma",
+   "Yudong Gao",
+   "Daoyuan Wu",
+   "Xincheng Yan",
+   "Tian Tian",
+   "Shuai Wang"
+  ],
+  "identifiers": {
+   "arxiv": "2511.15203",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2511.15203",
+  "first_public_date": "2025-11-19",
+  "version_checked": "2511.15203v1",
+  "version_date": "2025-11-19",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P051"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Taxonomy and evaluation of defence frameworks; partly a review.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W043",
+  "title": "It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents",
+  "authors": [
+   "Karolina Korgul",
+   "Yushi Yang",
+   "Arkadiusz Drohomirecki",
+   "Piotr Błaszczyk",
+   "Will Howard",
+   "Lukas Aichberger",
+   "Chris Russell",
+   "Philip H. S. Torr",
+   "Adam Mahdi",
+   "Adel Bibi"
+  ],
+  "identifiers": {
+   "arxiv": "2512.23128",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2512.23128",
+  "first_public_date": "2025-12-29",
+  "version_checked": "2512.23128v3",
+  "version_date": "2026-07-02",
+  "venue_claim": "ICML 2026",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P052"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Web-agent persuasion benchmark.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W044",
+  "title": "Attacks by Content: Automated Fact-checking is an AI Security Issue",
+  "authors": [
+   "Michael Schlichtkrull"
+  ],
+  "identifiers": {
+   "arxiv": "2510.11238",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2510.11238",
+  "first_public_date": "2025-10-13",
+  "version_checked": "2510.11238v1",
+  "version_date": "2025-10-13",
+  "venue_claim": "Accepted to EMNLP 2025",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P053"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Content manipulation without injected instructions; a boundary case for category B.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W045",
+  "title": "Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents",
+  "authors": [
+   "Qiusi Zhan",
+   "Richard Fang",
+   "Henil Shalin Panchal",
+   "Daniel Kang"
+  ],
+  "identifiers": {
+   "arxiv": "2503.00061",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2503.00061",
+  "first_public_date": "2025-02-27",
+  "version_checked": "2503.00061v2",
+  "version_date": "2025-03-04",
+  "venue_claim": "17 pages, 5 figures, 6 tables (NAACL 2025 Findings)",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4",
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P054",
+   "P122"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Adaptive attacks against published injection defences; needed for RQ2 (attacker knowledge).",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W046",
+  "title": "The Task Shield: Enforcing Task Alignment to Defend Against Indirect Prompt Injection in LLM Agents",
+  "authors": [
+   "Feiran Jia",
+   "Tong Wu",
+   "Xin Qin",
+   "Anna Squicciarini"
+  ],
+  "identifiers": {
+   "arxiv": "2412.16682",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2412.16682",
+  "first_public_date": "2024-12-21",
+  "version_checked": "2412.16682v1",
+  "version_date": "2024-12-21",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S4"
+  ],
+  "discovery_record_ids": [
+   "P055"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Defence proposal.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W047",
+  "title": "The Energy Loss Phenomenon in RLHF: A New Perspective on Mitigating Reward Hacking",
+  "authors": [
+   "Yuchun Miao",
+   "Sen Zhang",
+   "Liang Ding",
+   "Yuqi Zhang",
+   "Lefei Zhang",
+   "Dacheng Tao"
+  ],
+  "identifiers": {
+   "arxiv": "2501.19358",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2501.19358",
+  "first_public_date": "2025-01-31",
+  "version_checked": "2501.19358v3",
+  "version_date": "2025-06-02",
+  "venue_claim": "The paper has been accepted by ICML 2025",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P057"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W048",
+  "title": "Reward Hacking Mitigation using Verifiable Composite Rewards",
+  "authors": [
+   "Mirza Farhan Bin Tarek",
+   "Rahmatollah Beheshti"
+  ],
+  "identifiers": {
+   "arxiv": "2509.15557",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2509.15557",
+  "first_public_date": "2025-09-19",
+  "version_checked": "2509.15557v1",
+  "version_date": "2025-09-19",
+  "venue_claim": "Accepted at the 16th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics (ACM-BCB 2025)",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P058"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W049",
+  "title": "Spontaneous Reward Hacking in Iterative Self-Refinement",
+  "authors": [
+   "Jane Pan",
+   "He He",
+   "Samuel R. Bowman",
+   "Shi Feng"
+  ],
+  "identifiers": {
+   "arxiv": "2407.04549",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2407.04549",
+  "first_public_date": "2024-07-05",
+  "version_checked": "2407.04549v1",
+  "version_date": "2024-07-05",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P060"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Evaluator gaming in text self-refinement; no agent action channel.",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W050",
+  "title": "Stop Summation: Min-Form Credit Assignment Is All Process Reward Model Needs for Reasoning",
+  "authors": [
+   "Jie Cheng",
+   "Gang Xiong",
+   "Ruixi Qiao",
+   "Lijun Li",
+   "Chao Guo",
+   "Junle Wang",
+   "Yisheng Lv",
+   "Fei-Yue Wang"
+  ],
+  "identifiers": {
+   "arxiv": "2504.15275",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2504.15275",
+  "first_public_date": "2025-04-21",
+  "version_checked": "2504.15275v3",
+  "version_date": "2025-10-23",
+  "venue_claim": "Accepted by NeurIPS 2025",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P061"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W051",
+  "title": "Natural Emergent Misalignment from Reward Hacking in Production RL",
+  "authors": [
+   "Monte MacDiarmid",
+   "Benjamin Wright",
+   "Jonathan Uesato",
+   "Joe Benton",
+   "Jon Kutasov",
+   "Sara Price",
+   "Naia Bouscal",
+   "Sam Bowman",
+   "Trenton Bricken",
+   "Alex Cloud",
+   "Carson Denison",
+   "Johannes Gasteiger",
+   "Ryan Greenblatt",
+   "Jan Leike",
+   "Jack Lindsey",
+   "Vlad Mikulik",
+   "Ethan Perez",
+   "Alex Rodrigues",
+   "Drake Thomas",
+   "Albert Webson",
+   "Daniel Ziegler",
+   "Evan Hubinger"
+  ],
+  "identifiers": {
+   "arxiv": "2511.18397",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2511.18397",
+  "first_public_date": "2025-11-23",
+  "version_checked": "2511.18397v1",
+  "version_date": "2025-11-23",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5",
+   "S7"
+  ],
+  "discovery_record_ids": [
+   "P062",
+   "P116"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward hacking arising in realistic RL training and its downstream effects.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "A",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "endogenous optimization",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W052",
+  "title": "WARM: On the Benefits of Weight Averaged Reward Models",
+  "authors": [
+   "Alexandre Ramé",
+   "Nino Vieillard",
+   "Léonard Hussenot",
+   "Robert Dadashi",
+   "Geoffrey Cideron",
+   "Olivier Bachem",
+   "Johan Ferret"
+  ],
+  "identifiers": {
+   "arxiv": "2401.12187",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2401.12187",
+  "first_public_date": "2024-01-22",
+  "version_checked": "2401.12187v1",
+  "version_date": "2024-01-22",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P063"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W053",
+  "title": "Honesty to Subterfuge: In-Context Reinforcement Learning Can Make Honest Models Reward Hack",
+  "authors": [
+   "Leo McKee-Reid",
+   "Christoph Sträter",
+   "Maria Angelica Martinez",
+   "Joe Needham",
+   "Mikita Balesni"
+  ],
+  "identifiers": {
+   "arxiv": "2410.06491",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2410.06491",
+  "first_public_date": "2024-10-09",
+  "version_checked": "2410.06491v1",
+  "version_date": "2024-10-09",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P064"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "In-context RL variant of the seed study's environments.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "A",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "endogenous optimization",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W054",
+  "title": "Stabilizing RLHF through Advantage Model and Selective Rehearsal",
+  "authors": [
+   "Baolin Peng",
+   "Linfeng Song",
+   "Ye Tian",
+   "Lifeng Jin",
+   "Haitao Mi",
+   "Dong Yu"
+  ],
+  "identifiers": {
+   "arxiv": "2309.10202",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2309.10202",
+  "first_public_date": "2023-09-18",
+  "version_checked": "2309.10202v1",
+  "version_date": "2023-09-18",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P065"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W055",
+  "title": "When Can Proxies Improve the Sample Complexity of Preference Learning?",
+  "authors": [
+   "Yuchen Zhu",
+   "Daniel Augusto de Souza",
+   "Zhengyan Shi",
+   "Mengyue Yang",
+   "Pasquale Minervini",
+   "Alexander D'Amour",
+   "Matt J. Kusner"
+  ],
+  "identifiers": {
+   "arxiv": "2412.16475",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2412.16475",
+  "first_public_date": "2024-12-21",
+  "version_checked": "2412.16475v1",
+  "version_date": "2024-12-21",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P066"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W056",
+  "title": "IFDECORATOR: Wrapping Instruction Following Reinforcement Learning with Verifiable Rewards",
+  "authors": [
+   "Xu Guo",
+   "Tianyi Liang",
+   "Tong Jian",
+   "Xiaogui Yang",
+   "Ling-I Wu",
+   "Chenhui Li",
+   "Zhihui Lu",
+   "Qipeng Guo",
+   "Kai Chen"
+  ],
+  "identifiers": {
+   "arxiv": "2508.04632",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2508.04632",
+  "first_public_date": "2025-08-06",
+  "version_checked": "2508.04632v2",
+  "version_date": "2025-08-07",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P067"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W057",
+  "title": "Causal Reward Adjustment: Mitigating Reward Hacking in External Reasoning via Backdoor Correction",
+  "authors": [
+   "Ruike Song",
+   "Zeen Song",
+   "Huijie Guo",
+   "Wenwen Qiang"
+  ],
+  "identifiers": {
+   "arxiv": "2508.04216",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2508.04216",
+  "first_public_date": "2025-08-06",
+  "version_checked": "2508.04216v1",
+  "version_date": "2025-08-06",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P068"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W058",
+  "title": "The Perfect Blend: Redefining RLHF with Mixture of Judges",
+  "authors": [
+   "Tengyu Xu",
+   "Eryk Helenowski",
+   "Karthik Abinav Sankararaman",
+   "Di Jin",
+   "Kaiyan Peng",
+   "Eric Han",
+   "Shaoliang Nie",
+   "Chen Zhu",
+   "Hejia Zhang",
+   "Wenxuan Zhou",
+   "Zhouhao Zeng",
+   "Yun He",
+   "Karishma Mandyam",
+   "Arya Talabzadeh",
+   "Madian Khabsa",
+   "Gabriel Cohen",
+   "Yuandong Tian",
+   "Hao Ma",
+   "Sinong Wang",
+   "Han Fang"
+  ],
+  "identifiers": {
+   "arxiv": "2409.20370",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2409.20370",
+  "first_public_date": "2024-09-30",
+  "version_checked": "2409.20370v1",
+  "version_date": "2024-09-30",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P069"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W059",
+  "title": "Cooper: Co-Optimizing Policy and Reward Models in Reinforcement Learning for Large Language Models",
+  "authors": [
+   "Haitao Hong",
+   "Yuchen Yan",
+   "Xingyu Wu",
+   "Guiyang Hou",
+   "Wenqi Zhang",
+   "Weiming Lu",
+   "Yongliang Shen",
+   "Jun Xiao"
+  ],
+  "identifiers": {
+   "arxiv": "2508.05613",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2508.05613",
+  "first_public_date": "2025-08-07",
+  "version_checked": "2508.05613v1",
+  "version_date": "2025-08-07",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P070"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W060",
+  "title": "Weights-Rotated Preference Optimization for Large Language Models",
+  "authors": [
+   "Chenxu Yang",
+   "Ruipeng Jia",
+   "Mingyu Zheng",
+   "Naibin Gu",
+   "Zheng Lin",
+   "Siyuan Chen",
+   "Weichong Yin",
+   "Hua Wu",
+   "Weiping Wang"
+  ],
+  "identifiers": {
+   "arxiv": "2508.17637",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2508.17637",
+  "first_public_date": "2025-08-25",
+  "version_checked": "2508.17637v1",
+  "version_date": "2025-08-25",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P071"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W061",
+  "title": "A Reinforcement Learning Framework for Robust and Secure LLM Watermarking",
+  "authors": [
+   "Li An",
+   "Yujian Liu",
+   "Yepeng Liu",
+   "Yuheng Bu",
+   "Yang Zhang",
+   "Shiyu Chang"
+  ],
+  "identifiers": {
+   "arxiv": "2510.21053",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2510.21053",
+  "first_public_date": "2025-10-23",
+  "version_checked": "2510.21053v1",
+  "version_date": "2025-10-23",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P072"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W062",
+  "title": "SEE-DPO: Self Entropy Enhanced Direct Preference Optimization",
+  "authors": [
+   "Shivanshu Shekhar",
+   "Shreyas Singh",
+   "Tong Zhang"
+  ],
+  "identifiers": {
+   "arxiv": "2411.04712",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2411.04712",
+  "first_public_date": "2024-11-06",
+  "version_checked": "2411.04712v2",
+  "version_date": "2025-10-06",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P073"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W063",
+  "title": "Inference-Time Reward Hacking in Large Language Models",
+  "authors": [
+   "Hadi Khalaf",
+   "Claudio Mayrink Verdun",
+   "Alex Oesterling",
+   "Himabindu Lakkaraju",
+   "Flavio du Pin Calmon"
+  ],
+  "identifiers": {
+   "arxiv": "2506.19248",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2506.19248",
+  "first_public_date": "2025-06-24",
+  "version_checked": "2506.19248v2",
+  "version_date": "2025-11-04",
+  "venue_claim": "Accepted to NeurIPS 2025 (Spotlight Paper)",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P074"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W064",
+  "title": "Better LLM Reasoning via Dual-Play",
+  "authors": [
+   "Zhengxin Zhang",
+   "Chengyu Huang",
+   "Aochong Oliver Li",
+   "Claire Cardie"
+  ],
+  "identifiers": {
+   "arxiv": "2511.11881",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2511.11881",
+  "first_public_date": "2025-11-14",
+  "version_checked": "2511.11881v3",
+  "version_date": "2026-01-15",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P075"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W065",
+  "title": "Helping or Herding? Reward Model Ensembles Mitigate but do not Eliminate Reward Hacking",
+  "authors": [
+   "Jacob Eisenstein",
+   "Chirag Nagpal",
+   "Alekh Agarwal",
+   "Ahmad Beirami",
+   "Alex D'Amour",
+   "DJ Dvijotham",
+   "Adam Fisch",
+   "Katherine Heller",
+   "Stephen Pfohl",
+   "Deepak Ramachandran",
+   "Peter Shaw",
+   "Jonathan Berant"
+  ],
+  "identifiers": {
+   "arxiv": "2312.09244",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2312.09244",
+  "first_public_date": "2023-12-14",
+  "version_checked": "2312.09244v3",
+  "version_date": "2024-08-16",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P076"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W066",
+  "title": "CARMO: Dynamic Criteria Generation for Context-Aware Reward Modelling",
+  "authors": [
+   "Taneesh Gupta",
+   "Shivam Shandilya",
+   "Xuchao Zhang",
+   "Rahul Madhavan",
+   "Supriyo Ghosh",
+   "Chetan Bansal",
+   "Huaxiu Yao",
+   "Saravan Rajmohan"
+  ],
+  "identifiers": {
+   "arxiv": "2410.21545",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2410.21545",
+  "first_public_date": "2024-10-28",
+  "version_checked": "2410.21545v2",
+  "version_date": "2025-02-17",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P077"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W067",
+  "title": "Bradley-Terry and Multi-Objective Reward Modeling Are Complementary",
+  "authors": [
+   "Zhiwei Zhang",
+   "Hui Liu",
+   "Xiaomin Li",
+   "Zhenwei Dai",
+   "Jingying Zeng",
+   "Fali Wang",
+   "Minhua Lin",
+   "Ramraj Chandradevan",
+   "Zhen Li",
+   "Chen Luo",
+   "Xianfeng Tang",
+   "Qi He",
+   "Suhang Wang"
+  ],
+  "identifiers": {
+   "arxiv": "2507.07375",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2507.07375",
+  "first_public_date": "2025-07-10",
+  "version_checked": "2507.07375v1",
+  "version_date": "2025-07-10",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P078"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W068",
+  "title": "Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation",
+  "authors": [
+   "Bowen Baker",
+   "Joost Huizinga",
+   "Leo Gao",
+   "Zehao Dou",
+   "Melody Y. Guan",
+   "Aleksander Madry",
+   "Wojciech Zaremba",
+   "Jakub Pachocki",
+   "David Farhi"
+  ],
+  "identifiers": {
+   "arxiv": "2503.11926",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2503.11926",
+  "first_public_date": "2025-03-14",
+  "version_checked": "2503.11926v1",
+  "version_date": "2025-03-14",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P079"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Monitoring of reasoning for reward hacking in agentic coding and the obfuscation risk.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "D",
+  "secondary_tags": [
+   "A"
+  ],
+  "proposed_behaviour_source": "endogenous optimization",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W069",
+  "title": "Towards Faithful and Controllable Personalization via Critique-Post-Edit Reinforcement Learning",
+  "authors": [
+   "Chenghao Zhu",
+   "Meiling Tao",
+   "Tiannan Wang",
+   "Dongyi Ding",
+   "Yuchen Eleanor Jiang",
+   "Wangchunshu Zhou"
+  ],
+  "identifiers": {
+   "arxiv": "2510.18849",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2510.18849",
+  "first_public_date": "2025-10-21",
+  "version_checked": "2510.18849v1",
+  "version_date": "2025-10-21",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S5"
+  ],
+  "discovery_record_ids": [
+   "P080"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Reward-model over-optimisation during RLHF/RLVR/DPO training or decoding; abstract describes no agent action channel (protocol exclusion: no agent-action relevance).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W070",
+  "title": "Prompt Infection: LLM-to-LLM Prompt Injection within Multi-Agent Systems",
+  "authors": [
+   "Donghyun Lee",
+   "Mo Tiwari"
+  ],
+  "identifiers": {
+   "arxiv": "2410.07283",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2410.07283",
+  "first_public_date": "2024-10-09",
+  "version_checked": "2410.07283v1",
+  "version_date": "2024-10-09",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6",
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P081",
+   "P132"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Self-propagating injection between agents.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [
+   "B"
+  ],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W071",
+  "title": "Prompt Injection 2.0: Hybrid AI Threats",
+  "authors": [
+   "Jeremy McHugh",
+   "Kristina Šekrst",
+   "Jon Cefalu"
+  ],
+  "identifiers": {
+   "arxiv": "2507.13169",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2507.13169",
+  "first_public_date": "2025-07-17",
+  "version_checked": "2507.13169v1",
+  "version_date": "2025-07-17",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P083"
+  ],
+  "gate": 4,
+  "screening_decision": "context_only",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Position/overview paper.",
+  "evidence_class": "review_or_context",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W072",
+  "title": "SentinelAgent: Graph-based Anomaly Detection in Multi-Agent Systems",
+  "authors": [
+   "Xu He",
+   "Di Wu",
+   "Yan Zhai",
+   "Kun Sun"
+  ],
+  "identifiers": {
+   "arxiv": "2505.24201",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2505.24201",
+  "first_public_date": "2025-05-30",
+  "version_checked": "2505.24201v1",
+  "version_date": "2025-05-30",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P084"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Graph-based anomaly detection for multi-agent systems.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W073",
+  "title": "ATAG: AI-Agent Application Threat Assessment with Attack Graphs",
+  "authors": [
+   "Parth Atulbhai Gandhi",
+   "Akansha Shukla",
+   "David Tayouri",
+   "Beni Ifland",
+   "Yuval Elovici",
+   "Rami Puzis",
+   "Asaf Shabtai"
+  ],
+  "identifiers": {
+   "arxiv": "2506.02859",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2506.02859",
+  "first_public_date": "2025-06-03",
+  "version_checked": "2506.02859v1",
+  "version_date": "2025-06-03",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P085"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Attack-graph threat assessment method.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W074",
+  "title": "G-Safeguard: A Topology-Guided Security Lens and Treatment on LLM-based Multi-agent Systems",
+  "authors": [
+   "Shilong Wang",
+   "Guibin Zhang",
+   "Miao Yu",
+   "Guancheng Wan",
+   "Fanci Meng",
+   "Chongye Guo",
+   "Kun Wang",
+   "Yang Wang"
+  ],
+  "identifiers": {
+   "arxiv": "2502.11127",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2502.11127",
+  "first_public_date": "2025-02-16",
+  "version_checked": "2502.11127v1",
+  "version_date": "2025-02-16",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P086"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Topology-guided defence for multi-agent systems.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W075",
+  "title": "Maris: A Formally Verifiable Privacy Policy Enforcement Paradigm for Multi-Agent Collaboration Systems",
+  "authors": [
+   "Jian Cui",
+   "Zichuan Li",
+   "Chi Wang",
+   "Luyi Xing",
+   "Xiaojing Liao"
+  ],
+  "identifiers": {
+   "arxiv": "2505.04799",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2505.04799",
+  "first_public_date": "2025-05-07",
+  "version_checked": "2505.04799v5",
+  "version_date": "2026-06-08",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P087"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Policy enforcement for multi-agent data flows.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W076",
+  "title": "Many-to-One Adversarial Consensus: Exposing Multi-Agent Collusion Risks in AI-Based Healthcare",
+  "authors": [
+   "Adeela Bashir",
+   "The Anh han",
+   "Zia Ush Shamszaman"
+  ],
+  "identifiers": {
+   "arxiv": "2512.03097",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2512.03097",
+  "first_public_date": "2025-12-01",
+  "version_checked": "2512.03097v1",
+  "version_date": "2025-12-01",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P088"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Collusion in a healthcare multi-agent setting.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W077",
+  "title": "The Dark Side of LLMs: Agent-based Attack Vectors for System-level Compromise",
+  "authors": [
+   "Matteo Lupinacci",
+   "Francesco Aurelio Pironti",
+   "Francesco Blefari",
+   "Francesco Romeo",
+   "Luigi Arena",
+   "Angelo Furfaro"
+  ],
+  "identifiers": {
+   "arxiv": "2507.06850",
+   "doi": "10.1007/978-3-032-35586-7_1"
+  },
+  "primary_url": "https://arxiv.org/abs/2507.06850",
+  "first_public_date": "2025-07-09",
+  "version_checked": "2507.06850v6",
+  "version_date": "2026-05-09",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P089"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Agent-to-agent trust exploitation leading to system compromise.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W078",
+  "title": "Cisco Integrated AI Security and Safety Framework Report",
+  "authors": [
+   "Amy Chang",
+   "Tiffany Saade",
+   "Sanket Mendapara",
+   "Adam Swanda",
+   "Ankit Garg"
+  ],
+  "identifiers": {
+   "arxiv": "2512.12921",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2512.12921",
+  "first_public_date": "2025-12-15",
+  "version_checked": "2512.12921v1",
+  "version_date": "2025-12-15",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P090"
+  ],
+  "gate": 4,
+  "screening_decision": "context_only",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Vendor framework report; no evaluation evident in abstract.",
+  "evidence_class": "review_or_context",
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W079",
+  "title": "Jailbreaking and Mitigation of Vulnerabilities in Large Language Models",
+  "authors": [
+   "Benji Peng",
+   "Hanxuan Chen",
+   "Keyu Chen",
+   "Qian Niu",
+   "Ziqian Bi",
+   "Ming Liu",
+   "Pohsun Feng",
+   "Tianyang Wang",
+   "Lawrence K. Q. Yan",
+   "Yizhu Wen",
+   "Yichao Zhang",
+   "Caitlyn Heqi Yin",
+   "Xinyuan Song",
+   "Riyang Bao",
+   "Jiacheng Shi"
+  ],
+  "identifiers": {
+   "arxiv": "2410.15236",
+   "doi": "10.63336/Eureka.47"
+  },
+  "primary_url": "https://arxiv.org/abs/2410.15236",
+  "first_public_date": "2024-10-20",
+  "version_checked": "2410.15236v4",
+  "version_date": "2026-05-27",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P091"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Review of LLM jailbreaks; not agent-action specific.",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W080",
+  "title": "SafeSieve: From Heuristics to Experience in Progressive Pruning for LLM-based Multi-Agent Communication",
+  "authors": [
+   "Ruijia Zhang",
+   "Xinyan Zhao",
+   "Ruixiang Wang",
+   "Sigen Chen",
+   "Guibin Zhang",
+   "An Zhang",
+   "Kun Wang",
+   "Qingsong Wen"
+  ],
+  "identifiers": {
+   "arxiv": "2508.11733",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2508.11733",
+  "first_public_date": "2025-08-15",
+  "version_checked": "2508.11733v3",
+  "version_date": "2026-03-25",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P092"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Communication pruning for efficiency; not a security study.",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W081",
+  "title": "Multi-Agent Systems Execute Arbitrary Malicious Code",
+  "authors": [
+   "Harold Triedman",
+   "Rishi Jha",
+   "Vitaly Shmatikov"
+  ],
+  "identifiers": {
+   "arxiv": "2503.12188",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2503.12188",
+  "first_public_date": "2025-03-15",
+  "version_checked": "2503.12188v2",
+  "version_date": "2025-09-12",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6",
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P093",
+   "P137"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Control-flow hijacking in multi-agent systems leading to code execution.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [
+   "B"
+  ],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W082",
+  "title": "Cowpox: Towards the Immunity of VLM-based Multi-Agent Systems",
+  "authors": [
+   "Yutong Wu",
+   "Jie Zhang",
+   "Yiming Li",
+   "Chao Zhang",
+   "Qing Guo",
+   "Nils Lukas",
+   "Tianwei Zhang"
+  ],
+  "identifiers": {
+   "arxiv": "2508.09230",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2508.09230",
+  "first_public_date": "2025-08-12",
+  "version_checked": "2508.09230v1",
+  "version_date": "2025-08-12",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P094"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Defence against propagating attacks in VLM agent groups.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W083",
+  "title": "Systematization of Knowledge: Security and Safety in the Model Context Protocol Ecosystem",
+  "authors": [
+   "Shiva Gaire",
+   "Srijan Gyawali",
+   "Saroj Mishra",
+   "Suman Niroula",
+   "Dilip Thakur",
+   "Umesh Yadav"
+  ],
+  "identifiers": {
+   "arxiv": "2512.08290",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2512.08290",
+  "first_public_date": "2025-12-09",
+  "version_checked": "2512.08290v2",
+  "version_date": "2025-12-13",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P095"
+  ],
+  "gate": 4,
+  "screening_decision": "context_only",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Systematization of knowledge; review class.",
+  "evidence_class": "review_or_context",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W084",
+  "title": "Toward Trustworthy Agentic AI: A Multimodal Framework for Preventing Prompt Injection Attacks",
+  "authors": [
+   "Toqeer Ali Syed",
+   "Mishal Ateeq Almutairi",
+   "Mahmoud Abdel Moaty"
+  ],
+  "identifiers": {
+   "arxiv": "2512.23557",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2512.23557",
+  "first_public_date": "2025-12-29",
+  "version_checked": "2512.23557v1",
+  "version_date": "2025-12-29",
+  "venue_claim": "It is accepted in a conference paper, ICCA 2025 in Bahrain on 21 to 23 December",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P096"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Multimodal injection defence.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W085",
+  "title": "Z-Space: A Multi-Agent Tool Orchestration Framework for Enterprise-Grade LLM Automation",
+  "authors": [
+   "Qingsong He",
+   "Jing Nan",
+   "Jiayu Jiao",
+   "Liangjie Tang",
+   "Xiaodong Xu",
+   "Mengmeng Sun",
+   "Qingyao Wang",
+   "Minghui Yan"
+  ],
+  "identifiers": {
+   "arxiv": "2511.19483",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2511.19483",
+  "first_public_date": "2025-11-23",
+  "version_checked": "2511.19483v1",
+  "version_date": "2025-11-23",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P097"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Tool-orchestration framework; not a security study.",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W086",
+  "title": "MAD-Spear: A Conformity-Driven Prompt Injection Attack on Multi-Agent Debate Systems",
+  "authors": [
+   "Yu Cui",
+   "Hongyang Du"
+  ],
+  "identifiers": {
+   "arxiv": "2507.13038",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2507.13038",
+  "first_public_date": "2025-07-17",
+  "version_checked": "2507.13038v1",
+  "version_date": "2025-07-17",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P098"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Injection exploiting conformity in multi-agent debate.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W087",
+  "title": "Semantic Attacks on Tool-Augmented LLMs: Securing the Model Context Protocol Against Descriptor-Level Manipulation",
+  "authors": [
+   "Saeid Jamshidi",
+   "Arghavan Moradi Dakhel",
+   "Kawser Wazed Nafi",
+   "Foutse Khomh"
+  ],
+  "identifiers": {
+   "arxiv": "2512.06556",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2512.06556",
+  "first_public_date": "2025-12-06",
+  "version_checked": "2512.06556v2",
+  "version_date": "2026-05-21",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P099"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Tool-descriptor manipulation.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W088",
+  "title": "LLM-Virus: Evolutionary Jailbreak Attack on Large Language Models",
+  "authors": [
+   "Miao Yu",
+   "Junfeng Fang",
+   "Yingjie Zhou",
+   "Xing Fan",
+   "Kun Wang",
+   "Shirui Pan",
+   "Qingsong Wen"
+  ],
+  "identifiers": {
+   "arxiv": "2501.00055",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2501.00055",
+  "first_public_date": "2024-12-28",
+  "version_checked": "2501.00055v1",
+  "version_date": "2024-12-28",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P100"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Jailbreak generation against chat models; no agent action channel.",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W089",
+  "title": "Agentic JWT: A Secure Delegation Protocol for Autonomous AI Agents",
+  "authors": [
+   "Abhishek Goswami"
+  ],
+  "identifiers": {
+   "arxiv": "2509.13597",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2509.13597",
+  "first_public_date": "2025-09-16",
+  "version_checked": "2509.13597v1",
+  "version_date": "2025-09-16",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P101"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Delegation protocol proposal.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W090",
+  "title": "Specification-based Security Evaluation of Real-World Agents Tool-Calling under Long-Horizon Context Tasks",
+  "authors": [
+   "Yuchuan Fu",
+   "Minghe Wang",
+   "Xiaohan Yuan",
+   "Chenlin Zou",
+   "Kaitong Jia",
+   "Jinfeng Li",
+   "Dongxia Wang"
+  ],
+  "identifiers": {
+   "arxiv": "2506.15253",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2506.15253",
+  "first_public_date": "2025-06-18",
+  "version_checked": "2506.15253v3",
+  "version_date": "2026-11-11",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P102"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Specification-based tool-call security evaluation.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W091",
+  "title": "AgentSight: System-Level Observability for AI Agents Using eBPF",
+  "authors": [
+   "Yusheng Zheng",
+   "Yanpeng Hu",
+   "Tong Yu",
+   "Andi Quinn"
+  ],
+  "identifiers": {
+   "arxiv": "2508.02736",
+   "doi": "10.1145/3766882.3767169"
+  },
+  "primary_url": "https://arxiv.org/abs/2508.02736",
+  "first_public_date": "2025-08-02",
+  "version_checked": "2508.02736v2",
+  "version_date": "2025-08-15",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P103"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "System-level observability tooling.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "D",
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W092",
+  "title": "Audit the Whisper: Detecting Steganographic Collusion in Multi-Agent LLMs",
+  "authors": [
+   "Om Tailor"
+  ],
+  "identifiers": {
+   "arxiv": "2510.04303",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2510.04303",
+  "first_public_date": "2025-10-05",
+  "version_checked": "2510.04303v2",
+  "version_date": "2025-10-17",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P104"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Auditing for steganographic collusion.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W093",
+  "title": "The Agentic Regulator: Risks for AI in Finance and a Proposed Agent-based Framework for Governance",
+  "authors": [
+   "Eren Kurshan",
+   "Tucker Balch",
+   "David Byrd"
+  ],
+  "identifiers": {
+   "arxiv": "2512.11933",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2512.11933",
+  "first_public_date": "2025-12-12",
+  "version_checked": "2512.11933v1",
+  "version_date": "2025-12-12",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S6"
+  ],
+  "discovery_record_ids": [
+   "P105"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Governance framework proposal for finance; no security evaluation in abstract.",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W094",
+  "title": "BashArena: A Control Setting for Highly Privileged AI Agents",
+  "authors": [
+   "Adam Kaufman",
+   "James Lucassen",
+   "Tyler Tracy",
+   "Cody Rushing",
+   "Aryan Bhatt"
+  ],
+  "identifiers": {
+   "arxiv": "2512.15688",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2512.15688",
+  "first_public_date": "2025-12-17",
+  "version_checked": "2512.15688v1",
+  "version_date": "2025-12-17",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S7",
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P106",
+   "P142"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Control setting with privileged agents; testbed for 2604.03968.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "D",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "prompted red-team agent",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W095",
+  "title": "SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents",
+  "authors": [
+   "Jonathan Kutasov",
+   "Yuqi Sun",
+   "Paul Colognese",
+   "Teun van der Weij",
+   "Linda Petrini",
+   "Chen Bo Calvin Zhang",
+   "John Hughes",
+   "Xiang Deng",
+   "Henry Sleight",
+   "Tyler Tracy",
+   "Buck Shlegeris",
+   "Joe Benton"
+  ],
+  "identifiers": {
+   "arxiv": "2506.15740",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2506.15740",
+  "first_public_date": "2025-06-17",
+  "version_checked": "2506.15740v2",
+  "version_date": "2025-07-08",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S7",
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P107",
+   "P139"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Sabotage and monitoring benchmark; testbed for 2511.02997.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "D",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "prompted red-team agent",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W096",
+  "title": "Async Control: Stress-testing Asynchronous Control Measures for LLM Agents",
+  "authors": [
+   "Asa Cooper Stickland",
+   "Jan Michelfeit",
+   "Arathi Mani",
+   "Charlie Griffin",
+   "Ollie Matthews",
+   "Tomek Korbak",
+   "Rogan Inglis",
+   "Oliver Makins",
+   "Alan Cooney"
+  ],
+  "identifiers": {
+   "arxiv": "2512.13526",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2512.13526",
+  "first_public_date": "2025-12-15",
+  "version_checked": "2512.13526v1",
+  "version_date": "2025-12-15",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S7"
+  ],
+  "discovery_record_ids": [
+   "P108"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Asynchronous monitoring stress test.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "D",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "prompted red-team agent",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W097",
+  "title": "AMONGAGENTS: Evaluating Large Language Models in the Interactive Text-Based Social Deduction Game",
+  "authors": [
+   "Yizhou Chi",
+   "Lingjun Mao",
+   "Zineng Tang"
+  ],
+  "identifiers": {
+   "arxiv": "2407.16521",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2407.16521",
+  "first_public_date": "2024-07-23",
+  "version_checked": "2407.16521v2",
+  "version_date": "2024-07-24",
+  "venue_claim": "Wordplay @ ACL 2024",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S7"
+  ],
+  "discovery_record_ids": [
+   "P109"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Social-deduction game capability evaluation; not a security study.",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W098",
+  "title": "We Should Identify and Mitigate Third-Party Safety Risks in MCP-Powered Agent Systems",
+  "authors": [
+   "Junfeng Fang",
+   "Zijun Yao",
+   "Ruipeng Wang",
+   "Haokai Ma",
+   "Xiang Wang",
+   "Tat-Seng Chua"
+  ],
+  "identifiers": {
+   "arxiv": "2506.13666",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2506.13666",
+  "first_public_date": "2025-06-16",
+  "version_checked": "2506.13666v1",
+  "version_date": "2025-06-16",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S7"
+  ],
+  "discovery_record_ids": [
+   "P110"
+  ],
+  "gate": 4,
+  "screening_decision": "context_only",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Position paper on MCP third-party risk.",
+  "evidence_class": "review_or_context",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W099",
+  "title": "Who Gets the Reward & Who Gets the Blame? Evaluation-Aligned Training Signals for Multi-LLM Agents",
+  "authors": [
+   " Chih-Hsuan",
+   " Yang",
+   "Tanwi Mallick",
+   "Le Chen",
+   "Krishnan Raghavan",
+   "Amal Gueroudji",
+   "Ian T. Foster",
+   "Rajeev Thakur"
+  ],
+  "identifiers": {
+   "arxiv": "2511.10687",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2511.10687",
+  "first_public_date": "2025-11-11",
+  "version_checked": "2511.10687v3",
+  "version_date": "2026-07-01",
+  "venue_claim": "Accepted at the NeurIPS 2025 Workshop on Bridging Language, Agent, and World Models for Reasoning and Planning (LAW 2025)",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S7"
+  ],
+  "discovery_record_ids": [
+   "P111"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Credit assignment theory for multi-agent training.",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W100",
+  "title": "SafeMind: Benchmarking and Mitigating Safety Risks in Embodied LLM Agents",
+  "authors": [
+   "Ruolin Chen",
+   "Yinqian Sun",
+   "Jihang Wang",
+   "Mingyang Lv",
+   "Qian Zhang",
+   "Yi Zeng"
+  ],
+  "identifiers": {
+   "arxiv": "2509.25885",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2509.25885",
+  "first_public_date": "2025-09-30",
+  "version_checked": "2509.25885v1",
+  "version_date": "2025-09-30",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S7"
+  ],
+  "discovery_record_ids": [
+   "P112"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Embodied-agent physical safety; outside the four boundaries studied.",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W101",
+  "title": "How to evaluate control measures for LLM agents? A trajectory from today to superintelligence",
+  "authors": [
+   "Tomek Korbak",
+   "Mikita Balesni",
+   "Buck Shlegeris",
+   "Geoffrey Irving"
+  ],
+  "identifiers": {
+   "arxiv": "2504.05259",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2504.05259",
+  "first_public_date": "2025-04-07",
+  "version_checked": "2504.05259v1",
+  "version_date": "2025-04-07",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S7"
+  ],
+  "discovery_record_ids": [
+   "P113"
+  ],
+  "gate": 4,
+  "screening_decision": "context_only",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Position paper on evaluating control measures.",
+  "evidence_class": "review_or_context",
+  "proposed_primary_category": "D",
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W102",
+  "title": "Chemist-X: Large Language Model-empowered Agent for Reaction Condition Recommendation in Chemical Synthesis",
+  "authors": [
+   "Kexin Chen",
+   "Jiamin Lu",
+   "Junyou Li",
+   "Xiaoran Yang",
+   "Yuyang Du",
+   "Kunyi Wang",
+   "Qiannuan Shi",
+   "Jiahui Yu",
+   "Lanqing Li",
+   "Jiezhong Qiu",
+   "Jianzhang Pan",
+   "Yi Huang",
+   "Qun Fang",
+   "Pheng Ann Heng",
+   "Guangyong Chen"
+  ],
+  "identifiers": {
+   "arxiv": "2311.10776",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2311.10776",
+  "first_public_date": "2023-11-16",
+  "version_checked": "2311.10776v6",
+  "version_date": "2025-04-17",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S7"
+  ],
+  "discovery_record_ids": [
+   "P114"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Chemistry agent; unrelated.",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W103",
+  "title": "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols",
+  "authors": [
+   "Mikhail Terekhov",
+   "Alexander Panfilov",
+   "Daniil Dzenhaliou",
+   "Caglar Gulcehre",
+   "Maksym Andriushchenko",
+   "Ameya Prabhu",
+   "Jonas Geiping"
+  ],
+  "identifiers": {
+   "arxiv": "2510.09462",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2510.09462",
+  "first_public_date": "2025-10-10",
+  "version_checked": "2510.09462v2",
+  "version_date": "2026-03-02",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S7"
+  ],
+  "discovery_record_ids": [
+   "P115"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Adaptive attacks (injection against the monitor) on control protocols; RQ2 attacker-knowledge evidence.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "D",
+  "secondary_tags": [
+   "B"
+  ],
+  "proposed_behaviour_source": "prompted red-team agent",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W104",
+  "title": "When One Modality Sabotages the Others: A Diagnostic Lens on Multimodal Reasoning",
+  "authors": [
+   "Chenyu Zhang",
+   "Minsol Kim",
+   "Shohreh Ghorbani",
+   "Jingyao Wu",
+   "Rosalind Picard",
+   "Patricia Maes",
+   "Paul Pu Liang"
+  ],
+  "identifiers": {
+   "arxiv": "2511.02794",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2511.02794",
+  "first_public_date": "2025-11-04",
+  "version_checked": "2511.02794v1",
+  "version_date": "2025-11-04",
+  "venue_claim": "Accepted at the Multimodal Algorithmic Reasoning (MAR) Workshop, NeurIPS 2025",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S7"
+  ],
+  "discovery_record_ids": [
+   "P117"
+  ],
+  "gate": 4,
+  "screening_decision": "excluded_at_abstract",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Multimodal reasoning diagnostics; unrelated.",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W105",
+  "title": "Control Tax: The Price of Keeping AI in Check",
+  "authors": [
+   "Mikhail Terekhov",
+   "Zhen Ning David Liu",
+   "Caglar Gulcehre",
+   "Samuel Albanie"
+  ],
+  "identifiers": {
+   "arxiv": "2506.05296",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2506.05296",
+  "first_public_date": "2025-06-05",
+  "version_checked": "2506.05296v3",
+  "version_date": "2026-03-02",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S7"
+  ],
+  "discovery_record_ids": [
+   "P118"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Cost of control protocols; utility/cost evidence.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "D",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "prompted red-team agent",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W106",
+  "title": "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+  "authors": [
+   "Kai Greshake",
+   "Sahar Abdelnabi",
+   "Shailesh Mishra",
+   "Christoph Endres",
+   "Thorsten Holz",
+   "Mario Fritz"
+  ],
+  "identifiers": {
+   "arxiv": "2302.12173",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2302.12173",
+  "first_public_date": "2023-02-23",
+  "version_checked": "2302.12173v2",
+  "version_date": "2023-05-05",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P119"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Early demonstration of indirect prompt injection in LLM-integrated applications; in window (2023).",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W107",
+  "title": "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents",
+  "authors": [
+   "Qiusi Zhan",
+   "Zhixiang Liang",
+   "Zifan Ying",
+   "Daniel Kang"
+  ],
+  "identifiers": {
+   "arxiv": "2403.02691",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2403.02691",
+  "first_public_date": "2024-03-05",
+  "version_checked": "2403.02691v3",
+  "version_date": "2024-08-04",
+  "venue_claim": "36 pages, 6 figures, 13 tables (ACL 2024 Findings)",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P120"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Benchmark of indirect injection in tool-integrated agents.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W108",
+  "title": "Defeating Prompt Injections by Design",
+  "authors": [
+   "Edoardo Debenedetti",
+   "Ilia Shumailov",
+   "Tianqi Fan",
+   "Jamie Hayes",
+   "Nicholas Carlini",
+   "Daniel Fabian",
+   "Christoph Kern",
+   "Chongyang Shi",
+   "Andreas Terzis",
+   "Florian Tramèr"
+  ],
+  "identifiers": {
+   "arxiv": "2503.18813",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2503.18813",
+  "first_public_date": "2025-03-24",
+  "version_checked": "2503.18813v2",
+  "version_date": "2025-06-24",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P121"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Capability/isolation defence by design; parent work of the multi-agent composition study (2610.05640).",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W109",
+  "title": "The Attacker Moves Second: Stronger Adaptive Attacks Bypass Defenses Against Llm Jailbreaks and Prompt Injections",
+  "authors": [
+   "Milad Nasr",
+   "Nicholas Carlini",
+   "Chawin Sitawarin",
+   "Sander V. Schulhoff",
+   "Jamie Hayes",
+   "Michael Ilie",
+   "Juliette Pluto",
+   "Shuang Song",
+   "Harsh Chaudhari",
+   "Ilia Shumailov",
+   "Abhradeep Thakurta",
+   "Kai Yuanqing Xiao",
+   "Andreas Terzis",
+   "Florian Tramèr"
+  ],
+  "identifiers": {
+   "arxiv": "2510.09023",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2510.09023",
+  "first_public_date": "2025-10-10",
+  "version_checked": "2510.09023v1",
+  "version_date": "2025-10-10",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P123"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Adaptive attacks across jailbreak and injection defences; only part concerns agents.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W110",
+  "title": "Identifying the Risks of LM Agents with an LM-Emulated Sandbox",
+  "authors": [
+   "Yangjun Ruan",
+   "Honghua Dong",
+   "Andrew Wang",
+   "Silviu Pitis",
+   "Yongchao Zhou",
+   "Jimmy Ba",
+   "Yann Dubois",
+   "Chris J. Maddison",
+   "Tatsunori Hashimoto"
+  ],
+  "identifiers": {
+   "arxiv": "2309.15817",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2309.15817",
+  "first_public_date": "2023-09-25",
+  "version_checked": "2309.15817v2",
+  "version_date": "2024-05-17",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P124"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "LM-emulated sandbox for risky agent actions under underspecified instructions; does not map cleanly to A-D: adjudication requested.",
+  "evidence_class": "primary",
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": "mixed/unclear",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W111",
+  "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+  "authors": [
+   "Maksym Andriushchenko",
+   "Alexandra Souly",
+   "Mateusz Dziemian",
+   "Derek Duenas",
+   "Maxwell Lin",
+   "Justin Wang",
+   "Dan Hendrycks",
+   "Andy Zou",
+   "Zico Kolter",
+   "Matt Fredrikson",
+   "Eric Winsor",
+   "Jerome Wynne",
+   "Yarin Gal",
+   "Xander Davies"
+  ],
+  "identifiers": {
+   "arxiv": "2410.09024",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2410.09024",
+  "first_public_date": "2024-10-11",
+  "version_checked": "2410.09024v3",
+  "version_date": "2025-04-18",
+  "venue_claim": "Accepted at ICLR 2025",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P125"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Measures agent compliance with harmful user requests; the user is the adversary, a case the four boundaries do not cover: adjudication requested.",
+  "evidence_class": "primary",
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": "malicious user (outside current source codes)",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W112",
+  "title": "WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks",
+  "authors": [
+   "Ivan Evtimov",
+   "Arman Zharmagambetov",
+   "Aaron Grattafiori",
+   "Chuan Guo",
+   "Kamalika Chaudhuri"
+  ],
+  "identifiers": {
+   "arxiv": "2504.18575",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2504.18575",
+  "first_public_date": "2025-04-22",
+  "version_checked": "2504.18575v3",
+  "version_date": "2025-05-16",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P126"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Web-agent injection benchmark with end-to-end attacker goals.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W113",
+  "title": "Design Patterns for Securing LLM Agents against Prompt Injections",
+  "authors": [
+   "Luca Beurer-Kellner",
+   "Beat Buesser",
+   "Ana-Maria Creţu",
+   "Edoardo Debenedetti",
+   "Daniel Dobos",
+   "Daniel Fabian",
+   "Marc Fischer",
+   "David Froelicher",
+   "Kathrin Grosse",
+   "Daniel Naeff",
+   "Ezinwanne Ozoani",
+   "Andrew Paverd",
+   "Florian Tramèr",
+   "Václav Volhejn"
+  ],
+  "identifiers": {
+   "arxiv": "2506.08837",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2506.08837",
+  "first_public_date": "2025-06-10",
+  "version_checked": "2506.08837v3",
+  "version_date": "2025-06-27",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P127"
+  ],
+  "gate": 4,
+  "screening_decision": "context_only",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Design-pattern/position paper; positioning and citation chasing, not a primary finding source.",
+  "evidence_class": "review_or_context",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W114",
+  "title": "IsolateGPT: An Execution Isolation Architecture for LLM-Based Agentic Systems",
+  "authors": [
+   "Yuhao Wu",
+   "Franziska Roesner",
+   "Tadayoshi Kohno",
+   "Ning Zhang",
+   "Umar Iqbal"
+  ],
+  "identifiers": {
+   "arxiv": "2403.04960",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2403.04960",
+  "first_public_date": "2024-03-08",
+  "version_checked": "2403.04960v2",
+  "version_date": "2025-01-30",
+  "venue_claim": "The Network and Distributed System Security (NDSS) Symposium 2025; Accepted by the Network and Distributed System Security (NDSS) Symposium 2025",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P128"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Execution-isolation architecture; isolation defence named in T03 scope.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W115",
+  "title": "Frontier Models are Capable of In-context Scheming",
+  "authors": [
+   "Alexander Meinke",
+   "Bronson Schoen",
+   "Jérémy Scheurer",
+   "Mikita Balesni",
+   "Rusheb Shah",
+   "Marius Hobbhahn"
+  ],
+  "identifiers": {
+   "arxiv": "2412.04984",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2412.04984",
+  "first_public_date": "2024-12-06",
+  "version_checked": "2412.04984v2",
+  "version_date": "2025-01-14",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P129"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Evaluations including oversight subversion by agents given goals in context. Primary D vs A ambiguous: adjudication requested.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "D",
+  "secondary_tags": [
+   "A"
+  ],
+  "proposed_behaviour_source": "endogenous optimization",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W116",
+  "title": "Demonstrating specification gaming in reasoning models",
+  "authors": [
+   "Alexander Bondarenko",
+   "Denis Volk",
+   "Dmitrii Volkov",
+   "Jeffrey Ladish"
+  ],
+  "identifiers": {
+   "arxiv": "2502.13295",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2502.13295",
+  "first_public_date": "2025-02-18",
+  "version_checked": "2502.13295v3",
+  "version_date": "2025-08-27",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P130"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Agents manipulating a game environment instead of playing; specification gaming with a shell action channel.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "A",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "endogenous optimization",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W117",
+  "title": "ImpossibleBench: Measuring LLMs' Propensity of Exploiting Test Cases",
+  "authors": [
+   "Ziqian Zhong",
+   "Aditi Raghunathan",
+   "Nicholas Carlini"
+  ],
+  "identifiers": {
+   "arxiv": "2510.20270",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2510.20270",
+  "first_public_date": "2025-10-23",
+  "version_checked": "2510.20270v1",
+  "version_date": "2025-10-23",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P131"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Benchmark where passing tests requires violating the specification.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "A",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "endogenous optimization",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W118",
+  "title": "Agent Smith: A Single Image Can Jailbreak One Million Multimodal LLM Agents Exponentially Fast",
+  "authors": [
+   "Xiangming Gu",
+   "Xiaosen Zheng",
+   "Tianyu Pang",
+   "Chao Du",
+   "Qian Liu",
+   "Ye Wang",
+   "Jing Jiang",
+   "Min Lin"
+  ],
+  "identifiers": {
+   "arxiv": "2402.08567",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2402.08567",
+  "first_public_date": "2024-02-13",
+  "version_checked": "2402.08567v2",
+  "version_date": "2024-06-03",
+  "venue_claim": "ICML 2024",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P133"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Propagating jailbreak among multimodal agents; action-channel relevance to be checked.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W119",
+  "title": "Secret Collusion among AI Agents: Multi-Agent Deception via Steganography",
+  "authors": [
+   "Sumeet Ramesh Motwani",
+   "Mikhail Baranchuk",
+   "Martin Strohmeier",
+   "Vijay Bolina",
+   "Philip H. S. Torr",
+   "Lewis Hammond",
+   "Christian Schroeder de Witt"
+  ],
+  "identifiers": {
+   "arxiv": "2402.07510",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2402.07510",
+  "first_public_date": "2024-02-12",
+  "version_checked": "2402.07510v5",
+  "version_date": "2025-07-25",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P134"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Steganographic collusion between agents and limits of monitoring.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [
+   "D"
+  ],
+  "proposed_behaviour_source": "mixed/unclear",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W120",
+  "title": "Multi-Agent Risks from Advanced AI",
+  "authors": [
+   "Lewis Hammond",
+   "Alan Chan",
+   "Jesse Clifton",
+   "Jason Hoelscher-Obermaier",
+   "Akbir Khan",
+   "Euan McLean",
+   "Chandler Smith",
+   "Wolfram Barfuss",
+   "Jakob Foerster",
+   "Tomáš Gavenčiak",
+   "The Anh Han",
+   "Edward Hughes",
+   "Vojtěch Kovařík",
+   "Jan Kulveit",
+   "Joel Z. Leibo",
+   "Caspar Oesterheld",
+   "Christian Schroeder de Witt",
+   "Nisarg Shah",
+   "Michael Wellman",
+   "Paolo Bova",
+   "Theodor Cimpeanu",
+   "Carson Ezell",
+   "Quentin Feuillade-Montixi",
+   "Matija Franklin",
+   "Esben Kran",
+   "Igor Krawczuk",
+   "Max Lamparth",
+   "Niklas Lauffer",
+   "Alexander Meinke",
+   "Sumeet Motwani",
+   "Anka Reuel",
+   "Vincent Conitzer",
+   "Michael Dennis",
+   "Iason Gabriel",
+   "Adam Gleave",
+   "Gillian Hadfield",
+   "Nika Haghtalab",
+   "Atoosa Kasirzadeh",
+   "Sébastien Krier",
+   "Kate Larson",
+   "Joel Lehman",
+   "David C. Parkes",
+   "Georgios Piliouras",
+   "Iyad Rahwan"
+  ],
+  "identifiers": {
+   "arxiv": "2502.14143",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2502.14143",
+  "first_public_date": "2025-02-19",
+  "version_checked": "2502.14143v1",
+  "version_date": "2025-02-19",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P135"
+  ],
+  "gate": 4,
+  "screening_decision": "context_only",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Technical report/taxonomy of multi-agent risks; context only.",
+  "evidence_class": "review_or_context",
+  "proposed_primary_category": "C",
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W121",
+  "title": "Red-Teaming LLM Multi-Agent Systems via Communication Attacks",
+  "authors": [
+   "Pengfei He",
+   "Yupin Lin",
+   "Shen Dong",
+   "Han Xu",
+   "Yue Xing",
+   "Hui Liu"
+  ],
+  "identifiers": {
+   "arxiv": "2502.14847",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2502.14847",
+  "first_public_date": "2025-02-20",
+  "version_checked": "2502.14847v2",
+  "version_date": "2025-06-02",
+  "venue_claim": "ACL 2025",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P136"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Attacks on inter-agent communication channels.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "C",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "external attacker",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W122",
+  "title": "AI Control: Improving Safety Despite Intentional Subversion",
+  "authors": [
+   "Ryan Greenblatt",
+   "Buck Shlegeris",
+   "Kshitij Sachan",
+   "Fabien Roger"
+  ],
+  "identifiers": {
+   "arxiv": "2312.06942",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2312.06942",
+  "first_public_date": "2023-12-12",
+  "version_checked": "2312.06942v5",
+  "version_date": "2024-07-23",
+  "venue_claim": "Edit: Fix minor typos, clarify abstract, add glossary, expand related work. ICML version: https://openreview.net/pdf?id=KviM5k8pcP",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P138"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Original control-evaluation protocol study (trusted monitoring etc.).",
+  "evidence_class": "primary",
+  "proposed_primary_category": "D",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "prompted red-team agent",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W123",
+  "title": "Ctrl-Z: Controlling AI Agents via Resampling",
+  "authors": [
+   "Aryan Bhatt",
+   "Cody Rushing",
+   "Adam Kaufman",
+   "Tyler Tracy",
+   "Vasil Georgiev",
+   "David Matolcsi",
+   "Akbir Khan",
+   "Buck Shlegeris"
+  ],
+  "identifiers": {
+   "arxiv": "2504.10374",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2504.10374",
+  "first_public_date": "2025-04-14",
+  "version_checked": "2504.10374v1",
+  "version_date": "2025-04-14",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P140"
+  ],
+  "gate": 4,
+  "screening_decision": "include_for_reading",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Resampling control protocols in a multi-step bash setting.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "D",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "prompted red-team agent",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W124",
+  "title": "Sabotage Evaluations for Frontier Models",
+  "authors": [
+   "Joe Benton",
+   "Misha Wagner",
+   "Eric Christiansen",
+   "Cem Anil",
+   "Ethan Perez",
+   "Jai Srivastav",
+   "Esin Durmus",
+   "Deep Ganguli",
+   "Shauna Kravec",
+   "Buck Shlegeris",
+   "Jared Kaplan",
+   "Holden Karnofsky",
+   "Evan Hubinger",
+   "Roger Grosse",
+   "Samuel R. Bowman",
+   "David Duvenaud"
+  ],
+  "identifiers": {
+   "arxiv": "2410.21514",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/2410.21514",
+  "first_public_date": "2024-10-28",
+  "version_checked": "2410.21514v1",
+  "version_date": "2024-10-28",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P141"
+  ],
+  "gate": 4,
+  "screening_decision": "reserve",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "Sabotage capability evaluations by a developer; overlaps other D works.",
+  "evidence_class": "primary",
+  "proposed_primary_category": "D",
+  "secondary_tags": [],
+  "proposed_behaviour_source": "prompted red-team agent",
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W125",
+  "title": "Concrete Problems in AI Safety",
+  "authors": [
+   "Dario Amodei",
+   "Chris Olah",
+   "Jacob Steinhardt",
+   "Paul Christiano",
+   "John Schulman",
+   "Dan Mané"
+  ],
+  "identifiers": {
+   "arxiv": "1606.06565",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/1606.06565",
+  "first_public_date": "2016-06-21",
+  "version_checked": "1606.06565v2",
+  "version_date": "2016-07-25",
+  "venue_claim": null,
+  "venue_claim_basis": null,
+  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "in_review_window": false,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P143"
+  ],
+  "gate": 4,
+  "screening_decision": "context_only",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "FOUNDATIONAL EXCEPTION (2016): source of the reward-hacking/side-effect problem framing. Outside window; cite for definitions only.",
+  "evidence_class": "review_or_context",
+  "proposed_primary_category": "A",
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ },
+ {
+  "work_id": "W126",
+  "title": "Reward Tampering Problems and Solutions in Reinforcement Learning: A Causal Influence Diagram Perspective",
+  "authors": [
+   "Tom Everitt",
+   "Marcus Hutter",
+   "Ramana Kumar",
+   "Victoria Krakovna"
+  ],
+  "identifiers": {
+   "arxiv": "1908.04734",
+   "doi": null
+  },
+  "primary_url": "https://arxiv.org/abs/1908.04734",
+  "first_public_date": "2019-08-13",
+  "version_checked": "1908.04734v5",
+  "version_date": "2021-03-26",
+  "venue_claim": "Accepted to Synthese, March 2021",
+  "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
+  "peer_review_status": "claimed by authors, unconfirmed",
+  "in_review_window": false,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "W2"
+  ],
+  "discovery_record_ids": [
+   "P144"
+  ],
+  "gate": 4,
+  "screening_decision": "context_only",
+  "screening_basis": "title + abstract from arXiv API record",
+  "screening_reason": "FOUNDATIONAL EXCEPTION (2019; journal version 2021 per arXiv comment): formal definition of reward tampering. Outside window; definitions only.",
+  "evidence_class": "review_or_context",
+  "proposed_primary_category": "A",
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "provisional, from abstract only; confirm at full-text gate",
+  "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null
+ }
+]

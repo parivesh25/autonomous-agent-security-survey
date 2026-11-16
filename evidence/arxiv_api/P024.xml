@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wEZTS/vK2N5AXdAMI8QbzJmVSLs</id>
+  <title>arXiv Query: search_query=ti:"Can CaMeLs Talk Securing Multi Agent Systems Against Indirect Prompt Injection Attacks"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:02:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Can+CaMeLs+Talk+Securing+Multi+Agent+Systems+Against+Indirect+Prompt+Injection+Attacks%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2610.05640v1</id>
+    <title>Can CaMeLs Talk? Securing Multi-Agent Systems Against Indirect Prompt Injection Attacks</title>
+    <updated>2026-10-05T00:33:15Z</updated>
+    <link href="https://arxiv.org/abs/2610.05640v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.05640v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Indirect prompt injection attacks - malicious instructions embedded in content processed by large language models - remain a major obstacle to safely deploying tool-using agents. CaMeL [Debenedetti et al., 2025] mitigates this threat for an individual agent by separating trusted control flow from untrusted data and enforcing capability-based security policies at runtime. In this work, we investigate whether CaMeL's security guarantees compose in hierarchical multi-agent systems, where agents invoke other agents as tools. We find that CaMeL's guarantees do not compose. We construct a concrete prompt-injection attack that succeeds despite all constituent agents individually operating CaMeL. Our attack exploits the fact that untrusted data can be reinterpreted as trusted input by a downstream agent. We then introduce multi-CaMeL, an agent-to-agent communication protocol that preserves provenance across agent boundaries by separating trusted natural-language instructions from untrusted data passed through a distinct data channel. We evaluate multi-CaMeL's utility on AssetOpsBench and its security-utility tradeoff on MultiAgentDojo, a benchmark we develop by extending AgentDojo to the multi-agent setting. We find that multi-CaMeL reduces attack success rate (ASR) to 0.0%, compared with 0.2% for individual-agent CaMeL and 12.9% with no CaMeL. Multi-CaMeL incurs a utility cost, but this cost trends downward as model capability increases and is modest for the strongest models, suggesting that more capable models better accommodate the constraints imposed by the protocol.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-05T00:33:15Z</published>
+    <arxiv:comment>Preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>James Peters-Gill</name>
+    </author>
+    <author>
+      <name>Avi Semler</name>
+    </author>
+    <author>
+      <name>Henning Bartsch</name>
+    </author>
+    <author>
+      <name>Ilia Shumailov</name>
+    </author>
+    <author>
+      <name>Christian Schroeder de Witt</name>
+    </author>
+  </entry>
+</feed>

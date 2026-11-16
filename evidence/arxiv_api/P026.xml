@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+3LB35YxDkGsCIGStv7Ltjg48eE</id>
+  <title>arXiv Query: search_query=ti:"Delegation Without Trust An Empirical Gap Analysis of Identity Authorization and Runtime Governance in Multi Agent LLM Systems"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:02:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Delegation+Without+Trust+An+Empirical+Gap+Analysis+of+Identity+Authorization+and+Runtime+Governance+in+Multi+Agent+LLM+Systems%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.00267v1</id>
+    <title>Delegation Without Trust: An Empirical Gap Analysis of Identity, Authorization, and Runtime Governance in Multi-Agent LLM Systems</title>
+    <updated>2026-08-31T19:09:34Z</updated>
+    <link href="https://arxiv.org/abs/2609.00267v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.00267v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous LLM agents increasingly act on a user's behalf: they hold credentials, call tools and services, and spawn sub-agents that act further on their behalf. This turns a long-standing distributed-systems question -- who is authorized to do what, on whose authority -- into an urgent and largely unsolved problem, because the component driving each agent is a language model an adversary can hijack. We argue that agent security must be evaluated under an untrusted-model assumption: a correct system is one in which a fully prompt-injected agent still cannot exceed the authority explicitly delegated to it. Against this standard we make three contributions. First, we give a threat model for multi-agent delegation centered on four adversaries -- confused deputy, token theft and replay, prompt-injection privilege escalation, and compromised sub-agents -- and derive eight security requirements a governed agent system must meet. Second, we show the gap is real: a default agent runtime modeling common practice (broad bearer credentials, authorization gated inside the model) fails all four threats, and across four widely used frameworks -- LangGraph, CrewAI, AutoGen, and the Model Context Protocol (MCP) authorization model -- three provide no built-in confinement and one only partial; no existing standard alone covers the requirement set. Third, we implement and adversarially evaluate an authorization broker that closes the gap. It blocks all four threats; it resists 11 direct attacks on its design and accepts 0 of 200,000 forged tokens; it confines a compromised sub-agent to its delegated task (a mean of 1.5 reachable actions versus all 8,100 under bearer delegation, across 2,000 randomized scenarios); and it enforces at microsecond cost (about 2.6 microseconds per decision), negligible against model inference. These principles are also realized in production in VotalAI's LLM Shield.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-31T19:09:34Z</published>
+    <arxiv:comment>14 pages, 1 figure, 4 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Panduranga Sai Varma Dantuluri</name>
+    </author>
+    <author>
+      <name>Jyotirmoy Sundi</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UzwapjNOLDFWqKFg4ZZhftWrqrI</id>
+  <title>arXiv Query: search_query=ti:"IsolateGPT An Execution Isolation Architecture for LLM Based Agentic Systems"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:05:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22IsolateGPT+An+Execution+Isolation+Architecture+for+LLM+Based+Agentic+Systems%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2403.04960v2</id>
+    <title>IsolateGPT: An Execution Isolation Architecture for LLM-Based Agentic Systems</title>
+    <updated>2025-01-30T22:55:18Z</updated>
+    <link href="https://arxiv.org/abs/2403.04960v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.04960v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) extended as systems, such as ChatGPT, have begun supporting third-party applications. These LLM apps leverage the de facto natural language-based automated execution paradigm of LLMs: that is, apps and their interactions are defined in natural language, provided access to user data, and allowed to freely interact with each other and the system. These LLM app ecosystems resemble the settings of earlier computing platforms, where there was insufficient isolation between apps and the system. Because third-party apps may not be trustworthy, and exacerbated by the imprecision of natural language interfaces, the current designs pose security and privacy risks for users. In this paper, we evaluate whether these issues can be addressed through execution isolation and what that isolation might look like in the context of LLM-based systems, where there are arbitrary natural language-based interactions between system components, between LLM and apps, and between apps. To that end, we propose IsolateGPT, a design architecture that demonstrates the feasibility of execution isolation and provides a blueprint for implementing isolation, in LLM-based systems. We evaluate IsolateGPT against a number of attacks and demonstrate that it protects against many security, privacy, and safety issues that exist in non-isolated LLM-based systems, without any loss of functionality. The performance overhead incurred by IsolateGPT to improve security is under 30% for three-quarters of tested queries.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-08T00:02:30Z</published>
+    <arxiv:comment>Accepted by the Network and Distributed System Security (NDSS) Symposium 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <arxiv:journal_ref>The Network and Distributed System Security (NDSS) Symposium 2025</arxiv:journal_ref>
+    <author>
+      <name>Yuhao Wu</name>
+    </author>
+    <author>
+      <name>Franziska Roesner</name>
+    </author>
+    <author>
+      <name>Tadayoshi Kohno</name>
+    </author>
+    <author>
+      <name>Ning Zhang</name>
+    </author>
+    <author>
+      <name>Umar Iqbal</name>
+    </author>
+  </entry>
+</feed>

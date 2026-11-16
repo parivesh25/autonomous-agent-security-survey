@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/m7e5wooPWwl+AVpSO6sQ2ikmzII</id>
+  <title>arXiv Query: search_query=&amp;id_list=2302.12173,2402.07510&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-16T17:06:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2302.12173,2402.07510" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2302.12173v2</id>
+    <title>Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection</title>
+    <updated>2023-05-05T14:26:17Z</updated>
+    <link href="https://arxiv.org/abs/2302.12173v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.12173v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are increasingly being integrated into various applications. The functionalities of recent LLMs can be flexibly modulated via natural language prompts. This renders them susceptible to targeted adversarial prompting, e.g., Prompt Injection (PI) attacks enable attackers to override original instructions and employed controls. So far, it was assumed that the user is directly prompting the LLM. But, what if it is not the user prompting? We argue that LLM-Integrated Applications blur the line between data and instructions. We reveal new attack vectors, using Indirect Prompt Injection, that enable adversaries to remotely (without a direct interface) exploit LLM-integrated applications by strategically injecting prompts into data likely to be retrieved. We derive a comprehensive taxonomy from a computer security perspective to systematically investigate impacts and vulnerabilities, including data theft, worming, information ecosystem contamination, and other novel security risks. We demonstrate our attacks' practical viability against both real-world systems, such as Bing's GPT-4 powered Chat and code-completion engines, and synthetic applications built on GPT-4. We show how processing retrieved prompts can act as arbitrary code execution, manipulate the application's functionality, and control how and if other APIs are called. Despite the increasing integration and reliance on LLMs, effective mitigations of these emerging threats are currently lacking. By raising awareness of these vulnerabilities and providing key insights into their implications, we aim to promote the safe and responsible deployment of these powerful models and the development of robust defenses that protect users and systems from potential attacks.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-23T17:14:38Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Kai Greshake</name>
+    </author>
+    <author>
+      <name>Sahar Abdelnabi</name>
+    </author>
+    <author>
+      <name>Shailesh Mishra</name>
+    </author>
+    <author>
+      <name>Christoph Endres</name>
+    </author>
+    <author>
+      <name>Thorsten Holz</name>
+    </author>
+    <author>
+      <name>Mario Fritz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.07510v5</id>
+    <title>Secret Collusion among AI Agents: Multi-Agent Deception via Steganography</title>
+    <updated>2025-07-25T12:28:15Z</updated>
+    <link href="https://arxiv.org/abs/2402.07510v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.07510v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent capability increases in large language models (LLMs) open up applications in which groups of communicating generative AI agents solve joint tasks. This poses privacy and security challenges concerning the unauthorised sharing of information, or other unwanted forms of agent coordination. Modern steganographic techniques could render such dynamics hard to detect. In this paper, we comprehensively formalise the problem of secret collusion in systems of generative AI agents by drawing on relevant concepts from both AI and security literature. We study incentives for the use of steganography, and propose a variety of mitigation measures. Our investigations result in a model evaluation framework that systematically tests capabilities required for various forms of secret collusion. We provide extensive empirical results across a range of contemporary LLMs. While the steganographic capabilities of current models remain limited, GPT-4 displays a capability jump suggesting the need for continuous monitoring of steganographic frontier model capabilities. We conclude by laying out a comprehensive research program to mitigate future risks of collusion between generative AI models.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-12T09:31:21Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sumeet Ramesh Motwani</name>
+    </author>
+    <author>
+      <name>Mikhail Baranchuk</name>
+    </author>
+    <author>
+      <name>Martin Strohmeier</name>
+    </author>
+    <author>
+      <name>Vijay Bolina</name>
+    </author>
+    <author>
+      <name>Philip H. S. Torr</name>
+    </author>
+    <author>
+      <name>Lewis Hammond</name>
+    </author>
+    <author>
+      <name>Christian Schroeder de Witt</name>
+    </author>
+  </entry>
+</feed>

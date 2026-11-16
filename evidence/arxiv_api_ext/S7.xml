@@ -1,0 +1,497 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Entf9uuSGo3/FMFiznmbJ69e3NI</id>
+  <title>arXiv Query: search_query=(abs:"AI control" OR abs:"trusted monitoring" OR abs:sabotage) AND abs:agent AND (abs:LLM OR abs:"language model") AND submittedDate:"202301010000 TO 202512312359"&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-11-16T17:04:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=(abs:%22AI+control%22+OR+(abs:%22trusted+monitoring%22+OR+abs:sabotage))+AND+(abs:agent+AND+((abs:LLM+OR+abs:%22language+model%22)+AND+submittedDate:%22202301010000+TO+202512312359%22))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>13</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.15688v1</id>
+    <title>BashArena: A Control Setting for Highly Privileged AI Agents</title>
+    <updated>2025-12-17T18:45:25Z</updated>
+    <link href="https://arxiv.org/abs/2512.15688v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.15688v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Future AI agents might run autonomously with elevated privileges. If these agents are misaligned, they might abuse these privileges to cause serious damage. The field of AI control develops techniques that make it harder for misaligned AIs to cause such damage, while preserving their usefulness. We introduce BashArena, a setting for studying AI control techniques in security-critical environments. BashArena contains 637 Linux system administration and infrastructure engineering tasks in complex, realistic environments, along with four sabotage objectives (execute malware, exfiltrate secrets, escalate privileges, and disable firewall) for a red team to target. We evaluate multiple frontier LLMs on their ability to complete tasks, perform sabotage undetected, and detect sabotage attempts. Claude Sonnet 4.5 successfully executes sabotage while evading monitoring by GPT-4.1 mini 26% of the time, at 4% trajectory-wise FPR. Our findings provide a baseline for designing more effective control protocols in BashArena. We release the dataset as a ControlArena setting and share our task generation pipeline.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-17T18:45:25Z</published>
+    <arxiv:comment>The task generation pipeline can be found here: https://github.com/redwoodresearch/basharena_public</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Adam Kaufman</name>
+    </author>
+    <author>
+      <name>James Lucassen</name>
+    </author>
+    <author>
+      <name>Tyler Tracy</name>
+    </author>
+    <author>
+      <name>Cody Rushing</name>
+    </author>
+    <author>
+      <name>Aryan Bhatt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.15740v2</id>
+    <title>SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents</title>
+    <updated>2025-07-08T21:23:22Z</updated>
+    <link href="https://arxiv.org/abs/2506.15740v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.15740v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As Large Language Models (LLMs) are increasingly deployed as autonomous agents in complex and long horizon settings, it is critical to evaluate their ability to sabotage users by pursuing hidden objectives. We study the ability of frontier LLMs to evade monitoring and achieve harmful hidden goals while completing a wide array of realistic tasks. We evaluate a broad range of frontier LLMs using SHADE (Subtle Harmful Agent Detection &amp; Evaluation)-Arena, the first highly diverse agent evaluation dataset for sabotage and monitoring capabilities of LLM agents. SHADE-Arena consists of complex pairs of benign main tasks and harmful side objectives in complicated environments. Agents are evaluated on their ability to complete the side task without appearing suspicious to an LLM monitor. When measuring agent ability to (a) complete the main task, (b) complete the side task, and (c) avoid detection, we find that the best performing frontier models score 27% (Claude 3.7 Sonnet) and 15% (Gemini 2.5 Pro) as sabotage agents when overseen by Claude 3.6 Sonnet. For current frontier models, success on the side task relies heavily on having access to a hidden scratchpad that is not visible to the monitor. We also use SHADE-Arena to measure models' monitoring abilities, with the top monitor (Gemini 2.5 Pro) achieving an AUC of 0.87 at distinguishing benign and malign transcripts. We find that for now, models still struggle at sabotage due to failures in long-context main task execution. However, our measurements already demonstrate the difficulty of monitoring for subtle sabotage attempts, which we expect to only increase in the face of more complex and longer-horizon tasks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-17T15:46:15Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jonathan Kutasov</name>
+    </author>
+    <author>
+      <name>Yuqi Sun</name>
+    </author>
+    <author>
+      <name>Paul Colognese</name>
+    </author>
+    <author>
+      <name>Teun van der Weij</name>
+    </author>
+    <author>
+      <name>Linda Petrini</name>
+    </author>
+    <author>
+      <name>Chen Bo Calvin Zhang</name>
+    </author>
+    <author>
+      <name>John Hughes</name>
+    </author>
+    <author>
+      <name>Xiang Deng</name>
+    </author>
+    <author>
+      <name>Henry Sleight</name>
+    </author>
+    <author>
+      <name>Tyler Tracy</name>
+    </author>
+    <author>
+      <name>Buck Shlegeris</name>
+    </author>
+    <author>
+      <name>Joe Benton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.13526v1</id>
+    <title>Async Control: Stress-testing Asynchronous Control Measures for LLM Agents</title>
+    <updated>2025-12-15T16:56:28Z</updated>
+    <link href="https://arxiv.org/abs/2512.13526v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.13526v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM-based software engineering agents are increasingly used in real-world development tasks, often with access to sensitive data or security-critical codebases. Such agents could intentionally sabotage these codebases if they were misaligned. We investigate asynchronous monitoring, in which a monitoring system reviews agent actions after the fact. Unlike synchronous monitoring, this approach does not impose runtime latency, while still attempting to disrupt attacks before irreversible harm occurs. We treat monitor development as an adversarial game between a blue team (who design monitors) and a red team (who create sabotaging agents). We attempt to set the game rules such that they upper bound the sabotage potential of an agent based on Claude 4.1 Opus. To ground this game in a realistic, high-stakes deployment scenario, we develop a suite of 5 diverse software engineering environments that simulate tasks that an agent might perform within an AI developer's internal infrastructure. Over the course of the game, we develop an ensemble monitor that achieves a 6% false negative rate at 1% false positive rate on a held out test environment. Then, we estimate risk of sabotage at deployment time by extrapolating from our monitor's false negative rate. We describe one simple model for this extrapolation, present a sensitivity analysis, and describe situations in which the model would be invalid. Code is available at: https://github.com/UKGovernmentBEIS/async-control.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T16:56:28Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Asa Cooper Stickland</name>
+    </author>
+    <author>
+      <name>Jan Michelfeit</name>
+    </author>
+    <author>
+      <name>Arathi Mani</name>
+    </author>
+    <author>
+      <name>Charlie Griffin</name>
+    </author>
+    <author>
+      <name>Ollie Matthews</name>
+    </author>
+    <author>
+      <name>Tomek Korbak</name>
+    </author>
+    <author>
+      <name>Rogan Inglis</name>
+    </author>
+    <author>
+      <name>Oliver Makins</name>
+    </author>
+    <author>
+      <name>Alan Cooney</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.16521v2</id>
+    <title>AMONGAGENTS: Evaluating Large Language Models in the Interactive Text-Based Social Deduction Game</title>
+    <updated>2024-07-24T15:12:09Z</updated>
+    <link href="https://arxiv.org/abs/2407.16521v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.16521v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Strategic social deduction games serve as valuable testbeds for evaluating the understanding and inference skills of language models, offering crucial insights into social science, artificial intelligence, and strategic gaming. This paper focuses on creating proxies of human behavior in simulated environments, with Among Us utilized as a tool for studying simulated human behavior. The study introduces a text-based game environment, named AmongAgents, that mirrors the dynamics of Among Us. Players act as crew members aboard a spaceship, tasked with identifying impostors who are sabotaging the ship and eliminating the crew. Within this environment, the behavior of simulated language agents is analyzed. The experiments involve diverse game sequences featuring different configurations of Crewmates and Impostor personality archetypes. Our work demonstrates that state-of-the-art large language models (LLMs) can effectively grasp the game rules and make decisions based on the current context. This work aims to promote further exploration of LLMs in goal-oriented games with incomplete information and complex action spaces, as these settings offer valuable opportunities to assess language model performance in socially driven scenarios.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-23T14:34:38Z</published>
+    <arxiv:comment>Wordplay @ ACL 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yizhou Chi</name>
+    </author>
+    <author>
+      <name>Lingjun Mao</name>
+    </author>
+    <author>
+      <name>Zineng Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.13666v1</id>
+    <title>We Should Identify and Mitigate Third-Party Safety Risks in MCP-Powered Agent Systems</title>
+    <updated>2025-06-16T16:24:31Z</updated>
+    <link href="https://arxiv.org/abs/2506.13666v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.13666v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The development of large language models (LLMs) has entered in a experience-driven era, flagged by the emergence of environment feedback-driven learning via reinforcement learning and tool-using agents. This encourages the emergenece of model context protocol (MCP), which defines the standard on how should a LLM interact with external services, such as \api and data. However, as MCP becomes the de facto standard for LLM agent systems, it also introduces new safety risks. In particular, MCP introduces third-party services, which are not controlled by the LLM developers, into the agent systems. These third-party MCP services provider are potentially malicious and have the economic incentives to exploit vulnerabilities and sabotage user-agent interactions. In this position paper, we advocate the research community in LLM safety to pay close attention to the new safety risks issues introduced by MCP, and develop new techniques to build safe MCP-powered agent systems. To establish our position, we argue with three key parts. (1) We first construct \framework, a controlled framework to examine safety issues in MCP-powered agent systems. (2) We then conduct a series of pilot experiments to demonstrate the safety risks in MCP-powered agent systems is a real threat and its defense is not trivial. (3) Finally, we give our outlook by showing a roadmap to build safe MCP-powered agent systems. In particular, we would call for researchers to persue the following research directions: red teaming, MCP safe LLM development, MCP safety evaluation, MCP safety data accumulation, MCP service safeguard, and MCP safe ecosystem construction. We hope this position paper can raise the awareness of the research community in MCP safety and encourage more researchers to join this important research direction. Our code is available at https://github.com/littlelittlenine/SafeMCP.git.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-16T16:24:31Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Junfeng Fang</name>
+    </author>
+    <author>
+      <name>Zijun Yao</name>
+    </author>
+    <author>
+      <name>Ruipeng Wang</name>
+    </author>
+    <author>
+      <name>Haokai Ma</name>
+    </author>
+    <author>
+      <name>Xiang Wang</name>
+    </author>
+    <author>
+      <name>Tat-Seng Chua</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.10687v3</id>
+    <title>Who Gets the Reward &amp; Who Gets the Blame? Evaluation-Aligned Training Signals for Multi-LLM Agents</title>
+    <updated>2026-07-01T23:47:17Z</updated>
+    <link href="https://arxiv.org/abs/2511.10687v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.10687v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) in multi-agent systems (MAS) have shown promise for complex tasks, yet current training methods lack principled ways to connect system-level evaluation with agent- and message-level learning. We propose a theoretical framework that unifies cooperative game-theoretic attribution with process reward modeling to transform system evaluation to agent credit to response-level signals. Unlike prior approaches that rely only on attribution (Shapley) or step-level labels (PRM), our method produces local, signed, and credit-conserving signals. In success cases, Shapley-based credit assignment fairly allocates outcomes across agents and is refined into per-message rewards that promote cooperation while discouraging redundancy or sabotage; in failure cases, first-error localization yields repair-aware preferences that penalize harmful steps while rewarding corrective attempts. The resulting signals are bounded, cooperative, and directly compatible with reinforcement- or preference-based post-training, providing a unified and auditable pathway from global evaluation to local supervision in LLM multi-agent training. Our contribution is conceptual: we present a theoretical foundation and training signals, leaving empirical validation for future work.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-11T22:21:08Z</published>
+    <arxiv:comment>Accepted at the NeurIPS 2025 Workshop on Bridging Language, Agent, and World Models for Reasoning and Planning (LAW 2025)</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name> Chih-Hsuan</name>
+      <arxiv:affiliation>Bella</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Yang</name>
+    </author>
+    <author>
+      <name>Tanwi Mallick</name>
+    </author>
+    <author>
+      <name>Le Chen</name>
+    </author>
+    <author>
+      <name>Krishnan Raghavan</name>
+    </author>
+    <author>
+      <name>Amal Gueroudji</name>
+    </author>
+    <author>
+      <name>Ian T. Foster</name>
+    </author>
+    <author>
+      <name>Rajeev Thakur</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.25885v1</id>
+    <title>SafeMind: Benchmarking and Mitigating Safety Risks in Embodied LLM Agents</title>
+    <updated>2025-09-30T07:24:04Z</updated>
+    <link href="https://arxiv.org/abs/2509.25885v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.25885v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Embodied agents powered by large language models (LLMs) inherit advanced planning capabilities; however, their direct interaction with the physical world exposes them to safety vulnerabilities. In this work, we identify four key reasoning stages where hazards may arise: Task Understanding, Environment Perception, High-Level Plan Generation, and Low-Level Action Generation. We further formalize three orthogonal safety constraint types (Factual, Causal, and Temporal) to systematically characterize potential safety violations. Building on this risk model, we present SafeMindBench, a multimodal benchmark with 5,558 samples spanning four task categories (Instr-Risk, Env-Risk, Order-Fix, Req-Align) across high-risk scenarios such as sabotage, harm, privacy, and illegal behavior. Extensive experiments on SafeMindBench reveal that leading LLMs (e.g., GPT-4o) and widely used embodied agents remain susceptible to safety-critical failures. To address this challenge, we introduce SafeMindAgent, a modular Planner-Executor architecture integrated with three cascaded safety modules, which incorporate safety constraints into the reasoning process. Results show that SafeMindAgent significantly improves safety rate over strong baselines while maintaining comparable task completion. Together, SafeMindBench and SafeMindAgent provide both a rigorous evaluation suite and a practical solution that advance the systematic study and mitigation of safety risks in embodied LLM agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-30T07:24:04Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ruolin Chen</name>
+    </author>
+    <author>
+      <name>Yinqian Sun</name>
+    </author>
+    <author>
+      <name>Jihang Wang</name>
+    </author>
+    <author>
+      <name>Mingyang Lv</name>
+    </author>
+    <author>
+      <name>Qian Zhang</name>
+    </author>
+    <author>
+      <name>Yi Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.05259v1</id>
+    <title>How to evaluate control measures for LLM agents? A trajectory from today to superintelligence</title>
+    <updated>2025-04-07T16:52:52Z</updated>
+    <link href="https://arxiv.org/abs/2504.05259v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.05259v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As LLM agents grow more capable of causing harm autonomously, AI developers will rely on increasingly sophisticated control measures to prevent possibly misaligned agents from causing harm. AI developers could demonstrate that their control measures are sufficient by running control evaluations: testing exercises in which a red team produces agents that try to subvert control measures. To ensure control evaluations accurately capture misalignment risks, the affordances granted to this red team should be adapted to the capability profiles of the agents to be deployed under control measures.
+  In this paper we propose a systematic framework for adapting affordances of red teams to advancing AI capabilities. Rather than assuming that agents will always execute the best attack strategies known to humans, we demonstrate how knowledge of an agents's actual capability profile can inform proportional control evaluations, resulting in more practical and cost-effective control measures. We illustrate our framework by considering a sequence of five fictional models (M1-M5) with progressively advanced capabilities, defining five distinct AI control levels (ACLs). For each ACL, we provide example rules for control evaluation, control measures, and safety cases that could be appropriate. Finally, we show why constructing a compelling AI control safety case for superintelligent LLM agents will require research breakthroughs, highlighting that we might eventually need alternative approaches to mitigating misalignment risk.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-07T16:52:52Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tomek Korbak</name>
+    </author>
+    <author>
+      <name>Mikita Balesni</name>
+    </author>
+    <author>
+      <name>Buck Shlegeris</name>
+    </author>
+    <author>
+      <name>Geoffrey Irving</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.10776v6</id>
+    <title>Chemist-X: Large Language Model-empowered Agent for Reaction Condition Recommendation in Chemical Synthesis</title>
+    <updated>2025-04-17T22:42:04Z</updated>
+    <link href="https://arxiv.org/abs/2311.10776v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.10776v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent AI research plots a promising future of automatic chemical reactions within the chemistry society. This study proposes Chemist-X, a comprehensive AI agent that automates the reaction condition optimization (RCO) task in chemical synthesis with retrieval-augmented generation (RAG) technology and AI-controlled wet-lab experiment executions. To begin with, as an emulation on how chemical experts solve the RCO task, Chemist-X utilizes a novel RAG scheme to interrogate available molecular and literature databases to narrow the searching space for later processing. The agent then leverages a computer-aided design (CAD) tool we have developed through a large language model (LLM) supervised programming interface. With updated chemical knowledge obtained via RAG, as well as the ability in using CAD tools, our agent significantly outperforms conventional RCO AIs confined to the fixed knowledge within its training data. Finally, Chemist-X interacts with the physical world through an automated robotic system, which can validate the suggested chemical reaction condition without human interventions. The control of the robotic system was achieved with a novel algorithm we have developed for the equipment, which relies on LLMs for reliable script generation. Results of our automatic wet-lab experiments, achieved by fully LLM-supervised end-to-end operation with no human in the lope, prove Chemist-X's ability in self-driving laboratories.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-16T01:21:33Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Kexin Chen</name>
+    </author>
+    <author>
+      <name>Jiamin Lu</name>
+    </author>
+    <author>
+      <name>Junyou Li</name>
+    </author>
+    <author>
+      <name>Xiaoran Yang</name>
+    </author>
+    <author>
+      <name>Yuyang Du</name>
+    </author>
+    <author>
+      <name>Kunyi Wang</name>
+    </author>
+    <author>
+      <name>Qiannuan Shi</name>
+    </author>
+    <author>
+      <name>Jiahui Yu</name>
+    </author>
+    <author>
+      <name>Lanqing Li</name>
+    </author>
+    <author>
+      <name>Jiezhong Qiu</name>
+    </author>
+    <author>
+      <name>Jianzhang Pan</name>
+    </author>
+    <author>
+      <name>Yi Huang</name>
+    </author>
+    <author>
+      <name>Qun Fang</name>
+    </author>
+    <author>
+      <name>Pheng Ann Heng</name>
+    </author>
+    <author>
+      <name>Guangyong Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.09462v2</id>
+    <title>Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols</title>
+    <updated>2026-03-02T08:27:36Z</updated>
+    <link href="https://arxiv.org/abs/2510.09462v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.09462v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI control protocols serve as a defense mechanism to stop untrusted LLM agents from causing harm in autonomous settings. Prior work treats this as a security problem, stress testing with exploits that use the deployment context to subtly complete harmful side tasks, such as backdoor insertion. In practice, most AI control protocols are fundamentally based on LLM monitors, which can become a central point of failure. We study adaptive attacks by an untrusted model that knows the protocol and the monitor model, which is plausible if the untrusted model was trained with a later knowledge cutoff or can search for this information autonomously. We instantiate a simple adaptive attack vector by which the attacker embeds publicly known or zero-shot prompt injections in the model outputs. Using this tactic, frontier models consistently evade diverse monitors and complete malicious tasks on two main AI control benchmarks. The attack works universally against current protocols that rely on a monitor. Furthermore, the recent Defer-to-Resample protocol even backfires, as its resampling amplifies the prompt injection and effectively reframes it as a best-of-$n$ attack. In general, adaptive attacks on monitor models represent a major blind spot in current control protocols and should become a standard component of evaluations for future AI control mechanisms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-10T15:12:44Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mikhail Terekhov</name>
+    </author>
+    <author>
+      <name>Alexander Panfilov</name>
+    </author>
+    <author>
+      <name>Daniil Dzenhaliou</name>
+    </author>
+    <author>
+      <name>Caglar Gulcehre</name>
+    </author>
+    <author>
+      <name>Maksym Andriushchenko</name>
+    </author>
+    <author>
+      <name>Ameya Prabhu</name>
+    </author>
+    <author>
+      <name>Jonas Geiping</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.18397v1</id>
+    <title>Natural Emergent Misalignment from Reward Hacking in Production RL</title>
+    <updated>2025-11-23T10:50:02Z</updated>
+    <link href="https://arxiv.org/abs/2511.18397v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.18397v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that when large language models learn to reward hack on production RL environments, this can result in egregious emergent misalignment. We start with a pretrained model, impart knowledge of reward hacking strategies via synthetic document finetuning or prompting, and train on a selection of real Anthropic production coding environments. Unsurprisingly, the model learns to reward hack. Surprisingly, the model generalizes to alignment faking, cooperation with malicious actors, reasoning about malicious goals, and attempting sabotage when used with Claude Code, including in the codebase for this paper. Applying RLHF safety training using standard chat-like prompts results in aligned behavior on chat-like evaluations, but misalignment persists on agentic tasks. Three mitigations are effective: (i) preventing the model from reward hacking; (ii) increasing the diversity of RLHF safety training; and (iii) "inoculation prompting", wherein framing reward hacking as acceptable behavior during training removes misaligned generalization even when reward hacking is learned.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-23T10:50:02Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Monte MacDiarmid</name>
+    </author>
+    <author>
+      <name>Benjamin Wright</name>
+    </author>
+    <author>
+      <name>Jonathan Uesato</name>
+    </author>
+    <author>
+      <name>Joe Benton</name>
+    </author>
+    <author>
+      <name>Jon Kutasov</name>
+    </author>
+    <author>
+      <name>Sara Price</name>
+    </author>
+    <author>
+      <name>Naia Bouscal</name>
+    </author>
+    <author>
+      <name>Sam Bowman</name>
+    </author>
+    <author>
+      <name>Trenton Bricken</name>
+    </author>
+    <author>
+      <name>Alex Cloud</name>
+    </author>
+    <author>
+      <name>Carson Denison</name>
+    </author>
+    <author>
+      <name>Johannes Gasteiger</name>
+    </author>
+    <author>
+      <name>Ryan Greenblatt</name>
+    </author>
+    <author>
+      <name>Jan Leike</name>
+    </author>
+    <author>
+      <name>Jack Lindsey</name>
+    </author>
+    <author>
+      <name>Vlad Mikulik</name>
+    </author>
+    <author>
+      <name>Ethan Perez</name>
+    </author>
+    <author>
+      <name>Alex Rodrigues</name>
+    </author>
+    <author>
+      <name>Drake Thomas</name>
+    </author>
+    <author>
+      <name>Albert Webson</name>
+    </author>
+    <author>
+      <name>Daniel Ziegler</name>
+    </author>
+    <author>
+      <name>Evan Hubinger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.02794v1</id>
+    <title>When One Modality Sabotages the Others: A Diagnostic Lens on Multimodal Reasoning</title>
+    <updated>2025-11-04T18:20:13Z</updated>
+    <link href="https://arxiv.org/abs/2511.02794v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.02794v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite rapid growth in multimodal large language models (MLLMs), their reasoning traces remain opaque: it is often unclear which modality drives a prediction, how conflicts are resolved, or when one stream dominates. In this paper, we introduce modality sabotage, a diagnostic failure mode in which a high-confidence unimodal error overrides other evidence and misleads the fused result. To analyze such dynamics, we propose a lightweight, model-agnostic evaluation layer that treats each modality as an agent, producing candidate labels and a brief self-assessment used for auditing. A simple fusion mechanism aggregates these outputs, exposing contributors (modalities supporting correct outcomes) and saboteurs (modalities that mislead). Applying our diagnostic layer in a case study on multimodal emotion recognition benchmarks with foundation models revealed systematic reliability profiles, providing insight into whether failures may arise from dataset artifacts or model limitations. More broadly, our framework offers a diagnostic scaffold for multimodal reasoning, supporting principled auditing of fusion dynamics and informing possible interventions.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-04T18:20:13Z</published>
+    <arxiv:comment>Accepted at the Multimodal Algorithmic Reasoning (MAR) Workshop, NeurIPS 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Chenyu Zhang</name>
+    </author>
+    <author>
+      <name>Minsol Kim</name>
+    </author>
+    <author>
+      <name>Shohreh Ghorbani</name>
+    </author>
+    <author>
+      <name>Jingyao Wu</name>
+    </author>
+    <author>
+      <name>Rosalind Picard</name>
+    </author>
+    <author>
+      <name>Patricia Maes</name>
+    </author>
+    <author>
+      <name>Paul Pu Liang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.05296v3</id>
+    <title>Control Tax: The Price of Keeping AI in Check</title>
+    <updated>2026-03-02T09:03:52Z</updated>
+    <link href="https://arxiv.org/abs/2506.05296v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.05296v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rapid integration of agentic AI into high-stakes real-world applications requires robust oversight mechanisms. The emerging field of AI Control (AIC) aims to provide such an oversight mechanism, but practical adoption depends heavily on implementation overhead. To study this problem better, we introduce the notion of Control tax -- the operational and financial cost of integrating control measures into AI pipelines. Our work makes three key contributions to the field of AIC: (1) we introduce a theoretical framework that quantifies the Control Tax and maps classifier performance to safety assurances; (2) we conduct comprehensive evaluations of state-of-the-art language models in adversarial settings, where attacker models insert subtle backdoors into code while monitoring models attempt to detect these vulnerabilities; and (3) we provide empirical financial cost estimates for control protocols and develop optimized monitoring strategies that balance safety and cost-effectiveness while accounting for practical constraints like auditing budgets. Our framework enables practitioners to make informed decisions by systematically connecting safety guarantees with their costs, advancing AIC through principled economic feasibility assessment across different deployment contexts.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-05T17:48:39Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Mikhail Terekhov</name>
+    </author>
+    <author>
+      <name>Zhen Ning David Liu</name>
+    </author>
+    <author>
+      <name>Caglar Gulcehre</name>
+    </author>
+    <author>
+      <name>Samuel Albanie</name>
+    </author>
+  </entry>
+</feed>

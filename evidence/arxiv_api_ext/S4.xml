@@ -1,0 +1,775 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XImv+y6oB8+eRpGduEtiFm8Jiqo</id>
+  <title>arXiv Query: search_query=abs:"prompt injection" AND abs:agent AND (abs:benchmark OR abs:defense) AND submittedDate:"202301010000 TO 202512312359"&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-11-16T17:04:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=abs:%22prompt+injection%22+AND+(abs:agent+AND+((abs:benchmark+OR+abs:defense)+AND+submittedDate:%22202301010000+TO+202512312359%22))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>97</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.20597v2</id>
+    <title>BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents</title>
+    <updated>2026-08-12T00:08:22Z</updated>
+    <link href="https://arxiv.org/abs/2511.20597v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.20597v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The integration of artificial intelligence (AI) agents into web browsers introduces security challenges that go beyond traditional web application threat models. Prior work has identified prompt injection as a new attack vector for web agents, yet the resulting impact within real-world environments remains insufficiently understood.
+  In this work, we examine the landscape of prompt injection attacks and synthesize a benchmark of attacks embedded in realistic HTML payloads. Our benchmark goes beyond prior work by emphasizing injections that can influence real-world actions rather than mere text outputs, and by presenting attack payloads with complexity and distractor frequency similar to what real-world agents encounter. We leverage this benchmark to conduct a comprehensive empirical evaluation of existing defenses, assessing their effectiveness across a suite of frontier AI models. We propose a multi-layered defense strategy comprising both architectural and model-based defenses to protect against evolving prompt injection attacks. Our work offers a blueprint for designing practical, secure web agents through a defense-in-depth approach.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-25T18:28:35Z</published>
+    <arxiv:comment>COLM 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kaiyuan Zhang</name>
+    </author>
+    <author>
+      <name>Mark Tenenholtz</name>
+    </author>
+    <author>
+      <name>Kyle Polley</name>
+    </author>
+    <author>
+      <name>Jerry Ma</name>
+    </author>
+    <author>
+      <name>Denis Yarats</name>
+    </author>
+    <author>
+      <name>Ninghui Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.15759v1</id>
+    <title>Securing AI Agents Against Prompt Injection Attacks</title>
+    <updated>2025-11-19T10:00:54Z</updated>
+    <link href="https://arxiv.org/abs/2511.15759v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.15759v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retrieval-augmented generation (RAG) systems have become widely used for enhancing large language model capabilities, but they introduce significant security vulnerabilities through prompt injection attacks. We present a comprehensive benchmark for evaluating prompt injection risks in RAG-enabled AI agents and propose a multi-layered defense framework. Our benchmark includes 847 adversarial test cases across five attack categories: direct injection, context manipulation, instruction override, data exfiltration, and cross-context contamination. We evaluate three defense mechanisms: content filtering with embedding-based anomaly detection, hierarchical system prompt guardrails, and multi-stage response verification, across seven state-of-the-art language models. Our combined framework reduces successful attack rates from 73.2% to 8.7% while maintaining 94.3% of baseline task performance. We release our benchmark dataset and defense implementation to support future research in AI agent security.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-19T10:00:54Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Badrinath Ramakrishnan</name>
+    </author>
+    <author>
+      <name>Akshaya Balaji</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.15219v1</id>
+    <title>PromptArmor: Simple yet Effective Prompt Injection Defenses</title>
+    <updated>2025-07-21T03:41:44Z</updated>
+    <link href="https://arxiv.org/abs/2507.15219v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.15219v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite their potential, recent research has demonstrated that LLM agents are vulnerable to prompt injection attacks, where malicious prompts are injected into the agent's input, causing it to perform an attacker-specified task rather than the intended task provided by the user. In this paper, we present PromptArmor, a simple yet effective defense against prompt injection attacks. Specifically, PromptArmor prompts an off-the-shelf LLM to detect and remove potential injected prompts from the input before the agent processes it. Our results show that PromptArmor can accurately identify and remove injected prompts. For example, using GPT-4o, GPT-4.1, or o4-mini, PromptArmor achieves both a false positive rate and a false negative rate below 1% on the AgentDojo benchmark. Moreover, after removing injected prompts with PromptArmor, the attack success rate drops to below 1%. We also demonstrate PromptArmor's effectiveness against adaptive attacks and explore different strategies for prompting an LLM. We recommend that PromptArmor be adopted as a standard baseline for evaluating new defenses against prompt injection attacks.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-21T03:41:44Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Tianneng Shi</name>
+    </author>
+    <author>
+      <name>Kaijie Zhu</name>
+    </author>
+    <author>
+      <name>Zhun Wang</name>
+    </author>
+    <author>
+      <name>Yuqi Jia</name>
+    </author>
+    <author>
+      <name>Will Cai</name>
+    </author>
+    <author>
+      <name>Weida Liang</name>
+    </author>
+    <author>
+      <name>Haonan Wang</name>
+    </author>
+    <author>
+      <name>Hend Alzahrani</name>
+    </author>
+    <author>
+      <name>Joshua Lu</name>
+    </author>
+    <author>
+      <name>Kenji Kawaguchi</name>
+    </author>
+    <author>
+      <name>Basel Alomair</name>
+    </author>
+    <author>
+      <name>Xuandong Zhao</name>
+    </author>
+    <author>
+      <name>William Yang Wang</name>
+    </author>
+    <author>
+      <name>Neil Gong</name>
+    </author>
+    <author>
+      <name>Wenbo Guo</name>
+    </author>
+    <author>
+      <name>Dawn Song</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.20890v2</id>
+    <title>PromptSleuth: Detecting Prompt Injection via Semantic Intent Invariance</title>
+    <updated>2025-09-16T01:18:20Z</updated>
+    <link href="https://arxiv.org/abs/2508.20890v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.20890v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are increasingly integrated into real-world applications, from virtual assistants to autonomous agents. However, their flexibility also introduces new attack vectors-particularly Prompt Injection (PI), where adversaries manipulate model behavior through crafted inputs. As attackers continuously evolve with paraphrased, obfuscated, and even multi-task injection strategies, existing benchmarks are no longer sufficient to capture the full spectrum of emerging threats.
+  To address this gap, we construct a new benchmark that systematically extends prior efforts. Our benchmark subsumes the two widely-used existing ones while introducing new manipulation techniques and multi-task scenarios, thereby providing a more comprehensive evaluation setting. We find that existing defenses, though effective on their original benchmarks, show clear weaknesses under our benchmark, underscoring the need for more robust solutions. Our key insight is that while attack forms may vary, the adversary's intent-injecting an unauthorized task-remains invariant. Building on this observation, we propose PromptSleuth, a semantic-oriented defense framework that detects prompt injection by reasoning over task-level intent rather than surface features. Evaluated across state-of-the-art benchmarks, PromptSleuth consistently outperforms existing defense while maintaining comparable runtime and cost efficiency. These results demonstrate that intent-based semantic reasoning offers a robust, efficient, and generalizable strategy for defending LLMs against evolving prompt injection threats.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-28T15:19:07Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Mengxiao Wang</name>
+    </author>
+    <author>
+      <name>Yuxuan Zhang</name>
+    </author>
+    <author>
+      <name>Guofei Gu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.16248v3</id>
+    <title>Real AI Agents with Fake Memories: Fatal Context Manipulation Attacks on Web3 Agents</title>
+    <updated>2025-07-09T01:38:20Z</updated>
+    <link href="https://arxiv.org/abs/2503.16248v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.16248v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI agents integrated with Web3 offer autonomy and openness but raise security concerns as they interact with financial protocols and immutable smart contracts. This paper investigates the vulnerabilities of AI agents within blockchain-based financial ecosystems when exposed to adversarial threats in real-world scenarios. We introduce the concept of context manipulation -- a comprehensive attack vector that exploits unprotected context surfaces, including input channels, memory modules, and external data feeds. It expands on traditional prompt injection and reveals a more stealthy and persistent threat: memory injection. Using ElizaOS, a representative decentralized AI agent framework for automated Web3 operations, we showcase that malicious injections into prompts or historical records can trigger unauthorized asset transfers and protocol violations which could be financially devastating in reality. To quantify these risks, we introduce CrAIBench, a Web3-focused benchmark covering 150+ realistic blockchain tasks. such as token transfers, trading, bridges, and cross-chain interactions, and 500+ attack test cases using context manipulation. Our evaluation results confirm that AI models are significantly more vulnerable to memory injection compared to prompt injection. Finally, we evaluate a comprehensive defense roadmap, finding that prompt-injection defenses and detectors only provide limited protection when stored context is corrupted, whereas fine-tuning-based defenses substantially reduce attack success rates while preserving performance on single-step tasks. These results underscore the urgent need for AI agents that are both secure and fiduciarily responsible in blockchain environments.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-20T15:44:31Z</published>
+    <arxiv:comment>19 pages, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Atharv Singh Patlan</name>
+    </author>
+    <author>
+      <name>Peiyao Sheng</name>
+    </author>
+    <author>
+      <name>S. Ashwin Hebbar</name>
+    </author>
+    <author>
+      <name>Prateek Mittal</name>
+    </author>
+    <author>
+      <name>Pramod Viswanath</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.05739v1</id>
+    <title>To Protect the LLM Agent Against the Prompt Injection Attack with Polymorphic Prompt</title>
+    <updated>2025-06-06T04:50:57Z</updated>
+    <link href="https://arxiv.org/abs/2506.05739v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.05739v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM agents are widely used as agents for customer support, content generation, and code assistance. However, they are vulnerable to prompt injection attacks, where adversarial inputs manipulate the model's behavior. Traditional defenses like input sanitization, guard models, and guardrails are either cumbersome or ineffective. In this paper, we propose a novel, lightweight defense mechanism called Polymorphic Prompt Assembling (PPA), which protects against prompt injection with near-zero overhead. The approach is based on the insight that prompt injection requires guessing and breaking the structure of the system prompt. By dynamically varying the structure of system prompts, PPA prevents attackers from predicting the prompt structure, thereby enhancing security without compromising performance. We conducted experiments to evaluate the effectiveness of PPA against existing attacks and compared it with other defense methods.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-06T04:50:57Z</published>
+    <arxiv:comment>To appear in the Industry Track of the 55th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2025)</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zhilong Wang</name>
+    </author>
+    <author>
+      <name>Neha Nagaraja</name>
+    </author>
+    <author>
+      <name>Lan Zhang</name>
+    </author>
+    <author>
+      <name>Hayretdin Bahsi</name>
+    </author>
+    <author>
+      <name>Pawan Patil</name>
+    </author>
+    <author>
+      <name>Peng Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.01055v1</id>
+    <title>Simple Prompt Injection Attacks Can Leak Personal Data Observed by LLM Agents During Task Execution</title>
+    <updated>2025-06-01T15:48:06Z</updated>
+    <link href="https://arxiv.org/abs/2506.01055v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.01055v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Previous benchmarks on prompt injection in large language models (LLMs) have primarily focused on generic tasks and attacks, offering limited insights into more complex threats like data exfiltration. This paper examines how prompt injection can cause tool-calling agents to leak personal data observed during task execution. Using a fictitious banking agent, we develop data flow-based attacks and integrate them into AgentDojo, a recent benchmark for agentic security. To enhance its scope, we also create a richer synthetic dataset of human-AI banking conversations. In 16 user tasks from AgentDojo, LLMs show a 15-50 percentage point drop in utility under attack, with average attack success rates (ASR) around 20 percent; some defenses reduce ASR to zero. Most LLMs, even when successfully tricked by the attack, avoid leaking highly sensitive data like passwords, likely due to safety alignments, but they remain vulnerable to disclosing other personal data. The likelihood of password leakage increases when a password is requested along with one or two additional personal details. In an extended evaluation across 48 tasks, the average ASR is around 15 percent, with no built-in AgentDojo defense fully preventing leakage. Tasks involving data extraction or authorization workflows, which closely resemble the structure of exfiltration attacks, exhibit the highest ASRs, highlighting the interaction between task type, agent performance, and defense efficacy.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-01T15:48:06Z</published>
+    <arxiv:comment>25 pages, 18 figures, NeurIPS formatting style</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Meysam Alizadeh</name>
+    </author>
+    <author>
+      <name>Zeynab Samei</name>
+    </author>
+    <author>
+      <name>Daria Stetsenko</name>
+    </author>
+    <author>
+      <name>Fabrizio Gilardi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.19207v2</id>
+    <title>Defending Against Prompt Injection with DataFilter</title>
+    <updated>2026-02-04T07:26:47Z</updated>
+    <link href="https://arxiv.org/abs/2510.19207v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.19207v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When large language model (LLM) agents are increasingly deployed to automate tasks and interact with untrusted external data, prompt injection emerges as a significant security threat. By injecting malicious instructions into the data that LLMs access, an attacker can arbitrarily override the original user task and redirect the agent toward unintended, potentially harmful actions. Existing defenses either require access to model weights (fine-tuning), incur substantial utility loss (detection-based), or demand non-trivial system redesign (system-level). Motivated by this, we propose DataFilter, a test-time model-agnostic defense that removes malicious instructions from the data before it reaches the backend LLM. DataFilter is trained with supervised fine-tuning on simulated injections and leverages both the user's instruction and the data to selectively strip adversarial content while preserving benign information. Across multiple benchmarks, DataFilter consistently reduces the prompt injection attack success rates to near zero while maintaining the LLMs' utility. DataFilter delivers strong security, high utility, and plug-and-play deployment, making it a strong practical defense to secure black-box commercial LLMs against prompt injection. Our DataFilter model is released at https://huggingface.co/JoyYizhu/DataFilter for immediate use, with the code to reproduce our results at https://github.com/yizhu-joy/DataFilter.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-22T03:30:49Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yizhu Wang</name>
+    </author>
+    <author>
+      <name>Sizhe Chen</name>
+    </author>
+    <author>
+      <name>Raghad Alkhudair</name>
+    </author>
+    <author>
+      <name>Basel Alomair</name>
+    </author>
+    <author>
+      <name>David Wagner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.02644v4</id>
+    <title>Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents</title>
+    <updated>2025-05-30T03:50:33Z</updated>
+    <link href="https://arxiv.org/abs/2410.02644v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.02644v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although LLM-based agents, powered by Large Language Models (LLMs), can use external tools and memory mechanisms to solve complex real-world tasks, they may also introduce critical security vulnerabilities. However, the existing literature does not comprehensively evaluate attacks and defenses against LLM-based agents. To address this, we introduce Agent Security Bench (ASB), a comprehensive framework designed to formalize, benchmark, and evaluate the attacks and defenses of LLM-based agents, including 10 scenarios (e.g., e-commerce, autonomous driving, finance), 10 agents targeting the scenarios, over 400 tools, 27 different types of attack/defense methods, and 7 evaluation metrics. Based on ASB, we benchmark 10 prompt injection attacks, a memory poisoning attack, a novel Plan-of-Thought backdoor attack, 4 mixed attacks, and 11 corresponding defenses across 13 LLM backbones. Our benchmark results reveal critical vulnerabilities in different stages of agent operation, including system prompt, user prompt handling, tool usage, and memory retrieval, with the highest average attack success rate of 84.30\%, but limited effectiveness shown in current defenses, unveiling important works to be done in terms of agent security for the community. We also introduce a new metric to evaluate the agents' capability to balance utility and security. Our code can be found at https://github.com/agiresearch/ASB.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-03T16:30:47Z</published>
+    <arxiv:comment>Accepted by ICLR 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Hanrong Zhang</name>
+    </author>
+    <author>
+      <name>Jingyuan Huang</name>
+    </author>
+    <author>
+      <name>Kai Mei</name>
+    </author>
+    <author>
+      <name>Yifei Yao</name>
+    </author>
+    <author>
+      <name>Zhenting Wang</name>
+    </author>
+    <author>
+      <name>Chenlu Zhan</name>
+    </author>
+    <author>
+      <name>Hongwei Wang</name>
+    </author>
+    <author>
+      <name>Yongfeng Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.05244v2</id>
+    <title>Indirect Prompt Injections: Are Firewalls All You Need, or Stronger Benchmarks?</title>
+    <updated>2026-03-23T12:25:30Z</updated>
+    <link href="https://arxiv.org/abs/2510.05244v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.05244v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI agents are vulnerable to indirect prompt injection attacks, where malicious instructions embedded in external content or tool outputs cause unintended or harmful behavior. Inspired by the well-established concept of firewalls, we show that a simple, modular, and model-agnostic defense operating at the agent--tool interface achieves perfect security with high utility across all four public benchmarks: AgentDojo, Agent Security Bench, InjecAgent and tau-Bench, while achieving a state-of-the-art security--utility tradeoff compared to prior results. Specifically, we employ two firewalls: a Tool-Input Firewall (Minimizer) and a Tool-Output Firewall (Sanitizer). Unlike prior complex approaches, this defense makes minimal assumptions about the agent and can be deployed out of the box. This makes it highly generalizable while maintaining strong performance without compromising utility. Our analysis also reveals critical limitations in these existing benchmarks, including flawed success metrics, implementation bugs, and most importantly, weak attacks, hindering progress. To address this, we present targeted fixes to these issues for AgentDojo and Agent Security Bench, and propose best practices for more robust benchmark design. Moreover, we introduce a three-stage attack strategy that cascades standard prompt injection attacks, second-order attacks, and adaptive attacks to evaluate the robustness beyond existing attacks. Overall, our work shows that existing agentic security benchmarks are easily saturated by a simple approach and highlights the need for stronger benchmarks with carefully chosen evaluation metrics and strong adaptive attacks.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-06T18:09:02Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Rishika Bhagwatkar</name>
+    </author>
+    <author>
+      <name>Kevin Kasa</name>
+    </author>
+    <author>
+      <name>Abhay Puri</name>
+    </author>
+    <author>
+      <name>Gabriel Huang</name>
+    </author>
+    <author>
+      <name>Irina Rish</name>
+    </author>
+    <author>
+      <name>Graham W. Taylor</name>
+    </author>
+    <author>
+      <name>Krishnamurthy Dj Dvijotham</name>
+    </author>
+    <author>
+      <name>Alexandre Lacoste</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.14285v4</id>
+    <title>A Multi-Agent LLM Defense Pipeline Against Prompt Injection Attacks</title>
+    <updated>2025-12-17T16:48:31Z</updated>
+    <link href="https://arxiv.org/abs/2509.14285v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.14285v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prompt injection attacks represent a major vulnerability in Large Language Model (LLM) deployments, where malicious instructions embedded in user inputs can override system prompts and induce unintended behaviors. This paper presents a novel multi-agent defense framework that employs specialized LLM agents in coordinated pipelines to detect and neutralize prompt injection attacks in real-time. We evaluate our approach using two distinct architectures: a sequential chain-of-agents pipeline and a hierarchical coordinator-based system. Our comprehensive evaluation on 55 unique prompt injection attacks, grouped into 8 categories and totaling 400 attack instances across two LLM platforms (ChatGLM and Llama2), demonstrates significant security improvements. Without defense mechanisms, baseline Attack Success Rates (ASR) reached 30% for ChatGLM and 20% for Llama2. Our multi-agent pipeline achieved 100% mitigation, reducing ASR to 0% across all tested scenarios. The framework demonstrates robustness across multiple attack categories including direct overrides, code execution attempts, data exfiltration, and obfuscation techniques, while maintaining system functionality for legitimate queries.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-16T19:11:28Z</published>
+    <arxiv:comment>Accepted at the 11th IEEE WIECON-ECE 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>S M Asif Hossain</name>
+    </author>
+    <author>
+      <name>Ruksat Khan Shayoni</name>
+    </author>
+    <author>
+      <name>Mohd Ruhul Ameen</name>
+    </author>
+    <author>
+      <name>Akif Islam</name>
+    </author>
+    <author>
+      <name>M. F. Mridha</name>
+    </author>
+    <author>
+      <name>Jungpil Shin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.02735v4</id>
+    <title>Meta-SecAlign: Training LLMs against Prompt Injection for Robust Agents</title>
+    <updated>2026-09-28T16:50:14Z</updated>
+    <link href="https://arxiv.org/abs/2507.02735v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.02735v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prompt injection attacks, where untrusted data contains an injected prompt to manipulate the system, have been listed as the top security threat to AI agents. By fine-tuning on simulated prompt injections, SecAlign, a leading open defense, reports LLMs with good test-time robustness and negligible benign utility drop. By scaling up training and evaluations, however, we find that SecAlign actually suffers from significant utility degradation, especially in agentic tasks where the threat of prompt injection is prominent. Motivated by this, we propose Meta-SecAlign for utility-preserving defense by (1) randomized injection position during training to avoid shortcut learning and (2) self-generated responses as high-quality in-distribution training labels. Across general knowledge, instruction following, and agentic workflows (on tool-calling and web-navigation), Meta-SecAlign maintains almost all the undefended LLM's utility while achieving better overall security than SecAlign against various static and GCG adaptive attacks. Experiments use Llama-3.1-8B, Llama-3.3-70B, Llama-4-Scout, Qwen3-4B, and Qwen3.6-27B on 6 prompt injection benchmarks including AgentDojo, InjecAgent, WASP, and SEP. Below are links for the code (https://github.com/facebookresearch/Meta_SecAlign), Meta-SecAlign-70B (https://huggingface.co/facebook/Meta-SecAlign-70B), and Meta-SecAlign-8B (https://huggingface.co/facebook/Meta-SecAlign-8B) models.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-03T15:47:13Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Sizhe Chen</name>
+    </author>
+    <author>
+      <name>Arman Zharmagambetov</name>
+    </author>
+    <author>
+      <name>David Wagner</name>
+    </author>
+    <author>
+      <name>Chuan Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.13352v3</id>
+    <title>AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents</title>
+    <updated>2024-11-24T22:04:23Z</updated>
+    <link href="https://arxiv.org/abs/2406.13352v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.13352v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI agents aim to solve complex tasks by combining text-based reasoning with external tool calls. Unfortunately, AI agents are vulnerable to prompt injection attacks where data returned by external tools hijacks the agent to execute malicious tasks. To measure the adversarial robustness of AI agents, we introduce AgentDojo, an evaluation framework for agents that execute tools over untrusted data. To capture the evolving nature of attacks and defenses, AgentDojo is not a static test suite, but rather an extensible environment for designing and evaluating new agent tasks, defenses, and adaptive attacks. We populate the environment with 97 realistic tasks (e.g., managing an email client, navigating an e-banking website, or making travel bookings), 629 security test cases, and various attack and defense paradigms from the literature. We find that AgentDojo poses a challenge for both attacks and defenses: state-of-the-art LLMs fail at many tasks (even in the absence of attacks), and existing prompt injection attacks break some security properties but not all. We hope that AgentDojo can foster research on new design principles for AI agents that solve common tasks in a reliable and robust manner.. We release the code for AgentDojo at https://github.com/ethz-spylab/agentdojo.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-19T08:55:56Z</published>
+    <arxiv:comment>Updated version after fixing a bug in the Llama implementation and updating the travel suite</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Edoardo Debenedetti</name>
+    </author>
+    <author>
+      <name>Jie Zhang</name>
+    </author>
+    <author>
+      <name>Mislav Balunović</name>
+    </author>
+    <author>
+      <name>Luca Beurer-Kellner</name>
+    </author>
+    <author>
+      <name>Marc Fischer</name>
+    </author>
+    <author>
+      <name>Florian Tramèr</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.19793v3</id>
+    <title>Prompt Injection Attack to Tool Selection in LLM Agents</title>
+    <updated>2025-08-24T03:28:21Z</updated>
+    <link href="https://arxiv.org/abs/2504.19793v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.19793v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool selection is a key component of LLM agents. A popular approach follows a two-step process - \emph{retrieval} and \emph{selection} - to pick the most appropriate tool from a tool library for a given task. In this work, we introduce \textit{ToolHijacker}, a novel prompt injection attack targeting tool selection in no-box scenarios. ToolHijacker injects a malicious tool document into the tool library to manipulate the LLM agent's tool selection process, compelling it to consistently choose the attacker's malicious tool for an attacker-chosen target task. Specifically, we formulate the crafting of such tool documents as an optimization problem and propose a two-phase optimization strategy to solve it. Our extensive experimental evaluation shows that ToolHijacker is highly effective, significantly outperforming existing manual-based and automated prompt injection attacks when applied to tool selection. Moreover, we explore various defenses, including prevention-based defenses (StruQ and SecAlign) and detection-based defenses (known-answer detection, DataSentinel, perplexity detection, and perplexity windowed detection). Our experimental results indicate that these defenses are insufficient, highlighting the urgent need for developing new defense strategies.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-28T13:36:43Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jiawen Shi</name>
+    </author>
+    <author>
+      <name>Zenghui Yuan</name>
+    </author>
+    <author>
+      <name>Guiyao Tie</name>
+    </author>
+    <author>
+      <name>Pan Zhou</name>
+    </author>
+    <author>
+      <name>Neil Zhenqiang Gong</name>
+    </author>
+    <author>
+      <name>Lichao Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.25926v2</id>
+    <title>Preventing Prompt Injection with Type-Directed Privilege Separation</title>
+    <updated>2026-05-08T20:20:45Z</updated>
+    <link href="https://arxiv.org/abs/2509.25926v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.25926v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern language models have enabled the development of agentic systems that achieve strong performance on reasoning-intensive tasks. Unfortunately, this has come with a security cost; these systems are vulnerable to prompt injection, a specialized attack where an adversary subverts the intended functionality of an agent by supplying an injected task of their own. Previous approaches address this challenge with detectors and fine-tuning defenses but are vulnerable to adaptive attacks. Other methods propose system-level defenses that guarantee security, but these are often based on techniques that prevent inter-component communication and thus are constrained in problem coverage. To this end, we introduce type-directed privilege separation, a new technique that expands the set of tasks that can be protected with system-level defenses. Our method works by converting untrusted data to a curated set of data types; unlike raw strings, each data type is limited in scope and content, eliminating the possibility for prompt injection. We evaluate our method across several case studies and find that designs using our principles can systematically prevent prompt injection attacks while featuring strong, non-trivial utility. Our approach is intuitive to understand and compatible with any language model.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-30T08:20:50Z</published>
+    <arxiv:comment>Revised manuscript</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Dennis Jacob</name>
+    </author>
+    <author>
+      <name>Emad Alghamdi</name>
+    </author>
+    <author>
+      <name>Zhanhao Hu</name>
+    </author>
+    <author>
+      <name>Basel Alomair</name>
+    </author>
+    <author>
+      <name>David Wagner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.05630v3</id>
+    <title>How Not to Detect Prompt Injections with an LLM</title>
+    <updated>2025-12-06T04:53:39Z</updated>
+    <link href="https://arxiv.org/abs/2507.05630v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.05630v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM-integrated applications and agents are vulnerable to prompt injection attacks, where adversaries embed malicious instructions within seemingly benign input data to manipulate the LLM's intended behavior. Recent defenses based on known-answer detection (KAD) scheme have reported near-perfect performance by observing an LLM's output to classify input data as clean or contaminated. KAD attempts to repurpose the very susceptibility to prompt injection as a defensive mechanism. We formally characterize the KAD scheme and uncover a structural vulnerability that invalidates its core security premise. To exploit this fundamental vulnerability, we methodically design an adaptive attack, DataFlip. It consistently evades KAD defenses, achieving detection rates as low as $0\%$ while reliably inducing malicious behavior with a success rate of $91\%$, all without requiring white-box access to the LLM or any optimization procedures.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-08T03:24:56Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Sarthak Choudhary</name>
+    </author>
+    <author>
+      <name>Divyam Anshumaan</name>
+    </author>
+    <author>
+      <name>Nils Palumbo</name>
+    </author>
+    <author>
+      <name>Somesh Jha</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05849v4</id>
+    <title>AgentVigil: Generic Black-Box Red-teaming for Indirect Prompt Injection against LLM Agents</title>
+    <updated>2025-06-14T01:50:21Z</updated>
+    <link href="https://arxiv.org/abs/2505.05849v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.05849v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The strong planning and reasoning capabilities of Large Language Models (LLMs) have fostered the development of agent-based systems capable of leveraging external tools and interacting with increasingly complex environments. However, these powerful features also introduce a critical security risk: indirect prompt injection, a sophisticated attack vector that compromises the core of these agents, the LLM, by manipulating contextual information rather than direct user prompts. In this work, we propose a generic black-box fuzzing framework, AgentVigil, designed to automatically discover and exploit indirect prompt injection vulnerabilities across diverse LLM agents. Our approach starts by constructing a high-quality initial seed corpus, then employs a seed selection algorithm based on Monte Carlo Tree Search (MCTS) to iteratively refine inputs, thereby maximizing the likelihood of uncovering agent weaknesses. We evaluate AgentVigil on two public benchmarks, AgentDojo and VWA-adv, where it achieves 71% and 70% success rates against agents based on o3-mini and GPT-4o, respectively, nearly doubling the performance of baseline attacks. Moreover, AgentVigil exhibits strong transferability across unseen tasks and internal LLMs, as well as promising results against defenses. Beyond benchmark evaluations, we apply our attacks in real-world environments, successfully misleading agents to navigate to arbitrary URLs, including malicious sites.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-09T07:40:17Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zhun Wang</name>
+    </author>
+    <author>
+      <name>Vincent Siu</name>
+    </author>
+    <author>
+      <name>Zhe Ye</name>
+    </author>
+    <author>
+      <name>Tianneng Shi</name>
+    </author>
+    <author>
+      <name>Yuzhou Nie</name>
+    </author>
+    <author>
+      <name>Xuandong Zhao</name>
+    </author>
+    <author>
+      <name>Chenguang Wang</name>
+    </author>
+    <author>
+      <name>Wenbo Guo</name>
+    </author>
+    <author>
+      <name>Dawn Song</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.04885v1</id>
+    <title>RL Is a Hammer and LLMs Are Nails: A Simple Reinforcement Learning Recipe for Strong Prompt Injection</title>
+    <updated>2025-10-06T15:06:04Z</updated>
+    <link href="https://arxiv.org/abs/2510.04885v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.04885v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prompt injection poses a serious threat to the reliability and safety of LLM agents. Recent defenses against prompt injection, such as Instruction Hierarchy and SecAlign, have shown notable robustness against static attacks. However, to more thoroughly evaluate the robustness of these defenses, it is arguably necessary to employ strong attacks such as automated red-teaming. To this end, we introduce RL-Hammer, a simple recipe for training attacker models that automatically learn to perform strong prompt injections and jailbreaks via reinforcement learning. RL-Hammer requires no warm-up data and can be trained entirely from scratch. To achieve high ASRs against industrial-level models with defenses, we propose a set of practical techniques that enable highly effective, universal attacks. Using this pipeline, RL-Hammer reaches a 98% ASR against GPT-4o and a $72\%$ ASR against GPT-5 with the Instruction Hierarchy defense. We further discuss the challenge of achieving high diversity in attacks, highlighting how attacker models tend to reward-hack diversity objectives. Finally, we show that RL-Hammer can evade multiple prompt injection detectors. We hope our work advances automatic red-teaming and motivates the development of stronger, more principled defenses. Code is available at https://github.com/facebookresearch/rl-injector.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-06T15:06:04Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yuxin Wen</name>
+    </author>
+    <author>
+      <name>Arman Zharmagambetov</name>
+    </author>
+    <author>
+      <name>Ivan Evtimov</name>
+    </author>
+    <author>
+      <name>Narine Kokhlikyan</name>
+    </author>
+    <author>
+      <name>Tom Goldstein</name>
+    </author>
+    <author>
+      <name>Kamalika Chaudhuri</name>
+    </author>
+    <author>
+      <name>Chuan Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.05174v4</id>
+    <title>MELON: Provable Defense Against Indirect Prompt Injection Attacks in AI Agents</title>
+    <updated>2025-06-10T18:13:09Z</updated>
+    <link href="https://arxiv.org/abs/2502.05174v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.05174v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent research has explored that LLM agents are vulnerable to indirect prompt injection (IPI) attacks, where malicious tasks embedded in tool-retrieved information can redirect the agent to take unauthorized actions. Existing defenses against IPI have significant limitations: either require essential model training resources, lack effectiveness against sophisticated attacks, or harm the normal utilities. We present MELON (Masked re-Execution and TooL comparisON), a novel IPI defense. Our approach builds on the observation that under a successful attack, the agent's next action becomes less dependent on user tasks and more on malicious tasks. Following this, we design MELON to detect attacks by re-executing the agent's trajectory with a masked user prompt modified through a masking function. We identify an attack if the actions generated in the original and masked executions are similar. We also include three key designs to reduce the potential false positives and false negatives. Extensive evaluation on the IPI benchmark AgentDojo demonstrates that MELON outperforms SOTA defenses in both attack prevention and utility preservation. Moreover, we show that combining MELON with a SOTA prompt augmentation defense (denoted as MELON-Aug) further improves its performance. We also conduct a detailed ablation study to validate our key designs. Code is available at https://github.com/kaijiezhu11/MELON.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-07T18:57:49Z</published>
+    <arxiv:comment>ICML 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Kaijie Zhu</name>
+    </author>
+    <author>
+      <name>Xianjun Yang</name>
+    </author>
+    <author>
+      <name>Jindong Wang</name>
+    </author>
+    <author>
+      <name>Wenbo Guo</name>
+    </author>
+    <author>
+      <name>William Yang Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.08966v2</id>
+    <title>RTBAS: Defending LLM Agents Against Prompt Injection and Privacy Leakage</title>
+    <updated>2025-02-14T04:16:40Z</updated>
+    <link href="https://arxiv.org/abs/2502.08966v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.08966v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool-Based Agent Systems (TBAS) allow Language Models (LMs) to use external tools for tasks beyond their standalone capabilities, such as searching websites, booking flights, or making financial transactions. However, these tools greatly increase the risks of prompt injection attacks, where malicious content hijacks the LM agent to leak confidential data or trigger harmful actions. Existing defenses (OpenAI GPTs) require user confirmation before every tool call, placing onerous burdens on users. We introduce Robust TBAS (RTBAS), which automatically detects and executes tool calls that preserve integrity and confidentiality, requiring user confirmation only when these safeguards cannot be ensured. RTBAS adapts Information Flow Control to the unique challenges presented by TBAS. We present two novel dependency screeners, using LM-as-a-judge and attention-based saliency, to overcome these challenges. Experimental results on the AgentDojo Prompt Injection benchmark show RTBAS prevents all targeted attacks with only a 2% loss of task utility when under attack, and further tests confirm its ability to obtain near-oracle performance on detecting both subtle and direct privacy leaks.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-13T05:06:22Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Peter Yong Zhong</name>
+    </author>
+    <author>
+      <name>Siyuan Chen</name>
+    </author>
+    <author>
+      <name>Ruiqi Wang</name>
+    </author>
+    <author>
+      <name>McKenna McCall</name>
+    </author>
+    <author>
+      <name>Ben L. Titzer</name>
+    </author>
+    <author>
+      <name>Heather Miller</name>
+    </author>
+    <author>
+      <name>Phillip B. Gibbons</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.15203v1</id>
+    <title>Taxonomy, Evaluation and Exploitation of IPI-Centric LLM Agent Defense Frameworks</title>
+    <updated>2025-11-19T07:47:30Z</updated>
+    <link href="https://arxiv.org/abs/2511.15203v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.15203v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM)-based agents with function-calling capabilities are increasingly deployed, but remain vulnerable to Indirect Prompt Injection (IPI) attacks that hijack their tool calls. In response, numerous IPI-centric defense frameworks have emerged. However, these defenses are fragmented, lacking a unified taxonomy and comprehensive evaluation. In this Systematization of Knowledge (SoK), we present the first comprehensive analysis of IPI-centric defense frameworks. We introduce a comprehensive taxonomy of these defenses, classifying them along five dimensions. We then thoroughly assess the security and usability of representative defense frameworks. Through analysis of defensive failures in the assessment, we identify six root causes of defense circumvention. Based on these findings, we design three novel adaptive attacks that significantly improve attack success rates targeting specific frameworks, demonstrating the severity of the flaws in these defenses. Our paper provides a foundation and critical insights for the future development of more secure and usable IPI-centric agent defense frameworks.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-19T07:47:30Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zimo Ji</name>
+    </author>
+    <author>
+      <name>Xunguang Wang</name>
+    </author>
+    <author>
+      <name>Zongjie Li</name>
+    </author>
+    <author>
+      <name>Pingchuan Ma</name>
+    </author>
+    <author>
+      <name>Yudong Gao</name>
+    </author>
+    <author>
+      <name>Daoyuan Wu</name>
+    </author>
+    <author>
+      <name>Xincheng Yan</name>
+    </author>
+    <author>
+      <name>Tian Tian</name>
+    </author>
+    <author>
+      <name>Shuai Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.23128v3</id>
+    <title>It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents</title>
+    <updated>2026-07-02T16:12:04Z</updated>
+    <link href="https://arxiv.org/abs/2512.23128v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.23128v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Web-based agents powered by large language models are increasingly used for tasks such as email management or professional networking. Their reliance on dynamic web content, however, makes them vulnerable to prompt injection attacks: adversarial instructions hidden in interface elements that persuade the agent to divert from its original task. We introduce the Task-Redirecting Agent Persuasion Benchmark (TRAP), a benchmark for studying how persuasion techniques misguide autonomous web agents on realistic tasks. Across six frontier models, agents are susceptible to prompt injection in 25% of tasks on average (13% for GPT-5 to 43% for DeepSeek-R1), with small interface or contextual changes often doubling success rates and revealing systemic, psychologically driven vulnerabilities in web-based agents. We also provide a modular social-engineering injection framework with controlled experiments on high-fidelity website clones, allowing for further benchmark expansion.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-29T01:09:10Z</published>
+    <arxiv:comment>ICML 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Karolina Korgul</name>
+    </author>
+    <author>
+      <name>Yushi Yang</name>
+    </author>
+    <author>
+      <name>Arkadiusz Drohomirecki</name>
+    </author>
+    <author>
+      <name>Piotr Błaszczyk</name>
+    </author>
+    <author>
+      <name>Will Howard</name>
+    </author>
+    <author>
+      <name>Lukas Aichberger</name>
+    </author>
+    <author>
+      <name>Chris Russell</name>
+    </author>
+    <author>
+      <name>Philip H. S. Torr</name>
+    </author>
+    <author>
+      <name>Adam Mahdi</name>
+    </author>
+    <author>
+      <name>Adel Bibi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.11238v1</id>
+    <title>Attacks by Content: Automated Fact-checking is an AI Security Issue</title>
+    <updated>2025-10-13T10:18:48Z</updated>
+    <link href="https://arxiv.org/abs/2510.11238v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.11238v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When AI agents retrieve and reason over external documents, adversaries can manipulate the data they receive to subvert their behaviour. Previous research has studied indirect prompt injection, where the attacker injects malicious instructions. We argue that injection of instructions is not necessary to manipulate agents - attackers could instead supply biased, misleading, or false information. We term this an attack by content. Existing defenses, which focus on detecting hidden commands, are ineffective against attacks by content. To defend themselves and their users, agents must critically evaluate retrieved information, corroborating claims with external evidence and evaluating source trustworthiness. We argue that this is analogous to an existing NLP task, automated fact-checking, which we propose to repurpose as a cognitive self-defense tool for agents.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-13T10:18:48Z</published>
+    <arxiv:comment>Accepted to EMNLP 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Michael Schlichtkrull</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.00061v2</id>
+    <title>Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents</title>
+    <updated>2025-03-04T03:32:46Z</updated>
+    <link href="https://arxiv.org/abs/2503.00061v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.00061v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agents exhibit remarkable performance across diverse applications by using external tools to interact with environments. However, integrating external tools introduces security risks, such as indirect prompt injection (IPI) attacks. Despite defenses designed for IPI attacks, their robustness remains questionable due to insufficient testing against adaptive attacks. In this paper, we evaluate eight different defenses and bypass all of them using adaptive attacks, consistently achieving an attack success rate of over 50%. This reveals critical vulnerabilities in current defenses. Our research underscores the need for adaptive attack evaluation when designing defenses to ensure robustness and reliability. The code is available at https://github.com/uiuc-kang-lab/AdaptiveAttackAgent.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-27T04:04:50Z</published>
+    <arxiv:comment>17 pages, 5 figures, 6 tables (NAACL 2025 Findings)</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Qiusi Zhan</name>
+    </author>
+    <author>
+      <name>Richard Fang</name>
+    </author>
+    <author>
+      <name>Henil Shalin Panchal</name>
+    </author>
+    <author>
+      <name>Daniel Kang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.16682v1</id>
+    <title>The Task Shield: Enforcing Task Alignment to Defend Against Indirect Prompt Injection in LLM Agents</title>
+    <updated>2024-12-21T16:17:48Z</updated>
+    <link href="https://arxiv.org/abs/2412.16682v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.16682v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) agents are increasingly being deployed as conversational assistants capable of performing complex real-world tasks through tool integration. This enhanced ability to interact with external systems and process various data sources, while powerful, introduces significant security vulnerabilities. In particular, indirect prompt injection attacks pose a critical threat, where malicious instructions embedded within external data sources can manipulate agents to deviate from user intentions. While existing defenses based on rule constraints, source spotlighting, and authentication protocols show promise, they struggle to maintain robust security while preserving task functionality. We propose a novel and orthogonal perspective that reframes agent security from preventing harmful actions to ensuring task alignment, requiring every agent action to serve user objectives. Based on this insight, we develop Task Shield, a test-time defense mechanism that systematically verifies whether each instruction and tool call contributes to user-specified goals. Through experiments on the AgentDojo benchmark, we demonstrate that Task Shield reduces attack success rates (2.07\%) while maintaining high task utility (69.79\%) on GPT-4o.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-21T16:17:48Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Feiran Jia</name>
+    </author>
+    <author>
+      <name>Tong Wu</name>
+    </author>
+    <author>
+      <name>Xin Qin</name>
+    </author>
+    <author>
+      <name>Anna Squicciarini</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PZAILA12fXfMxQG6uo7v1QUF3sM</id>
+  <title>arXiv Query: search_query=ti:"Sabotage Evaluations for Frontier Models"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:05:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22Sabotage+Evaluations+for+Frontier+Models%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.21514v1</id>
+    <title>Sabotage Evaluations for Frontier Models</title>
+    <updated>2024-10-28T20:34:51Z</updated>
+    <link href="https://arxiv.org/abs/2410.21514v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.21514v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sufficiently capable models could subvert human oversight and decision-making in important contexts. For example, in the context of AI development, models could covertly sabotage efforts to evaluate their own dangerous capabilities, to monitor their behavior, or to make decisions about their deployment. We refer to this family of abilities as sabotage capabilities. We develop a set of related threat models and evaluations. These evaluations are designed to provide evidence that a given model, operating under a given set of mitigations, could not successfully sabotage a frontier model developer or other large organization's activities in any of these ways. We demonstrate these evaluations on Anthropic's Claude 3 Opus and Claude 3.5 Sonnet models. Our results suggest that for these models, minimal mitigations are currently sufficient to address sabotage risks, but that more realistic evaluations and stronger mitigations seem likely to be necessary soon as capabilities improve. We also survey related evaluations we tried and abandoned. Finally, we discuss the advantages of mitigation-aware capability evaluations, and of simulating large-scale deployments using small-scale statistics.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-28T20:34:51Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Joe Benton</name>
+    </author>
+    <author>
+      <name>Misha Wagner</name>
+    </author>
+    <author>
+      <name>Eric Christiansen</name>
+    </author>
+    <author>
+      <name>Cem Anil</name>
+    </author>
+    <author>
+      <name>Ethan Perez</name>
+    </author>
+    <author>
+      <name>Jai Srivastav</name>
+    </author>
+    <author>
+      <name>Esin Durmus</name>
+    </author>
+    <author>
+      <name>Deep Ganguli</name>
+    </author>
+    <author>
+      <name>Shauna Kravec</name>
+    </author>
+    <author>
+      <name>Buck Shlegeris</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+    <author>
+      <name>Holden Karnofsky</name>
+    </author>
+    <author>
+      <name>Evan Hubinger</name>
+    </author>
+    <author>
+      <name>Roger Grosse</name>
+    </author>
+    <author>
+      <name>Samuel R. Bowman</name>
+    </author>
+    <author>
+      <name>David Duvenaud</name>
+    </author>
+  </entry>
+</feed>

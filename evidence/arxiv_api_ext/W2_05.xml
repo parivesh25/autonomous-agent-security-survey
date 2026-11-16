@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/AXlieu1M92bkVoy8cBTVGmwiIm4</id>
+  <title>arXiv Query: search_query=ti:"The Attacker Moves Second Stronger Adaptive Attacks Bypass Defenses Against LLM Jailbreaks and Prompt Injections"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:04:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22The+Attacker+Moves+Second+Stronger+Adaptive+Attacks+Bypass+Defenses+Against+LLM+Jailbreaks+and+Prompt+Injections%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.09023v1</id>
+    <title>The Attacker Moves Second: Stronger Adaptive Attacks Bypass Defenses Against Llm Jailbreaks and Prompt Injections</title>
+    <updated>2025-10-10T05:51:04Z</updated>
+    <link href="https://arxiv.org/abs/2510.09023v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.09023v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>How should we evaluate the robustness of language model defenses? Current defenses against jailbreaks and prompt injections (which aim to prevent an attacker from eliciting harmful knowledge or remotely triggering malicious actions, respectively) are typically evaluated either against a static set of harmful attack strings, or against computationally weak optimization methods that were not designed with the defense in mind. We argue that this evaluation process is flawed.
+  Instead, we should evaluate defenses against adaptive attackers who explicitly modify their attack strategy to counter a defense's design while spending considerable resources to optimize their objective. By systematically tuning and scaling general optimization techniques-gradient descent, reinforcement learning, random search, and human-guided exploration-we bypass 12 recent defenses (based on a diverse set of techniques) with attack success rate above 90% for most; importantly, the majority of defenses originally reported near-zero attack success rates. We believe that future defense work must consider stronger attacks, such as the ones we describe, in order to make reliable and convincing claims of robustness.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-10T05:51:04Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Milad Nasr</name>
+    </author>
+    <author>
+      <name>Nicholas Carlini</name>
+    </author>
+    <author>
+      <name>Chawin Sitawarin</name>
+    </author>
+    <author>
+      <name>Sander V. Schulhoff</name>
+    </author>
+    <author>
+      <name>Jamie Hayes</name>
+    </author>
+    <author>
+      <name>Michael Ilie</name>
+    </author>
+    <author>
+      <name>Juliette Pluto</name>
+    </author>
+    <author>
+      <name>Shuang Song</name>
+    </author>
+    <author>
+      <name>Harsh Chaudhari</name>
+    </author>
+    <author>
+      <name>Ilia Shumailov</name>
+    </author>
+    <author>
+      <name>Abhradeep Thakurta</name>
+    </author>
+    <author>
+      <name>Kai Yuanqing Xiao</name>
+    </author>
+    <author>
+      <name>Andreas Terzis</name>
+    </author>
+    <author>
+      <name>Florian Tramèr</name>
+    </author>
+  </entry>
+</feed>

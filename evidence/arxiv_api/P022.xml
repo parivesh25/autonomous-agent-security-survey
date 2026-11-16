@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/tmXh0gC0tHzknlhtzxEfR0PR8Ds</id>
+  <title>arXiv Query: search_query=ti:"ORBIT A Framework for Multi Agent Safety and Security Evaluations"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-11-16T17:02:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22ORBIT+A+Framework+for+Multi+Agent+Safety+and+Security+Evaluations%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.33102v1</id>
+    <title>ORBIT: A Framework for Multi-Agent Safety and Security Evaluations</title>
+    <updated>2026-09-27T02:20:08Z</updated>
+    <link href="https://arxiv.org/abs/2609.33102v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.33102v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent LLM systems are increasingly deployed for complex, long-horizon tasks or emerge as a natural consequence of agents interacting in the wild. Yet they give rise to significant safety and security risks: the flexible protocols that enable task generalization also expose novel threats, from cascading prompt injection to inter-agent collusion. Progress in defending against these threats has been slowed by a lack of shared empirical infrastructure, which forces bespoke environment development for every new defense and makes standardized comparison impossible. Existing evaluations address isolated threat models or single-agent settings, but none jointly vary attack, defense, and architecture across realistic multi-agent environments. To address this gap, we introduce ORBIT, a configurable evaluation framework for empirical multi-agent safety and security research, built on UK AISI's Inspect. ORBIT lets researchers configure communication topologies, memory, scheduling, and agent roles. It supports four threat types and four defense strategies, as well as non-adversarial failures, with a benchmark suite spanning five scenario families covering browser use, computer use, agentic coding, customer service, and cooperative allocation. Our central finding is a gap in defense transferability across threats: per-action defenses that cut a compromised agent's attack success by 60 points on multi-issue coding give no measurable protection against colluding agents, and none of the defenses we tested generalized over all attacks tested. We further demonstrate security-performance tradeoffs and interactions between architecture and defense effectiveness. We make ORBIT available open-source at https://github.com/wlanderson0/orbit.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-27T02:20:08Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Ben Hagag</name>
+    </author>
+    <author>
+      <name>William L. Anderson</name>
+    </author>
+    <author>
+      <name>Srija Chakraborty</name>
+    </author>
+    <author>
+      <name>Christian Schroeder de Witt</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,648 @@
+[
+ {
+  "id": "P001",
+  "discovery_title": "Reward Hacking Benchmark: Measuring Exploits in LLM Agents with Tool Use",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Reward+Hacking+Benchmark+Measuring+Exploits+in+LLM+Agents+with+Tool+Use%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2605.02964v1",
+    "title": "Reward Hacking Benchmark: Measuring Exploits in LLM Agents with Tool Use",
+    "authors": [
+     "Kunvar Thaman"
+    ],
+    "first_submitted": "2026-05-03T07:10:42Z",
+    "latest_version_date": "2026-05-03T07:10:42Z",
+    "primary_category": "cs.LG",
+    "journal_ref": "Proceedings of the 43rd International Conference on Machine Learning, PMLR 306:120372-120389, 2026",
+    "doi": null,
+    "comment": "16 pages, 2 figures. Accepted to ICML 2026",
+    "abstract": "Reinforcement learning (RL) trained language model agents with tool access are increasingly deployed in coding assistants, research tools, and autonomous systems. We introduce the Reward Hacking Benchmark (RHB), a suite of multi-step tasks requiring sequential tool operations with naturalistic shortcut opportunities such as skipping verification steps, inferring answers from task-adjacent metadata, or tampering with evaluation-relevant functions. RHB supports independent and chained task regimes, where chain length acts as a proxy for longer-horizon agent behavior. We evaluate 13 frontier models from OpenAI, Anthropic, Google, and DeepSeek. Exploit rates range from 0% (Claude Sonnet 4.5) to 13.9% (DeepSeek-R1-Zero), varying sharply by post-training style. A controlled sibling comparison (DeepSeek-V3 vs. DeepSeek-R1-Zero) shows RL post-training is associated with substantially higher reward hacking (0.6% vs. 13.9%), with consistent gaps across all four task families. We identify six exploit categories and find that 72% of reward hacking episodes include explicit chain-of-thought rationale, suggesting models often frame exploits as legitimate problem-solving. Simple environmental hardening reduces exploit rates by 5.7 percentage points (87.7% relative) without degrading task success. Models with near-zero exploit rates on standard tasks show elevated rates on harder variants, suggesting that production-aligned post-training appears to suppress reward hacking only below a complexity threshold where honest solutions remain tractable."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P002",
+  "discovery_title": "A survey of reward hacking in agentic large language model systems",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22A+survey+of+reward+hacking+in+agentic+large+language+model+systems%22&max_results=5",
+  "returned": 0,
+  "exact_title_matches": [],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P003",
+  "discovery_title": "Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Sycophancy+to+Subterfuge+Investigating+Reward+Tampering+in+Large+Language+Models%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2406.10162v3",
+    "title": "Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models",
+    "authors": [
+     "Carson Denison",
+     "Monte MacDiarmid",
+     "Fazl Barez",
+     "David Duvenaud",
+     "Shauna Kravec",
+     "Samuel Marks",
+     "Nicholas Schiefer",
+     "Ryan Soklaski",
+     "Alex Tamkin",
+     "Jared Kaplan",
+     "Buck Shlegeris",
+     "Samuel R. Bowman",
+     "Ethan Perez",
+     "Evan Hubinger"
+    ],
+    "first_submitted": "2024-06-14T16:26:20Z",
+    "latest_version_date": "2024-06-29T00:28:47Z",
+    "primary_category": "cs.AI",
+    "journal_ref": null,
+    "doi": null,
+    "comment": "Make it easier to find samples from the model, and highlight that our operational definition of reward tampering has false positives where the model attempts to complete the task honestly but edits the reward. Add paragraph to conclusion to this effect, and add sentence to figure 1 to this effect",
+    "abstract": "In reinforcement learning, specification gaming occurs when AI systems learn undesired behaviors that are highly rewarded due to misspecified training goals. Specification gaming can range from simple behaviors like sycophancy to sophisticated and pernicious behaviors like reward-tampering, where a model directly modifies its own reward mechanism. However, these more pernicious behaviors may be too complex to be discovered via exploration. In this paper, we study whether Large Language Model (LLM) assistants which find easily discovered forms of specification gaming will generalize to perform rarer and more blatant forms, up to and including reward-tampering. We construct a curriculum of increasingly sophisticated gameable environments and find that training on early-curriculum environments leads to more specification gaming on remaining environments. Strikingly, a small but non-negligible proportion of the time, LLM assistants trained on the full curriculum generalize zero-shot to directly rewriting their own reward function. Retraining an LLM not to game early-curriculum environments mitigates, but does not eliminate, reward-tampering in later environments. Moreover, adding harmlessness training to our gameable environments does not prevent reward-tampering. These results demonstrate that LLMs can generalize from common forms of specification gaming to more pernicious reward tampering and that such behavior may be nontrivial to remove."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P004",
+  "discovery_title": "RewardHackingAgents: Benchmarking Evaluation Integrity for LLM ML-Engineering Agents",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22RewardHackingAgents+Benchmarking+Evaluation+Integrity+for+LLM+ML+Engineering+Agents%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2603.11337v1",
+    "title": "RewardHackingAgents: Benchmarking Evaluation Integrity for LLM ML-Engineering Agents",
+    "authors": [
+     "Yonas Atinafu",
+     "Robin Cohen"
+    ],
+    "first_submitted": "2026-03-11T22:06:44Z",
+    "latest_version_date": "2026-03-11T22:06:44Z",
+    "primary_category": "cs.AI",
+    "journal_ref": null,
+    "doi": null,
+    "comment": null,
+    "abstract": "LLM agents increasingly perform end-to-end ML engineering tasks where success is judged by a single scalar test metric. This creates a structural vulnerability: an agent can increase the reported score by compromising the evaluation pipeline rather than improving the model. We introduce RewardHackingAgents, a workspace-based benchmark that makes two compromise vectors explicit and measurable: evaluator tampering (modifying metric computation or reporting) and train/test leakage (accessing held-out data or labels during training). Each episode runs in a fresh workspace with patch tracking and runtime file-access logging; detectors compare the agent-reported metric to a trusted reference to assign auditable integrity labels. Across three tasks and two LLM backbones, scripted attacks succeed on both vectors in fully mutable workspaces; single-mechanism defenses block only one vector; and a combined regime blocks both. In natural-agent runs, evaluator-tampering attempts occur in about 50% of episodes and are eliminated by evaluator locking, with a 25-31% median runtime overhead. Overall, we demonstrate that evaluation integrity for ML-engineering agents can be benchmarked as a first-class outcome rather than assumed."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P005",
+  "discovery_title": "Reward Hacking in Language Model Agents: Revisiting AI Safety Gridworlds",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Reward+Hacking+in+Language+Model+Agents+Revisiting+AI+Safety+Gridworlds%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2606.15385v1",
+    "title": "Reward Hacking in Language Model Agents: Revisiting AI Safety Gridworlds",
+    "authors": [
+     "Ömer Veysel Çağatan",
+     "Xuandong Zhao"
+    ],
+    "first_submitted": "2026-06-13T16:29:34Z",
+    "latest_version_date": "2026-06-13T16:29:34Z",
+    "primary_category": "cs.AI",
+    "journal_ref": null,
+    "doi": null,
+    "comment": "28 pages, 16 figures, 13 tables",
+    "abstract": "Reward hacking, where AI systems exploit misspecified objectives to achieve high reward without satisfying intended goals, remains a central challenge in AI safety. Yet most known instances have been discovered post hoc in frontier systems where controlled study is impractical. We adapt the AI Safety Gridworlds framework into a text-based evaluation suite that reformulates classic reinforcement learning safety tasks for language-based agents. Across frontier and mid-scale models, we find that specification gaming emerges zero-shot: models systematically achieve high observed reward while underperforming on hidden safety objectives, and even apparently safe behaviors can reflect misunderstanding rather than principled safety. Reinforcement learning does not correct these failures: direct reward optimization widens the gap between observed and hidden reward, as the model's initial competence causes it to lock into locally rewarding strategies before discovering safer alternatives. This pattern persists across model scales (1.5B--14B) and is not resolved by finer credit assignment, exploration prompts, or entropy regularization. Our results show that reward hacking arises naturally when optimizing proxy objectives with capable language model agents and resists standard mitigations, suggesting that proxy-reward failures in agentic settings may require approaches beyond standard exploration and credit-assignment fixes. To facilitate reproducibility, the code for this work is available at \\href{https://github.com/asparius/verl-agent-safety}{our public repository}."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P006",
+  "discovery_title": "RewardHackingAgents: Benchmarking Evaluation Integrity for LLM ML-Engineering Agents",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22RewardHackingAgents+Benchmarking+Evaluation+Integrity+for+LLM+ML+Engineering+Agents%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2603.11337v1",
+    "title": "RewardHackingAgents: Benchmarking Evaluation Integrity for LLM ML-Engineering Agents",
+    "authors": [
+     "Yonas Atinafu",
+     "Robin Cohen"
+    ],
+    "first_submitted": "2026-03-11T22:06:44Z",
+    "latest_version_date": "2026-03-11T22:06:44Z",
+    "primary_category": "cs.AI",
+    "journal_ref": null,
+    "doi": null,
+    "comment": null,
+    "abstract": "LLM agents increasingly perform end-to-end ML engineering tasks where success is judged by a single scalar test metric. This creates a structural vulnerability: an agent can increase the reported score by compromising the evaluation pipeline rather than improving the model. We introduce RewardHackingAgents, a workspace-based benchmark that makes two compromise vectors explicit and measurable: evaluator tampering (modifying metric computation or reporting) and train/test leakage (accessing held-out data or labels during training). Each episode runs in a fresh workspace with patch tracking and runtime file-access logging; detectors compare the agent-reported metric to a trusted reference to assign auditable integrity labels. Across three tasks and two LLM backbones, scripted attacks succeed on both vectors in fully mutable workspaces; single-mechanism defenses block only one vector; and a combined regime blocks both. In natural-agent runs, evaluator-tampering attempts occur in about 50% of episodes and are eliminated by evaluator locking, with a 25-31% median runtime overhead. Overall, we demonstrate that evaluation integrity for ML-engineering agents can be benchmarked as a first-class outcome rather than assumed."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P007",
+  "discovery_title": "Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Do+Agent+Benchmarks+Measure+Capability+Protocol+Validity+in+the+Age+of+Agentic+AI%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2607.22368v1",
+    "title": "Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI",
+    "authors": [
+     "Jiaqi Shao",
+     "Hanck Chen",
+     "Wei Zhang",
+     "Maxm Pan",
+     "Bing Luo"
+    ],
+    "first_submitted": "2026-07-24T14:55:19Z",
+    "latest_version_date": "2026-07-24T14:55:19Z",
+    "primary_category": "cs.AI",
+    "journal_ref": null,
+    "doi": null,
+    "comment": null,
+    "abstract": "Agent benchmarks increasingly evaluate repository editing, web research, terminal use, and long-horizon interaction. Their scores support capability claims only when the evaluation protocol keeps the intended capability necessary for success. Recent reward-hacking benchmarks and system reports show that agents can instead recover public solutions, read evaluation artifacts, infer generator structure, manipulate feedback, or benefit from invalid scoring paths; existing responses do not provide a common procedure for attributing these shortcuts and quantifying their effect across benchmarks. We formulate protocol validity and introduce HackDetect, a post-hoc audit that identifies an exposure, determines how the agent used it, and assesses whether the resulting score is misleading. We quantify score inflation with the Mislead gap, defined as the exploit score minus the intended score. We audit 2,385 traces across 15 agent benchmarks and find evidence of exposures and reward hacking in 67.0% of Frontier Science traces and 66.7% of AutoLab tasks. Across paired comparisons, we measure score inflation of 0.45-1.00, showing that benchmark reports should provide evidence that scores reflect the intended capability."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P008",
+  "discovery_title": "Reward Hacking Challenges Oversight of Autonomous Research Agents",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Reward+Hacking+Challenges+Oversight+of+Autonomous+Research+Agents%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2609.28614v1",
+    "title": "Reward Hacking Challenges Oversight of Autonomous Research Agents",
+    "authors": [
+     "Yue Huang",
+     "Zhangchen Xu",
+     "Yuchen Ma",
+     "Wenjie Wang",
+     "Zheyuan Liu",
+     "Ziwei Xu",
+     "Pin-Yu Chen",
+     "Michel Galley",
+     "Zinan Lin",
+     "Stefan Feuerriegel",
+     "Radha Poovendran",
+     "Misha Sra",
+     "Alex Pentland",
+     "Xiangliang Zhang",
+     "Zichen Chen"
+    ],
+    "first_submitted": "2026-09-23T17:54:01Z",
+    "latest_version_date": "2026-09-23T17:54:01Z",
+    "primary_category": "cs.CL",
+    "journal_ref": null,
+    "doi": null,
+    "comment": null,
+    "abstract": "Autonomous research agents can design experiments, evaluate results, and write reports, giving them control over both a scientific result and the evidence used to support it. This creates a risk of reward hacking: meeting the reward criteria without achieving the intended goal. We study (1) how often models reward-hack without instructions to do so, (2) how effective and detectable their methods are when hacking is allowed, and (3) how they adapt when an LLM review panel returns its decision and reasons. Across 17 language models and 38 tasks, the spontaneous reward-hacking rate is 30.5% on open-ended research-pipeline tasks and 2.9% on task-specific kernels. When hacking is allowed on tasks whose pass thresholds exceed our best compliant baselines, 505/677 attempts (74.6%) are confirmed reward hacks: they both clear the threshold and receive mechanism-verification panel confirmation of an evaluation exploit. An LLM panel reviewing only submitted code and reported scores misses 33/505 confirmed hacks (6.5%). Direct methods that achieve the highest scores are often easy to detect, while less direct methods evade more often. In a five-round loop, the number of model-task pairs with an evasion rises from 7 to 56. Among 79 pairs evaluated under two feedback conditions, cumulative evasion reaches 40.5% with detailed feedback and 20.3% with generic rejection. The detailed condition includes the review decision, reasons, and attempt history, so this comparison does not isolate the effect of explanations. These findings highlight the need for stronger defenses, including metrics kept outside the agent's control and independent recomputation on data chosen to expose likely exploits."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P009",
+  "discovery_title": "Towards Understanding Specification Gaming in Reasoning Models",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Towards+Understanding+Specification+Gaming+in+Reasoning+Models%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2605.02269v1",
+    "title": "Towards Understanding Specification Gaming in Reasoning Models",
+    "authors": [
+     "Kei Nishimura-Gasparian",
+     "Robert McCarthy",
+     "David Lindner"
+    ],
+    "first_submitted": "2026-05-04T06:22:22Z",
+    "latest_version_date": "2026-05-04T06:22:22Z",
+    "primary_category": "cs.AI",
+    "journal_ref": null,
+    "doi": null,
+    "comment": null,
+    "abstract": "Specification gaming is a critical failure mode of LLM agents. Despite this, there has been little systematic research into when it arises and what drives it. To address this, we build and open source a diverse suite of tasks where models can score highly by taking unintended actions. We find that all tested models exploit their specifications at non-negligible rates in most of our eight settings, including five non-coding settings. We see the highest rates of specification gaming in Grok 4 and the lowest rates in Claude models. We use our evaluation suite to study what drives specification gaming, and find that: 1. RL reasoning training substantially increases the rate at which models exploit their specifications, 2. Increasing RL reasoning budget has a weakly positive effect on exploit rate, and 3. Test-time mitigations reduce but do not eliminate the rate of specification gaming. Our results suggest that specification gaming is a fundamental challenge arising from RL reasoning training; we release our evaluation suite to support further work on this problem."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P010",
+  "discovery_title": "EvilGenie: A Reward Hacking Benchmark",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22EvilGenie+A+Reward+Hacking+Benchmark%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2511.21654v2",
+    "title": "EvilGenie: A Reward Hacking Benchmark",
+    "authors": [
+     "Jonathan Gabor",
+     "Jayson Lynch",
+     "Jonathan Rosenfeld"
+    ],
+    "first_submitted": "2025-11-26T18:27:17Z",
+    "latest_version_date": "2026-05-17T22:54:07Z",
+    "primary_category": "cs.LG",
+    "journal_ref": null,
+    "doi": null,
+    "comment": null,
+    "abstract": "We introduce EvilGenie, a benchmark for reward hacking in programming settings. We source problems from LiveCodeBench and create an environment in which agents can easily reward hack, such as by hardcoding test cases or editing the testing files. We measure reward hacking in three ways: held out unit tests, LLM judges, and test file edit detection. We verify these methods against human review and each other. We find the LLM judge to be highly effective at detecting reward hacking in unambiguous cases, and observe only minimal improvement from the use of held out test cases. In addition to testing many models using Inspect's basic\\_agent scaffold, we also measure reward hacking rates for three popular proprietary coding agents: OpenAI's Codex, Anthropic's Claude Code, and Google's Gemini CLI. We observe explicit reward hacking by both Codex and Claude Code, and misaligned behavior by all three agents. Our codebase can be found at https://github.com/JonathanGabor/evilgenie_inspect ."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P011",
+  "discovery_title": "Evaluating Indirect Prompt Injection Defenses in Tool-Using LLM Agents: Security, Utility, and Replication",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Evaluating+Indirect+Prompt+Injection+Defenses+in+Tool+Using+LLM+Agents+Security+Utility+and+Replication%22&max_results=5",
+  "returned": 0,
+  "exact_title_matches": [],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P012",
+  "discovery_title": "Your Agent is More Brittle Than You Think: Uncovering Indirect Injection Vulnerabilities in Agentic LLMs",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Your+Agent+is+More+Brittle+Than+You+Think+Uncovering+Indirect+Injection+Vulnerabilities+in+Agentic+LLMs%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2604.03870v1",
+    "title": "Your Agent is More Brittle Than You Think: Uncovering Indirect Injection Vulnerabilities in Agentic LLMs",
+    "authors": [
+     "Wenhui Zhu",
+     "Xuanzhao Dong",
+     "Xiwen Chen",
+     "Rui Cai",
+     "Peijie Qiu",
+     "Zhipeng Wang",
+     "Oana Frunza",
+     "Shao Tang",
+     "Jindong Gu",
+     "Yalin Wang"
+    ],
+    "first_submitted": "2026-04-04T21:27:04Z",
+    "latest_version_date": "2026-04-04T21:27:04Z",
+    "primary_category": "cs.CL",
+    "journal_ref": null,
+    "doi": null,
+    "comment": null,
+    "abstract": "The rapid deployment of open-source frameworks has significantly advanced the development of modern multi-agent systems. However, expanded action spaces, including uncontrolled privilege exposure and hidden inter-system interactions, pose severe security challenges. Specifically, Indirect Prompt Injections (IPI), which conceal malicious instructions within third-party content, can trigger unauthorized actions such as data exfiltration during normal operations. While current security evaluations predominantly rely on isolated single-turn benchmarks, the systemic vulnerabilities of these agents within complex dynamic environments remain critically underexplored. To bridge this gap, we systematically evaluate six defense strategies against four sophisticated IPI attack vectors across nine LLM backbones. Crucially, we conduct our evaluation entirely within dynamic multi-step tool-calling environments to capture the true attack surface of modern autonomous agents. Moving beyond binary success rates, our multidimensional analysis reveals a pronounced fragility. Advanced injections successfully bypass nearly all baseline defenses, and some surface-level mitigations even produce counterproductive side effects. Furthermore, while agents execute malicious instructions almost instantaneously, their internal states exhibit abnormally high decision entropy. Motivated by this latent hesitation, we investigate Representation Engineering (RepE) as a robust detection strategy. By extracting hidden states at the tool-input position, we revealed that the RepE-based circuit breaker successfully identifies and intercepts unauthorized actions before the agent commits to them, achieving high detection accuracy across diverse LLM backbones. This study exposes the limitations of current IPI defenses and provides a highly practical paradigm for building resilient multi-agent architectures."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P013",
+  "discovery_title": "Securing Autonomous AI Agents: Detecting and Mitigating Prompt Injection Attacks in LLM-Based Systems",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Securing+Autonomous+AI+Agents+Detecting+and+Mitigating+Prompt+Injection+Attacks+in+LLM+Based+Systems%22&max_results=5",
+  "returned": 0,
+  "exact_title_matches": [],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P014",
+  "discovery_title": "PlanGuard: Defending Agents against Indirect Prompt Injection via Planning-based Consistency Verification",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22PlanGuard+Defending+Agents+against+Indirect+Prompt+Injection+via+Planning+based+Consistency+Verification%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2604.10134v1",
+    "title": "PlanGuard: Defending Agents against Indirect Prompt Injection via Planning-based Consistency Verification",
+    "authors": [
+     "Guangyu Gong",
+     "Zizhuang Deng"
+    ],
+    "first_submitted": "2026-04-11T09:59:46Z",
+    "latest_version_date": "2026-04-11T09:59:46Z",
+    "primary_category": "cs.CR",
+    "journal_ref": null,
+    "doi": null,
+    "comment": null,
+    "abstract": "Large Language Model (LLM) agents are increasingly integrated into critical systems, leveraging external tools to interact with the real world. However, this capability exposes them to Indirect Prompt Injection (IPI), where attackers embed malicious instructions into retrieved content to manipulate the agent into executing unauthorized or unintended actions. Existing defenses predominantly focus on the pre-processing stage, neglecting the monitoring of the model's actual behavior. In this paper, we propose PlanGuard, a training-free defense framework based on the principle of Context Isolation. Unlike prior methods, PlanGuard introduces an isolated Planner that generates a reference set of valid actions derived solely from user instructions. In addition, we design a Hierarchical Verification Mechanism that first enforces strict hard constraints to block unauthorized tool invocations, and subsequently employs an Intent Verifier to validate whether parameter deviations are benign formatting variances or malicious hijacking. Experiments on the InjecAgent benchmark demonstrate that PlanGuard effectively neutralizes these attacks, reducing the Attack Success Rate (ASR) from 72.8% to 0%, while maintaining an acceptable False Positive Rate of 1.49%. Furthermore, our method is model-agnostic and highly compatible."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P015",
+  "discovery_title": "LivePI: More Realistic Benchmarking of Agents Against Indirect Prompt Injection",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22LivePI+More+Realistic+Benchmarking+of+Agents+Against+Indirect+Prompt+Injection%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2605.17986v3",
+    "title": "LivePI: More Realistic Benchmarking of Agents Against Indirect Prompt Injection",
+    "authors": [
+     "Lei Zhao",
+     "Abhay Bhaskar",
+     "Edgar Dobriban"
+    ],
+    "first_submitted": "2026-05-18T07:41:35Z",
+    "latest_version_date": "2026-06-17T05:08:04Z",
+    "primary_category": "cs.CR",
+    "journal_ref": null,
+    "doi": null,
+    "comment": null,
+    "abstract": "AI agents such as OpenClaw are increasingly deployed in local workflows with access to external tools. This creates indirect prompt-injection (IPI) risk: an agent may execute harmful instructions embedded in untrusted inputs such as email, downloaded files, webpages, repositories, or group-chat messages. Existing evaluations are often small, purely simulated, or focused on a narrow set of channels. We introduce LivePI (Live Prompt Injection), a structured benchmark for IPI risk in a production-like but test-controlled environment. LivePI covers seven input surfaces, twelve attack/rendering families, and five malicious goals, including protected-information exfiltration, unauthorized security-control changes, unsafe code retrieval or execution, inbox-summary exfiltration, and cryptocurrency transfer. We run LivePI on a real virtual machine with live but test-controlled email, chat, web, local-file, repository, and wallet interfaces. Across GPT-5.3-Codex, Claude Opus 4.6, Gemini 3.1 Pro, Kimi K2.5, and GLM-5, total attack success rates range from 10.7% to 29.6%. Group-chat injection is uniformly successful across the evaluated backbones in our deployment, and repository-link attacks produce high-severity failures despite a small denominator. We also evaluate a two-layer defense consisting of prompt-level filtering and pre-execution tool-call authorization. In the GPT-5.3-Codex setting, the defense intercepts all tested malicious-goal completions in LivePI before execution while preserving benign utility on PinchBench-derived workloads."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P016",
+  "discovery_title": "Silent Failures in Agentic Security Evaluation: A Validated Harness for Tool-Call Mediation Under Indirect Prompt Injection",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Silent+Failures+in+Agentic+Security+Evaluation+A+Validated+Harness+for+Tool+Call+Mediation+Under+Indirect+Prompt+Injection%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2609.32691v1",
+    "title": "Silent Failures in Agentic Security Evaluation: A Validated Harness for Tool-Call Mediation Under Indirect Prompt Injection",
+    "authors": [
+     "Animesh Shaw"
+    ],
+    "first_submitted": "2026-09-26T14:53:42Z",
+    "latest_version_date": "2026-09-26T14:53:42Z",
+    "primary_category": "cs.CR",
+    "journal_ref": null,
+    "doi": null,
+    "comment": "7 pages, 4 figures, 3 tables",
+    "abstract": "LLM agents that invoke privileged tools are vulnerable to indirect prompt injection (IPI), in which adversarial instructions embedded in retrieved data hijack the agent's actions. A growing body of work evaluates defenses against IPI, but the validity of that evaluation is rarely examined. We audit an IPI benchmark and its harness and identify four defect classes -- silent payload non-delivery, attack success scored by tool identity rather than arguments, false-rejection rate conflated with model incapacity, and the absence of an audit trail -- each of which yields a plausible, publishable, and incorrect number. We quantify the distortion by re-scoring identical execution traces under the defective and corrected definitions: on real agent behaviour, the tool-identity scorer reports a 21.7% attack-success rate where the true argument-level rate is 1.2%. In the sharpest case, an open model previously reported at 62.8% registers 0% under the corrected harness -- the prior figure largely an artifact of undelivered payloads and identity-level scoring. We release a harness whose construction makes each defect unrepresentable -- machine-checkable payload placement, argument-level attacker predicates, per-scenario environments, and mandatory trace persistence -- and use it to report three quantities the field does not: whether a compromised agent discloses the attack, the full security/utility operating curve of an LLM-judge defense, and tool-calling capability disentangled from defensive over-blocking. A corrected harness further overturns a reported \"capability barrier\": a model deemed incapable of tool use is in fact fully capable, its earlier result an artifact of environment mismatch. We argue that evaluation validity is a prerequisite for, not a footnote to, defense claims in agentic security, and provide an instrument that enforces it."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P017",
+  "discovery_title": "Prompt Injection as a Systemic Vulnerability in LLM-Based Tools: Threat Models, Empirical Analysis, and Mitigation Strategies",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Prompt+Injection+as+a+Systemic+Vulnerability+in+LLM+Based+Tools+Threat+Models+Empirical+Analysis+and+Mitigation+Strategies%22&max_results=5",
+  "returned": 0,
+  "exact_title_matches": [],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P018",
+  "discovery_title": "Indirect Prompt Injection in Autonomous LLM Agents",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Indirect+Prompt+Injection+in+Autonomous+LLM+Agents%22&max_results=5",
+  "returned": 0,
+  "exact_title_matches": [],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P019",
+  "discovery_title": "Securing Tool-Using AI Agents Against Injection and Authority Misuse",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Securing+Tool+Using+AI+Agents+Against+Injection+and+Authority+Misuse%22&max_results=5",
+  "returned": 0,
+  "exact_title_matches": [],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P020",
+  "discovery_title": "Composing Malice: Empirical Measurement of Compositional Prompt Injection Vulnerability in Agentic LLM Tool Pipelines",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Composing+Malice+Empirical+Measurement+of+Compositional+Prompt+Injection+Vulnerability+in+Agentic+LLM+Tool+Pipelines%22&max_results=5",
+  "returned": 0,
+  "exact_title_matches": [],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P021",
+  "discovery_title": "Multi-Agent AI Control: Distributed Attacks Hamper Per-Instance Monitors",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Multi+Agent+AI+Control+Distributed+Attacks+Hamper+Per+Instance+Monitors%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2607.07368v2",
+    "title": "Multi-Agent AI Control: Distributed Attacks Hamper Per-Instance Monitors",
+    "authors": [
+     "Oliver Makins",
+     "Orazio Angelini",
+     "Zohreh Shams",
+     "Mary Phuong"
+    ],
+    "first_submitted": "2026-07-08T13:03:25Z",
+    "latest_version_date": "2026-10-12T14:59:07Z",
+    "primary_category": "cs.LG",
+    "journal_ref": null,
+    "doi": null,
+    "comment": null,
+    "abstract": "AI control is a family of techniques to prevent an AI with malicious goals from subverting its operator's intent. AI Control usually studies a single agent in one trajectory, but real deployments run many agents over shared infrastructure, and the most severe risks (model-weight exfiltration, training-run poisoning) plausibly need several agents acting in concert. We initiate the empirical study of multi-agent AI control, formalising distributed attacks in which several agents jointly aim for a malicious goal. We develop FakeLab: a synthetic AI-lab codebase (9 services, 86 benign tasks, 4 attack objectives). We evaluate single agent monitoring against distributed attacks, varying the number of agents, their coordination, model capabilities and precise monitoring configuration. Our central finding is the fragmentation effect: as more agents coordinate to attack, per-agent monitoring becomes less likely to catch any of the attackers. Secondly, this is not driven by the ratio of benign to malicious code -- we argue this is likely dependent on model capability. Third, an explicit planner amplifies the fragmentation effect, raises the rate of completing the attack up to sevenfold, and mildly sharpens executors' poor monitor-theory-of-mind. Finally: a weak \"trusted\" monitor misses most attacks, while a stronger one cuts undetected success by more than an order of magnitude but remains imperfect. We are happy to share FakeLab, our control setting, with safety researchers on request."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P022",
+  "discovery_title": "ORBIT: A Framework for Multi-Agent Safety and Security Evaluations",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22ORBIT+A+Framework+for+Multi+Agent+Safety+and+Security+Evaluations%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2609.33102v1",
+    "title": "ORBIT: A Framework for Multi-Agent Safety and Security Evaluations",
+    "authors": [
+     "Ben Hagag",
+     "William L. Anderson",
+     "Srija Chakraborty",
+     "Christian Schroeder de Witt"
+    ],
+    "first_submitted": "2026-09-27T02:20:08Z",
+    "latest_version_date": "2026-09-27T02:20:08Z",
+    "primary_category": "cs.MA",
+    "journal_ref": null,
+    "doi": null,
+    "comment": null,
+    "abstract": "Multi-agent LLM systems are increasingly deployed for complex, long-horizon tasks or emerge as a natural consequence of agents interacting in the wild. Yet they give rise to significant safety and security risks: the flexible protocols that enable task generalization also expose novel threats, from cascading prompt injection to inter-agent collusion. Progress in defending against these threats has been slowed by a lack of shared empirical infrastructure, which forces bespoke environment development for every new defense and makes standardized comparison impossible. Existing evaluations address isolated threat models or single-agent settings, but none jointly vary attack, defense, and architecture across realistic multi-agent environments. To address this gap, we introduce ORBIT, a configurable evaluation framework for empirical multi-agent safety and security research, built on UK AISI's Inspect. ORBIT lets researchers configure communication topologies, memory, scheduling, and agent roles. It supports four threat types and four defense strategies, as well as non-adversarial failures, with a benchmark suite spanning five scenario families covering browser use, computer use, agentic coding, customer service, and cooperative allocation. Our central finding is a gap in defense transferability across threats: per-action defenses that cut a compromised agent's attack success by 60 points on multi-issue coding give no measurable protection against colluding agents, and none of the defenses we tested generalized over all attacks tested. We further demonstrate security-performance tradeoffs and interactions between architecture and defense effectiveness. We make ORBIT available open-source at https://github.com/wlanderson0/orbit."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P023",
+  "discovery_title": "Architecture Matters for Multi-Agent Security",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Architecture+Matters+for+Multi+Agent+Security%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2604.23459v1",
+    "title": "Architecture Matters for Multi-Agent Security",
+    "authors": [
+     "Ben Hagag",
+     "William L. Anderson",
+     "Christian Schroeder de Witt",
+     "Sarah Scheffler"
+    ],
+    "first_submitted": "2026-04-25T22:25:58Z",
+    "latest_version_date": "2026-04-25T22:25:58Z",
+    "primary_category": "cs.MA",
+    "journal_ref": null,
+    "doi": null,
+    "comment": null,
+    "abstract": "Multi-agent systems (MAS), composed of networks of two or more autonomous AI agents, have become increasingly popular in production deployments, yet introduce security risks that do not arise in single-agent settings. Even if individual agents exhibit robust security, architectural decisions governing their coordination can create attack surfaces that have not been systematically characterized. In this work, we present an empirical study of how MAS design decisions shape the tradeoff between task performance and attack resistance. Across three agentic environments (browser, desktop, and code) and 13 architectural configurations, we use stagewise evaluations that distinguish planning refusal, execution-stage interception, partial harmful execution, and successful attack completion to study three key design choices: (i) agent roles, which determine how authority and responsibility are allocated; (ii) communication topology, which shapes how and when agents interact; and (iii) memory, which determines the context and state visibility accessible to each agent. We find that multi-agent architectures are more vulnerable than standalone agents in the majority of configurations, with attack success rates varying by up to 3.8x at comparable or higher benign accuracy, and that no single design is universally safer. These results motivate the development of further evaluations that move beyond the security properties of a single agent."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P024",
+  "discovery_title": "Can CaMeLs Talk? Securing Multi-Agent Systems Against Indirect Prompt Injection Attacks",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Can+CaMeLs+Talk+Securing+Multi+Agent+Systems+Against+Indirect+Prompt+Injection+Attacks%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2610.05640v1",
+    "title": "Can CaMeLs Talk? Securing Multi-Agent Systems Against Indirect Prompt Injection Attacks",
+    "authors": [
+     "James Peters-Gill",
+     "Avi Semler",
+     "Henning Bartsch",
+     "Ilia Shumailov",
+     "Christian Schroeder de Witt"
+    ],
+    "first_submitted": "2026-10-05T00:33:15Z",
+    "latest_version_date": "2026-10-05T00:33:15Z",
+    "primary_category": "cs.MA",
+    "journal_ref": null,
+    "doi": null,
+    "comment": "Preprint",
+    "abstract": "Indirect prompt injection attacks - malicious instructions embedded in content processed by large language models - remain a major obstacle to safely deploying tool-using agents. CaMeL [Debenedetti et al., 2025] mitigates this threat for an individual agent by separating trusted control flow from untrusted data and enforcing capability-based security policies at runtime. In this work, we investigate whether CaMeL's security guarantees compose in hierarchical multi-agent systems, where agents invoke other agents as tools. We find that CaMeL's guarantees do not compose. We construct a concrete prompt-injection attack that succeeds despite all constituent agents individually operating CaMeL. Our attack exploits the fact that untrusted data can be reinterpreted as trusted input by a downstream agent. We then introduce multi-CaMeL, an agent-to-agent communication protocol that preserves provenance across agent boundaries by separating trusted natural-language instructions from untrusted data passed through a distinct data channel. We evaluate multi-CaMeL's utility on AssetOpsBench and its security-utility tradeoff on MultiAgentDojo, a benchmark we develop by extending AgentDojo to the multi-agent setting. We find that multi-CaMeL reduces attack success rate (ASR) to 0.0%, compared with 0.2% for individual-agent CaMeL and 12.9% with no CaMeL. Multi-CaMeL incurs a utility cost, but this cost trends downward as model capability increases and is modest for the strongest models, suggesting that more capable models better accommodate the constraints imposed by the protocol."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P025",
+  "discovery_title": "Authorization and Trust Propagation in Multi-Agent AI Systems: An Enterprise Perspective with Empirical Validation",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Authorization+and+Trust+Propagation+in+Multi+Agent+AI+Systems+An+Enterprise+Perspective+with+Empirical+Validation%22&max_results=5",
+  "returned": 0,
+  "exact_title_matches": [],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P026",
+  "discovery_title": "Delegation Without Trust: An Empirical Gap Analysis of Identity, Authorization, and Runtime Governance in Multi-Agent LLM Systems",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Delegation+Without+Trust+An+Empirical+Gap+Analysis+of+Identity+Authorization+and+Runtime+Governance+in+Multi+Agent+LLM+Systems%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2609.00267v1",
+    "title": "Delegation Without Trust: An Empirical Gap Analysis of Identity, Authorization, and Runtime Governance in Multi-Agent LLM Systems",
+    "authors": [
+     "Panduranga Sai Varma Dantuluri",
+     "Jyotirmoy Sundi"
+    ],
+    "first_submitted": "2026-08-31T19:09:34Z",
+    "latest_version_date": "2026-08-31T19:09:34Z",
+    "primary_category": "cs.CR",
+    "journal_ref": null,
+    "doi": null,
+    "comment": "14 pages, 1 figure, 4 tables",
+    "abstract": "Autonomous LLM agents increasingly act on a user's behalf: they hold credentials, call tools and services, and spawn sub-agents that act further on their behalf. This turns a long-standing distributed-systems question -- who is authorized to do what, on whose authority -- into an urgent and largely unsolved problem, because the component driving each agent is a language model an adversary can hijack. We argue that agent security must be evaluated under an untrusted-model assumption: a correct system is one in which a fully prompt-injected agent still cannot exceed the authority explicitly delegated to it. Against this standard we make three contributions. First, we give a threat model for multi-agent delegation centered on four adversaries -- confused deputy, token theft and replay, prompt-injection privilege escalation, and compromised sub-agents -- and derive eight security requirements a governed agent system must meet. Second, we show the gap is real: a default agent runtime modeling common practice (broad bearer credentials, authorization gated inside the model) fails all four threats, and across four widely used frameworks -- LangGraph, CrewAI, AutoGen, and the Model Context Protocol (MCP) authorization model -- three provide no built-in confinement and one only partial; no existing standard alone covers the requirement set. Third, we implement and adversarially evaluate an authorization broker that closes the gap. It blocks all four threats; it resists 11 direct attacks on its design and accepts 0 of 200,000 forged tokens; it confines a compromised sub-agent to its delegated task (a mean of 1.5 reachable actions versus all 8,100 under bearer delegation, across 2,000 randomized scenarios); and it enforces at microsecond cost (about 2.6 microseconds per decision), negligible against model inference. These principles are also realized in production in VotalAI's LLM Shield."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P027",
+  "discovery_title": "Games for AI Control: Models of Safety Evaluations of AI Deployment Protocols",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Games+for+AI+Control+Models+of+Safety+Evaluations+of+AI+Deployment+Protocols%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2409.07985v2",
+    "title": "Games for AI Control: Models of Safety Evaluations of AI Deployment Protocols",
+    "authors": [
+     "Charlie Griffin",
+     "Louis Thomson",
+     "Buck Shlegeris",
+     "Alessandro Abate"
+    ],
+    "first_submitted": "2024-09-12T12:30:07Z",
+    "latest_version_date": "2026-05-07T14:31:00Z",
+    "primary_category": "cs.AI",
+    "journal_ref": null,
+    "doi": null,
+    "comment": null,
+    "abstract": "To evaluate the safety and usefulness of deployment protocols for untrusted AIs, AI Control uses a red-teaming exercise played between a protocol designer and an adversary. This paper introduces AI-Control Games, a formal decision-making model of the red-teaming exercise as a multi-objective, partially observable, stochastic game. We also introduce reductions from AI-Control Games to a special case of zero-sum partially observable stochastic games that allow us to leverage existing algorithms to find Pareto-optimal protocols. We apply our formalism to model, evaluate and synthesise protocols for deploying untrusted language models as programming assistants, focusing on Trusted Monitoring protocols, which use weaker language models and limited human assistance. To demonstrate the utility of our formalism, we show improvements over empirical studies in existing settings, evaluate protocols in new settings, and analyse how modelling assumptions affect the safety and usefulness of protocols. Finally, we leverage our formalism to precisely describe some of the implicit assumptions in prior control work."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P028",
+  "discovery_title": "TraceGuard: Structured Multi-Dimensional Monitoring as a Collusion-Resistant Control Protocol",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22TraceGuard+Structured+Multi+Dimensional+Monitoring+as+a+Collusion+Resistant+Control+Protocol%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2604.03968v1",
+    "title": "TraceGuard: Structured Multi-Dimensional Monitoring as a Collusion-Resistant Control Protocol",
+    "authors": [
+     "Khanh Linh Nguyen",
+     "Hoa Nghiem",
+     "Tu Tran"
+    ],
+    "first_submitted": "2026-04-05T05:05:59Z",
+    "latest_version_date": "2026-04-05T05:05:59Z",
+    "primary_category": "cs.CR",
+    "journal_ref": null,
+    "doi": null,
+    "comment": null,
+    "abstract": "AI control protocols use monitors to detect attacks by untrusted AI agents, but standard single-score monitors face two limitations: they miss subtle attacks where outputs look clean but reasoning is off, and they collapse to near-zero safety when the monitor is the same model as the agent (collusion). We present TraceGuard, a structured multi-dimensional monitoring protocol that evaluates agent actions across five dimensions -- goal alignment, constraint adherence, reasoning coherence, safety awareness, and action-trace consistency -- scored in parallel by independent LLM calls, augmented by seven heuristic detectors and an LLM-based intent analyzer. We evaluate on BashArena (637 bash tasks, 4 attack categories) within the ControlArena framework. Our results on 519 samples (279 honest, 240 attack) show that: (1) the hybrid approach achieves clear attack-honest separation (attack mean 0.616 vs. honest mean 0.206, Delta=0.410); (2) structured scoring constrains collusion -- the untrusted structured monitor achieves 95% safety vs. 0% for single-score untrusted monitoring; (3) goal alignment and constraint adherence are the most discriminative dimensions; and (4) a separation-of-duties variant splitting dimensions across trusted and untrusted models achieves 100% safety while preventing any single model from seeing the full evaluation. TraceGuard is implemented as a new monitor type for the open-source ControlArena framework."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P029",
+  "discovery_title": "Sentinel Agents for Secure and Trustworthy Agentic AI in Multi-Agent Systems",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Sentinel+Agents+for+Secure+and+Trustworthy+Agentic+AI+in+Multi+Agent+Systems%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2509.14956v2",
+    "title": "Sentinel Agents for Secure and Trustworthy Agentic AI in Multi-Agent Systems",
+    "authors": [
+     "Diego Gosmar",
+     "Deborah A. Dahl"
+    ],
+    "first_submitted": "2025-09-18T13:39:59Z",
+    "latest_version_date": "2026-11-05T17:05:56Z",
+    "primary_category": "cs.AI",
+    "journal_ref": null,
+    "doi": null,
+    "comment": "23 pages, 11 figures. v2: the preliminary evaluation of v1 is replaced by a new evaluation on a balanced 1,000-message corpus with ablation, local LLM benchmark, aggregation and calibration analyses; paper restructured; references updated",
+    "abstract": "Multi-agent systems (MAS) built on large language models (LLMs) increasingly share a common conversational space, in which a single adversarial or erroneous message can propagate from one agent to many. This paper proposes Sentinel Agents, a dedicated security layer that monitors inter-agent communication with rule-based checks, behavioral analysis and LLM-based semantic inspection, and reports to a Coordinator Agent that enforces policy, for example by quarantining misbehaving agents. We describe the architecture, its deployment patterns and monitoring layers, and we evaluate a continuous-listener prototype on a balanced corpus of 1,000 synthetic messages (500 attacks across five families and 500 benign messages) with two local LLMs. LLM inspection with Gemma 4 12B reached F1 0.86 at a false-positive rate of 0.11, against 0.38 for rules alone. Combining components by logical OR did not improve on it, while a cascade in which only high-precision rules act on their own matched it. Calibrating the thresholds of the more conservative Qwen3 8B on a development split raised its held-out F1 from 0.56 to 0.80, and on multi-turn conversations the behavioral check detected patterns the rules missed but could not tell legitimate repetition from probing. The value of combining detectors therefore depends on the model, on its calibration and on the aggregation rule, and the results yield practical guidance for deploying Sentinel Agents."
+   }
+  ],
+  "other_returned_titles": []
+ },
+ {
+  "id": "P030",
+  "discovery_title": "Evaluating Control Protocols for Untrusted AI Agents",
+  "query_url": "https://export.arxiv.org/api/query?search_query=ti%3A%22Evaluating+Control+Protocols+for+Untrusted+AI+Agents%22&max_results=5",
+  "returned": 1,
+  "exact_title_matches": [
+   {
+    "arxiv_id_latest": "2511.02997v1",
+    "title": "Evaluating Control Protocols for Untrusted AI Agents",
+    "authors": [
+     "Jon Kutasov",
+     "Chloe Loughridge",
+     "Yuqi Sun",
+     "Henry Sleight",
+     "Buck Shlegeris",
+     "Tyler Tracy",
+     "Joe Benton"
+    ],
+    "first_submitted": "2025-11-04T21:04:49Z",
+    "latest_version_date": "2025-11-04T21:04:49Z",
+    "primary_category": "cs.AI",
+    "journal_ref": null,
+    "doi": null,
+    "comment": null,
+    "abstract": "As AI systems become more capable and widely deployed as agents, ensuring their safe operation becomes critical. AI control offers one approach to mitigating the risk from untrusted AI agents by monitoring their actions and intervening or auditing when necessary. Evaluating the safety of these protocols requires understanding both their effectiveness against current attacks and their robustness to adaptive adversaries. In this work, we systematically evaluate a range of control protocols in SHADE-Arena, a dataset of diverse agentic environments. First, we evaluate blue team protocols, including deferral to trusted models, resampling, and deferring on critical actions, against a default attack policy. We find that resampling for incrimination and deferring on critical actions perform best, increasing safety from 50% to 96%. We then iterate on red team strategies against these protocols and find that attack policies with additional affordances, such as knowledge of when resampling occurs or the ability to simulate monitors, can substantially improve attack success rates against our resampling strategy, decreasing safety to 17%. However, deferring on critical actions is highly robust to even our strongest red team strategies, demonstrating the importance of denying attack policies access to protocol internals."
+   }
+  ],
+  "other_returned_titles": []
+ }
+]
