@@ -1,0 +1,38 @@
+\usepackage[a4paper,margin=2cm,headheight=13pt,footskip=10mm]{geometry}
+\usepackage{fontspec}
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{TeX Gyre Termes}}
+\usepackage{graphicx,array,longtable}
+\usepackage[table]{xcolor}
+\definecolor{navy}{HTML}{1F3864}
+\usepackage{titlesec,caption,fancyhdr}
+\usepackage{xurl}
+\usepackage[hidelinks,unicode]{hyperref}
+\urlstyle{same}
+\setlength{\parindent}{5.08mm}
+\setlength{\parskip}{4pt}
+\setlength{\LTpre}{4pt}
+\setlength{\LTpost}{4pt}
+\setlength{\emergencystretch}{1.5em}
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\thesubsection}{\Alph{subsection}}
+\renewcommand{\thetable}{\Roman{table}}
+\titleformat{\section}{\centering\fontsize{11}{13}\selectfont\bfseries}{\thesection.}{0.4em}{}
+\titleformat{\subsection}{\fontsize{10.5}{12.3}\selectfont\itshape}{\thesubsection.}{0.4em}{}
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+\titlespacing*{\subsection}{0pt}{8pt}{4pt}
+\DeclareCaptionFont{nine}{\fontsize{9}{10.5}\selectfont}
+\captionsetup{font=nine,justification=centering,labelsep=period}
+\captionsetup[table]{name=TABLE,position=top,skip=4pt}
+\captionsetup[figure]{name=Fig.,skip=4pt}
+\setlength{\textfloatsep}{8pt}
+\setlength{\intextsep}{8pt}
+\makeatletter
+\renewenvironment{thebibliography}[1]
+ {\section*{REFERENCES}\list{[\arabic{enumiv}]}{\settowidth\labelwidth{[#1]}\leftmargin\labelwidth\advance\leftmargin\labelsep\usecounter{enumiv}\setlength\itemsep{3pt}\setlength\parsep{0pt}\setlength\topsep{0pt}}\sloppy}
+ {\endlist}
+\makeatother
+\pagestyle{fancy}\fancyhf{}\fancyfoot[C]{\fontsize{9}{11}\selectfont\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\widowpenalty=10000
+\clubpenalty=10000
+\raggedbottom

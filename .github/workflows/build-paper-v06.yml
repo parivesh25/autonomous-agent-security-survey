@@ -26,7 +26,7 @@ jobs:
         id: gate
         shell: bash
         run: |
-          if git log -1 --pretty=%B | grep -Fq "[skip release]"; then
+          if [ -f paper/latex_v0.7/main.tex ] || git log -1 --pretty=%B | grep -Fq "[skip release]"; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
           else
             echo "skip=false" >> "$GITHUB_OUTPUT"
