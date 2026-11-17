@@ -823,7 +823,7 @@
   "budget": null,
   "outcome_definition": "Safety against a default and against adapted attack policies.",
   "denominator": "Table 2 (per-strategy safety and usefulness)",
-  "result": "Two protocols raised safety from 50% to 96% against a default attack; an attacker that simulates the monitor or knows when resampling occurs lowered resample-based safety to 17%; deferring on critical actions held at 100% safety against every strengthened attack.",
+  "result": "Resample-then-defer scored 89% safety against the default attack and 17% against monitor simulation; a separate defer-on-critical configuration scored 96% against its default attack and 100% against every strengthened attack tested.",
   "utility": "Usefulness 89% for resample-then-defer vs 68% for defer-on-critical",
   "uncertainty": null,
   "limitation": "Authors conclude resampling/deferral protocols are not robust to strong red teaming and depend on the agent being unable to model the monitor.",
