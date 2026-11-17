@@ -345,13 +345,13 @@ This review covered 35 works first made public between 2023 and 2026, found thro
 
 ## References
 
-[1]  K. Greshake, S. Abdelnabi, S. Mishra, C. Endres, T. Holz, and M. Fritz, “Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection,” arXiv preprint arXiv:2302.12173v2, May 2023. Published record: doi:10.1145/3605764.3623985.
+[1]  K. Greshake, S. Abdelnabi, S. Mishra, C. Endres, T. Holz, and M. Fritz, “Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection,” arXiv:2302.12173v2, May 2023. doi:10.1145/3605764.3623985.
 
-[2]  C. Denison et al., “Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models,” arXiv preprint arXiv:2406.10162v3, Jun. 2024.
+[2]  C. Denison et al., “Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models,” arXiv:2406.10162v3, Jun. 2024.
 
-[3]  Z. Zhong, A. Raghunathan, and N. Carlini, “ImpossibleBench: Measuring LLMs' Propensity of Exploiting Test Cases,” arXiv preprint arXiv:2510.20270v1, Oct. 2025.
+[3]  Z. Zhong, A. Raghunathan, and N. Carlini, “ImpossibleBench: Measuring LLMs' Propensity of Exploiting Test Cases,” arXiv:2510.20270v1, Oct. 2025.
 
-[4]  K. Thaman, “Reward Hacking Benchmark: Measuring Exploits in LLM Agents with Tool Use,” arXiv preprint arXiv:2605.02964v1, May 2026.
+[4]  K. Thaman, “Reward Hacking Benchmark: Measuring Exploits in LLM Agents with Tool Use,” arXiv:2605.02964v1, May 2026.
 
 [5]  METR, “Recent Frontier Models Are Reward Hacking,” METR, Jun. 5, 2025. [Online]. Available: https://metr.org/blog/2025-06-05-recent-reward-hacking/. [Accessed: 16 Nov 2026].
 
@@ -361,66 +361,66 @@ This review covered 35 works first made public between 2023 and 2026, found thro
 
 [8]  OpenAI, “The Hugging Face incident and the road ahead,” OpenAI, Aug. 26, 2026. [Online]. Available: https://openai.com/index/hugging-face-incident-and-the-road-ahead/. [Accessed: 16 Nov 2026].
 
-[9]  A. Shaw, “Silent Failures in Agentic Security Evaluation: A Validated Harness for Tool-Call Mediation Under Indirect Prompt Injection,” arXiv preprint arXiv:2609.32691v1, Sep. 2026.
+[9]  A. Shaw, “Silent Failures in Agentic Security Evaluation: A Validated Harness for Tool-Call Mediation Under Indirect Prompt Injection,” arXiv:2609.32691v1, Sep. 2026.
 
-[10]  R. Bhagwatkar et al., “Indirect Prompt Injections: Are Firewalls All You Need, or Stronger Benchmarks?,” arXiv preprint arXiv:2510.05244v2, Mar. 2026.
+[10]  R. Bhagwatkar et al., “Indirect Prompt Injections: Are Firewalls All You Need, or Stronger Benchmarks?,” arXiv:2510.05244v2, Mar. 2026.
 
-[11]  M. MacDiarmid et al., “Natural Emergent Misalignment from Reward Hacking in Production RL,” arXiv preprint arXiv:2511.18397v1, Nov. 2025.
+[11]  M. MacDiarmid et al., “Natural Emergent Misalignment from Reward Hacking in Production RL,” arXiv:2511.18397v1, Nov. 2025.
 
-[12]  A. Bondarenko, D. Volk, D. Volkov, and J. Ladish, “Demonstrating specification gaming in reasoning models,” arXiv preprint arXiv:2502.13295v3, Aug. 2025.
+[12]  A. Bondarenko, D. Volk, D. Volkov, and J. Ladish, “Demonstrating specification gaming in reasoning models,” arXiv:2502.13295v3, Aug. 2025.
 
-[13]  J. Gabor, J. Lynch, and J. Rosenfeld, “EvilGenie: A Reward Hacking Benchmark,” arXiv preprint arXiv:2511.21654v2, May 2026.
+[13]  J. Gabor, J. Lynch, and J. Rosenfeld, “EvilGenie: A Reward Hacking Benchmark,” arXiv:2511.21654v2, May 2026.
 
-[14]  K. Nishimura-Gasparian, R. McCarthy, and D. Lindner, “Towards Understanding Specification Gaming in Reasoning Models,” arXiv preprint arXiv:2605.02269v1, May 2026.
+[14]  K. Nishimura-Gasparian, R. McCarthy, and D. Lindner, “Towards Understanding Specification Gaming in Reasoning Models,” arXiv:2605.02269v1, May 2026.
 
-[15]  Y. Huang et al., “Reward Hacking Challenges Oversight of Autonomous Research Agents,” arXiv preprint arXiv:2609.28614v1, Sep. 2026.
+[15]  Y. Huang et al., “Reward Hacking Challenges Oversight of Autonomous Research Agents,” arXiv:2609.28614v1, Sep. 2026.
 
-[16]  Y. Atinafu and R. Cohen, “RewardHackingAgents: Benchmarking Evaluation Integrity for LLM ML-Engineering Agents,” arXiv preprint arXiv:2603.11337v1, Mar. 2026. Published record: doi:10.1109/icdew71238.2026.00009.
+[16]  Y. Atinafu and R. Cohen, “RewardHackingAgents: Benchmarking Evaluation Integrity for LLM ML-Engineering Agents,” arXiv:2603.11337v1, Mar. 2026. doi:10.1109/icdew71238.2026.00009.
 
-[17]  J. Shao, H. Chen, W. Zhang, M. Pan, and B. Luo, “Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI,” arXiv preprint arXiv:2607.22368v1, Jul. 2026.
+[17]  J. Shao, H. Chen, W. Zhang, M. Pan, and B. Luo, “Do Agent Benchmarks Measure Capability? Protocol Validity in the Age of Agentic AI,” arXiv:2607.22368v1, Jul. 2026.
 
-[18]  Q. Zhan, Z. Liang, Z. Ying, and D. Kang, “InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents,” arXiv preprint arXiv:2403.02691v3, Aug. 2024. Published record: doi:10.18653/v1/2024.findings-acl.624.
+[18]  Q. Zhan, Z. Liang, Z. Ying, and D. Kang, “InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents,” arXiv:2403.02691v3, Aug. 2024. doi:10.18653/v1/2024.findings-acl.624.
 
-[19]  E. Debenedetti, J. Zhang, M. Balunović, L. Beurer-Kellner, M. Fischer, and F. Tramèr, “AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents,” arXiv preprint arXiv:2406.13352v3, Nov. 2024. Published record: doi:10.52202/079017-2636.
+[19]  E. Debenedetti, J. Zhang, M. Balunović, L. Beurer-Kellner, M. Fischer, and F. Tramèr, “AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents,” arXiv:2406.13352v3, Nov. 2024. doi:10.52202/079017-2636.
 
-[20]  H. Zhang et al., “Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents,” arXiv preprint arXiv:2410.02644v4, May 2025.
+[20]  H. Zhang et al., “Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents,” arXiv:2410.02644v4, May 2025.
 
-[21]  Q. Zhan, R. Fang, H. S. Panchal, and D. Kang, “Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents,” arXiv preprint arXiv:2503.00061v2, Mar. 2025. Published record: doi:10.18653/v1/2025.findings-naacl.395.
+[21]  Q. Zhan, R. Fang, H. S. Panchal, and D. Kang, “Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents,” arXiv:2503.00061v2, Mar. 2025. doi:10.18653/v1/2025.findings-naacl.395.
 
-[22]  L. Zhao, A. Bhaskar, and E. Dobriban, “LivePI: More Realistic Benchmarking of Agents Against Indirect Prompt Injection,” arXiv preprint arXiv:2605.17986v3, Jun. 2026.
+[22]  L. Zhao, A. Bhaskar, and E. Dobriban, “LivePI: More Realistic Benchmarking of Agents Against Indirect Prompt Injection,” arXiv:2605.17986v3, Jun. 2026.
 
-[23]  E. Debenedetti et al., “Defeating Prompt Injections by Design,” arXiv preprint arXiv:2503.18813v2, Jun. 2025. Published record: doi:10.1109/satml68715.2026.00040.
+[23]  E. Debenedetti et al., “Defeating Prompt Injections by Design,” arXiv:2503.18813v2, Jun. 2025. doi:10.1109/satml68715.2026.00040.
 
-[24]  D. Lee and M. Tiwari, “Prompt Infection: LLM-to-LLM Prompt Injection within Multi-Agent Systems,” arXiv preprint arXiv:2410.07283v1, Oct. 2024. Published record: doi:10.1007/978-3-032-16092-8_28.
+[24]  D. Lee and M. Tiwari, “Prompt Infection: LLM-to-LLM Prompt Injection within Multi-Agent Systems,” arXiv:2410.07283v1, Oct. 2024. doi:10.1007/978-3-032-16092-8_28.
 
-[25]  P. He, Y. Lin, S. Dong, H. Xu, Y. Xing, and H. Liu, “Red-Teaming LLM Multi-Agent Systems via Communication Attacks,” arXiv preprint arXiv:2502.14847v2, Jun. 2025. Published record: doi:10.18653/v1/2025.findings-acl.349.
+[25]  P. He, Y. Lin, S. Dong, H. Xu, Y. Xing, and H. Liu, “Red-Teaming LLM Multi-Agent Systems via Communication Attacks,” arXiv:2502.14847v2, Jun. 2025. doi:10.18653/v1/2025.findings-acl.349.
 
-[26]  H. Triedman, R. Jha, and V. Shmatikov, “Multi-Agent Systems Execute Arbitrary Malicious Code,” arXiv preprint arXiv:2503.12188v2, Sep. 2025.
+[26]  H. Triedman, R. Jha, and V. Shmatikov, “Multi-Agent Systems Execute Arbitrary Malicious Code,” arXiv:2503.12188v2, Sep. 2025.
 
-[27]  J. Peters-Gill, A. Semler, H. Bartsch, I. Shumailov, and C. Schroeder de Witt, “Can CaMeLs Talk? Securing Multi-Agent Systems Against Indirect Prompt Injection Attacks,” arXiv preprint arXiv:2610.05640v1, Oct. 2026.
+[27]  J. Peters-Gill, A. Semler, H. Bartsch, I. Shumailov, and C. Schroeder de Witt, “Can CaMeLs Talk? Securing Multi-Agent Systems Against Indirect Prompt Injection Attacks,” arXiv:2610.05640v1, Oct. 2026.
 
-[28]  O. Makins, O. Angelini, Z. Shams, and M. Phuong, “Multi-Agent AI Control: Distributed Attacks Hamper Per-Instance Monitors,” arXiv preprint arXiv:2607.07368v2, Oct. 2026. Published record: doi:10.70777/si.v3i4.18890.
+[28]  O. Makins, O. Angelini, Z. Shams, and M. Phuong, “Multi-Agent AI Control: Distributed Attacks Hamper Per-Instance Monitors,” arXiv:2607.07368v2, Oct. 2026. doi:10.70777/si.v3i4.18890.
 
-[29]  S. R. Motwani et al., “Secret Collusion among AI Agents: Multi-Agent Deception via Steganography,” arXiv preprint arXiv:2402.07510v5, Jul. 2025. Published record: doi:10.52202/079017-2336.
+[29]  S. R. Motwani et al., “Secret Collusion among AI Agents: Multi-Agent Deception via Steganography,” arXiv:2402.07510v5, Jul. 2025. doi:10.52202/079017-2336.
 
-[30]  B. Hagag, W. L. Anderson, C. Schroeder de Witt, and S. Scheffler, “Architecture Matters for Multi-Agent Security,” arXiv preprint arXiv:2604.23459v1, Apr. 2026.
+[30]  B. Hagag, W. L. Anderson, C. Schroeder de Witt, and S. Scheffler, “Architecture Matters for Multi-Agent Security,” arXiv:2604.23459v1, Apr. 2026.
 
-[31]  P. S. V. Dantuluri and J. Sundi, “Delegation Without Trust: An Empirical Gap Analysis of Identity, Authorization, and Runtime Governance in Multi-Agent LLM Systems,” arXiv preprint arXiv:2609.00267v1, Aug. 2026.
+[31]  P. S. V. Dantuluri and J. Sundi, “Delegation Without Trust: An Empirical Gap Analysis of Identity, Authorization, and Runtime Governance in Multi-Agent LLM Systems,” arXiv:2609.00267v1, Aug. 2026.
 
-[32]  R. Greenblatt, B. Shlegeris, K. Sachan, and F. Roger, “AI Control: Improving Safety Despite Intentional Subversion,” arXiv preprint arXiv:2312.06942v5, Jul. 2024.
+[32]  R. Greenblatt, B. Shlegeris, K. Sachan, and F. Roger, “AI Control: Improving Safety Despite Intentional Subversion,” arXiv:2312.06942v5, Jul. 2024.
 
-[33]  A. Bhatt et al., “Ctrl-Z: Controlling AI Agents via Resampling,” arXiv preprint arXiv:2504.10374v1, Apr. 2025.
+[33]  A. Bhatt et al., “Ctrl-Z: Controlling AI Agents via Resampling,” arXiv:2504.10374v1, Apr. 2025.
 
-[34]  J. Kutasov et al., “SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents,” arXiv preprint arXiv:2506.15740v2, Jul. 2025.
+[34]  J. Kutasov et al., “SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents,” arXiv:2506.15740v2, Jul. 2025.
 
-[35]  A. Kaufman, J. Lucassen, T. Tracy, C. Rushing, and A. Bhatt, “BashArena: A Control Setting for Highly Privileged AI Agents,” arXiv preprint arXiv:2512.15688v1, Dec. 2025.
+[35]  A. Kaufman, J. Lucassen, T. Tracy, C. Rushing, and A. Bhatt, “BashArena: A Control Setting for Highly Privileged AI Agents,” arXiv:2512.15688v1, Dec. 2025.
 
-[36]  J. Kutasov et al., “Evaluating Control Protocols for Untrusted AI Agents,” arXiv preprint arXiv:2511.02997v1, Nov. 2025.
+[36]  J. Kutasov et al., “Evaluating Control Protocols for Untrusted AI Agents,” arXiv:2511.02997v1, Nov. 2025.
 
-[37]  M. Terekhov et al., “Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols,” arXiv preprint arXiv:2510.09462v2, Mar. 2026.
+[37]  M. Terekhov et al., “Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols,” arXiv:2510.09462v2, Mar. 2026.
 
-[38]  B. Baker et al., “Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation,” arXiv preprint arXiv:2503.11926v1, Mar. 2025.
+[38]  B. Baker et al., “Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation,” arXiv:2503.11926v1, Mar. 2025.
 
-[39]  A. Meinke, B. Schoen, J. Scheurer, M. Balesni, R. Shah, and M. Hobbhahn, “Frontier Models are Capable of In-context Scheming,” arXiv preprint arXiv:2412.04984v2, Jan. 2025.
+[39]  A. Meinke, B. Schoen, J. Scheurer, M. Balesni, R. Shah, and M. Hobbhahn, “Frontier Models are Capable of In-context Scheming,” arXiv:2412.04984v2, Jan. 2025.
 
 [40]  R. Greenblatt, A. Cotra, and H. Wijk, “Brief independent investigation of agents' behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident,” METR, Aug. 26, 2026. [Online]. Available: https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/. [Accessed: 16 Nov 2026].

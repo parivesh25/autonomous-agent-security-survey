@@ -27,9 +27,9 @@ PASS review not called comprehensive, exhaustive or best  [[]]
 
 numeric strings in citing sentences and table rows: 106; found in the locally saved text of a cited source: 103; not found: 3
   This is a string-presence check on local copies that are not committed. It is not a semantic or second-reader check.
-  REVIEW      93  ['openai']  | The operator stated that attempts to cheat on evaluation tasks by looking up solutions were a primary driver, 
-  REVIEW     898  ['openai']  | The operator stated that attempts to cheat on evaluation tasks by looking up solutions were a primary driver, 
   REVIEW     198  ['openai']  | The operator stated that attempts to cheat on evaluation tasks by looking up solutions were a primary driver, 
+  REVIEW     898  ['openai']  | The operator stated that attempts to cheat on evaluation tasks by looking up solutions were a primary driver, 
+  REVIEW      93  ['openai']  | The operator stated that attempts to cheat on evaluation tasks by looking up solutions were a primary driver, 
   sources with no saved text in this checkout (run the fetch step): ['openai']
 
 RESULT: arithmetic and structure checks pass
