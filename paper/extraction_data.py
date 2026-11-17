@@ -201,7 +201,7 @@ dict(key="shade", arxiv="2506.15740", category="D", secondary=[], behaviour_sour
 dict(key="evalcp", arxiv="2511.02997", category="D", secondary=[], behaviour_source=RT,
  method="Compare control protocols, then iterate red-team strategies with extra affordances.", testbed="SHADE-Arena",
  models=None, permissions="As in SHADE-Arena", budget=None, outcome_definition="Safety against a default and against adapted attack policies.", denominator=None,
- result="Two protocols raised safety from 50% to 96%; an attacker aware of resampling lowered one to 17%; deferring on critical actions stayed robust.", utility=None, uncertainty=None,
+ result="Resample-then-defer scored 89% safety against the default attack and 17% against monitor simulation; a separate defer-on-critical configuration scored 96% against its default attack and 100% against the strengthened attacks tested.", utility=None, uncertainty=None,
  limitation="Results section not read beyond the abstract; figures are from the abstract.", sections_read="Abstract only for results; outline of Sec. 2-3"),
 dict(key="adaptmon", arxiv="2510.09462", category="D", secondary=["B"], behaviour_source=RT,
  method="Untrusted model embeds prompt injections in its own outputs to mislead the trusted monitor.", testbed="Two AI-control benchmarks",
@@ -244,7 +244,7 @@ INCIDENT_SOURCES = {
 # Supplementary reading (same day) for four D-category works whose results/conclusion had not yet been read.
 _UPD = {
  "evalcp": dict(models="Untrusted agent with a trusted monitor (model names not extracted)", denominator="Table 2 (per-strategy safety and usefulness)",
-    result="Two protocols raised safety from 50% to 96% against a default attack; an attacker that simulates the monitor or knows when resampling occurs lowered resample-based safety to 17%; deferring on critical actions held at 100% safety against every strengthened attack.",
+    result="Resample-then-defer scored 89% safety against the default attack and 17% against monitor simulation; a separate defer-on-critical configuration scored 96% against its default attack and 100% against every strengthened attack tested.",
     utility="Usefulness 89% for resample-then-defer vs 68% for defer-on-critical", limitation="Authors conclude resampling/deferral protocols are not robust to strong red teaming and depend on the agent being unable to model the monitor.",
     sections_read="Abstract; 2.2; 3.1; 4 (opening); 5 (with Table 2); 6 Discussion (opening)"),
  "scheming": dict(denominator="300 rollouts per model and evaluation", limitation="Authors call scenarios simplistic and state situational information is given very explicitly, so capability may be overestimated; models are heavily nudged towards the goal.",
