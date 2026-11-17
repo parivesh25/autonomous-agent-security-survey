@@ -16,7 +16,7 @@ from docx.table import Table
 N = json.load(open("paper/counts.json"))
 works = {w["identifiers"]["arxiv"]: w for w in json.load(open("works.json"))}
 EX = {e["key"]: e for e in X.E}
-OUT_DOCX, OUT_MD = "paper/AgentSecuritySurvey_draft_v0.5.docx", "MANUSCRIPT.md"
+OUT_DOCX, OUT_MD = "paper/AgentSecuritySurvey_draft_v0.6.docx", "MANUSCRIPT.md"
 ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI"]
 
 # ---------- references
@@ -148,8 +148,9 @@ cap = lambda n: f"Table {ROMAN[n - 1]}. {TABLES[n][0]}"
 # ---------- flow of the paper block: list of (kind, payload)
 ORG = "The rest of this paper is organised as follows. Section II describes how the reviewed works were searched for and selected. Section III presents the taxonomy used to group them. Section IV reviews the work category by category. Section V compares the reviewed work and reports the trends observed. Section VI states the research gaps and Section VII the future directions that follow from them. Section VIII concludes the review."
 F = [("PaperTitle", C.TITLE),
-     ("AuthorBlk!", "[ First Student Name ]¹, [ Second Student Name ]¹, [ Third Student Name ]¹, [ Supervisor Name ]²"), ("AuthorBlk", "¹ B.Tech Student, ² Faculty Supervisor"),
-     ("AuthorBlk", "School of Computer Science and Engineering, IILM University, Gurugram, Haryana, India"), ("AuthorBlk!", "[ name1@iilm.edu ], [ name2@iilm.edu ], [ supervisor@iilm.edu ]"),
+     ("AuthorBlk", "Parivesh Singh (URN: 2581138), Vaibhav Gaur (URN: 2581149)"),
+     ("AuthorBlk", "B.Tech Students, School of Computer Science and Engineering, IILM University, Gurugram, Haryana, India"),
+     ("AuthorBlk", "parivesh.singh.ug25@iilm.edu, vaibhav.gaur.ug25@iilm.edu"),
      ("AbsHead", ("Abstract—", A["abstract"])), ("AbsHead", ("Keywords: ", C.KEYWORDS)),
      ("H1", "I. Introduction"), ("H2", "A. Background"), *[("Body", p) for p in A["ia"]], ("H2", "B. Why this review is needed"), ("Body", A["ib"]),
      ("H2", "C. Review questions"), *[("Body", p) for p in A["rq"]], ("H2", "D. Contributions of this review"), *[("Body", p) for p in A["con"]],
@@ -171,7 +172,7 @@ F += [("H1", "V. Comparative Analysis and Discussion"), ("H2", "A. Comparison ac
       ("H1", "Acknowledgment"), ("Fill", C.ACK), ("H1", "References"), *[("RefItem", r) for r in REFS]]
 
 # ---------- Markdown
-md = [f"# {C.TITLE}", "", "Draft v0.5 | 16 November 2026 | Reading and drafting by an AI assistant; human reading, checking and authorship details pending (see handoffs/).", ""]
+md = [f"# {C.TITLE}", "", "Draft v0.6 | 17 November 2026 | Authors and course metadata added; AI-assisted draft and checks; human reading and final declaration pending (see handoffs/).", ""]
 for kind, p in F[1:]:
     if kind == "H1": md += ["", f"## {p}", ""]
     elif kind == "H2": md += ["", f"### {p}", ""]
@@ -257,12 +258,13 @@ for kind, p in F:
     elif kind.endswith("!"): anchor.addprevious(newp(kind[:-1], p, keep_red=True))
     elif kind == "Fill": anchor.addprevious(newp("Fill", p, keep_red=True))
     else: anchor.addprevious(newp(kind, p))
-# cover and annexure: fill only what the ledgers establish; leave personal/course placeholders red
+# cover and annexure: fill supplied identity/course fields and evidence-backed project fields; leave signatures and unknown submission details blank
 REPO = "https://github.com/parivesh25/autonomous-agent-security-survey"
 def fill_para(match, text, keep_red=False):
     for p in d.paragraphs:
         if match in p.text: set_text(p._p, text, keep_red); return
 fill_para("[ TITLE OF THE SURVEY ]", C.TITLE); fill_para("[ https://github.com/<organisation-or-user>/<repository> ]", REPO)
+fill_para("Date of Submission:", "Date of Submission: [ To be confirmed by the course coordinator ]", keep_red=True)
 for t in d.tables:
     for row in t.rows:
         k = row.cells[0].text.strip()
@@ -272,7 +274,79 @@ for t in d.tables:
              "Reference library export": "references.bib", "Search log file": "search_log.json",
              "Works identified, screened and included": f"{N['n_rec']} records identified, {N['n_works']} works screened, {N['n_inc']} included"}.get(k)
         if v: cell_set(row.cells[1]._tc, v)
-fill_para("Use of AI tools:", "Use of AI tools: [ DRAFT FOR THE TEAM TO CONFIRM OR CORRECT. ChatGPT with SciSpace was used for the pilot search. Claude (Anthropic) was used to verify metadata at arXiv and Crossref, run further searches, screen abstracts, read the full text of the included works, extract the matrix, and draft this paper. As of 16 November 2026 no team member has yet confirmed reading any included work; the declaration above must not be signed until each member has read the works in their categories and checked the numbers quoted from them. ]", keep_red=True)
+fill_para("Use of AI tools:", "Use of AI tools: [ DRAFT FOR THE TEAM TO CONFIRM OR CORRECT. ChatGPT with SciSpace was used for the pilot search. Claude (Anthropic) verified metadata at arXiv and Crossref, ran further searches, screened abstracts, read the stated sections of the included works, extracted the matrix, and drafted the paper. ChatGPT independently checked selected numeric claims and the F6 utility coding, corrected the W021 comparison and F6 count, and regenerated draft v0.6. As of 17 November 2026 no team member has confirmed reading any included work; the declaration must not be signed until each member has read the works in their categories and checked the numbers quoted from them. ]", keep_red=True)
+
+
+# Supplied cover-page metadata.
+def table_with_row_label(label):
+    for tbl in d.tables:
+        if any(row.cells and row.cells[0].text.strip() == label for row in tbl.rows):
+            return tbl
+    raise KeyError("template table row not found: " + label)
+def table_with_headers(first, second):
+    for tbl in d.tables:
+        if tbl.rows and len(tbl.rows[0].cells) >= 2 and tbl.rows[0].cells[0].text.strip() == first and tbl.rows[0].cells[1].text.strip() == second:
+            return tbl
+    raise KeyError("template table header not found: " + first + " / " + second)
+def set_labeled_rows(tbl, values):
+    for row in tbl.rows:
+        if row.cells and row.cells[0].text.strip() in values:
+            cell_set(row.cells[1]._tc, values[row.cells[0].text.strip()])
+
+course_tbl = table_with_row_label("Course Title")
+set_labeled_rows(course_tbl, {
+    "Course Title": "Foundations of Cybersecurity",
+    "Course Code": "CSE25305",
+})
+submitted_tbl = table_with_headers("S. No.", "Full Name")
+submitted = [
+    ("1", "Parivesh Singh", "2581138", "parivesh.singh.ug25@iilm.edu", "Human reading allocation pending"),
+    ("2", "Vaibhav Gaur", "2581149", "vaibhav.gaur.ug25@iilm.edu", "Human reading allocation pending"),
+]
+for row, vals in zip(submitted_tbl.rows[1:3], submitted):
+    for cell, value in zip(row.cells, vals): cell_set(cell._tc, value)
+for row in list(submitted_tbl.rows[3:]):
+    submitted_tbl._tbl.remove(row._tr)
+
+supervisor_tbl = table_with_row_label("Designation and Department")
+set_labeled_rows(supervisor_tbl, {
+    "Name": "Dr. Abhishek Sharma",
+    "Designation and Department": "Assistant Professor, School of Computer Science and Engineering",
+    "Course Coordinator": "Dr. Preetisha",
+})
+
+contrib_tbl = table_with_headers("Member name", "Categories reviewed and sections written")
+for row, name in zip(contrib_tbl.rows[1:3], ("Parivesh Singh", "Vaibhav Gaur")):
+    cell_set(row.cells[0]._tc, name)
+    cell_set(row.cells[1]._tc, "Not yet assigned; human reading pending")
+    cell_set(row.cells[2]._tc, "0")
+for row in list(contrib_tbl.rows[3:]):
+    contrib_tbl._tbl.remove(row._tr)
+
+declaration_tbl = table_with_headers("Member name", "Enrolment No.")
+for row, (name, urn) in zip(declaration_tbl.rows[1:3], (("Parivesh Singh", "2581138"), ("Vaibhav Gaur", "2581149"))):
+    cell_set(row.cells[0]._tc, name); cell_set(row.cells[1]._tc, urn)
+for row in list(declaration_tbl.rows[3:]):
+    declaration_tbl._tbl.remove(row._tr)
+
+checklist_tbl = table_with_headers("#", "Check")
+check_status = {
+    "1": "NO — acknowledgment and final submission fields remain",
+    "2": "PARTIAL — supplied metadata and repository are complete; final submission details pending",
+    "3": "YES — 35 works, all first public in 2023–2026",
+    "4": "YES",
+    "5": "YES — counts derive from the ledgers and reconcile",
+    "6": "PARTIAL — figure present; team review pending",
+    "7": "YES",
+    "8": "YES",
+    "9": "YES — gaps are in Table XI (template checklist says Table IX)",
+    "10": "NO — references are cited and exist; human team reading is still pending",
+    "11": "PARTIAL — automated language checks pass; human originality review pending",
+    "12": "PARTIAL — DOCX/PDF generated; final required filename and spell check pending",
+}
+for row in checklist_tbl.rows[1:]:
+    key=row.cells[0].text.strip()
+    if key in check_status: cell_set(row.cells[2]._tc, check_status[key])
 d.save(OUT_DOCX)
 words = sum(len(p.split()) for k, p in F if k in ("Body",)) + len(A["abstract"].split())
 print("refs", len(REFS), "| body+abstract words", words, "| table words", sum(len(" ".join(map(str, r)).split()) for n in TABLES for r in TABLES[n][2]))
