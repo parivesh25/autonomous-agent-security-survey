@@ -330,6 +330,16 @@ for row in list(declaration_tbl.rows[3:]):
     declaration_tbl._tbl.remove(row._tr)
 
 checklist_tbl = table_with_headers("#", "Check")
+# The professor template gives the status column too little width for audit notes.
+# Fix the grid as well as cell preferred widths so LibreOffice/PDF export does not
+# wrap status text one character per line.
+checklist_tbl.autofit = False
+checklist_widths = (Cm(0.8), Cm(11.5), Cm(4.5))
+for grid_col, width in zip(checklist_tbl._tbl.tblGrid.gridCol_lst, checklist_widths):
+    grid_col.set(qn("w:w"), str(width.twips))
+for row in checklist_tbl.rows:
+    for cell, width in zip(row.cells, checklist_widths):
+        cell.width = width
 check_status = {
     "1": "NO — acknowledgment and final submission fields remain",
     "2": "PARTIAL — supplied metadata and repository are complete; final submission details pending",
