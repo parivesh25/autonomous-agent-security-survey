@@ -1,7 +1,7 @@
 PASS canonical LaTeX: 40 resolved references, 11 tables, 3 figures, 8 sections
 PASS abstract length: 239 words
 PASS retained corrected F6 and W021 figures; confirmed supervisor email
-PASS PDF: 14 total pages; paper 2–12 = 11 pages; annex starts 13
+PASS PDF: 15 total pages; paper 2–13 = 12 pages; annex starts 14
 PASS no undefined references or missing glyphs
-Overfull boxes (inspect visually): 2
-PDF SHA256: 2dbfb6cf3d6c14deec10f99280d273d15df41ee8098576df60fe3331c2330364
+Overfull boxes (inspect visually): 0
+PDF SHA256: f4597023a0f8fba55a986dd25a4a438e4c29fe3b74f43106e554bc9205509b49
