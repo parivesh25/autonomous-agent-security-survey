@@ -16,7 +16,7 @@ from docx.table import Table
 N = json.load(open("paper/counts.json"))
 works = {w["identifiers"]["arxiv"]: w for w in json.load(open("works.json"))}
 EX = {e["key"]: e for e in X.E}
-OUT_DOCX, OUT_MD = "paper/AgentSecuritySurvey_draft_v0.4.docx", "MANUSCRIPT.md"
+OUT_DOCX, OUT_MD = "paper/AgentSecuritySurvey_draft_v0.5.docx", "MANUSCRIPT.md"
 ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI"]
 
 # ---------- references
@@ -36,7 +36,7 @@ def refentry(k):
     w = works[EX[k]["arxiv"]]; a = w["authors"]
     names = initials(a[0]) + " et al." if len(a) > 6 else (", ".join(initials(x) for x in a[:-1]) + (", and " if len(a) > 2 else " and ") + initials(a[-1]) if len(a) > 1 else initials(a[0]))
     d = w["version_date"]; mon = calendar.month_abbr[int(d[5:7])] + "." if int(d[5:7]) != 5 else "May"
-    extra = " Also in Proc. 16th ACM Workshop Artif. Intell. Secur. (AISec), 2023, doi: 10.1145/3605764.3623985." if k == "greshake" else ""
+    pr = w.get("published_record"); extra = f" Published record: doi:{pr['doi']}." if pr else ""
     return f"{names}, “{w['title']},” arXiv preprint arXiv:{w['version_checked']}, {mon} {d[:4]}.{extra}"
 ORDER = []
 def cite(m):
@@ -155,14 +155,14 @@ F = [("PaperTitle", C.TITLE),
      ("H2", "C. Review questions"), *[("Body", p) for p in A["rq"]], ("H2", "D. Contributions of this review"), *[("Body", p) for p in A["con"]],
      ("H2", "E. Organisation of the paper"), ("Body", ORG),
      ("H1", "II. Review Methodology"), ("H2", "A. Sources searched and search strings"), ("Body", A["ma"]), ("table", 1),
-     ("H2", "B. Inclusion and exclusion criteria"), ("table", 2), ("H2", "C. Selection process"), ("fig", ("paper/fig1_selection_flow.png", 10.5, "Fig. 1. Flow of the selection process, from works identified to works included.")), ("Body", A["mc"]),
-     ("H1", "III. Taxonomy of the Reviewed Work"), ("Body", A["tax"]), ("fig", ("paper/fig2_taxonomy.png", 12.5, "Fig. 2. Taxonomy of the reviewed work, with the included works on the leaves.")), ("table", 3),
+     ("H2", "B. Inclusion and exclusion criteria"), ("table", 2), ("H2", "C. Selection process"), ("fig", ("paper/fig1_selection_flow.png", 9.2, "Fig. 1. Flow of the selection process, from works identified to works included.")), ("Body", A["mc"]),
+     ("H1", "III. Taxonomy of the Reviewed Work"), ("Body", A["tax"]), ("fig", ("paper/fig2_taxonomy.png", 11.2, "Fig. 2. Taxonomy of the reviewed work, with the included works on the leaves.")), ("table", 3),
      ("H1", "IV. Review of the Literature")]
 for i, cat in enumerate("ABCD"):
     F += [("H2", f"{cat}. {S4[cat]['title']}"), *[("Body", p) for p in S4[cat]["paras"]], ("table", 4 + i), ("Body", S4[cat]["close"])]
 F += [("H1", "V. Comparative Analysis and Discussion"), ("H2", "A. Comparison across categories"),
-      ("Body", "Table VIII places eight of the included works side by side."), ("table", 8),
-      ("H2", "B. Trends observed"), ("fig", ("paper/fig3_trend.png", 8.2, FIG3CAP)), *[("Body", p) for p in S5B],
+      ("Body", "Table VIII places twelve of the included works side by side, three from each category."), ("table", 8),
+      ("H2", "B. Trends observed"), ("fig", ("paper/fig3_trend.png", 7.6, FIG3CAP)), *[("Body", p) for p in S5B],
       ("H2", "C. Datasets, tools and measures in common use"), ("Body", "Table IX lists the test beds that recur across the included works."), ("table", 9),
       ("H2", "D. Reading the motivating incident against the reviewed work"), ("Body", S5D),
       ("H2", "E. General findings"), ("Body", S5E), ("table", 10),
@@ -171,7 +171,7 @@ F += [("H1", "V. Comparative Analysis and Discussion"), ("H2", "A. Comparison ac
       ("H1", "Acknowledgment"), ("Fill", C.ACK), ("H1", "References"), *[("RefItem", r) for r in REFS]]
 
 # ---------- Markdown
-md = [f"# {C.TITLE}", "", "Draft v0.4 | 16 November 2026 | Reading and drafting by an AI assistant; human reading, checking and authorship details pending (see handoffs/).", ""]
+md = [f"# {C.TITLE}", "", "Draft v0.5 | 16 November 2026 | Reading and drafting by an AI assistant; human reading, checking and authorship details pending (see handoffs/).", ""]
 for kind, p in F[1:]:
     if kind == "H1": md += ["", f"## {p}", ""]
     elif kind == "H2": md += ["", f"### {p}", ""]

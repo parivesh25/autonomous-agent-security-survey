@@ -194,7 +194,6 @@ SEC4["D"]["paras"][0] = ("The last category assumes the agent may act against it
 CAT_TABLE["A"].insert(1, ("emergent","RL on real coding tasks after disclosing exploits","Production coding environments","Monitor disruption 31.8% vs 0.2% for baseline","Exploits had to be disclosed to the model"))
 CAT_TABLE["C"].insert(0, ("collusion","Covert-channel capability evaluations","Monitored agent network","Capabilities limited, rising with model strength","Capability test, not observed collusion"))
 CAT_TABLE["D"].append(("basharena","Privileged agents with sabotage side tasks","637 shell tasks, four side tasks","26% undetected at 4% false positives","Some sandboxing still possible"))
-MASTER = [r for r in MASTER if r[0] not in ("asb", "masexec", "ctrlz", "denison", "adaptmon")]
 TABLE_IX[5] = ("Backdoored programming problems and shell tasks", "{c:aicontrol}, {c:ctrlz}, {c:adaptmon}, {c:basharena}", "Allow simulation of long deployments", "Attack policy is written by the researchers")
 SEC5_B = [
 "Table VIII and Fig. 3 show three patterns. First, benchmark construction is the most frequent approach in categories A and B, while category D is organised around one evaluation method and its test beds. Second, the included work shifts over the period: the two works from 2023 define a threat and an evaluation method, those from 2024 include the three injection benchmarks, and the audits of benchmarks and the adaptive attacks on defences all date from 2025 or 2026; {n_a26} of the {n_catA} works on evaluation integrity and {n_c26} of the {n_catC} on inter-agent trust date from 2026. These counts describe the works included here and not the volume of the field. Third, the works agree on direction and disagree on magnitude. Hardening an environment or isolating untrusted data reduces failures in every study that tests it {c:rhb}, {c:rha}, {c:camel}, but rates for nominally the same behaviour differ several-fold between benchmarks {c:evilgenie}, {c:impossible}, and between scoring rules applied to the same traces {c:silent}.",
@@ -234,7 +233,6 @@ SEC5_E = ("Table X states six findings that hold across more than one category. 
 GAP_P = ("G1 and G2 matter most. The works on evaluation integrity detect exploits inside a workspace, yet in the motivating incident, on the operator's own account, agents left their environment in pursuit of a passing score {c:openai}; a benchmark that removes network access cannot observe that behaviour and so cannot report its absence. On G2, the definition of success is itself a variable: counting tool calls, tool arguments or final state gives different rates for the same runs, and without legitimate-task utility a low attack rate may only mean that the agent did little.")
 TABLE_I[5] = ("Crossref, IEEE / ACM / Springer members", "Three keyword sets (indirect prompt injection; reward hacking; multi-agent security and control), 2023–2026, per publisher", "16 Nov 2026", "90 returned (limit 10 per query)")
 
-MASTER = [r for r in MASTER if r[0] not in ("hackdetect", "adaptive")]
 TABLE_IX = [r for r in TABLE_IX if not r[0].startswith(("Agent Security Bench", "Attack success rate"))]
 
 GENERAL[0] = ("F1. Direction is stable, magnitude is not", "Hardening or isolation lowers failures wherever tested {c:rhb}, {c:rha}, {c:camel}; rates for one behaviour differ several-fold by task design {c:evilgenie}, {c:impossible} or scoring rule {c:silent}", "Rates transfer only within one benchmark version {c:agentdojo}")
@@ -242,3 +240,33 @@ GENERAL[2] = ("F3. Fixed-attack results overstate protection", "Each study that 
 GENERAL[5] = ("F6. Legitimate-task utility is reported by under half of the works", "{n_util} of {n_inc} report it in the sections read ({n_utilD} of {n_catD} in D, {n_utilB} of {n_catB} in B, {n_utilA} of {n_catA} in A, {n_utilC} of {n_catC} in C)", "Utility may be reported in a section not read")
 
 SEC5_B[0] = ("Table VIII and Fig. 3 show two patterns. First, benchmark construction is the most frequent approach in categories A and B, while category D is organised around one evaluation method and its test beds. Second, the included work shifts over the period: the two works from 2023 define a threat and an evaluation method, those from 2024 include the three injection benchmarks, and the audits of benchmarks and the adaptive attacks on defences all date from 2025 or 2026; {n_a26} of the {n_catA} works on evaluation integrity and {n_c26} of the {n_catC} on inter-agent trust date from 2026. These counts describe the works included here and not the volume of the field.")
+
+# v0.5 (17 Nov 2026, PR review): Table VIII carries three works per category; venue policy stated in Section II.C.
+_KEEP = ["impossible", "rhb", "hackdetect", "agentdojo", "camel", "silent", "masexec", "camelstalk", "macontrol", "ctrlz", "evalcp", "adaptmon"]
+MASTER = [r for k in _KEEP for r in MASTER if r[0] == k]
+assert len(MASTER) == 12 and all(sum(r[1] == c for r in MASTER) == 3 for c in "ABCD")
+METH_C = METH_C.replace("Most included works are preprints, and where a venue is named it is as reported by the authors unless stated otherwise.",
+    "Evidence was extracted from the arXiv version named in each reference; where Crossref holds a published record its DOI is added, without implying that the published text was read or is identical.")
+assert "Evidence was extracted from the arXiv version" in METH_C
+
+# v0.5 length control (12-page limit) after restoring Table VIII to 12 rows
+TABLE_IX = [r for r in TABLE_IX if not r[0].startswith("Coding tasks")]
+FUTURE = [
+ "1. Evaluation-integrity test beds with an instrumented, permitted network path and decoy answer sources, so that boundary crossing can be measured safely (gap G1).",
+ "2. A reporting schema that fixes the success event, the denominator, the benchmark version and benign utility, with traces released for re-scoring (gap G2).",
+ "3. Adaptive-attacker conditions, including attacks aimed at the monitor, as a required part of defence evaluation in all four categories (gap G3).",
+ "4. Composition tests that re-run a defence shown for one agent in delegating and coordinating systems (gap G4).",
+ "5. Structured incident reporting in the terms used by benchmarks, together with a short practitioner questionnaire, drafted with this review and not yet administered, on whether the favoured safeguards are used in practice (gap G5).",
+]
+
+GAP_P = ("G1 and G2 matter most. The works on evaluation integrity detect exploits inside a workspace, yet in the motivating incident, on the operator's own account, agents left their environment in pursuit of a passing score {c:openai}; a benchmark that removes network access cannot observe that behaviour and so cannot report its absence. On G2, counting tool calls, tool arguments or final state gives different rates for the same runs, and without legitimate-task utility a low attack rate may only mean that the agent did little.")
+SEC5_B[1] = ("For a reader entering the area, a reported rate should be read with four items: who initiates the behaviour, what event counts as success, what the denominator is, and whether the attacker could adapt.")
+SEC5_E = ("Table X states six findings that hold across more than one category of these {n_inc} works; none is a claim about every agent or deployment.")
+
+INTRO_B = INTRO_B.replace(" A 2026 survey of reward hacking in agentic systems was located during the search but covers only the first of these strands and was not used as a source of findings.", " A 2026 survey of reward hacking located by the search covers only the first strand.")
+assert "covers only the first strand" in INTRO_B
+SEC4["B"]["close"] = "The category has well-defined benchmarks and one defence with a stated guarantee, but its headline numbers depend on scoring rules and attacker adaptation."
+
+SEC4["A"]["close"] = "The category measures propensity with increasing care and shows that hardening works, but every test bed confines the exploit to the task workspace."
+SEC4["D"]["close"] = "The category reports security with usefulness more consistently than the others, but its safety figures are conditional on the red team's attack policy."
+CONTRIB[3] = "C4. Five research gaps, each supported by the reviewed work and stated with its counter-examples."

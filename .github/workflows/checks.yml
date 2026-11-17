@@ -1,0 +1,29 @@
+name: checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  ledgers-and-questionnaire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Corpus ledger audit (records, works, links, counts)
+        run: python3 tools/check_corpus.py
+      - name: Manuscript structure audit (selection arithmetic, tables, references)
+        # The numeric-source check needs locally saved source texts that are not committed; it stays a manual step.
+        run: python3 tools/audit_paper.py --structural
+      - name: Questionnaire files regenerate without changes
+        run: |
+          python3 survey/build_questionnaire.py
+          git diff --exit-code -- survey/
+      - name: Questionnaire consistency (items, options, codebook, empty responses template)
+        run: python3 tools/check_questionnaire.py

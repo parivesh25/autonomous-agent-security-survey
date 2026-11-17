@@ -37,7 +37,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#rhb",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P001"
  },
  {
   "work_id": "W002",
@@ -92,7 +93,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#denison",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P003"
  },
  {
   "work_id": "W003",
@@ -140,7 +142,8 @@
    "year": 2026,
    "type": "proceedings-article",
    "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
-  }
+  },
+  "canonical_record_id": "P004"
  },
  {
   "work_id": "W004",
@@ -180,7 +183,8 @@
   "agent_reading_status": "read at reduced depth 2026-11-16 at 2606.15385v1: Abstract; 3 (opening); 4.1",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P005"
  },
  {
   "work_id": "W005",
@@ -224,7 +228,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#hackdetect",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P007"
  },
  {
   "work_id": "W006",
@@ -280,7 +285,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#huang",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P008"
  },
  {
   "work_id": "W007",
@@ -322,7 +328,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#nishimura",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P009"
  },
  {
   "work_id": "W008",
@@ -366,7 +373,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#evilgenie",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P010"
  },
  {
   "work_id": "W009",
@@ -414,7 +422,8 @@
   "agent_reading_status": "read at reduced depth 2026-11-16 at 2604.03870v1: Abstract; 3.1; 4 Conclusion",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P012"
  },
  {
   "work_id": "W010",
@@ -454,7 +463,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P014"
  },
  {
   "work_id": "W011",
@@ -496,7 +506,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#livepi",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P015"
  },
  {
   "work_id": "W012",
@@ -538,7 +549,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#silent",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P016"
  },
  {
   "work_id": "W013",
@@ -589,7 +601,8 @@
    "year": 2026,
    "type": "journal-article",
    "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
-  }
+  },
+  "canonical_record_id": "P021"
  },
  {
   "work_id": "W014",
@@ -631,7 +644,8 @@
   "agent_reading_status": "read at reduced depth 2026-11-16 at 2609.33102v1: Abstract; 5 (opening); 6 Conclusion (opening)",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P022"
  },
  {
   "work_id": "W015",
@@ -674,7 +688,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#arch",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P023"
  },
  {
   "work_id": "W016",
@@ -720,7 +735,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#camelstalk",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P024"
  },
  {
   "work_id": "W017",
@@ -763,7 +779,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#delegation",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P026"
  },
  {
   "work_id": "W018",
@@ -805,7 +822,8 @@
   "agent_reading_status": "read at reduced depth 2026-11-16 at 2409.07985v2: Abstract; 6 (opening); 9 Conclusions",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P027"
  },
  {
   "work_id": "W019",
@@ -846,7 +864,8 @@
   "agent_reading_status": "read at reduced depth 2026-11-16 at 2604.03968v1: Abstract; Limitations; 6 Conclusion (opening)",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P028"
  },
  {
   "work_id": "W020",
@@ -888,7 +907,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P029"
  },
  {
   "work_id": "W021",
@@ -934,7 +954,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#evalcp",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P030"
  },
  {
   "work_id": "W022",
@@ -978,7 +999,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P031"
  },
  {
   "work_id": "W023",
@@ -1018,7 +1040,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P032"
  },
  {
   "work_id": "W024",
@@ -1072,7 +1095,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P033"
  },
  {
   "work_id": "W025",
@@ -1113,7 +1137,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P034"
  },
  {
   "work_id": "W026",
@@ -1156,7 +1181,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P035"
  },
  {
   "work_id": "W027",
@@ -1183,10 +1209,12 @@
   "in_review_window": true,
   "within_evidence_cutoff": true,
   "discovered_by": [
+   "D1",
    "S4"
   ],
   "discovery_record_ids": [
-   "P036"
+   "P036",
+   "P150"
   ],
   "gate": 4,
   "screening_decision": "reserve",
@@ -1200,7 +1228,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P036"
  },
  {
   "work_id": "W028",
@@ -1242,7 +1271,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P037"
  },
  {
   "work_id": "W029",
@@ -1285,7 +1315,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P038"
  },
  {
   "work_id": "W030",
@@ -1332,7 +1363,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#asb",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P039"
  },
  {
   "work_id": "W031",
@@ -1381,7 +1413,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#firewalls",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P040"
  },
  {
   "work_id": "W032",
@@ -1408,12 +1441,14 @@
   "in_review_window": true,
   "within_evidence_cutoff": true,
   "discovered_by": [
+   "D1",
    "S4",
    "S6"
   ],
   "discovery_record_ids": [
    "P041",
-   "P082"
+   "P082",
+   "P154"
   ],
   "gate": 4,
   "screening_decision": "excluded_at_abstract",
@@ -1427,7 +1462,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P041"
  },
  {
   "work_id": "W033",
@@ -1469,7 +1505,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P042"
  },
  {
   "work_id": "W034",
@@ -1520,7 +1557,8 @@
    "year": 2024,
    "type": "proceedings-article",
    "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
-  }
+  },
+  "canonical_record_id": "P043"
  },
  {
   "work_id": "W035",
@@ -1564,7 +1602,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P044"
  },
  {
   "work_id": "W036",
@@ -1607,7 +1646,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P045"
  },
  {
   "work_id": "W037",
@@ -1649,7 +1689,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P046"
  },
  {
   "work_id": "W038",
@@ -1696,7 +1737,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P047"
  },
  {
   "work_id": "W039",
@@ -1741,7 +1783,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P048"
  },
  {
   "work_id": "W040",
@@ -1784,7 +1827,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P049"
  },
  {
   "work_id": "W041",
@@ -1829,7 +1873,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P050"
  },
  {
   "work_id": "W042",
@@ -1876,7 +1921,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P051"
  },
  {
   "work_id": "W043",
@@ -1924,7 +1970,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P052"
  },
  {
   "work_id": "W044",
@@ -1963,7 +2010,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P053"
  },
  {
   "work_id": "W045",
@@ -2014,7 +2062,8 @@
    "year": 2025,
    "type": "proceedings-article",
    "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
-  }
+  },
+  "canonical_record_id": "P054"
  },
  {
   "work_id": "W046",
@@ -2056,7 +2105,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P055"
  },
  {
   "work_id": "W047",
@@ -2100,7 +2150,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P057"
  },
  {
   "work_id": "W048",
@@ -2123,10 +2174,12 @@
   "in_review_window": true,
   "within_evidence_cutoff": true,
   "discovered_by": [
+   "D5",
    "S5"
   ],
   "discovery_record_ids": [
-   "P058"
+   "P058",
+   "P185"
   ],
   "gate": 4,
   "screening_decision": "excluded_at_abstract",
@@ -2140,7 +2193,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P058"
  },
  {
   "work_id": "W049",
@@ -2182,7 +2236,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P060"
  },
  {
   "work_id": "W050",
@@ -2228,7 +2283,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P061"
  },
  {
   "work_id": "W051",
@@ -2293,7 +2349,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#emergent",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P062"
  },
  {
   "work_id": "W052",
@@ -2338,7 +2395,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P063"
  },
  {
   "work_id": "W053",
@@ -2381,7 +2439,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P064"
  },
  {
   "work_id": "W054",
@@ -2425,7 +2484,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P065"
  },
  {
   "work_id": "W055",
@@ -2470,7 +2530,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P066"
  },
  {
   "work_id": "W056",
@@ -2517,7 +2578,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P067"
  },
  {
   "work_id": "W057",
@@ -2559,7 +2621,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P068"
  },
  {
   "work_id": "W058",
@@ -2617,7 +2680,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P069"
  },
  {
   "work_id": "W059",
@@ -2663,7 +2727,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P070"
  },
  {
   "work_id": "W060",
@@ -2710,7 +2775,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P071"
  },
  {
   "work_id": "W061",
@@ -2754,7 +2820,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P072"
  },
  {
   "work_id": "W062",
@@ -2795,7 +2862,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P073"
  },
  {
   "work_id": "W063",
@@ -2838,7 +2906,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P074"
  },
  {
   "work_id": "W064",
@@ -2880,7 +2949,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P075"
  },
  {
   "work_id": "W065",
@@ -2930,7 +3000,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P076"
  },
  {
   "work_id": "W066",
@@ -2976,7 +3047,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P077"
  },
  {
   "work_id": "W067",
@@ -3027,7 +3099,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P078"
  },
  {
   "work_id": "W068",
@@ -3077,7 +3150,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#cot",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P079"
  },
  {
   "work_id": "W069",
@@ -3121,7 +3195,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P080"
  },
  {
   "work_id": "W070",
@@ -3144,12 +3219,14 @@
   "in_review_window": true,
   "within_evidence_cutoff": true,
   "discovered_by": [
+   "D7",
    "S6",
    "W2"
   ],
   "discovery_record_ids": [
    "P081",
-   "P132"
+   "P132",
+   "P210"
   ],
   "gate": 6,
   "screening_decision": "included_pending_human_reading",
@@ -3172,7 +3249,8 @@
    "year": 2026,
    "type": "book-chapter",
    "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
-  }
+  },
+  "canonical_record_id": "P081"
  },
  {
   "work_id": "W071",
@@ -3213,7 +3291,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P083"
  },
  {
   "work_id": "W072",
@@ -3255,7 +3334,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P084"
  },
  {
   "work_id": "W073",
@@ -3300,7 +3380,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P085"
  },
  {
   "work_id": "W074",
@@ -3346,7 +3427,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P086"
  },
  {
   "work_id": "W075",
@@ -3389,7 +3471,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P087"
  },
  {
   "work_id": "W076",
@@ -3430,7 +3513,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P088"
  },
  {
   "work_id": "W077",
@@ -3474,7 +3558,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P089"
  },
  {
   "work_id": "W078",
@@ -3517,7 +3602,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P090"
  },
  {
   "work_id": "W079",
@@ -3570,7 +3656,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P091"
  },
  {
   "work_id": "W080",
@@ -3616,7 +3703,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P092"
  },
  {
   "work_id": "W081",
@@ -3662,7 +3750,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#masexec",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P093"
  },
  {
   "work_id": "W082",
@@ -3707,7 +3796,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P094"
  },
  {
   "work_id": "W083",
@@ -3751,7 +3841,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P095"
  },
  {
   "work_id": "W084",
@@ -3792,7 +3883,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P096"
  },
  {
   "work_id": "W085",
@@ -3838,7 +3930,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P097"
  },
  {
   "work_id": "W086",
@@ -3878,7 +3971,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P098"
  },
  {
   "work_id": "W087",
@@ -3920,7 +4014,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P099"
  },
  {
   "work_id": "W088",
@@ -3965,7 +4060,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P100"
  },
  {
   "work_id": "W089",
@@ -4004,7 +4100,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P101"
  },
  {
   "work_id": "W090",
@@ -4049,7 +4146,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P102"
  },
  {
   "work_id": "W091",
@@ -4091,7 +4189,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P103"
  },
  {
   "work_id": "W092",
@@ -4130,7 +4229,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P104"
  },
  {
   "work_id": "W093",
@@ -4171,7 +4271,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P105"
  },
  {
   "work_id": "W094",
@@ -4217,7 +4318,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#basharena",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P106"
  },
  {
   "work_id": "W095",
@@ -4270,7 +4372,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#shade",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P107"
  },
  {
   "work_id": "W096",
@@ -4317,7 +4420,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P108"
  },
  {
   "work_id": "W097",
@@ -4358,7 +4462,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P109"
  },
  {
   "work_id": "W098",
@@ -4402,7 +4507,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P110"
  },
  {
   "work_id": "W099",
@@ -4448,7 +4554,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P111"
  },
  {
   "work_id": "W100",
@@ -4492,7 +4599,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P112"
  },
  {
   "work_id": "W101",
@@ -4534,7 +4642,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P113"
  },
  {
   "work_id": "W102",
@@ -4587,7 +4696,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P114"
  },
  {
   "work_id": "W103",
@@ -4635,7 +4745,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#adaptmon",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P115"
  },
  {
   "work_id": "W104",
@@ -4680,7 +4791,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P117"
  },
  {
   "work_id": "W105",
@@ -4722,7 +4834,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P118"
  },
  {
   "work_id": "W106",
@@ -4749,10 +4862,12 @@
   "in_review_window": true,
   "within_evidence_cutoff": true,
   "discovered_by": [
+   "D4",
    "W2"
   ],
   "discovery_record_ids": [
-   "P119"
+   "P119",
+   "P177"
   ],
   "gate": 6,
   "screening_decision": "included_pending_human_reading",
@@ -4773,7 +4888,8 @@
    "year": 2023,
    "type": "proceedings-article",
    "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
-  }
+  },
+  "canonical_record_id": "P119"
  },
  {
   "work_id": "W107",
@@ -4822,7 +4938,8 @@
    "year": 2024,
    "type": "proceedings-article",
    "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
-  }
+  },
+  "canonical_record_id": "P120"
  },
  {
   "work_id": "W108",
@@ -4877,7 +4994,8 @@
    "year": 2026,
    "type": "proceedings-article",
    "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
-  }
+  },
+  "canonical_record_id": "P121"
  },
  {
   "work_id": "W109",
@@ -4929,7 +5047,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P123"
  },
  {
   "work_id": "W110",
@@ -4976,7 +5095,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P124"
  },
  {
   "work_id": "W111",
@@ -5028,7 +5148,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P125"
  },
  {
   "work_id": "W112",
@@ -5071,7 +5192,8 @@
   "agent_reading_status": "read at reduced depth 2026-11-16 at 2504.18575v3: Abstract; Threat model; 4.1",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P126"
  },
  {
   "work_id": "W113",
@@ -5123,7 +5245,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P127"
  },
  {
   "work_id": "W114",
@@ -5166,7 +5289,8 @@
   "agent_reading_status": "read at reduced depth 2026-11-16 at 2403.04960v2: Abstract; IV-A; IV-B; V (opening, V-A opening); VI (opening); VII (opening) - read 17 Nov 2026",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P128"
  },
  {
   "work_id": "W115",
@@ -5213,7 +5337,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#scheming",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P129"
  },
  {
   "work_id": "W116",
@@ -5256,7 +5381,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#chess",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P130"
  },
  {
   "work_id": "W117",
@@ -5300,7 +5426,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#impossible",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P131"
  },
  {
   "work_id": "W118",
@@ -5346,7 +5473,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P133"
  },
  {
   "work_id": "W119",
@@ -5400,7 +5528,8 @@
    "year": 2024,
    "type": "proceedings-article",
    "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
-  }
+  },
+  "canonical_record_id": "P134"
  },
  {
   "work_id": "W120",
@@ -5482,7 +5611,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P135"
  },
  {
   "work_id": "W121",
@@ -5533,7 +5663,8 @@
    "year": 2025,
    "type": "proceedings-article",
    "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
-  }
+  },
+  "canonical_record_id": "P136"
  },
  {
   "work_id": "W122",
@@ -5576,7 +5707,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#aicontrol",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P138"
  },
  {
   "work_id": "W123",
@@ -5623,7 +5755,8 @@
   "human_reading_status": null,
   "full_text_read": true,
   "extraction": "extraction_matrix.json#ctrlz",
-  "published_record": null
+  "published_record": null,
+  "canonical_record_id": "P140"
  },
  {
   "work_id": "W124",
@@ -5677,7 +5810,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P141"
  },
  {
   "work_id": "W125",
@@ -5721,7 +5855,8 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P143"
  },
  {
   "work_id": "W126",
@@ -5763,6 +5898,3366 @@
   "agent_reading_status": "abstract only, via arXiv API record, 2026-11-16; methods/results/conclusion NOT read",
   "human_reading_status": null,
   "full_text_read": false,
-  "extraction": null
+  "extraction": null,
+  "canonical_record_id": "P144"
+ },
+ {
+  "work_id": "W127",
+  "title": "A survey of reward hacking in agentic large language model systems",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1007/s44163-026-01980-z"
+  },
+  "primary_url": "https://doi.org/10.1007/s44163-026-01980-z",
+  "first_public_date": "2026-08-17",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Discover Artificial Intelligence (Springer)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D8",
+   "S1"
+  ],
+  "discovery_record_ids": [
+   "P002",
+   "P215"
+  ],
+  "gate": 4,
+  "screening_decision": "context_only",
+  "screening_basis": "Crossref metadata and SciSpace discovery record",
+  "screening_reason": "Existing survey: positioning and citation chasing only, not a primary finding source.",
+  "evidence_class": null,
+  "proposed_primary_category": "A",
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P002"
+ },
+ {
+  "work_id": "W128",
+  "title": "Evaluating Indirect Prompt Injection Defenses in Tool-Using LLM Agents: Security, Utility, and Replication",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.3390/computers15090570"
+  },
+  "primary_url": "https://doi.org/10.3390/computers15090570",
+  "first_public_date": "2026-08-31",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Computers (MDPI)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S2"
+  ],
+  "discovery_record_ids": [
+   "P011"
+  ],
+  "gate": 4,
+  "screening_decision": "queued_not_read_access_refused",
+  "screening_basis": "Crossref metadata and SciSpace discovery record",
+  "screening_reason": "Placed in the reading queue on its abstract-level record. Publisher page returned HTTP 403 to automated requests. Remains awaiting full text.",
+  "evidence_class": null,
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P011"
+ },
+ {
+  "work_id": "W129",
+  "title": "Prompt Injection as a Systemic Vulnerability in LLM-Based Tools: Threat Models, Empirical Analysis, and Mitigation Strategies",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/sera69989.2026.11618608"
+  },
+  "primary_url": "https://doi.org/10.1109/sera69989.2026.11618608",
+  "first_public_date": "2026-05 (day not in Crossref)",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "IEEE/ACIS SERA 2026",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S2"
+  ],
+  "discovery_record_ids": [
+   "P017"
+  ],
+  "gate": 2,
+  "screening_decision": "not_queued_awaiting_full_text",
+  "screening_basis": "Crossref metadata and SciSpace discovery record",
+  "screening_reason": "Metadata confirmed in Crossref; never screened beyond the title because the IEEE full text and abstract page were not accessed. Not placed in the reading queue.",
+  "evidence_class": null,
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P017"
+ },
+ {
+  "work_id": "W130",
+  "title": "Securing Tool-Using AI Agents Against Injection and Authority Misuse",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.3390/computation14050098"
+  },
+  "primary_url": "https://doi.org/10.3390/computation14050098",
+  "first_public_date": "2026-04-25",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Computation (MDPI)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "S2"
+  ],
+  "discovery_record_ids": [
+   "P019"
+  ],
+  "gate": 2,
+  "screening_decision": "reserve",
+  "screening_basis": "Crossref metadata and SciSpace discovery record",
+  "screening_reason": "Metadata confirmed in Crossref; abstract not yet read at publisher, so no screening decision beyond eligibility.",
+  "evidence_class": null,
+  "proposed_primary_category": "B",
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P019"
+ },
+ {
+  "work_id": "W131",
+  "title": "MAMORI: A Cross-Lingual Benchmark for Indirect Prompt Injection in Tool-Using LLM Agents",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/idap71869.2026.11727885"
+  },
+  "primary_url": "https://doi.org/10.1109/idap71869.2026.11727885",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2026 10th International Artificial Intelligence and Data Processing Symposium (IDAP)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D1"
+  ],
+  "discovery_record_ids": [
+   "P145"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P145"
+ },
+ {
+  "work_id": "W132",
+  "title": "Hijacking Tool-Integrated LLM Agents via Indirect Prompt Injection: A Benchmark Scaffold and Threat Taxonomy",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/cyber-ai70573.2026.11755159"
+  },
+  "primary_url": "https://doi.org/10.1109/cyber-ai70573.2026.11755159",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2026 International Conference on Cybersecurity and AI-Based Systems (Cyber-AI)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D1"
+  ],
+  "discovery_record_ids": [
+   "P146"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P146"
+ },
+ {
+  "work_id": "W133",
+  "title": "TrustTrace: Provenance-Aware Tracing of Indirect Prompt Injection Propagation in LLM-Assisted Learning Workflows",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/access.2026.3726909"
+  },
+  "primary_url": "https://doi.org/10.1109/access.2026.3726909",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "IEEE Access",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D1"
+  ],
+  "discovery_record_ids": [
+   "P147"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P147"
+ },
+ {
+  "work_id": "W134",
+  "title": "Execution-Aware Stage-Wise Evaluation Framework for Indirect Prompt Injection in LLM-Based Email Agents",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/access.2026.3723800"
+  },
+  "primary_url": "https://doi.org/10.1109/access.2026.3723800",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "IEEE Access",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D1"
+  ],
+  "discovery_record_ids": [
+   "P148"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P148"
+ },
+ {
+  "work_id": "W135",
+  "title": "Dynamic Moving Target Defense for Mitigating Targeted LLM Prompt Injection",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.36227/techrxiv.171822345.56781952/v1"
+  },
+  "primary_url": "https://doi.org/10.36227/techrxiv.171822345.56781952/v1",
+  "first_public_date": "2024",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D1"
+  ],
+  "discovery_record_ids": [
+   "P149"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P149"
+ },
+ {
+  "work_id": "W136",
+  "title": "[Short Paper] Forensic Analysis of Indirect Prompt Injection Attacks on LLM Agents",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/tps-isa62245.2024.00053"
+  },
+  "primary_url": "https://doi.org/10.1109/tps-isa62245.2024.00053",
+  "first_public_date": "2024",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2024 IEEE 6th International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications (TPS-ISA)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D1"
+  ],
+  "discovery_record_ids": [
+   "P151"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P151"
+ },
+ {
+  "work_id": "W137",
+  "title": "Forensic LLM-Trace: Interpretable Multi-Agent AI Forensic Architecture for Prompt Injection Investigation",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/icscan66520.2026.11588474"
+  },
+  "primary_url": "https://doi.org/10.1109/icscan66520.2026.11588474",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2026 International Conference on System, Computation, Automation and Networking (ICSCAN)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D1"
+  ],
+  "discovery_record_ids": [
+   "P152"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P152"
+ },
+ {
+  "work_id": "W138",
+  "title": "Secure MCP-Based Tool-Augmented RAG for Industrial IoT Diagnostics Under Indirect Prompt Injection, Retrieval Poisoning, and Modality Outages",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/icecet65726.2026.11632629"
+  },
+  "primary_url": "https://doi.org/10.1109/icecet65726.2026.11632629",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2026 6th International Conference on Electrical, Computer and Energy Technologies (ICECET)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D1"
+  ],
+  "discovery_record_ids": [
+   "P153"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P153"
+ },
+ {
+  "work_id": "W139",
+  "title": "ReqInOne: A Large Language Model-Based Agent for Software Requirements Specification Generation",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/re63999.2025.00054"
+  },
+  "primary_url": "https://doi.org/10.1109/re63999.2025.00054",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2025 IEEE 33rd International Requirements Engineering Conference (RE)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D2"
+  ],
+  "discovery_record_ids": [
+   "P155"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P155"
+ },
+ {
+  "work_id": "W140",
+  "title": "Incorporation of Military Doctrines and Objectives into an AI Agent Via Natural Language and Reward in Reinforcement Learning",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/wsc60868.2023.10408462"
+  },
+  "primary_url": "https://doi.org/10.1109/wsc60868.2023.10408462",
+  "first_public_date": "2023",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2023 Winter Simulation Conference (WSC)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D2"
+  ],
+  "discovery_record_ids": [
+   "P156"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P156"
+ },
+ {
+  "work_id": "W141",
+  "title": "Large Language Model-Driven Immersive Agent",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.36227/techrxiv.173156111.18353230/v1"
+  },
+  "primary_url": "https://doi.org/10.36227/techrxiv.173156111.18353230/v1",
+  "first_public_date": "2024",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D2"
+  ],
+  "discovery_record_ids": [
+   "P157"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P157"
+ },
+ {
+  "work_id": "W142",
+  "title": "CMBE: Curiosity-driven Model-Based Exploration for Multi-Agent Reinforcement Learning in Sparse Reward Settings",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/ijcnn60899.2024.10650769"
+  },
+  "primary_url": "https://doi.org/10.1109/ijcnn60899.2024.10650769",
+  "first_public_date": "2024",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2024 International Joint Conference on Neural Networks (IJCNN)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D2"
+  ],
+  "discovery_record_ids": [
+   "P158"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P158"
+ },
+ {
+  "work_id": "W143",
+  "title": "Collaborative Multi-Agent Reasoning with Process Reward Model",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/ieem63636.2025.11357664"
+  },
+  "primary_url": "https://doi.org/10.1109/ieem63636.2025.11357664",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2025 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D2"
+  ],
+  "discovery_record_ids": [
+   "P159"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P159"
+ },
+ {
+  "work_id": "W144",
+  "title": "Agent-guided Causal Discovery with a Small Language Model",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/fllm67465.2025.11391103"
+  },
+  "primary_url": "https://doi.org/10.1109/fllm67465.2025.11391103",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2025 3rd International Conference on Foundation and Large Language Models (FLLM)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D2"
+  ],
+  "discovery_record_ids": [
+   "P160"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P160"
+ },
+ {
+  "work_id": "W145",
+  "title": "Large Language Model-based Data Science Agent: A Survey",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.36227/techrxiv.175519201.10732484/v1"
+  },
+  "primary_url": "https://doi.org/10.36227/techrxiv.175519201.10732484/v1",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D2"
+  ],
+  "discovery_record_ids": [
+   "P161"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P161"
+ },
+ {
+  "work_id": "W146",
+  "title": "Reward Hacking in Reinforcement Learning and RLHF: A Multidisciplinary Examination of Vulnerabilities, Mitigation Strategies, and Alignment Challenges",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/icsc65596.2025.11140447"
+  },
+  "primary_url": "https://doi.org/10.1109/icsc65596.2025.11140447",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2025 5th Intelligent Cybersecurity Conference (ICSC)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D2"
+  ],
+  "discovery_record_ids": [
+   "P162"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P162"
+ },
+ {
+  "work_id": "W147",
+  "title": "Natural Language to Maritime Insights: A Large Language Model Agent Solution",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/isctis70043.2026.11572386"
+  },
+  "primary_url": "https://doi.org/10.1109/isctis70043.2026.11572386",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2026 6th International Symposium on Computer Technology and Information Science (ISCTIS)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D2"
+  ],
+  "discovery_record_ids": [
+   "P163"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P163"
+ },
+ {
+  "work_id": "W148",
+  "title": "A Flexible Graph Language for a Model-Based Semi-Automatic CGRA Compilation Flow",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/fdl59689.2023.10272184"
+  },
+  "primary_url": "https://doi.org/10.1109/fdl59689.2023.10272184",
+  "first_public_date": "2023",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2023 Forum on Specification &amp; Design Languages (FDL)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D2"
+  ],
+  "discovery_record_ids": [
+   "P164"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P164"
+ },
+ {
+  "work_id": "W149",
+  "title": "Collusion Detection in Multi-Agent Games",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/lcsys.2026.3742568"
+  },
+  "primary_url": "https://doi.org/10.1109/lcsys.2026.3742568",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "IEEE Control Systems Letters",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D3"
+  ],
+  "discovery_record_ids": [
+   "P165"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P165"
+ },
+ {
+  "work_id": "W150",
+  "title": "MaLO: Multi-agent LLM Operations for Autonomous Security",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/cns69863.2026.11720875"
+  },
+  "primary_url": "https://doi.org/10.1109/cns69863.2026.11720875",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2026 IEEE Conference on Communications and Network Security (CNS)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D3"
+  ],
+  "discovery_record_ids": [
+   "P166"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P166"
+ },
+ {
+  "work_id": "W151",
+  "title": "LLM-MAC: LLM-Driven Multi-Agent Coordination for Generalizable Home Energy Management",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.23919/ccc64809.2025.11179521"
+  },
+  "primary_url": "https://doi.org/10.23919/ccc64809.2025.11179521",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2025 44th Chinese Control Conference (CCC)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D3"
+  ],
+  "discovery_record_ids": [
+   "P167"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P167"
+ },
+ {
+  "work_id": "W152",
+  "title": "Dynamic M2CL: Process-Level Convergence Control for LLM-Based Multi-Agent Deliberation",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/csac70128.2026.11607501"
+  },
+  "primary_url": "https://doi.org/10.1109/csac70128.2026.11607501",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2026 International Conference on Complex Systems and Automation Control (CSAC)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D3"
+  ],
+  "discovery_record_ids": [
+   "P168"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P168"
+ },
+ {
+  "work_id": "W153",
+  "title": "IntelForge: Multi-Agent LLM Framework for Cyber Threat Intelligence Enrichment",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/acsacw69556.2025.00047"
+  },
+  "primary_url": "https://doi.org/10.1109/acsacw69556.2025.00047",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2025 Annual Computer Security Applications Conference Workshops (ACSAC Workshops)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D3"
+  ],
+  "discovery_record_ids": [
+   "P169"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P169"
+ },
+ {
+  "work_id": "W154",
+  "title": "Multi-Agent LLM Reasoning for Robotic Block Placement",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/iccir70228.2026.11633346"
+  },
+  "primary_url": "https://doi.org/10.1109/iccir70228.2026.11633346",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2026 6th International Conference on Control and Intelligent Robotics (ICCIR)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D3"
+  ],
+  "discovery_record_ids": [
+   "P170"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P170"
+ },
+ {
+  "work_id": "W155",
+  "title": "Buyers Collusion in Incentivized Forwarding Networks via Multi-agent Reinforcement Learning",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.36227/techrxiv.23605749"
+  },
+  "primary_url": "https://doi.org/10.36227/techrxiv.23605749",
+  "first_public_date": "2023",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D3"
+  ],
+  "discovery_record_ids": [
+   "P171",
+   "P172"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P171"
+ },
+ {
+  "work_id": "W156",
+  "title": "Learning to Debate: Optimal Stopping Strategies for Multi-Agent LLM Deliberation",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/gaiis69281.2026.11519273"
+  },
+  "primary_url": "https://doi.org/10.1109/gaiis69281.2026.11519273",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2026 International Conference on Generative Artificial Intelligence and Information Security (GAIIS)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D3"
+  ],
+  "discovery_record_ids": [
+   "P173"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P173"
+ },
+ {
+  "work_id": "W157",
+  "title": "Multi-Agent LLM Collaboration for Adaptive Code Review, Debugging, and Security Analysis",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1109/mrai65197.2025.11135756"
+  },
+  "primary_url": "https://doi.org/10.1109/mrai65197.2025.11135756",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "2025 International Conference on Mechatronics, Robotics, and Artificial Intelligence (MRAI)",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D3"
+  ],
+  "discovery_record_ids": [
+   "P174"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P174"
+ },
+ {
+  "work_id": "W158",
+  "title": "Weaponizing Words: Direct &amp; Indirect Prompt Injection Attacks on LLM",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3769694.3771165"
+  },
+  "primary_url": "https://doi.org/10.1145/3769694.3771165",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Proceedings of the 26th ACM Annual Conference on Cybersecurity &amp; Information Technology Education",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D4"
+  ],
+  "discovery_record_ids": [
+   "P175"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P175"
+ },
+ {
+  "work_id": "W159",
+  "title": "PkgScanArena: Benchmarking LLM-Based Package Scanners against Indirect Prompt Injection",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3847352.3848096"
+  },
+  "primary_url": "https://doi.org/10.1145/3847352.3848096",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Proceedings of the 19th ACM Workshop on Artificial Intelligence and Security",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D4"
+  ],
+  "discovery_record_ids": [
+   "P176"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P176"
+ },
+ {
+  "work_id": "W160",
+  "title": "Log-To-Leak: Prompt Injection Attacks on Tool-Using LLM Agents via the Model Context Protocol",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3847320.3847399"
+  },
+  "primary_url": "https://doi.org/10.1145/3847320.3847399",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Proceedings of the 1st Workshop on Security, Privacy, and Safety of Agentic AI Systems",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D4"
+  ],
+  "discovery_record_ids": [
+   "P178"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P178"
+ },
+ {
+  "work_id": "W161",
+  "title": "Prompt Engineering: Few Shots, Chain of Thought, and Retrieval-Augmented Generation",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3749421.3749427"
+  },
+  "primary_url": "https://doi.org/10.1145/3749421.3749427",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Multi-LLM Agent Collaborative Intelligence",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D4"
+  ],
+  "discovery_record_ids": [
+   "P179"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P179"
+ },
+ {
+  "work_id": "W162",
+  "title": "Hacking Back the AI Hacker: Prompt Injection as a Defense Against LLM-driven Cyberattacks",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3847352.3848083"
+  },
+  "primary_url": "https://doi.org/10.1145/3847352.3848083",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Proceedings of the 19th ACM Workshop on Artificial Intelligence and Security",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D4"
+  ],
+  "discovery_record_ids": [
+   "P180"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P180"
+ },
+ {
+  "work_id": "W163",
+  "title": "ALAS: A Stateful Multi-LLM Agent Framework for Disruption-Aware Planning",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3749421.3749436"
+  },
+  "primary_url": "https://doi.org/10.1145/3749421.3749436",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Multi-LLM Agent Collaborative Intelligence",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D4",
+   "D6"
+  ],
+  "discovery_record_ids": [
+   "P181",
+   "P195"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P181"
+ },
+ {
+  "work_id": "W164",
+  "title": "Analysis of LLMs Against Prompt Injection and Jailbreak Attacks",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3803628.3807972"
+  },
+  "primary_url": "https://doi.org/10.1145/3803628.3807972",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Proceedings of the Workshop on Privacy in Large Language Models (LLM) and Natural Language Processing (NLP) 2026",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D4"
+  ],
+  "discovery_record_ids": [
+   "P182"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P182"
+ },
+ {
+  "work_id": "W165",
+  "title": "Prompt-Gaming: A Pilot Study on LLM-Evaluating Agent in a Meaningful Energy Game",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3613905.3650774"
+  },
+  "primary_url": "https://doi.org/10.1145/3613905.3650774",
+  "first_public_date": "2024",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Extended Abstracts of the CHI Conference on Human Factors in Computing Systems",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D4"
+  ],
+  "discovery_record_ids": [
+   "P183"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P183"
+ },
+ {
+  "work_id": "W166",
+  "title": "TaintP2X: Detecting Taint-Style Prompt-to-Anything Injection Vulnerabilities in LLM-Integrated Applications",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3744916.3773199"
+  },
+  "primary_url": "https://doi.org/10.1145/3744916.3773199",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D4"
+  ],
+  "discovery_record_ids": [
+   "P184"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P184"
+ },
+ {
+  "work_id": "W167",
+  "title": "VitruviusOCL: A Declarative Language for Multi-Model Consistency Specification",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3837062.3838896"
+  },
+  "primary_url": "https://doi.org/10.1145/3837062.3838896",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Proceedings of the ACM/IEEE 29th International Conference on Model Driven Engineering Languages and Systems",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D5"
+  ],
+  "discovery_record_ids": [
+   "P186"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P186"
+ },
+ {
+  "work_id": "W168",
+  "title": "BenchGuard: A Calibrated, Adversary-Aware Triage Layer for Reward-Hacking Agentic Trajectories",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3799682.3840600"
+  },
+  "primary_url": "https://doi.org/10.1145/3799682.3840600",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Proceedings of the 35th ACM International Conference on Information and Knowledge Management",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D5"
+  ],
+  "discovery_record_ids": [
+   "P187"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P187"
+ },
+ {
+  "work_id": "W169",
+  "title": "From Captions to Rewards (CaReVL): Leveraging Large Language Model Experts for Enhanced Reward Modeling in Large Vision-Language Models",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3746027.3755697"
+  },
+  "primary_url": "https://doi.org/10.1145/3746027.3755697",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Proceedings of the 33rd ACM International Conference on Multimedia",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D5"
+  ],
+  "discovery_record_ids": [
+   "P188"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P188"
+ },
+ {
+  "work_id": "W170",
+  "title": "Kgent: Kernel Extensions Large Language Model Agent",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3672197.3673434"
+  },
+  "primary_url": "https://doi.org/10.1145/3672197.3673434",
+  "first_public_date": "2024",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Proceedings of the SIGCOMM Workshop on eBPF and Kernel Extensions",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D5"
+  ],
+  "discovery_record_ids": [
+   "P189"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P189"
+ },
+ {
+  "work_id": "W171",
+  "title": "Process Reward Model as Cross-Task Learner. An Extension of Vision-Language Model to Zero-Shot Medical Reasoning",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3767308.3835873"
+  },
+  "primary_url": "https://doi.org/10.1145/3767308.3835873",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Proceedings of the 34th ACM International Conference on Multimedia",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D5"
+  ],
+  "discovery_record_ids": [
+   "P190"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P190"
+ },
+ {
+  "work_id": "W172",
+  "title": "From Generation to Governance: A Conceptual Framework for Specification-Driven Development with Large Language Models",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3837062.3838892"
+  },
+  "primary_url": "https://doi.org/10.1145/3837062.3838892",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Proceedings of the ACM/IEEE 29th International Conference on Model Driven Engineering Languages and Systems",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D5"
+  ],
+  "discovery_record_ids": [
+   "P191"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P191"
+ },
+ {
+  "work_id": "W173",
+  "title": "SeekUI: Predicting Visual Search Behavior on Graphical User Interfaces with a Reward-Augmented Vision Language Model",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3772318.3791178"
+  },
+  "primary_url": "https://doi.org/10.1145/3772318.3791178",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D5"
+  ],
+  "discovery_record_ids": [
+   "P192"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P192"
+ },
+ {
+  "work_id": "W174",
+  "title": "Reward Specifications in Collaborative Multi-agent Learning: A Comparative Study",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3605098.3636028"
+  },
+  "primary_url": "https://doi.org/10.1145/3605098.3636028",
+  "first_public_date": "2024",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Proceedings of the 39th ACM/SIGAPP Symposium on Applied Computing",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D5"
+  ],
+  "discovery_record_ids": [
+   "P193"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P193"
+ },
+ {
+  "work_id": "W175",
+  "title": "A Multi-Platform Specification Language and Dataset for the Analysis of DevOps Pipelines",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3652620.3686247"
+  },
+  "primary_url": "https://doi.org/10.1145/3652620.3686247",
+  "first_public_date": "2024",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Proceedings of the ACM/IEEE 27th International Conference on Model Driven Engineering Languages and Systems",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D5"
+  ],
+  "discovery_record_ids": [
+   "P194"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P194"
+ },
+ {
+  "work_id": "W176",
+  "title": "SocraSynth: Adversarial Multi-LLM Reasoning",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3749421.3749430"
+  },
+  "primary_url": "https://doi.org/10.1145/3749421.3749430",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Multi-LLM Agent Collaborative Intelligence",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D6"
+  ],
+  "discovery_record_ids": [
+   "P196"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P196"
+ },
+ {
+  "work_id": "W177",
+  "title": "Bias Correction and Data Synthesis through Reflective LLM Collaboration",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3749421.3749432"
+  },
+  "primary_url": "https://doi.org/10.1145/3749421.3749432",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Multi-LLM Agent Collaborative Intelligence",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D6"
+  ],
+  "discovery_record_ids": [
+   "P197"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P197"
+ },
+ {
+  "work_id": "W178",
+  "title": "Preface",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3749421.3749422"
+  },
+  "primary_url": "https://doi.org/10.1145/3749421.3749422",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Multi-LLM Agent Collaborative Intelligence",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D6"
+  ],
+  "discovery_record_ids": [
+   "P198"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P198"
+ },
+ {
+  "work_id": "W179",
+  "title": "Acknowledgments",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3749421.3749423"
+  },
+  "primary_url": "https://doi.org/10.1145/3749421.3749423",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Multi-LLM Agent Collaborative Intelligence",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D6"
+  ],
+  "discovery_record_ids": [
+   "P199"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P199"
+ },
+ {
+  "work_id": "W180",
+  "title": "AutoReview: An LLM-based Multi-Agent System for Security Issue-Oriented Code Review",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3696630.3728618"
+  },
+  "primary_url": "https://doi.org/10.1145/3696630.3728618",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Proceedings of the 33rd ACM International Conference on the Foundations of Software Engineering",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D6"
+  ],
+  "discovery_record_ids": [
+   "P200"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P200"
+ },
+ {
+  "work_id": "W181",
+  "title": "EVINCE: Optimizing Adversarial LLM Dialogues via Conditional Statistics and Information Theory",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3749421.3749431"
+  },
+  "primary_url": "https://doi.org/10.1145/3749421.3749431",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Multi-LLM Agent Collaborative Intelligence",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D6"
+  ],
+  "discovery_record_ids": [
+   "P201"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P201"
+ },
+ {
+  "work_id": "W182",
+  "title": "Authors’ Biography/Index",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3749421.3749443"
+  },
+  "primary_url": "https://doi.org/10.1145/3749421.3749443",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Multi-LLM Agent Collaborative Intelligence",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D6"
+  ],
+  "discovery_record_ids": [
+   "P202"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P202"
+ },
+ {
+  "work_id": "W183",
+  "title": "Multi-LLM Agent Collaborative Intelligence",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3749421"
+  },
+  "primary_url": "https://doi.org/10.1145/3749421",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D6"
+  ],
+  "discovery_record_ids": [
+   "P203"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P203"
+ },
+ {
+  "work_id": "W184",
+  "title": "The Treacherous Envoy Problem: Trust, Collusion, and Accountability in Multi-Agent Workflows [Blue Sky Paper]",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1145/3750555.3811883"
+  },
+  "primary_url": "https://doi.org/10.1145/3750555.3811883",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Proceedings of the 31st ACM Symposium on Access Control Models and Technologies",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D6"
+  ],
+  "discovery_record_ids": [
+   "P204"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P204"
+ },
+ {
+  "work_id": "W185",
+  "title": "Residual Privacy Leakage after Output Scrubbing in Tool-Using LLM Agents under Indirect Prompt Injection",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.21203/rs.3.rs-11428254/v1"
+  },
+  "primary_url": "https://doi.org/10.21203/rs.3.rs-11428254/v1",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D7"
+  ],
+  "discovery_record_ids": [
+   "P205"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P205"
+ },
+ {
+  "work_id": "W186",
+  "title": "Attenuation, Not Amplification: Measuring Indirect Prompt Injection Propagation and Containment in Multi-Agent LLM Delegation Chains",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.21203/rs.3.rs-11162232/v1"
+  },
+  "primary_url": "https://doi.org/10.21203/rs.3.rs-11162232/v1",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D7"
+  ],
+  "discovery_record_ids": [
+   "P206"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P206"
+ },
+ {
+  "work_id": "W187",
+  "title": "Capability-Mediated Perimeters for Secure AI Agent Tool Execution: Conditional Non-Escalation Invariants and Empirical Evaluation Against Indirect Prompt Injection",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.21203/rs.3.rs-10889863/v1"
+  },
+  "primary_url": "https://doi.org/10.21203/rs.3.rs-10889863/v1",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D7"
+  ],
+  "discovery_record_ids": [
+   "P207"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P207"
+ },
+ {
+  "work_id": "W188",
+  "title": "Deleting Accounts by Review: Stored Indirect Prompt Injection Through Product Reviews in a Flask LLM App, from Review Text to an Unauthorised DeleteAccount Tool Call",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.21203/rs.3.rs-11535193/v1"
+  },
+  "primary_url": "https://doi.org/10.21203/rs.3.rs-11535193/v1",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D7"
+  ],
+  "discovery_record_ids": [
+   "P208"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P208"
+ },
+ {
+  "work_id": "W189",
+  "title": "Are LLM-Agent Prompt-Injection Benchmarks Still Valid? A Cross-Model and Cross-Benchmark Study",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.21203/rs.3.rs-10962146/v1"
+  },
+  "primary_url": "https://doi.org/10.21203/rs.3.rs-10962146/v1",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D7"
+  ],
+  "discovery_record_ids": [
+   "P209"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P209"
+ },
+ {
+  "work_id": "W190",
+  "title": "Bringing the Dual-LLM pattern to practice in Google ADK for deterministic AI agent security against prompt injection",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1007/s10015-026-01152-3"
+  },
+  "primary_url": "https://doi.org/10.1007/s10015-026-01152-3",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Artificial Life and Robotics",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D7"
+  ],
+  "discovery_record_ids": [
+   "P211"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P211"
+ },
+ {
+  "work_id": "W191",
+  "title": "Beyond Prompt Injection: Trust-Boundary Security Assurance for LLM-Integrated and Agentic Applications",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.21203/rs.3.rs-10798245/v1"
+  },
+  "primary_url": "https://doi.org/10.21203/rs.3.rs-10798245/v1",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D7"
+  ],
+  "discovery_record_ids": [
+   "P212"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P212"
+ },
+ {
+  "work_id": "W192",
+  "title": "Containment over Detection: Cryptographic Boundary Enforcement for Prompt Injection Defense in Agentic LLM Systems",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.21203/rs.3.rs-10196595/v1"
+  },
+  "primary_url": "https://doi.org/10.21203/rs.3.rs-10196595/v1",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D7"
+  ],
+  "discovery_record_ids": [
+   "P213"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P213"
+ },
+ {
+  "work_id": "W193",
+  "title": "Breaking Barriers: Multi-Agent Prompt Fusion for Automated LLM Jailbreaks",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.21203/rs.3.rs-7070323/v1"
+  },
+  "primary_url": "https://doi.org/10.21203/rs.3.rs-7070323/v1",
+  "first_public_date": "2025",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D7"
+  ],
+  "discovery_record_ids": [
+   "P214"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P214"
+ },
+ {
+  "work_id": "W194",
+  "title": "Use large language model to enhance reasoning of another large language model through reward updated GRPO",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1038/s41598-026-39296-8"
+  },
+  "primary_url": "https://doi.org/10.1038/s41598-026-39296-8",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Scientific Reports",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D8"
+  ],
+  "discovery_record_ids": [
+   "P216"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P216"
+ },
+ {
+  "work_id": "W195",
+  "title": "Pressure, Context, and Machine Self-Control: A Criminological Test of Reward Hacking in Generative AI Models",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.21203/rs.3.rs-11254303/v1"
+  },
+  "primary_url": "https://doi.org/10.21203/rs.3.rs-11254303/v1",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D8"
+  ],
+  "discovery_record_ids": [
+   "P217"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P217"
+ },
+ {
+  "work_id": "W196",
+  "title": "On preferences and reward policies over rankings",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1007/s10458-024-09656-7"
+  },
+  "primary_url": "https://doi.org/10.1007/s10458-024-09656-7",
+  "first_public_date": "2024",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Autonomous Agents and Multi-Agent Systems",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D8"
+  ],
+  "discovery_record_ids": [
+   "P218"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P218"
+ },
+ {
+  "work_id": "W197",
+  "title": "Introduction",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1007/978-3-032-06264-2_1"
+  },
+  "primary_url": "https://doi.org/10.1007/978-3-032-06264-2_1",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Synthesis Lectures on Human Language Technologies",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D8"
+  ],
+  "discovery_record_ids": [
+   "P219"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P219"
+ },
+ {
+  "work_id": "W198",
+  "title": "Agents",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1007/978-3-032-06264-2_8"
+  },
+  "primary_url": "https://doi.org/10.1007/978-3-032-06264-2_8",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Synthesis Lectures on Human Language Technologies",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D8"
+  ],
+  "discovery_record_ids": [
+   "P220"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P220"
+ },
+ {
+  "work_id": "W199",
+  "title": "Interaction Objects",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1007/978-3-032-06264-2_2"
+  },
+  "primary_url": "https://doi.org/10.1007/978-3-032-06264-2_2",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Synthesis Lectures on Human Language Technologies",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D8"
+  ],
+  "discovery_record_ids": [
+   "P221"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P221"
+ },
+ {
+  "work_id": "W200",
+  "title": "Interactive Natural Language Processing",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1007/978-3-032-06264-2"
+  },
+  "primary_url": "https://doi.org/10.1007/978-3-032-06264-2",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Synthesis Lectures on Human Language Technologies",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D8"
+  ],
+  "discovery_record_ids": [
+   "P222"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P222"
+ },
+ {
+  "work_id": "W201",
+  "title": "Evaluation",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1007/978-3-032-06264-2_10"
+  },
+  "primary_url": "https://doi.org/10.1007/978-3-032-06264-2_10",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Synthesis Lectures on Human Language Technologies",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D8"
+  ],
+  "discovery_record_ids": [
+   "P223"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P223"
+ },
+ {
+  "work_id": "W202",
+  "title": "Prompting",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1007/978-3-032-06264-2_5"
+  },
+  "primary_url": "https://doi.org/10.1007/978-3-032-06264-2_5",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Synthesis Lectures on Human Language Technologies",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D8"
+  ],
+  "discovery_record_ids": [
+   "P224"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P224"
+ },
+ {
+  "work_id": "W203",
+  "title": "LLM Agent-guided Stochastic Control of Multi-layer and Multi-track Laser Powder Bed Fusion Process",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.21203/rs.3.rs-9315895/v1"
+  },
+  "primary_url": "https://doi.org/10.21203/rs.3.rs-9315895/v1",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D9"
+  ],
+  "discovery_record_ids": [
+   "P225"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P225"
+ },
+ {
+  "work_id": "W204",
+  "title": "Agora: A Drive-Based Framework for Agent Difffferentiation in Multi-Agent LLM Systems",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.21203/rs.3.rs-10371209/v1"
+  },
+  "primary_url": "https://doi.org/10.21203/rs.3.rs-10371209/v1",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D9"
+  ],
+  "discovery_record_ids": [
+   "P226"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P226"
+ },
+ {
+  "work_id": "W205",
+  "title": "PeerLens as a Multi-Agent LLM Reviewer",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.21203/rs.3.rs-11323645/v1"
+  },
+  "primary_url": "https://doi.org/10.21203/rs.3.rs-11323645/v1",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D9"
+  ],
+  "discovery_record_ids": [
+   "P227"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P227"
+ },
+ {
+  "work_id": "W206",
+  "title": "LDP: An Identity-Aware Protocol for Multi-Agent LLM Systems",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.21203/rs.3.rs-9121599/v1"
+  },
+  "primary_url": "https://doi.org/10.21203/rs.3.rs-9121599/v1",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D9"
+  ],
+  "discovery_record_ids": [
+   "P228"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P228"
+ },
+ {
+  "work_id": "W207",
+  "title": "Advanced Environmental Monitoring Architecture Based on Fuzzy Inference and Multi-agent Systems",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1007/978-3-032-32770-3_6"
+  },
+  "primary_url": "https://doi.org/10.1007/978-3-032-32770-3_6",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Studies in Systems, Decision and Control",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D9"
+  ],
+  "discovery_record_ids": [
+   "P229"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P229"
+ },
+ {
+  "work_id": "W208",
+  "title": "Emergent Network Collapse and Ontological Dissonance in Multi-Agent LLM Simulations",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.21203/rs.3.rs-9644900/v1"
+  },
+  "primary_url": "https://doi.org/10.21203/rs.3.rs-9644900/v1",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D9"
+  ],
+  "discovery_record_ids": [
+   "P230"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P230"
+ },
+ {
+  "work_id": "W209",
+  "title": "LLM-guided contrastive role representation for diverse multi-agent coordination",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1007/s10458-026-09769-1"
+  },
+  "primary_url": "https://doi.org/10.1007/s10458-026-09769-1",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Autonomous Agents and Multi-Agent Systems",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D9"
+  ],
+  "discovery_record_ids": [
+   "P231"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P231"
+ },
+ {
+  "work_id": "W210",
+  "title": "A RAG-enhanced multi-agent LLM/VLM framework for auditable and region-aware structural health monitoring of a historic masonry structure",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1038/s41598-026-57424-2"
+  },
+  "primary_url": "https://doi.org/10.1038/s41598-026-57424-2",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Scientific Reports",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D9"
+  ],
+  "discovery_record_ids": [
+   "P232"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P232"
+ },
+ {
+  "work_id": "W211",
+  "title": "Simulating Ideological Deadlock: Persona Stability and Conflict Resolution in LLM-Based Multi-Agent Frameworks",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.21203/rs.3.rs-9414531/v1"
+  },
+  "primary_url": "https://doi.org/10.21203/rs.3.rs-9414531/v1",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": null,
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D9"
+  ],
+  "discovery_record_ids": [
+   "P233"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P233"
+ },
+ {
+  "work_id": "W212",
+  "title": "Runtime Uncertainty Monitoring for LLM-Based Multi-agent Systems Using Bayesian Networks",
+  "authors": null,
+  "identifiers": {
+   "arxiv": null,
+   "doi": "10.1007/978-3-032-35506-5_53"
+  },
+  "primary_url": "https://doi.org/10.1007/978-3-032-35506-5_53",
+  "first_public_date": "2026",
+  "version_checked": null,
+  "version_date": null,
+  "venue_claim": "Lecture Notes in Computer Science",
+  "venue_claim_basis": "Crossref record; publisher page not opened",
+  "peer_review_status": "not assessed",
+  "in_review_window": true,
+  "within_evidence_cutoff": true,
+  "discovered_by": [
+   "D9"
+  ],
+  "discovery_record_ids": [
+   "P234"
+  ],
+  "gate": 2,
+  "screening_decision": "excluded_at_title",
+  "screening_basis": "title (Crossref record)",
+  "screening_reason": "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff).",
+  "evidence_class": null,
+  "proposed_primary_category": null,
+  "secondary_tags": [],
+  "proposed_behaviour_source": null,
+  "coding_status": "not coded",
+  "agent_reading_status": "not read",
+  "human_reading_status": null,
+  "full_text_read": false,
+  "extraction": null,
+  "published_record": null,
+  "canonical_record_id": "P234"
  }
 ]

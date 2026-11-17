@@ -24,16 +24,19 @@
   "context_review": 1,
   "read_not_included": 7,
   "duplicate": 1,
-  "awaiting_full_text": 2,
+  "queued_not_read_access_refused": 1,
   "metadata_unverified": 4,
   "reserve": 43,
+  "not_queued_awaiting_full_text": 1,
   "excluded_at_abstract": 34,
   "context_only": 9,
   "title_screened_not_selected": 82,
   "published_record_of_known_work": 6,
   "repeat_within_crossref": 2
  },
- "repeat_or_duplicate_records": 18,
+ "repeat_records": 18,
+ "unverified_records": 4,
+ "distinct_works": 212,
  "records_without_verified_primary_record": [
   "P013",
   "P018",
@@ -46,19 +49,33 @@
   "P017",
   "P019"
  ],
- "unique_arxiv_works": 126,
+ "works_with_arxiv_id": 126,
+ "works_without_arxiv_id": 86,
  "work_screening_decisions": {
   "included_pending_human_reading": 35,
   "read_not_included": 7,
-  "reserve": 42,
+  "reserve": 43,
   "excluded_at_abstract": 33,
-  "context_only": 9
+  "context_only": 10,
+  "queued_not_read_access_refused": 1,
+  "not_queued_awaiting_full_text": 1,
+  "excluded_at_title": 82
  },
- "include_for_reading_by_category": {},
- "include_for_reading_by_first_public_year": {},
+ "included_by_category": {
+  "A": 10,
+  "B": 9,
+  "C": 8,
+  "D": 8
+ },
+ "included_by_first_public_year": {
+  "2023": 2,
+  "2024": 7,
+  "2025": 15,
+  "2026": 11
+ },
  "reserve_by_category": {
   "A": 1,
-  "B": 23,
+  "B": 24,
   "C": 12,
   "D": 4,
   "None": 2

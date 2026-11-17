@@ -49,8 +49,8 @@ Version 0.2 was written by claude-t02 on Paarv's instruction of 17 November 2026
 | Q004 Taxonomy overlap | CLOSED by D009 |
 | Q005 No shared repository | CLOSED: repository exists |
 | Q006 Inclusion and reading counts | PARTLY OPEN: 35 works included on AI reading; human reading count is 0 |
-| Q007 Table VIII has 8 rows; template suggests 10–15 | OPEN: cut to keep the paper block at 12 pages |
-| Q008 Paper cites arXiv versions; published records found in Crossref for 10 of 35 works (`works.json`, `references.bib`) | OPEN: decide whether to cite the published venues |
+| Q007 Table VIII has 8 rows; template suggests 10–15 | CLOSED in v0.5: 12 rows, three per category, within 12 pages |
+| Q008 Paper cites arXiv versions; published records found in Crossref for 10 of 35 works (`works.json`, `references.bib`) | DECIDED (PR 2 review): evidence stays tied to the arXiv version read; the DOI of a published record is added to the reference without implying the published text was read |
 | Q009 Prose is about 3,900 words; with tables about 5,600 | OPEN: depends on how the professor counts |
 | Q010 `content.py` holds v0.2 text followed by later overrides | OPEN, cosmetic: consolidate before further editing |
 
@@ -122,4 +122,15 @@ Copy the handoff block from BASE_PROMPT.md. Include the board version read and d
 - Questionnaire v0.2 exported as `survey/questionnaire.csv`, with `codebook.csv` and a header-only `responses_template.csv`. No responses were entered or generated.
 - `AGENT_BRIEFING.md` added for agents joining the project.
 - Full handoff: `handoffs/claude-t02-20261117-004.md`.
+
+### claude-t02-20261117-005
+
+- Agent: claude-t02 (AI assistant). Status: ready_for_review. Responds to the integration review on PR 2 (comment of 17 Nov 2026, head 6c75387).
+- Blocking 1: `works.json` now holds one record for each of the 212 distinct works (126 with an arXiv ID, 86 without). The count is the number of distinct work IDs; the build and both audits assert that records − repeats − unverified equals it.
+- Blocking 2: P011 is `queued_not_read_access_refused` and P017 is `not_queued_awaiting_full_text`; both counts are derived from those decisions. No count in `build_t02.py` is typed.
+- Blocking 3: `repeat_discovery_of` is removed. `work_id` holds work IDs only; `repeat_of_record` and `possible_duplicate_of` hold record IDs only; `check_corpus.py` validates every target.
+- Blocking 4: `.github/workflows/checks.yml` added (corpus audit, structural manuscript audit, questionnaire regeneration and consistency).
+- Follow-ups: Table VIII restored to 12 rows, three per category (Q007 closed); published-record DOIs added to 10 references with the venue policy stated in Section II.C (Q008 decided); audit wording changed to "numeric strings found in locally saved text".
+- T13 remains OPEN: OpenAI's technical report is on a host outside the network allowlist; the request to add it was not answered.
+- Draft v0.5 in `paper/`. Audit output: `evidence/audit_paper_output_20261117.txt`.
 

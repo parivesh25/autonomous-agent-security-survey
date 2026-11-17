@@ -45,7 +45,7 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/crossref_openalex/P002_crossref*.json",
-  "work_id": null,
+  "work_id": "W127",
   "first_public_date": "2026-08-17",
   "venue": "Discover Artificial Intelligence (Springer)",
   "metadata_basis": "Crossref exact-title match; publisher page not opened"
@@ -148,7 +148,8 @@
   "evidence_locator": "evidence/arxiv_api/P006.xml",
   "work_id": "W003",
   "first_public_date": "2026-03-11",
-  "version_checked": "2603.11337v1"
+  "version_checked": "2603.11337v1",
+  "repeat_of_record": "P004"
  },
  {
   "id": "P007",
@@ -257,13 +258,13 @@
   "scispace_id": "evaluating-indirect-prompt-injection-defenses-in-tool-using-er0d2ms67646",
   "url": "https://scispace.com/papers/evaluating-indirect-prompt-injection-defenses-in-tool-using-er0d2ms67646?utm_source=chatgpt&utm_medium=tool",
   "discovery_excerpt": "2026 · Adil R. Khan, Khaled AlKhanbashi, Azza Abdel Monem · Computers · 1 citations · Journal Article\nTL;DR: This study evaluates four indirect prompt injection defenses in tool-using LLM agents, reporting attack success rates, benign utility, and operational measures across three models on the AgentDojo benchmark, highlighting the importance of cautious interpretation and defense evaluation methodology.\nAbstract: Large language model (LLM) agents that retrieve external content and use tools are vulnerable to indirect prompt injection, in which untrusted content contains instructions intended to influence agent behavior. We evaluated four defenses and an undefended control across GPT-5.4, GPT-5.4-mini, and Claude Sonnet 4.6 on the AgentDojo banking benchmark (Tool Filter was evaluated only for the OpenAI models), reporting attack success rate (ASR), benign utility, utility under attack, operational measures, and two independent benchmark replications. Raw undefended ASR was 0/288 for GPT-5.4, 11/288…",
-  "status": "awaiting_full_text",
+  "status": "queued_not_read_access_refused",
   "possible_duplicate_of": null,
   "primary_url": "https://doi.org/10.3390/computers15090570",
   "publication_date_verified": true,
   "full_text_read": false,
   "category": "B",
-  "screening_reason": "Publisher page returned HTTP 403 to automated requests. Remains awaiting full text.",
+  "screening_reason": "Placed in the reading queue on its abstract-level record. Publisher page returned HTTP 403 to automated requests. Remains awaiting full text.",
   "methods": null,
   "testbed": null,
   "metric_definition": null,
@@ -271,7 +272,7 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/crossref_openalex/P011_crossref*.json",
-  "work_id": null,
+  "work_id": "W128",
   "first_public_date": "2026-08-31",
   "venue": "Computers (MDPI)",
   "metadata_basis": "Crossref exact-title match; publisher page not opened"
@@ -406,13 +407,13 @@
   "scispace_id": "prompt-injection-as-a-systemic-vulnerability-in-llm-based-xij8xpgseede",
   "url": "https://scispace.com/papers/prompt-injection-as-a-systemic-vulnerability-in-llm-based-xij8xpgseede?utm_source=chatgpt&utm_medium=tool",
   "discovery_excerpt": "2026 · Mukesh Mani Tripathi, Damodar Dhital, Himal Aryal · Proceedings Article\nTL;DR: Large language models (LLMs) expose an expanded attack surface due to conflation of trusted instructions and untrusted data, leading to a systemic vulnerability termed prompt injection, which can be mitigated through architectural controls rather than prompt engineering.\nAbstract: Large language models (LLMs) deployed as autonomous agents with tool access, retrieval pipelines, and persistent memory expose an expanded attack surface. We formalize prompt injection as a control-boundary violation arising from the conflation of trusted instructions and untrusted data within LLM context windows. We introduce a threat model spanning user input, retrieval pipelines, tool outputs, and persistent memory, and develop a structured taxonomy of attack vectors. We conduct a controlled empirical evaluation across three system architectures (chatbot, retrieval-augmented system,…",
-  "status": "awaiting_full_text",
+  "status": "not_queued_awaiting_full_text",
   "possible_duplicate_of": null,
   "primary_url": "https://doi.org/10.1109/sera69989.2026.11618608",
   "publication_date_verified": true,
   "full_text_read": false,
   "category": "B",
-  "screening_reason": "Metadata confirmed in Crossref; IEEE full text not accessed (institutional access likely required).",
+  "screening_reason": "Metadata confirmed in Crossref; never screened beyond the title because the IEEE full text and abstract page were not accessed. Not placed in the reading queue.",
   "methods": null,
   "testbed": null,
   "metric_definition": null,
@@ -420,7 +421,7 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/crossref_openalex/P017_crossref*.json",
-  "work_id": null,
+  "work_id": "W129",
   "first_public_date": "2026-05 (day not in Crossref)",
   "venue": "IEEE/ACIS SERA 2026",
   "metadata_basis": "Crossref exact-title match; publisher page not opened"
@@ -469,7 +470,7 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/crossref_openalex/P019_crossref*.json",
-  "work_id": null,
+  "work_id": "W130",
   "first_public_date": "2026-04-25",
   "venue": "Computation (MDPI)",
   "metadata_basis": "Crossref exact-title match; publisher page not opened"
@@ -1394,7 +1395,7 @@
   "work_id": "W002",
   "first_public_date": "2024-06-14",
   "version_checked": "2406.10162v3",
-  "repeat_discovery_of": "P003"
+  "repeat_of_record": "P003"
  },
  {
   "id": "P057",
@@ -1470,7 +1471,7 @@
   "work_id": "W008",
   "first_public_date": "2025-11-26",
   "version_checked": "2511.21654v2",
-  "repeat_discovery_of": "P010"
+  "repeat_of_record": "P010"
  },
  {
   "id": "P060",
@@ -2046,7 +2047,7 @@
   "work_id": "W032",
   "first_public_date": "2025-09-16",
   "version_checked": "2509.14285v4",
-  "repeat_discovery_of": "P041"
+  "repeat_of_record": "P041"
  },
  {
   "id": "P083",
@@ -2897,7 +2898,7 @@
   "work_id": "W051",
   "first_public_date": "2025-11-23",
   "version_checked": "2511.18397v1",
-  "repeat_discovery_of": "P062"
+  "repeat_of_record": "P062"
  },
  {
   "id": "P117",
@@ -3048,7 +3049,7 @@
   "work_id": "W045",
   "first_public_date": "2025-02-27",
   "version_checked": "2503.00061v2",
-  "repeat_discovery_of": "P054"
+  "repeat_of_record": "P054"
  },
  {
   "id": "P123",
@@ -3299,7 +3300,7 @@
   "work_id": "W070",
   "first_public_date": "2024-10-09",
   "version_checked": "2410.07283v1",
-  "repeat_discovery_of": "P081"
+  "repeat_of_record": "P081"
  },
  {
   "id": "P133",
@@ -3425,7 +3426,7 @@
   "work_id": "W081",
   "first_public_date": "2025-03-15",
   "version_checked": "2503.12188v2",
-  "repeat_discovery_of": "P093"
+  "repeat_of_record": "P093"
  },
  {
   "id": "P138",
@@ -3476,7 +3477,7 @@
   "work_id": "W095",
   "first_public_date": "2025-06-17",
   "version_checked": "2506.15740v2",
-  "repeat_discovery_of": "P107"
+  "repeat_of_record": "P107"
  },
  {
   "id": "P140",
@@ -3552,7 +3553,7 @@
   "work_id": "W094",
   "first_public_date": "2025-12-17",
   "version_checked": "2512.15688v1",
-  "repeat_discovery_of": "P106"
+  "repeat_of_record": "P106"
  },
  {
   "id": "P143",
@@ -3625,9 +3626,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_a.json",
-  "work_id": null,
+  "work_id": "W131",
   "venue": "2026 10th International Artificial Intelligence and Data Processing Symposium (IDAP)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P146",
@@ -3650,9 +3652,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_a.json",
-  "work_id": null,
+  "work_id": "W132",
   "venue": "2026 International Conference on Cybersecurity and AI-Based Systems (Cyber-AI)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P147",
@@ -3675,9 +3678,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_a.json",
-  "work_id": null,
+  "work_id": "W133",
   "venue": "IEEE Access",
-  "record_type": "journal-article"
+  "record_type": "journal-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P148",
@@ -3700,9 +3704,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_a.json",
-  "work_id": null,
+  "work_id": "W134",
   "venue": "IEEE Access",
-  "record_type": "journal-article"
+  "record_type": "journal-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P149",
@@ -3725,9 +3730,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_a.json",
-  "work_id": null,
+  "work_id": "W135",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2024"
  },
  {
   "id": "P150",
@@ -3753,7 +3759,8 @@
   "work_id": "W027",
   "venue": "2025 55th Annual IEEE/IFIP International Conference on Dependable Systems and Networks - Supplemental Volume (DSN-S)",
   "record_type": "proceedings-article",
-  "repeat_discovery_of": "W027"
+  "first_public_date": "2025",
+  "repeat_of_record": "P036"
  },
  {
   "id": "P151",
@@ -3776,9 +3783,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_a.json",
-  "work_id": null,
+  "work_id": "W136",
   "venue": "2024 IEEE 6th International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications (TPS-ISA)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2024"
  },
  {
   "id": "P152",
@@ -3801,9 +3809,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_a.json",
-  "work_id": null,
+  "work_id": "W137",
   "venue": "2026 International Conference on System, Computation, Automation and Networking (ICSCAN)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P153",
@@ -3826,9 +3835,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_a.json",
-  "work_id": null,
+  "work_id": "W138",
   "venue": "2026 6th International Conference on Electrical, Computer and Energy Technologies (ICECET)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P154",
@@ -3854,7 +3864,8 @@
   "work_id": "W032",
   "venue": "2025 IEEE International Women in Engineering (WIE) Conference on Electrical and Computer Engineering (WIECON-ECE)",
   "record_type": "proceedings-article",
-  "repeat_discovery_of": "W032"
+  "first_public_date": "2025",
+  "repeat_of_record": "P041"
  },
  {
   "id": "P155",
@@ -3877,9 +3888,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_b.json",
-  "work_id": null,
+  "work_id": "W139",
   "venue": "2025 IEEE 33rd International Requirements Engineering Conference (RE)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2025"
  },
  {
   "id": "P156",
@@ -3902,9 +3914,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_b.json",
-  "work_id": null,
+  "work_id": "W140",
   "venue": "2023 Winter Simulation Conference (WSC)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2023"
  },
  {
   "id": "P157",
@@ -3927,9 +3940,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_b.json",
-  "work_id": null,
+  "work_id": "W141",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2024"
  },
  {
   "id": "P158",
@@ -3952,9 +3966,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_b.json",
-  "work_id": null,
+  "work_id": "W142",
   "venue": "2024 International Joint Conference on Neural Networks (IJCNN)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2024"
  },
  {
   "id": "P159",
@@ -3977,9 +3992,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_b.json",
-  "work_id": null,
+  "work_id": "W143",
   "venue": "2025 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2025"
  },
  {
   "id": "P160",
@@ -4002,9 +4018,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_b.json",
-  "work_id": null,
+  "work_id": "W144",
   "venue": "2025 3rd International Conference on Foundation and Large Language Models (FLLM)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2025"
  },
  {
   "id": "P161",
@@ -4027,9 +4044,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_b.json",
-  "work_id": null,
+  "work_id": "W145",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2025"
  },
  {
   "id": "P162",
@@ -4052,9 +4070,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_b.json",
-  "work_id": null,
+  "work_id": "W146",
   "venue": "2025 5th Intelligent Cybersecurity Conference (ICSC)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2025"
  },
  {
   "id": "P163",
@@ -4077,9 +4096,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_b.json",
-  "work_id": null,
+  "work_id": "W147",
   "venue": "2026 6th International Symposium on Computer Technology and Information Science (ISCTIS)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P164",
@@ -4102,9 +4122,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_b.json",
-  "work_id": null,
+  "work_id": "W148",
   "venue": "2023 Forum on Specification &amp; Design Languages (FDL)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2023"
  },
  {
   "id": "P165",
@@ -4127,9 +4148,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_c.json",
-  "work_id": null,
+  "work_id": "W149",
   "venue": "IEEE Control Systems Letters",
-  "record_type": "journal-article"
+  "record_type": "journal-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P166",
@@ -4152,9 +4174,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_c.json",
-  "work_id": null,
+  "work_id": "W150",
   "venue": "2026 IEEE Conference on Communications and Network Security (CNS)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P167",
@@ -4177,9 +4200,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_c.json",
-  "work_id": null,
+  "work_id": "W151",
   "venue": "2025 44th Chinese Control Conference (CCC)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2025"
  },
  {
   "id": "P168",
@@ -4202,9 +4226,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_c.json",
-  "work_id": null,
+  "work_id": "W152",
   "venue": "2026 International Conference on Complex Systems and Automation Control (CSAC)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P169",
@@ -4227,9 +4252,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_c.json",
-  "work_id": null,
+  "work_id": "W153",
   "venue": "2025 Annual Computer Security Applications Conference Workshops (ACSAC Workshops)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2025"
  },
  {
   "id": "P170",
@@ -4252,9 +4278,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_c.json",
-  "work_id": null,
+  "work_id": "W154",
   "venue": "2026 6th International Conference on Control and Intelligent Robotics (ICCIR)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P171",
@@ -4277,9 +4304,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_c.json",
-  "work_id": null,
+  "work_id": "W155",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2023"
  },
  {
   "id": "P172",
@@ -4302,10 +4330,11 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_c.json",
-  "work_id": null,
+  "work_id": "W155",
   "venue": null,
   "record_type": "posted-content",
-  "repeat_discovery_of": "P171"
+  "first_public_date": "2023",
+  "repeat_of_record": "P171"
  },
  {
   "id": "P173",
@@ -4328,9 +4357,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_c.json",
-  "work_id": null,
+  "work_id": "W156",
   "venue": "2026 International Conference on Generative Artificial Intelligence and Information Security (GAIIS)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P174",
@@ -4353,9 +4383,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_IEEE_c.json",
-  "work_id": null,
+  "work_id": "W157",
   "venue": "2025 International Conference on Mechatronics, Robotics, and Artificial Intelligence (MRAI)",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2025"
  },
  {
   "id": "P175",
@@ -4378,9 +4409,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_a.json",
-  "work_id": null,
+  "work_id": "W158",
   "venue": "Proceedings of the 26th ACM Annual Conference on Cybersecurity &amp; Information Technology Education",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2025"
  },
  {
   "id": "P176",
@@ -4403,9 +4435,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_a.json",
-  "work_id": null,
+  "work_id": "W159",
   "venue": "Proceedings of the 19th ACM Workshop on Artificial Intelligence and Security",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P177",
@@ -4431,7 +4464,8 @@
   "work_id": "W106",
   "venue": "Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security",
   "record_type": "proceedings-article",
-  "repeat_discovery_of": "W106"
+  "first_public_date": "2023",
+  "repeat_of_record": "P119"
  },
  {
   "id": "P178",
@@ -4454,9 +4488,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_a.json",
-  "work_id": null,
+  "work_id": "W160",
   "venue": "Proceedings of the 1st Workshop on Security, Privacy, and Safety of Agentic AI Systems",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P179",
@@ -4479,9 +4514,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_a.json",
-  "work_id": null,
+  "work_id": "W161",
   "venue": "Multi-LLM Agent Collaborative Intelligence",
-  "record_type": "book-chapter"
+  "record_type": "book-chapter",
+  "first_public_date": "2025"
  },
  {
   "id": "P180",
@@ -4504,9 +4540,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_a.json",
-  "work_id": null,
+  "work_id": "W162",
   "venue": "Proceedings of the 19th ACM Workshop on Artificial Intelligence and Security",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P181",
@@ -4529,9 +4566,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_a.json",
-  "work_id": null,
+  "work_id": "W163",
   "venue": "Multi-LLM Agent Collaborative Intelligence",
-  "record_type": "book-chapter"
+  "record_type": "book-chapter",
+  "first_public_date": "2025"
  },
  {
   "id": "P182",
@@ -4554,9 +4592,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_a.json",
-  "work_id": null,
+  "work_id": "W164",
   "venue": "Proceedings of the Workshop on Privacy in Large Language Models (LLM) and Natural Language Processing (NLP) 2026",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P183",
@@ -4579,9 +4618,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_a.json",
-  "work_id": null,
+  "work_id": "W165",
   "venue": "Extended Abstracts of the CHI Conference on Human Factors in Computing Systems",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2024"
  },
  {
   "id": "P184",
@@ -4604,9 +4644,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_a.json",
-  "work_id": null,
+  "work_id": "W166",
   "venue": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P185",
@@ -4632,7 +4673,8 @@
   "work_id": "W048",
   "venue": "Proceedings of the 16th ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics",
   "record_type": "proceedings-article",
-  "repeat_discovery_of": "W048"
+  "first_public_date": "2025",
+  "repeat_of_record": "P058"
  },
  {
   "id": "P186",
@@ -4655,9 +4697,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_b.json",
-  "work_id": null,
+  "work_id": "W167",
   "venue": "Proceedings of the ACM/IEEE 29th International Conference on Model Driven Engineering Languages and Systems",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P187",
@@ -4680,9 +4723,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_b.json",
-  "work_id": null,
+  "work_id": "W168",
   "venue": "Proceedings of the 35th ACM International Conference on Information and Knowledge Management",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P188",
@@ -4705,9 +4749,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_b.json",
-  "work_id": null,
+  "work_id": "W169",
   "venue": "Proceedings of the 33rd ACM International Conference on Multimedia",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2025"
  },
  {
   "id": "P189",
@@ -4730,9 +4775,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_b.json",
-  "work_id": null,
+  "work_id": "W170",
   "venue": "Proceedings of the SIGCOMM Workshop on eBPF and Kernel Extensions",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2024"
  },
  {
   "id": "P190",
@@ -4755,9 +4801,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_b.json",
-  "work_id": null,
+  "work_id": "W171",
   "venue": "Proceedings of the 34th ACM International Conference on Multimedia",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P191",
@@ -4780,9 +4827,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_b.json",
-  "work_id": null,
+  "work_id": "W172",
   "venue": "Proceedings of the ACM/IEEE 29th International Conference on Model Driven Engineering Languages and Systems",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P192",
@@ -4805,9 +4853,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_b.json",
-  "work_id": null,
+  "work_id": "W173",
   "venue": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P193",
@@ -4830,9 +4879,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_b.json",
-  "work_id": null,
+  "work_id": "W174",
   "venue": "Proceedings of the 39th ACM/SIGAPP Symposium on Applied Computing",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2024"
  },
  {
   "id": "P194",
@@ -4855,9 +4905,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_b.json",
-  "work_id": null,
+  "work_id": "W175",
   "venue": "Proceedings of the ACM/IEEE 27th International Conference on Model Driven Engineering Languages and Systems",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2024"
  },
  {
   "id": "P195",
@@ -4880,10 +4931,11 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_c.json",
-  "work_id": null,
+  "work_id": "W163",
   "venue": "Multi-LLM Agent Collaborative Intelligence",
   "record_type": "book-chapter",
-  "repeat_discovery_of": "P181"
+  "first_public_date": "2025",
+  "repeat_of_record": "P181"
  },
  {
   "id": "P196",
@@ -4906,9 +4958,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_c.json",
-  "work_id": null,
+  "work_id": "W176",
   "venue": "Multi-LLM Agent Collaborative Intelligence",
-  "record_type": "book-chapter"
+  "record_type": "book-chapter",
+  "first_public_date": "2025"
  },
  {
   "id": "P197",
@@ -4931,9 +4984,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_c.json",
-  "work_id": null,
+  "work_id": "W177",
   "venue": "Multi-LLM Agent Collaborative Intelligence",
-  "record_type": "book-chapter"
+  "record_type": "book-chapter",
+  "first_public_date": "2025"
  },
  {
   "id": "P198",
@@ -4956,9 +5010,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_c.json",
-  "work_id": null,
+  "work_id": "W178",
   "venue": "Multi-LLM Agent Collaborative Intelligence",
-  "record_type": "other"
+  "record_type": "other",
+  "first_public_date": "2025"
  },
  {
   "id": "P199",
@@ -4981,9 +5036,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_c.json",
-  "work_id": null,
+  "work_id": "W179",
   "venue": "Multi-LLM Agent Collaborative Intelligence",
-  "record_type": "other"
+  "record_type": "other",
+  "first_public_date": "2025"
  },
  {
   "id": "P200",
@@ -5006,9 +5062,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_c.json",
-  "work_id": null,
+  "work_id": "W180",
   "venue": "Proceedings of the 33rd ACM International Conference on the Foundations of Software Engineering",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2025"
  },
  {
   "id": "P201",
@@ -5031,9 +5088,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_c.json",
-  "work_id": null,
+  "work_id": "W181",
   "venue": "Multi-LLM Agent Collaborative Intelligence",
-  "record_type": "book-chapter"
+  "record_type": "book-chapter",
+  "first_public_date": "2025"
  },
  {
   "id": "P202",
@@ -5056,9 +5114,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_c.json",
-  "work_id": null,
+  "work_id": "W182",
   "venue": "Multi-LLM Agent Collaborative Intelligence",
-  "record_type": "other"
+  "record_type": "other",
+  "first_public_date": "2025"
  },
  {
   "id": "P203",
@@ -5081,9 +5140,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_c.json",
-  "work_id": null,
+  "work_id": "W183",
   "venue": null,
-  "record_type": "monograph"
+  "record_type": "monograph",
+  "first_public_date": "2025"
  },
  {
   "id": "P204",
@@ -5106,9 +5166,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_ACM_c.json",
-  "work_id": null,
+  "work_id": "W184",
   "venue": "Proceedings of the 31st ACM Symposium on Access Control Models and Technologies",
-  "record_type": "proceedings-article"
+  "record_type": "proceedings-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P205",
@@ -5131,9 +5192,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_a.json",
-  "work_id": null,
+  "work_id": "W185",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2026"
  },
  {
   "id": "P206",
@@ -5156,9 +5218,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_a.json",
-  "work_id": null,
+  "work_id": "W186",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2026"
  },
  {
   "id": "P207",
@@ -5181,9 +5244,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_a.json",
-  "work_id": null,
+  "work_id": "W187",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2026"
  },
  {
   "id": "P208",
@@ -5206,9 +5270,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_a.json",
-  "work_id": null,
+  "work_id": "W188",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2026"
  },
  {
   "id": "P209",
@@ -5231,9 +5296,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_a.json",
-  "work_id": null,
+  "work_id": "W189",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2026"
  },
  {
   "id": "P210",
@@ -5259,7 +5325,8 @@
   "work_id": "W070",
   "venue": "Lecture Notes in Computer Science",
   "record_type": "book-chapter",
-  "repeat_discovery_of": "W070"
+  "first_public_date": "2026",
+  "repeat_of_record": "P081"
  },
  {
   "id": "P211",
@@ -5282,9 +5349,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_a.json",
-  "work_id": null,
+  "work_id": "W190",
   "venue": "Artificial Life and Robotics",
-  "record_type": "journal-article"
+  "record_type": "journal-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P212",
@@ -5307,9 +5375,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_a.json",
-  "work_id": null,
+  "work_id": "W191",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2026"
  },
  {
   "id": "P213",
@@ -5332,9 +5401,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_a.json",
-  "work_id": null,
+  "work_id": "W192",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2026"
  },
  {
   "id": "P214",
@@ -5357,9 +5427,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_a.json",
-  "work_id": null,
+  "work_id": "W193",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2025"
  },
  {
   "id": "P215",
@@ -5382,10 +5453,11 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_b.json",
-  "work_id": null,
+  "work_id": "W127",
   "venue": "Discover Artificial Intelligence",
   "record_type": "journal-article",
-  "repeat_discovery_of": "P002"
+  "first_public_date": "2026",
+  "repeat_of_record": "P002"
  },
  {
   "id": "P216",
@@ -5408,9 +5480,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_b.json",
-  "work_id": null,
+  "work_id": "W194",
   "venue": "Scientific Reports",
-  "record_type": "journal-article"
+  "record_type": "journal-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P217",
@@ -5433,9 +5506,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_b.json",
-  "work_id": null,
+  "work_id": "W195",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2026"
  },
  {
   "id": "P218",
@@ -5458,9 +5532,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_b.json",
-  "work_id": null,
+  "work_id": "W196",
   "venue": "Autonomous Agents and Multi-Agent Systems",
-  "record_type": "journal-article"
+  "record_type": "journal-article",
+  "first_public_date": "2024"
  },
  {
   "id": "P219",
@@ -5483,9 +5558,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_b.json",
-  "work_id": null,
+  "work_id": "W197",
   "venue": "Synthesis Lectures on Human Language Technologies",
-  "record_type": "book-chapter"
+  "record_type": "book-chapter",
+  "first_public_date": "2026"
  },
  {
   "id": "P220",
@@ -5508,9 +5584,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_b.json",
-  "work_id": null,
+  "work_id": "W198",
   "venue": "Synthesis Lectures on Human Language Technologies",
-  "record_type": "book-chapter"
+  "record_type": "book-chapter",
+  "first_public_date": "2026"
  },
  {
   "id": "P221",
@@ -5533,9 +5610,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_b.json",
-  "work_id": null,
+  "work_id": "W199",
   "venue": "Synthesis Lectures on Human Language Technologies",
-  "record_type": "book-chapter"
+  "record_type": "book-chapter",
+  "first_public_date": "2026"
  },
  {
   "id": "P222",
@@ -5558,9 +5636,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_b.json",
-  "work_id": null,
+  "work_id": "W200",
   "venue": "Synthesis Lectures on Human Language Technologies",
-  "record_type": "book"
+  "record_type": "book",
+  "first_public_date": "2026"
  },
  {
   "id": "P223",
@@ -5583,9 +5662,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_b.json",
-  "work_id": null,
+  "work_id": "W201",
   "venue": "Synthesis Lectures on Human Language Technologies",
-  "record_type": "book-chapter"
+  "record_type": "book-chapter",
+  "first_public_date": "2026"
  },
  {
   "id": "P224",
@@ -5608,9 +5688,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_b.json",
-  "work_id": null,
+  "work_id": "W202",
   "venue": "Synthesis Lectures on Human Language Technologies",
-  "record_type": "book-chapter"
+  "record_type": "book-chapter",
+  "first_public_date": "2026"
  },
  {
   "id": "P225",
@@ -5633,9 +5714,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_c.json",
-  "work_id": null,
+  "work_id": "W203",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2026"
  },
  {
   "id": "P226",
@@ -5658,9 +5740,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_c.json",
-  "work_id": null,
+  "work_id": "W204",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2026"
  },
  {
   "id": "P227",
@@ -5683,9 +5766,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_c.json",
-  "work_id": null,
+  "work_id": "W205",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2026"
  },
  {
   "id": "P228",
@@ -5708,9 +5792,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_c.json",
-  "work_id": null,
+  "work_id": "W206",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2026"
  },
  {
   "id": "P229",
@@ -5733,9 +5818,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_c.json",
-  "work_id": null,
+  "work_id": "W207",
   "venue": "Studies in Systems, Decision and Control",
-  "record_type": "book-chapter"
+  "record_type": "book-chapter",
+  "first_public_date": "2026"
  },
  {
   "id": "P230",
@@ -5758,9 +5844,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_c.json",
-  "work_id": null,
+  "work_id": "W208",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2026"
  },
  {
   "id": "P231",
@@ -5783,9 +5870,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_c.json",
-  "work_id": null,
+  "work_id": "W209",
   "venue": "Autonomous Agents and Multi-Agent Systems",
-  "record_type": "journal-article"
+  "record_type": "journal-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P232",
@@ -5808,9 +5896,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_c.json",
-  "work_id": null,
+  "work_id": "W210",
   "venue": "Scientific Reports",
-  "record_type": "journal-article"
+  "record_type": "journal-article",
+  "first_public_date": "2026"
  },
  {
   "id": "P233",
@@ -5833,9 +5922,10 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_c.json",
-  "work_id": null,
+  "work_id": "W211",
   "venue": null,
-  "record_type": "posted-content"
+  "record_type": "posted-content",
+  "first_public_date": "2026"
  },
  {
   "id": "P234",
@@ -5858,8 +5948,9 @@
   "findings": null,
   "limitations": null,
   "evidence_locator": "evidence/db_search/crossref_Springer_c.json",
-  "work_id": null,
+  "work_id": "W212",
   "venue": "Lecture Notes in Computer Science",
-  "record_type": "book-chapter"
+  "record_type": "book-chapter",
+  "first_public_date": "2026"
  }
 ]

@@ -1,4 +1,9 @@
-PASS flow: records - duplicates - unverifiable = works  [234-18-4=212]
+PASS ledger: works.json holds one record per distinct work  [212 works]
+PASS ledger: distinct work IDs among discovery records = works
+PASS ledger: repeats and unverified counted from ledger fields
+PASS flow: records - repeats - unverified = distinct works  [234-18-4=212]
+PASS flow: every screening count equals a count of works with that decision
+PASS Table VIII: 12 rows, three per category
 PASS flow: works = excluded + context + reserve + awaiting + queue
 PASS flow: queue = included + read-not-included + not read  [35+7+1=43]
 PASS records by source sum to total  [{'S': 118, 'W': 26, 'D': 90}]
@@ -20,6 +25,7 @@ PASS abstract 150-250 words  [239]
 PASS review not called comprehensive, exhaustive or best  [[]]
   note: uses of complete* (each should describe a task, not the review): ['complete a task', 'completed and whether', 'completed in an']
 
-numeric claims checked: 101; found in a cited source: 101; to review by hand: 0
+numeric strings in citing sentences and table rows: 108; found in the locally saved text of a cited source: 108; not found: 0
+  This is a string-presence check on local copies that are not committed. It is not a semantic or second-reader check.
 
 RESULT: arithmetic and structure checks pass

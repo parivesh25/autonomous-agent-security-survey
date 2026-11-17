@@ -6,8 +6,13 @@ sys.path.insert(0, "paper"); sys.path.insert(0, "tools")
 import extraction_data as X
 TODAY = "2026-11-16"
 norm = lambda s: re.sub(r"[^a-z0-9]", "", re.sub(r"<[^>]+>|&amp;", "", s).lower())
-works = json.load(open("works.json")); byax = {w["identifiers"]["arxiv"]: w for w in works}
+# arXiv works persist between runs; works without an arXiv identifier are rebuilt below from their discovery records
+works = [w for w in json.load(open("works.json")) if w["identifiers"].get("arxiv")]; byax = {w["identifiers"]["arxiv"]: w for w in works}
 matrix = [r for r in json.load(open("literature_matrix.json")) if not r["search_id"].startswith("D")]
+ARX_WID = {w["work_id"] for w in works}
+for r in matrix:
+    r.pop("repeat_discovery_of", None); r.pop("repeat_of_record", None)
+    if r.get("work_id") not in ARX_WID: r["work_id"] = None
 log = [s for s in json.load(open("search_log.json")) if not re.match(r"[DX]\d", s["search_id"])]
 
 # ---- 1. extraction matrix + works update
@@ -26,8 +31,9 @@ for e in X.E:
 for ax, (why, secs) in X.READ_NOT_INCLUDED.items():
     byax[ax].update(gate=5, screening_decision="read_not_included", full_text_read=True, screening_reason=why,
         agent_reading_status=f"read at reduced depth {TODAY} at {byax[ax]['version_checked']}: {secs}", coding_status="not extracted")
-for r in matrix:
-    if r["id"] == "P011": r.update(status="awaiting_full_text", screening_reason=X.NOT_READ["P011"])
+for r in matrix:   # the two works whose full text could not be obtained have different, explicit decisions
+    if r["id"] == "P011": r.update(status="queued_not_read_access_refused", screening_reason="Placed in the reading queue on its abstract-level record. " + X.NOT_READ["P011"])
+    if r["id"] == "P017": r.update(status="not_queued_awaiting_full_text", screening_reason="Metadata confirmed in Crossref; never screened beyond the title because the IEEE full text and abstract page were not accessed. Not placed in the reading queue.")
 for r in matrix:
     w = next((x for x in works if x["work_id"] == r.get("work_id")), None)
     if w and w["full_text_read"] and r["status"] not in ("duplicate",):
@@ -53,8 +59,8 @@ for k, q in enumerate(plog, 1):
             "category": None, "screening_reason": ("Same DOI/title as %s." % rep if rep else "Matches %s already in the ledger." % wk if wk else
                 "Title-level screen of a publisher-filtered Crossref result; not added to the reading queue (capacity; see handoff)."),
             "methods": None, "testbed": None, "metric_definition": None, "denominator": None, "findings": None, "limitations": None, "evidence_locator": f,
-            "work_id": wk if wk and wk.startswith("W") else None, "venue": (it.get("container-title") or [None])[0], "record_type": it.get("type")})
-        if rep or wk: matrix[-1]["repeat_discovery_of"] = rep or wk
+            "work_id": None, "venue": (it.get("container-title") or [None])[0], "record_type": it.get("type"),
+            "first_public_date": str((it.get("issued", {}).get("date-parts") or [[None]])[0][0] or "") or None, "_match": rep or wk})
         seen.setdefault(nt, f"P{n:03d}")
     log.append({"search_id": sid, "executed_date": TODAY, "source": f"Crossref REST API, filter member = {q['pub']}", "query": f"query.bibliographic=\"{q['q']}\"; from-pub-date 2023-01-01; until-pub-date 2026-11-16",
         "retrieval_limit": 10, "returned_count": q["returned"], "total_database_hits": q["total"], "status": "fulfilled",
@@ -72,6 +78,34 @@ for sid, src, q, note in [
 ]:
     log.append({"search_id": sid, "executed_date": TODAY, "source": src, "query": q, "retrieval_limit": None, "returned_count": 0, "total_database_hits": None,
                 "status": "not_executed" if q == "not executed" else "fulfilled", "notes": note})
+# ---- 2b. one work per retained record: give every verified, non-repeat record a work in works.json
+byid = {r["id"]: r for r in matrix}
+DEC = {"context_review": "context_only", "queued_not_read_access_refused": "queued_not_read_access_refused", "not_queued_awaiting_full_text": "not_queued_awaiting_full_text",
+       "reserve": "reserve", "title_screened_not_selected": "excluded_at_title"}
+nw = max(int(w["work_id"][1:]) for w in works)
+for r in matrix:
+    m = r.pop("_match", None)
+    if r.get("work_id") or r["status"] == "metadata_unverified": continue
+    if m:                                   # same work as an earlier record: m is that record's ID, or an arXiv work ID
+        r["work_id"] = m if m.startswith("W") else byid[m]["work_id"]; continue
+    nw += 1; r["work_id"] = f"W{nw:03d}"
+    works.append({"work_id": r["work_id"], "title": r["title"], "authors": None, "identifiers": {"arxiv": None, "doi": r["primary_url"].replace("https://doi.org/", "")},
+        "primary_url": r["primary_url"], "first_public_date": r.get("first_public_date"), "version_checked": None, "version_date": None,
+        "venue_claim": r.get("venue"), "venue_claim_basis": "Crossref record; publisher page not opened", "peer_review_status": "not assessed",
+        "in_review_window": True, "within_evidence_cutoff": True, "discovered_by": [r["search_id"]], "discovery_record_ids": [r["id"]],
+        "gate": 4 if r["status"] in ("context_review", "queued_not_read_access_refused") else 2,
+        "screening_decision": DEC[r["status"]], "screening_basis": "title (Crossref record)" if r["search_id"].startswith("D") else "Crossref metadata and SciSpace discovery record",
+        "screening_reason": r["screening_reason"], "evidence_class": None, "proposed_primary_category": r.get("category"), "secondary_tags": [], "proposed_behaviour_source": None,
+        "coding_status": "not coded", "agent_reading_status": "not read", "human_reading_status": None, "full_text_read": False, "extraction": None, "published_record": None})
+# record-to-record links: the first record of each work is canonical; every later record of that work points to it (record IDs only)
+canon = {}
+for r in matrix:
+    if r.get("work_id"):
+        if r["work_id"] in canon: r["repeat_of_record"] = canon[r["work_id"]]
+        else: canon[r["work_id"]] = r["id"]
+for w in works:
+    w["canonical_record_id"] = canon[w["work_id"]]; w["discovery_record_ids"] = [r["id"] for r in matrix if r.get("work_id") == w["work_id"]]
+    w["discovered_by"] = sorted({byid[i]["search_id"] for i in w["discovery_record_ids"]})
 json.dump(matrix, open("literature_matrix.json", "w"), indent=1, ensure_ascii=False)
 # published-version lookup (Crossref exact-title match, non-preprint record); absence is not evidence of non-publication
 try:
@@ -86,17 +120,17 @@ except FileNotFoundError: pass
 json.dump(works, open("works.json", "w"), indent=1, ensure_ascii=False)
 json.dump(log, open("search_log.json", "w"), indent=1, ensure_ascii=False)
 
-# ---- 3. selection counts
+# ---- 3. selection counts: every count is derived from a ledger field, none is typed
 C = collections.Counter
-st = C(r["status"] for r in matrix)
-dup = sum(1 for r in matrix if r.get("repeat_discovery_of") or r["status"] == "duplicate")
-unv = st["metadata_unverified"]
-crossref_new = st["title_screened_not_selected"]
 wd = C(w["screening_decision"] for w in works)
-nonarx = {r["id"]: r["status"] for r in matrix if r.get("metadata_basis")}
-counts = dict(n_rec=len(matrix), n_dup=dup, n_unv=unv, n_works=len(matrix) - dup - unv,
-    n_exc=wd["excluded_at_abstract"] + crossref_new, n_ctx=wd["context_only"] + 1, n_res=wd["reserve"] + 1, n_await=1,
-    n_inc=wd["included_pending_human_reading"], n_rni=wd["read_not_included"], n_notread=wd["include_for_reading"] + 1,
+n_dup = sum(1 for r in matrix if r.get("repeat_of_record")); n_unv = sum(1 for r in matrix if r["status"] == "metadata_unverified")
+assert len(works) == len({w["work_id"] for w in works}) == len({r["work_id"] for r in matrix if r.get("work_id")}) == len(matrix) - n_dup - n_unv, "records and works do not reconcile"
+assert all((r.get("work_id") is None) == (r["status"] == "metadata_unverified") for r in matrix), "a verified record has no work, or an unverified one has"
+counts = dict(n_rec=len(matrix), n_dup=n_dup, n_unv=n_unv, n_works=len(works),
+    n_exc=wd["excluded_at_abstract"] + wd["excluded_at_title"], n_exc_abstract=wd["excluded_at_abstract"], n_exc_title=wd["excluded_at_title"],
+    n_ctx=wd["context_only"], n_res=wd["reserve"], n_await=wd["not_queued_awaiting_full_text"],
+    n_inc=wd["included_pending_human_reading"], n_rni=wd["read_not_included"], n_notread=wd["include_for_reading"] + wd["queued_not_read_access_refused"],
+    work_decisions=dict(sorted(wd.items())),
     by_search=dict(C(re.sub(r"\d+$", "", r["search_id"]) for r in matrix)),
     by_cat=dict(sorted(C(e["category"] for e in X.E).items())),
     by_year_cat={y: dict(sorted(C(e["category"] for e in X.E if byax[e["arxiv"]]["first_public_date"][:4] == y).items())) for y in ("2023", "2024", "2025", "2026")},
