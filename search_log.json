@@ -264,6 +264,17 @@
   "notes": "Retrieved directly; sections read are listed in incident_claim_ledger.json."
  },
  {
+  "search_id": "X10",
+  "executed_date": "2026-11-16",
+  "source": "cdn.openai.com",
+  "query": "OpenAI technical incident report (PDF; location supplied in the PR 2 review)",
+  "retrieval_limit": null,
+  "returned_count": 0,
+  "total_database_hits": null,
+  "status": "fulfilled",
+  "notes": "Retrieved 2026-11-17 after the host was added to the allowlist. Read in part; see incident_claim_ledger.json (I30-I35)."
+ },
+ {
   "search_id": "X8",
   "executed_date": "2026-11-16",
   "source": "YouTube (Black Hat USA 2026 talk)",

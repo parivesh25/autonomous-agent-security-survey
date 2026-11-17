@@ -2,3 +2,4 @@ evidence/fulltext/*.txt
 evidence/incident/*.html
 evidence/incident/*.txt
 __pycache__/
+evidence/incident/*.pdf

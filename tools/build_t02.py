@@ -72,6 +72,7 @@ for sid, src, q, note in [
  ("X4", "Web search restricted to metr.org", "METR reward hacking frontier models report", "Used only to locate report URLs; the 2025-06-05 report was then opened at metr.org."),
  ("X5", "openai.com", "https://openai.com/index/hugging-face-model-evaluation-security-incident/", "HTTP 403 to automated requests (direct and via fetch tool). This earlier operator post was NOT read. The operator's 26 Aug 2026 summary report was later read from a saved copy supplied by the student (ledger I15)."),
  ("X7", "metr.org", "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/", "Retrieved directly; sections read are listed in incident_claim_ledger.json."),
+ ("X10", "cdn.openai.com", "OpenAI technical incident report (PDF; location supplied in the PR 2 review)", "Retrieved 2026-11-17 after the host was added to the allowlist. Read in part; see incident_claim_ledger.json (I30-I35)."),
  ("X8", "YouTube (Black Hat USA 2026 talk)", "not executed", "Video host outside the network allowlist; no transcript available. Not accessed."),
  ("X9", "www.mdpi.com", "https://www.mdpi.com/2073-431X/15/9/570/htm", "HTTP 403 to automated requests; P011 remains awaiting full text."),
  ("X6", "huggingface.co; en.wikipedia.org; metr.org", "direct retrieval of three primary reports and one tertiary article", "See incident_claim_ledger.json for what was read."),

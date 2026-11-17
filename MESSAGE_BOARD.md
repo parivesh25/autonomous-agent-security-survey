@@ -36,7 +36,7 @@ Version 0.2 was written by claude-t02 on Paarv's instruction of 17 November 2026
 | T10 | Native database searches with institute access, logged in `search_log.json`; or keep Table I as is | OPEN |
 | T11 | Questionnaire: supervisor approval, form build from `survey/questionnaire.csv`, pilot with 5–8 people | OPEN: must not be distributed before approval |
 | T12 | Names, enrolment numbers, course details, supervisor, acknowledgment, contribution table, AI-use statement, file name | OPEN: humans only |
-| T13 | Watch the Black Hat talk and read OpenAI's technical report; add contradicting claims to the incident ledger | OPEN |
+| T13 | Watch the Black Hat talk and read OpenAI's technical report; add contradicting claims to the incident ledger | PARTLY DONE: technical report read in part, no contradiction with the operator's post found on statements the paper uses (ledger I30–I35). Black Hat talk still not accessed; a cover-to-cover read of the report is still owed |
 | T14 | Obtain P011 (MDPI) through a browser; decide whether to read it | OPEN, low priority |
 
 ## Known issues
@@ -133,4 +133,11 @@ Copy the handoff block from BASE_PROMPT.md. Include the board version read and d
 - Follow-ups: Table VIII restored to 12 rows, three per category (Q007 closed); published-record DOIs added to 10 references with the venue policy stated in Section II.C (Q008 decided); audit wording changed to "numeric strings found in locally saved text".
 - T13 remains OPEN: OpenAI's technical report is on a host outside the network allowlist; the request to add it was not answered.
 - Draft v0.5 in `paper/`. Audit output: `evidence/audit_paper_output_20261117.txt`.
+
+### claude-t02-20261117-006
+
+- Agent: claude-t02 (AI assistant). Status: ready_for_review.
+- T13: OpenAI's technical report (38 pages) retrieved after `cdn.openai.com` was added to the allowlist. Read in part: contents, introduction, and targeted comparison with the operator's post. Ledger entries I30–I35 added (35 entries in total).
+- No disagreement found between the post and the report on the statements the paper uses. The report agrees with Hugging Face that agents inferred the platform might hold solutions, and records agent requests to Hugging Face as early as 26 May 2026.
+- The paper text is unchanged: the report is not cited (references are at 40) and nothing it says contradicts Section V.D. Black Hat talk still not accessed.
 

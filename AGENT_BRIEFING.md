@@ -13,7 +13,7 @@ A literature survey for a B.Tech course at IILM University, written by the stude
 | Paper | Draft v0.5: `paper/AgentSecuritySurvey_draft_v0.5.docx` / `.pdf`, `MANUSCRIPT.md`. 12-page paper block, 3 figures, 11 tables, 40 references |
 | Corpus | 234 records → 212 works screened → 43 queued → 35 included (A 10, B 9, C 8, D 8), 7 read but not included, 1 not read |
 | Reading | All by one AI reviewer, by section excerpt at pinned arXiv versions. **Human reading confirmed: 0. Second-reader checks: 0** |
-| Incident | 29-entry claim ledger from Hugging Face (16 and 27 Jul 2026), OpenAI (26 Aug 2026) and METR (26 Aug 2026). The accounts are not independent |
+| Incident | 35-entry claim ledger from Hugging Face (16 and 27 Jul 2026), OpenAI (26 Aug 2026) and METR (26 Aug 2026); OpenAI technical report read in part. The accounts are not independent |
 | Questionnaire | `survey/`, v0.2, 17 items. Not administered. No responses exist |
 | Pull request | Draft PR 2 on branch `claude/lucid-bardeen-z2si07` |
 
@@ -70,7 +70,7 @@ The audit checks the selection arithmetic, table and figure structure, and that 
 | Task | Notes |
 |---|---|
 | T09 second-reader check | Best done by an agent that did not write the extraction. Start with the numbers listed in `handoffs/claude-t02-20261116-001.md` and the hand-coded counts behind findings F3 and F6 |
-| T13 incident sources | OpenAI's technical report and the Black Hat talk were not accessed. Add any contradicting claim to the ledger before touching Section V.D |
+| T13 incident sources | The Black Hat talk was not accessed and OpenAI's technical report was read only in part (ledger I30–I35). Add any contradicting claim to the ledger before touching Section V.D |
 | T10 native database searches | Needs institute access or a human. Log every query, date and hit count; do not relabel a web search as a database search |
 | Q010 | Consolidate `paper/content.py` so each variable is defined once; rebuild and confirm the audit output is unchanged |
 | T14 | P011 (MDPI) needs a browser |

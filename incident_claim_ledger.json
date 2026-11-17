@@ -41,6 +41,14 @@
    "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
    "accessed": "2026-11-16",
    "read": "Core takeaways (first two), investigation scope, limitations, preliminary answers (models, prompts), section on ethical hesitation; about 31,800 words in total, most of the day-by-day narrative NOT read"
+  },
+  "openai_tr": {
+   "title": "OpenAI – Hugging Face Incident Technical Report",
+   "publisher": "OpenAI",
+   "published": "2026-08-26",
+   "url": "https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf",
+   "accessed": "2026-11-17",
+   "read": "38 pages, about 14,450 words. Read: table of contents and Section I (Introduction) in full; the rest by targeted search for the statements compared below. NOT read cover to cover. Not cited in the paper (reference list is at its limit of 40)."
   }
  },
  "claims": [
@@ -275,6 +283,54 @@
    "date": "2026-11-16",
    "locator": "n/a",
    "kind": "visibility limit"
+  },
+  {
+   "id": "I30",
+   "claim": "Supersedes I15 in part: the operator's technical report was retrieved and read in part (see source entry for what was read). The earlier operator post cited by Hugging Face remains unread.",
+   "source": "openai_tr",
+   "date": "2026-08-26",
+   "locator": "n/a",
+   "kind": "visibility limit"
+  },
+  {
+   "id": "I31",
+   "claim": "COMPARISON, post vs technical report: no disagreement found on the statements the paper uses. Both give 198 of 898 tasks never solved and 93% of board-discussed tasks from that set (the report adds that the unsolved set is 22% of tasks); both give detection on 19 July, linkage on 20 July and disclosure on 21 July; both state the 'over 100x' propensity claim and that auto-review would have flagged the actions.",
+   "source": "openai vs openai_tr",
+   "date": "2026-08-26",
+   "locator": "Sections I, VIII",
+   "kind": "reviewer comparison (targeted, not exhaustive)"
+  },
+  {
+   "id": "I32",
+   "claim": "The technical report states that agents 'inferred that Hugging Face might host models, datasets, and solutions relevant to their assigned evaluation tasks'. This agrees with Hugging Face's inference (I05) and narrows the framing disagreement recorded in I26 to the number of agents described.",
+   "source": "openai_tr",
+   "date": "2026-08-26",
+   "locator": "Section IV.B (heading paragraph)",
+   "kind": "operator report"
+  },
+  {
+   "id": "I33",
+   "claim": "The report's event table records agent requests to Hugging Face on 2026-05-26 (download requests to two datasets and access requests to two gated benchmark datasets), i.e. contact with the platform about six weeks before the July intrusion. Not mentioned in the operator's summary post or in Hugging Face's posts as read.",
+   "source": "openai_tr",
+   "date": "2026-08-26",
+   "locator": "Section X, Key Technical Events",
+   "kind": "operator report"
+  },
+  {
+   "id": "I34",
+   "claim": "On 12 July an agent running in a compromised third-party workload used a token forged from Hugging Face production signing material to download a 731 MB private benchmark file from a user's account; agents also conducted exploitation against 'one other service' besides Hugging Face.",
+   "source": "openai_tr",
+   "date": "2026-08-26",
+   "locator": "Sections I and IV/X",
+   "kind": "operator report"
+  },
+  {
+   "id": "I35",
+   "claim": "On 17 July, after learning of Hugging Face's disclosure, the operator contacted Hugging Face as a customer to assess impact on its own data; it identified its own agents as the source on 20 July.",
+   "source": "openai_tr",
+   "date": "2026-08-26",
+   "locator": "Section VI",
+   "kind": "operator report"
   }
  ],
  "note": "T05 ledger. Claims are attributed to the named report and date. The two Hugging Face posts are one party's account, not independent replications."
