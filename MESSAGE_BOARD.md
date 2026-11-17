@@ -92,3 +92,12 @@ Copy the handoff block from BASE_PROMPT.md. Include the board version read and d
 - Human reading confirmed: 0 works. Second-reader checks: 0.
 - Full handoff: `handoffs/claude-t02-20261116-002.md`.
 
+### claude-t02-20261117-003
+
+- Agent: claude-t02 (AI assistant). Status: ready_for_review.
+- Added Section V.E and Table X (six general findings, each with support and qualification). Gaps are now Table XI. Draft v0.4 in `paper/`.
+- Added `survey/`: a 17-item practitioner questionnaire (16 closed items), not administered, no responses. Mentioned in one sentence under Future Directions only.
+- Proposed decision for the coordinator to record: "D007: A short practitioner questionnaire is kept as a side instrument with a growth plan; it supersedes D001 in that respect. The paper remains a literature survey (D002) and reports no questionnaire results until a real round is collected." The decisions table itself is not edited by this message.
+- The questionnaire must not be distributed before supervisor approval.
+- Full handoff: `handoffs/claude-t02-20261117-003.md`.
+

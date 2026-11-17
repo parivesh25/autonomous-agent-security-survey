@@ -16,8 +16,8 @@ from docx.table import Table
 N = json.load(open("paper/counts.json"))
 works = {w["identifiers"]["arxiv"]: w for w in json.load(open("works.json"))}
 EX = {e["key"]: e for e in X.E}
-OUT_DOCX, OUT_MD = "paper/AgentSecuritySurvey_draft_v0.3.docx", "MANUSCRIPT.md"
-ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
+OUT_DOCX, OUT_MD = "paper/AgentSecuritySurvey_draft_v0.4.docx", "MANUSCRIPT.md"
+ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI"]
 
 # ---------- references
 def surname(n): return n.split()[-1] if not n.endswith("de Witt") else "Schroeder de Witt"
@@ -58,6 +58,7 @@ for cat in "ABCD":
     S4[cat]["close"] = T(C.SEC4[cat]["close"])
 MASTER = [(T("{c:%s}" % r[0]), works[EX[r[0]]["arxiv"]]["first_public_date"][:4], *r[1:]) for r in C.MASTER]
 S5B = [T(p) for p in C.SEC5_B]; T9 = [tuple(T(x) for x in r) for r in C.TABLE_IX]; S5D = T(C.SEC5_D)
+S5E = T(C.SEC5_E); GEN = [tuple(T(x) for x in r) for r in C.GENERAL]
 GAPS = [tuple(T(x) for x in r) for r in C.GAPS]; GAPP = T(C.GAP_P); FUT = [T(x) for x in C.FUTURE]; CONC = T(C.CONCLUSION)
 REFS = [f"[{i + 1}]  {refentry(k)}" for i, k in enumerate(ORDER)]
 num = lambda k: ORDER.index(k) + 1
@@ -137,7 +138,8 @@ TABLES = {
  3: ("Categories of the Taxonomy and Where Each Is Reviewed", ["Category", "What the works in it have in common", "Works", "Reviewed in"], [tuple(T(x) for x in r) for r in C.TABLE_III]),
  8: ("Comparison of the Reviewed Works Across Categories", ["Ref.", "Year", "Category", "Approach", "Data or test bed", "Measure used", "Main finding"], [(r[0], r[1], r[2], r[3], r[4], r[5], r[6]) for r in MASTER]),
  9: ("Datasets, Tools and Measures Used in the Reviewed Work", ["Dataset, tool or measure", "Used by", "Why it is used", "Known caveat"], T9),
- 10: ("Research Gaps Identified by This Review", ["Gap", "What is missing", "Evidence from the reviewed work"], GAPS),
+ 10: ("General Findings Across the Reviewed Work", ["No.", "Finding", "Support in the reviewed work, and its qualification"], [(r[0].split(". ", 1)[0], r[0].split(". ", 1)[1], r[1] + ". Qualification: " + r[2][0].lower() + r[2][1:] + ".") for r in GEN]),
+ 11: ("Research Gaps Identified by This Review", ["Gap", "What is missing", "Evidence from the reviewed work"], GAPS),
 }
 for i, cat in enumerate("ABCD"):
     TABLES[4 + i] = (f"Comparison of the Works Reviewed in {S4[cat]['title']}", ["Ref.", "Year", "Approach used", "Data or test bed", "Reported outcome", "Limitation stated or observed"], S4[cat]["rows"])
@@ -153,22 +155,23 @@ F = [("PaperTitle", C.TITLE),
      ("H2", "C. Review questions"), *[("Body", p) for p in A["rq"]], ("H2", "D. Contributions of this review"), *[("Body", p) for p in A["con"]],
      ("H2", "E. Organisation of the paper"), ("Body", ORG),
      ("H1", "II. Review Methodology"), ("H2", "A. Sources searched and search strings"), ("Body", A["ma"]), ("table", 1),
-     ("H2", "B. Inclusion and exclusion criteria"), ("table", 2), ("H2", "C. Selection process"), ("fig", ("paper/fig1_selection_flow.png", 14.5, "Fig. 1. Flow of the selection process, from works identified to works included.")), ("Body", A["mc"]),
-     ("H1", "III. Taxonomy of the Reviewed Work"), ("Body", A["tax"]), ("fig", ("paper/fig2_taxonomy.png", 15.5, "Fig. 2. Taxonomy of the reviewed work, with the included works on the leaves.")), ("table", 3),
+     ("H2", "B. Inclusion and exclusion criteria"), ("table", 2), ("H2", "C. Selection process"), ("fig", ("paper/fig1_selection_flow.png", 10.5, "Fig. 1. Flow of the selection process, from works identified to works included.")), ("Body", A["mc"]),
+     ("H1", "III. Taxonomy of the Reviewed Work"), ("Body", A["tax"]), ("fig", ("paper/fig2_taxonomy.png", 12.5, "Fig. 2. Taxonomy of the reviewed work, with the included works on the leaves.")), ("table", 3),
      ("H1", "IV. Review of the Literature")]
 for i, cat in enumerate("ABCD"):
     F += [("H2", f"{cat}. {S4[cat]['title']}"), *[("Body", p) for p in S4[cat]["paras"]], ("table", 4 + i), ("Body", S4[cat]["close"])]
 F += [("H1", "V. Comparative Analysis and Discussion"), ("H2", "A. Comparison across categories"),
-      ("Body", "Table VIII places twelve of the included works side by side; the full extraction for all of them is in the evidence repository."), ("table", 8),
-      ("H2", "B. Trends observed"), ("fig", ("paper/fig3_trend.png", 11.5, FIG3CAP)), *[("Body", p) for p in S5B],
-      ("H2", "C. Datasets, tools and measures in common use"), ("Body", "Table IX lists the test beds and measures that recur across the included works, with the caveat that most affects comparison."), ("table", 9),
+      ("Body", "Table VIII places eight of the included works side by side."), ("table", 8),
+      ("H2", "B. Trends observed"), ("fig", ("paper/fig3_trend.png", 8.2, FIG3CAP)), *[("Body", p) for p in S5B],
+      ("H2", "C. Datasets, tools and measures in common use"), ("Body", "Table IX lists the test beds that recur across the included works."), ("table", 9),
       ("H2", "D. Reading the motivating incident against the reviewed work"), ("Body", S5D),
-      ("H1", "VI. Research Gaps and Open Challenges"), ("Body", "Table X states five gaps with the works that support each and the works that partly answer it."), ("table", 10), ("Body", GAPP),
+      ("H2", "E. General findings"), ("Body", S5E), ("table", 10),
+      ("H1", "VI. Research Gaps and Open Challenges"), ("Body", "Table XI states five gaps with the works that support each and the works that partly answer it."), ("table", 11), ("Body", GAPP),
       ("H1", "VII. Future Directions"), *[("Body", x) for x in FUT], ("H1", "VIII. Conclusion"), ("Body", CONC),
       ("H1", "Acknowledgment"), ("Fill", C.ACK), ("H1", "References"), *[("RefItem", r) for r in REFS]]
 
 # ---------- Markdown
-md = [f"# {C.TITLE}", "", "Draft v0.3 | 16 November 2026 | Reading and drafting by an AI assistant; human reading, checking and authorship details pending (see handoffs/).", ""]
+md = [f"# {C.TITLE}", "", "Draft v0.4 | 16 November 2026 | Reading and drafting by an AI assistant; human reading, checking and authorship details pending (see handoffs/).", ""]
 for kind, p in F[1:]:
     if kind == "H1": md += ["", f"## {p}", ""]
     elif kind == "H2": md += ["", f"### {p}", ""]

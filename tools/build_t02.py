@@ -94,6 +94,8 @@ counts = dict(n_rec=len(matrix), n_dup=dup, n_unv=unv, n_works=len(matrix) - dup
     by_source=dict(C(e["behaviour_source"] for e in X.E)))
 counts["n_queue"] = counts["n_inc"] + counts["n_rni"] + counts["n_notread"]
 for c in "ABCD": counts["n_cat" + c] = counts["by_cat"][c]
+counts["n_util"] = sum(1 for e in X.E if e["utility"])
+for c in "ABCD": counts["n_util" + c] = sum(1 for e in X.E if e["utility"] and e["category"] == c)
 counts["n_a26"] = counts["by_year_cat"]["2026"].get("A", 0); counts["n_c26"] = counts["by_year_cat"]["2026"].get("C", 0)
 assert sum(counts["by_cat"].values()) == counts["n_inc"] == sum(sum(v.values()) for v in counts["by_year_cat"].values()) == sum(counts["by_source"].values())
 assert counts["n_works"] == counts["n_exc"] + counts["n_ctx"] + counts["n_res"] + counts["n_await"] + counts["n_queue"], counts

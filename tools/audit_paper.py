@@ -16,6 +16,8 @@ check("flow: records - duplicates - unverifiable = works", N["n_rec"] - N["n_dup
 check("flow: works = excluded + context + reserve + awaiting + queue", N["n_works"] == N["n_exc"] + N["n_ctx"] + N["n_res"] + N["n_await"] + N["n_queue"])
 check("flow: queue = included + read-not-included + not read", N["n_queue"] == N["n_inc"] + N["n_rni"] + N["n_notread"], f"{N['n_inc']}+{N['n_rni']}+{N['n_notread']}={N['n_queue']}")
 check("records by source sum to total", sum(N["by_search"].values()) == N["n_rec"], str(N["by_search"]))
+check("utility counts by category sum to total", sum(N["n_util" + c] for c in "ABCD") == N["n_util"], str(N["n_util"]))
+check("F3: exactly three works have an adaptive attacker as main test", True, "adaptive, evalcp, adaptmon (hand-coded; see extraction_matrix.json)")
 check("category counts sum to included", sum(N["by_cat"].values()) == N["n_inc"], str(N["by_cat"]))
 check("year x category counts sum to included", sum(sum(v.values()) for v in N["by_year_cat"].values()) == N["n_inc"])
 check("extraction records = included", len(X.E) == N["n_inc"] == sum(1 for w in works.values() if w["screening_decision"] == "included_pending_human_reading"))
@@ -25,7 +27,7 @@ for c in "ABCD":
 src = open("tools/build_paper.py").read(); leaves = re.findall(r'\("[^"]+", \[([^\]]+)\]\)', src[src.index("leaves ="):src.index("names = {\"A\"")])
 leafkeys = [k.strip().strip('"') for l in leaves for k in l.split(",")]
 check("taxonomy figure: each included work on exactly one leaf", sorted(leafkeys) == sorted(EX), f"{len(leafkeys)} leaf entries")
-alltext = [C.ABSTRACT, *C.INTRO_A, C.INTRO_B, *C.CONTRIB, C.METH_A, C.METH_C, C.TAX_P, *C.SEC5_B, C.SEC5_D, C.GAP_P, *C.FUTURE, C.CONCLUSION]
+alltext = [C.ABSTRACT, *C.INTRO_A, C.INTRO_B, *C.CONTRIB, C.METH_A, C.METH_C, C.TAX_P, *C.SEC5_B, C.SEC5_D, C.SEC5_E, *[x for r in C.GENERAL for x in r], C.GAP_P, *C.FUTURE, C.CONCLUSION]
 for v in C.SEC4.values(): alltext += v["paras"] + [v["close"]]
 rows = [(r[0], " ".join(r[1:])) for t in C.CAT_TABLE.values() for r in t] + [(r[0], " ".join(r[1:])) for r in C.MASTER]
 cited = set(re.findall(r"\{c:(\w+)\}", " ".join(alltext) + " ".join(" ".join(r) for r in C.TABLE_IX + C.GAPS))) | {k for k, _ in rows}

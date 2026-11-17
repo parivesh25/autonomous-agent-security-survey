@@ -2,6 +2,8 @@ PASS flow: records - duplicates - unverifiable = works  [234-18-4=212]
 PASS flow: works = excluded + context + reserve + awaiting + queue
 PASS flow: queue = included + read-not-included + not read  [35+6+2=43]
 PASS records by source sum to total  [{'S': 118, 'W': 26, 'D': 90}]
+PASS utility counts by category sum to total  [16]
+PASS F3: exactly three works have an adaptive attacker as main test  [adaptive, evalcp, adaptmon (hand-coded; see extraction_matrix.json)]
 PASS category counts sum to included  [{'A': 10, 'B': 9, 'C': 8, 'D': 8}]
 PASS year x category counts sum to included
 PASS extraction records = included
@@ -18,6 +20,6 @@ PASS abstract 150-250 words  [239]
 PASS review not called comprehensive, exhaustive or best  [[]]
   note: uses of complete* (each should describe a task, not the review): ['complete a task', 'completed and whether', 'completed in an']
 
-numeric claims checked: 102; found in a cited source: 102; to review by hand: 0
+numeric claims checked: 101; found in a cited source: 101; to review by hand: 0
 
 RESULT: arithmetic and structure checks pass

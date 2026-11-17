@@ -56,6 +56,11 @@
  "n_catB": 9,
  "n_catC": 8,
  "n_catD": 8,
+ "n_util": 16,
+ "n_utilA": 3,
+ "n_utilB": 5,
+ "n_utilC": 2,
+ "n_utilD": 6,
  "n_a26": 5,
  "n_c26": 4
 }
