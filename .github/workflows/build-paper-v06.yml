@@ -55,6 +55,7 @@ jobs:
       - name: Verify page boundaries
         if: steps.gate.outputs.skip != 'true'
         run: |
+          set -o pipefail
           python - <<'PY' | tee evidence/audit_v06_pagecount.txt
           import re, subprocess
           pdf="paper/AgentSecuritySurvey_draft_v0.6.pdf"
@@ -81,6 +82,7 @@ jobs:
       - name: Structural, corpus and questionnaire audits
         if: steps.gate.outputs.skip != 'true'
         run: |
+          set -o pipefail
           python tools/audit_paper.py --structural | tee evidence/audit_v06_structural.txt
           python tools/check_corpus.py | tee evidence/audit_v06_corpus.txt
           python survey/build_questionnaire.py
@@ -123,6 +125,7 @@ jobs:
       - name: Numeric-source audit
         if: steps.gate.outputs.skip != 'true'
         run: |
+          set -o pipefail
           python tools/audit_paper.py | tee evidence/audit_v06_numeric.txt
       - name: Record render inventory
         if: steps.gate.outputs.skip != 'true'
