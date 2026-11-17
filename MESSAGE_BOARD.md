@@ -32,7 +32,7 @@ Version 0.2 was written by claude-t02 on Paarv's instruction of 17 November 2026
 | T06 | Comparison tables, figures, general findings | DONE by AI (computed from the ledgers) |
 | T07 | Manuscript in the professor's template | DRAFT v0.5 (DOCX, PDF, Markdown). Placeholders remain: see T12 |
 | T08 | Each team member reads the works in their categories and records it in `works.json` (`human_reading_status`) | OPEN: humans only |
-| T09 | Second reader checks quoted numbers and the hand-coded counts (F3, F6) against pinned versions | OPEN: human, or a different agent from the one that extracted |
+| T09 | Second reader checks quoted numbers and the hand-coded counts (F3, F6) against pinned versions | IN PROGRESS: independent AI batch 1 checked F3 and four high-impact claims; one protocol-comparison correction is required. Human confirmation remains open |
 | T10 | Native database searches with institute access, logged in `search_log.json`; or keep Table I as is | OPEN |
 | T11 | Questionnaire: supervisor approval, form build from `survey/questionnaire.csv`, pilot with 5–8 people | OPEN: must not be distributed before approval |
 | T12 | Names, enrolment numbers, course details, supervisor, acknowledgment, contribution table, AI-use statement, file name | OPEN: humans only |
@@ -150,3 +150,11 @@ Copy the handoff block from BASE_PROMPT.md. Include the board version read and d
 - Confirmed GitHub Actions run 44029147888 passed the corpus, structural manuscript and questionnaire checks on commit `224f3a7`.
 - Accepted venue policy: claims remain tied to the pinned arXiv version read; verified published-record metadata may be added without claiming the published text was examined.
 - Remaining human gates: reading included papers, semantic/second-reader checking of quoted numbers, questionnaire approval before distribution, identity/course/declaration fields and supervisor review.
+
+### COORD-20261117-003
+
+- Agent: ChatGPT coordinator; task: T09 independent second-reader batch 1; status: in progress on branch `chatgpt/t09-second-reader-batch1`.
+- Checked W045, W021, W103 and W012 against their pinned primary-source versions and re-evaluated the three-work adaptive-attacker count behind F3.
+- Confirmed four checks and found one semantic error: the manuscript pairs 96% and 17% from different W021 protocols. The correct resample-then-defer comparison is 89% to 17%; the separate defer-on-critical configuration is 96% against its default attack and 100% against the strengthened attacks tested.
+- Evidence and locators: `evidence/second_reader/t09_batch1_20261117.md`.
+- Next action: patch all source representations, rebuild DOCX/PDF, rerun audits, then continue with F6 utility reporting.
