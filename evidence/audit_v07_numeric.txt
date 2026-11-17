@@ -1,0 +1,35 @@
+PASS ledger: works.json holds one record per distinct work  [212 works]
+PASS ledger: distinct work IDs among discovery records = works
+PASS ledger: repeats and unverified counted from ledger fields
+PASS flow: records - repeats - unverified = distinct works  [234-18-4=212]
+PASS flow: every screening count equals a count of works with that decision
+PASS Table VIII: 12 rows, three per category
+PASS flow: works = excluded + context + reserve + awaiting + queue
+PASS flow: queue = included + read-not-included + not read  [35+7+1=43]
+PASS records by source sum to total  [{'S': 118, 'W': 26, 'D': 90}]
+PASS utility counts by category sum to total  [15]
+PASS F3: exactly three works have an adaptive attacker as main test  [adaptive, evalcp, adaptmon (hand-coded; see extraction_matrix.json)]
+PASS category counts sum to included  [{'A': 10, 'B': 9, 'C': 8, 'D': 8}]
+PASS year x category counts sum to included
+PASS extraction records = included
+PASS Table for category A: rows = works coded A  [10 rows]
+PASS Table for category B: rows = works coded B  [9 rows]
+PASS Table for category C: rows = works coded C  [8 rows]
+PASS Table for category D: rows = works coded D  [8 rows]
+PASS taxonomy figure: each included work on exactly one leaf  [35 leaf entries]
+PASS every included work is cited  [set()]
+PASS every citation resolves to a read source  [set()]
+PASS reference count within 25-40  [40]
+PASS no citation in abstract
+PASS abstract 150-250 words  [239]
+PASS review not called comprehensive, exhaustive or best  [[]]
+  note: uses of complete* (each should describe a task, not the review): ['complete a task', 'completed and whether', 'completed in an']
+
+numeric strings in citing sentences and table rows: 106; found in the locally saved text of a cited source: 103; not found: 3
+  This is a string-presence check on local copies that are not committed. It is not a semantic or second-reader check.
+  REVIEW     898  ['openai']  | The operator stated that attempts to cheat on evaluation tasks by looking up solutions were a primary driver, 
+  REVIEW     198  ['openai']  | The operator stated that attempts to cheat on evaluation tasks by looking up solutions were a primary driver, 
+  REVIEW      93  ['openai']  | The operator stated that attempts to cheat on evaluation tasks by looking up solutions were a primary driver, 
+  sources with no saved text in this checkout (run the fetch step): ['openai']
+
+RESULT: arithmetic and structure checks pass
