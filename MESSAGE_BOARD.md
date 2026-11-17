@@ -1,10 +1,10 @@
 # Research coordination message board
 
-Project AGENT-SEC-SURVEY | Version 0.2 | Updated 17 November 2026
+Project AGENT-SEC-SURVEY | Version 0.3 | Updated 17 November 2026
 
-**State:** draft v0.4 of the paper exists; all reading so far is by an AI assistant. Human reading, second-reader checks and administrative details are outstanding. The canonical copy of this board is this file in the shared repository `parivesh25/autonomous-agent-security-survey`. New agents: read `AGENT_BRIEFING.md` first.
+**State:** draft v0.5 of the paper exists; the corpus contains 212 distinct screened works, 35 of which are included. The incident ledger contains 35 entries. All paper reading so far is by an AI assistant; human reading, second-reader checks and administrative details remain outstanding. The canonical copy of this board is this file in the shared repository `parivesh25/autonomous-agent-security-survey`. New agents: read `AGENT_BRIEFING.md` first.
 
-Version 0.2 was written by claude-t02 on Paarv's instruction of 17 November 2026 to close open items. Entries below marked (17 Nov) were added then; Paarv, as coordinator, may reverse any of them. Messages remain append-only.
+Version 0.2 was written by claude-t02 on Paarv's instruction of 17 November 2026 to close open items. Version 0.3 synchronizes the accepted PR 2 state after independent reconciliation. Entries below marked (17 Nov) were added then; Paarv, as coordinator, may reverse any of them. Messages remain append-only.
 
 ## Decisions
 
@@ -12,7 +12,7 @@ Version 0.2 was written by claude-t02 on Paarv's instruction of 17 November 2026
 |---|---|---|
 | D001 | Literature survey; no participant survey | Professor's template. **Superseded in part by D007.** |
 | D002 | Incident is a motivating example, not the entire corpus | Need comparison across at least 25 works |
-| D003 | Review period 2023–16 Nov 2026; older exceptions documented | No pre-2023 work is cited in v0.4 |
+| D003 | Review period 2023–16 Nov 2026; older exceptions documented | No pre-2023 work is cited in v0.5 |
 | D004 | Do not pool incomparable attack-success rates | Different tasks, threat models and denominators |
 | D005 | Separate agent-assisted reading from student reading | Template's declaration and viva requirements |
 | D006 | Keep stable paper IDs until final reference numbering | Prevent citation collisions across agents |
@@ -28,9 +28,9 @@ Version 0.2 was written by claude-t02 on Paarv's instruction of 17 November 2026
 |---|---|---|
 | T01 | Search, metadata verification, screening | DONE by AI (PR 1 merged). Native IEEE Xplore / ACM / SpringerLink / Scholar searches NOT run: see T10 |
 | T02–T04 | Full-text reading and extraction, categories A–D | DONE by AI for 35 included works and 7 read-not-included. **Human reading: 0 works. See T08** |
-| T05 | Incident claim ledger | DONE by AI: 29 entries. Operator's technical report and the conference talk not accessed: see T13 |
+| T05 | Incident claim ledger | DONE by AI: 35 entries. OpenAI's technical report was read in part; the Black Hat talk was not accessed: see T13 |
 | T06 | Comparison tables, figures, general findings | DONE by AI (computed from the ledgers) |
-| T07 | Manuscript in the professor's template | DRAFT v0.4 (DOCX, PDF, Markdown). Placeholders remain: see T12 |
+| T07 | Manuscript in the professor's template | DRAFT v0.5 (DOCX, PDF, Markdown). Placeholders remain: see T12 |
 | T08 | Each team member reads the works in their categories and records it in `works.json` (`human_reading_status`) | OPEN: humans only |
 | T09 | Second reader checks quoted numbers and the hand-coded counts (F3, F6) against pinned versions | OPEN: human, or a different agent from the one that extracted |
 | T10 | Native database searches with institute access, logged in `search_log.json`; or keep Table I as is | OPEN |
@@ -141,3 +141,12 @@ Copy the handoff block from BASE_PROMPT.md. Include the board version read and d
 - No disagreement found between the post and the report on the statements the paper uses. The report agrees with Hugging Face that agents inferred the platform might hold solutions, and records agent requests to Hugging Face as early as 26 May 2026.
 - The paper text is unchanged: the report is not cited (references are at 40) and nothing it says contradicts Section V.D. Black Hat talk still not accessed.
 
+### COORD-20261117-002
+
+- Agent: ChatGPT coordinator; task: second integration review of PR 2 at commit `224f3a7`; status: accepted after state synchronization.
+- Independently reconciled 234 discovery records, 18 repeat records, 4 unverified records and 212 unique work IDs. All 212 verified canonical records map one-to-one to `works.json`.
+- Confirmed the explicit unread decisions: P011 is queued but unread because access was refused; P017 was not queued and awaits full text.
+- Confirmed 35 included works (A 10, B 9, C 8, D 8), 35 incident-ledger claims, 40 references, Table VIII with 12 rows (three per category), and a header-only questionnaire response template.
+- Confirmed GitHub Actions run 44029147888 passed the corpus, structural manuscript and questionnaire checks on commit `224f3a7`.
+- Accepted venue policy: claims remain tied to the pinned arXiv version read; verified published-record metadata may be added without claiming the published text was examined.
+- Remaining human gates: reading included papers, semantic/second-reader checking of quoted numbers, questionnaire approval before distribution, identity/course/declaration fields and supervisor review.
