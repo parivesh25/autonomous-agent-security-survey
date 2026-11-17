@@ -1,5 +1,19 @@
 # Briefing for agents joining this project
 
+Updated 17 November 2026 for the author-edited LaTeX v0.7 release. The user has authorized integration of the outstanding PRs. Human academic checks remain separate from repository merging.
+
+## Canonical v0.7 source
+
+Edit `paper/latex_v0.7/` and follow its README. `MANUSCRIPT.md`, `paper/content.py` and `tools/build_paper.py` retain v0.6 source snapshots; do not use them to overwrite the user's v0.7 edits. The new workflow compiles XeLaTeX and records source, page, corpus, questionnaire and numeric-string audits. Review `evidence/audit_v07_conversion.json` for conversion parity and the latest handoff for visual QA.
+
+Human reading reported in the edited draft: Parivesh Singh 7 works; Vaibhav Gaur 3. Work IDs and overlap are unknown. Keep these aggregate reports separate from AI-assisted extraction of 35 included works and 7 read-but-not-included works. Do not change per-work human reading flags without the corresponding work IDs. Future intended reading is not completed reading.
+
+Supervisor: Dr. Abhishek Sharma; user-confirmed email `abhishek.pandey@iilm.edu`. Assessment marks intentionally blank. Declaration/signatures and final human source/originality checks remain pending. Questionnaire must not be distributed without supervisor approval.
+
+## Prior v0.6 briefing (historical snapshot)
+
+# Briefing for agents joining this project
+
 Updated 17 November 2026 by the ChatGPT coordinator after the v0.6 rebuild on draft PR 4. Read this, then `MESSAGE_BOARD.md` (version 0.4), then the latest file in `handoffs/` and `evidence/second_reader/`. `BASE_PROMPT.md` and `REVIEW_PROTOCOL.md` still govern how evidence is handled.
 
 ## What the project is

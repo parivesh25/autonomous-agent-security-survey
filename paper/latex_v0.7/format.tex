@@ -2,6 +2,7 @@
 \usepackage{fontspec}
 \IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{\setmainfont{TeX Gyre Termes}}
 \usepackage{graphicx,array,longtable}
+\usepackage{tikz}
 \usepackage[table]{xcolor}
 \definecolor{navy}{HTML}{1F3864}
 \usepackage{titlesec,caption,fancyhdr}
@@ -28,7 +29,7 @@
 \setlength{\intextsep}{8pt}
 \makeatletter
 \renewenvironment{thebibliography}[1]
- {\section*{REFERENCES}\list{[\arabic{enumiv}]}{\settowidth\labelwidth{[#1]}\leftmargin\labelwidth\advance\leftmargin\labelsep\usecounter{enumiv}\setlength\itemsep{3pt}\setlength\parsep{0pt}\setlength\topsep{0pt}}\sloppy}
+ {\section*{REFERENCES}\list{[\arabic{enumiv}]}{\settowidth\labelwidth{[#1]}\leftmargin\labelwidth\advance\leftmargin\labelsep\usecounter{enumiv}\setlength\itemsep{3pt}\setlength\parsep{0pt}\setlength\topsep{0pt}}\raggedright\sloppy}
  {\endlist}
 \makeatother
 \pagestyle{fancy}\fancyhf{}\fancyfoot[C]{\fontsize{9}{11}\selectfont\thepage}

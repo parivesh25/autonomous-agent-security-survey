@@ -169,3 +169,13 @@ Copy the handoff block from BASE_PROMPT.md. Include the board version read and d
 - Regenerated v0.6 DOCX/PDF, rendered and visually inspected all 15 output pages. The cover, title page, paper body, references, annexure and checklist are legible with no clipping or overlap. Long paper tables continue across page breaks; checklist rows are kept intact and its header repeats.
 - Page boundary audit: paper starts on PDF page 2, annexure starts on page 14, so the paper block is exactly 12 pages. Structural, corpus, questionnaire and build checks pass.
 - The checklist is completed honestly: human reading, originality review, acknowledgment, contributions, signatures, final filename and final submission fields remain incomplete or partial. The declaration must not be signed yet.
+
+
+### COORD-20261117-005
+
+- Task: convert the author's edited DOCX to canonical LaTeX v0.7 and integrate outstanding PRs, explicitly authorized by the user.
+- Preserved research text, 11 tables, 3 figures and 40 reference entries. Corrected the author block, retained Dr. Abhishek Sharma and the user-confirmed supervisor email, and kept assessment marks blank.
+- Contribution counts remain the reported 7 and 3 human readings; work IDs and overlap are unreported. The review includes 35 AI-assisted extraction records. Planned catch-up reading is not recorded as completed.
+- Replaced the blanket completed-reading declaration with an accurate draft status. Updated acknowledgment and checklist. Figure 1 now distinguishes titles/available abstracts and AI review of logged sections.
+- LaTeX is canonical for v0.7; legacy DOCX/Markdown build scripts remain v0.6 snapshots. See `paper/latex_v0.7/README.md`.
+- Compilation, audits and visual QA are tracked in the release handoff; merging does not close human reading, source verification, signatures, or supervisor approval of the questionnaire.

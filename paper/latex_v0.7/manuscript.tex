@@ -89,7 +89,7 @@ It was written in English and the full text was available & It was a review, pos
 
 \subsection{Selection process}
 \begin{figure}[htbp]\centering
-\includegraphics[width=92mm]{figures/fig1.png}
+\input{selection-flow}
 \caption{Flow of the selection process, from works identified to works included.}
 \end{figure}
 Fig. 1 shows the flow. The searches returned 234 records. Removing 18 repeated or duplicate records and 4 records for which no primary record could be found left 212 distinct works with verified metadata. Titles and, where available, abstracts were screened against Table II: 115 works were excluded as out of scope, 10 were kept as context only, 43 were judged eligible but held in reserve, one awaited full text, and 43 were placed in the reading queue. Of these, 35 were read at a pinned version (abstract, method or setup, results, limitations and conclusion) and included; 7 were read and set aside because they repeated a mechanism or test bed already represented; and 1 could not be read. Metadata checking, screening and first-pass extraction were carried out with an AI assistant and are logged per record in the evidence repository. Evidence was extracted from the arXiv version named in each reference; where Crossref holds a published record its DOI is added, without implying that the published text was read or is identical.
@@ -98,7 +98,7 @@ Fig. 1 shows the flow. The searches returned 234 records. Removing 18 repeated o
 The works were grouped by the boundary that the main experiment tests, because that is the point at which a defence can be placed and an outcome can be defined. Grouping by attack technique was rejected because the same technique, such as editing a file, appears in studies with unrelated threat models; grouping by application domain was rejected because most studies use synthetic tasks. Each work has one primary category; Fig. 2 and Table III give the result. The categories are one field of the coding scheme that serves as the analytical framework of this review. Every work was recorded as six fields: the boundary tested; the source of the unwanted behaviour (an external attacker, the agent's own optimization, an agent instructed to act as a red team, or a malicious user); the event counted as success; the denominator; whether legitimate-task utility is reported; and whether the attacker could adapt to the defence. Sections IV and V compare works only on fields where their values are compatible.
 
 \begin{figure}[htbp]\centering
-\includegraphics[width=112mm]{figures/fig2.png}
+\includegraphics[width=145mm]{figures/fig2.png}
 \caption{Taxonomy of the reviewed work, with the included works on the leaves.}
 \end{figure}
 \begingroup
@@ -277,10 +277,10 @@ Table VIII places twelve of the included works side by side, three from each cat
 \begin{longtable}{|>{\raggedright\arraybackslash}p{8.95mm}|>{\raggedright\arraybackslash}p{10.44mm}|>{\raggedright\arraybackslash}p{10.44mm}|>{\raggedright\arraybackslash}p{26.86mm}|>{\raggedright\arraybackslash}p{29.84mm}|>{\raggedright\arraybackslash}p{29.84mm}|>{\raggedright\arraybackslash}p{32.82mm}|}
 \caption{COMPARISON OF THE REVIEWED WORKS ACROSS CATEGORIES}\\
 \hline
-\rowcolor{navy}\color{white}\bfseries Ref. & \color{white}\bfseries Year & \color{white}\bfseries Category & \color{white}\bfseries Approach & \color{white}\bfseries Data or test bed & \color{white}\bfseries Measure used & \color{white}\bfseries Main finding\\\hline
+\rowcolor{navy}\color{white}\bfseries Ref. & \color{white}\bfseries Year & \color{white}\bfseries Cat. & \color{white}\bfseries Approach & \color{white}\bfseries Data or test bed & \color{white}\bfseries Measure used & \color{white}\bfseries Main finding\\\hline
 \endfirsthead
 \hline
-\rowcolor{navy}\color{white}\bfseries Ref. & \color{white}\bfseries Year & \color{white}\bfseries Category & \color{white}\bfseries Approach & \color{white}\bfseries Data or test bed & \color{white}\bfseries Measure used & \color{white}\bfseries Main finding\\\hline
+\rowcolor{navy}\color{white}\bfseries Ref. & \color{white}\bfseries Year & \color{white}\bfseries Cat. & \color{white}\bfseries Approach & \color{white}\bfseries Data or test bed & \color{white}\bfseries Measure used & \color{white}\bfseries Main finding\\\hline
 \endhead
 \endfoot
 \endlastfoot
@@ -301,7 +301,7 @@ Table VIII places twelve of the included works side by side, three from each cat
 
 \subsection{Trends observed}
 \begin{figure}[htbp]\centering
-\includegraphics[width=76mm]{figures/fig3.png}
+\includegraphics[width=95mm]{figures/fig3.png}
 \caption{Included works by year first made public and by category (n = 35). Counts describe this review's corpus, not the field.}
 \end{figure}
 Table VIII and Fig. 3 show two patterns. First, benchmark construction is the most frequent approach in categories A and B, while category D is organised around one evaluation method and its test beds. Second, the included work shifts over the period: the two works from 2023 define a threat and an evaluation method, those from 2024 include the three injection benchmarks, and the audits of benchmarks and the adaptive attacks on defences all date from 2025 or 2026; 5 of the 10 works on evaluation integrity and 4 of the 8 on inter-agent trust date from 2026. These counts describe the works included here and not the volume of the field.
