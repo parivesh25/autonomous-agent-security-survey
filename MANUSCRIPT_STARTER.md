@@ -1,4 +1,4 @@
-> Superseded by `MANUSCRIPT.md` (draft v0.4). Kept unchanged below as the v0.1 starting point.
+> Superseded by `MANUSCRIPT.md` (draft v0.5). Kept unchanged below as the v0.1 starting point.
 
 # Security Failures in Autonomous AI Agents
 
