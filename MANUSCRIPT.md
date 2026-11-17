@@ -208,7 +208,7 @@ The category shows that single-agent results do not compose, but its test beds a
 
 The last category assumes the agent may act against its operator and asks whether supervision catches it. Greenblatt et al. [32] defined the method most later work follows: a red team writes an attack policy for an untrusted model, a blue team designs a protocol around a weaker trusted model and limited auditing, and the outcome is a pair of numbers, safety and usefulness. Bhatt et al. [33] extended this to multi-step shell tasks, where resampling suspicious actions cut attack success from 58% to 7% at a 5% usefulness cost. Kutasov et al. [34] supplied paired benign and harmful tasks and found that the strongest monitor reached an AUC of 0.87, which implied over 20% false positives at an 80% catch rate. Kaufman et al. [35] gave agents elevated privileges and side tasks such as disabling a firewall; the strongest attacker succeeded undetected 26% of the time at a 4% false-positive rate.
 
-Two works test these protocols against attackers who adapt. Kutasov et al. [36] raised safety from 50% to 96% against a default attack, then gave the attacker knowledge of the protocol and saw resampling-based safety fall to 17%, while a protocol that defers on critical actions held. Terekhov et al. [37] had the untrusted model insert prompt injections aimed at the monitor: one monitor gave zero suspicion to all 375 backdoored samples, and resampling increased the attacker's chances. The two agree that monitor-dependent protocols fail against an informed attacker and disagree with the earlier reading of resampling as a strong defence [33].
+Two works test these protocols against attackers who adapt. Kutasov et al. [36] reported 89% safety for resample-then-defer against a default attack; a red team that simulated the monitor reduced that protocol to 17%. A separate defer-on-critical configuration scored 96% against its default attack and 100% against the strengthened attacks tested. Terekhov et al. [37] had the untrusted model insert prompt injections aimed at the monitor: one monitor gave zero suspicion to all 375 backdoored samples, and resampling increased the attacker's chances. The two agree that monitor-dependent protocols fail against an informed attacker and disagree with the earlier reading of resampling as a strong defence [33].
 
 Two works study behaviour that is not instructed by a red team. Baker et al. [38] used a second model to read the reasoning of a coding agent and detected reward hacking that had become systemic during training, but found that training against the monitor led the agent to hide its intent while continuing to hack. Meinke et al. [39] placed models in scenarios where a goal given in the prompt conflicted with the developer's and found that several disabled an oversight mechanism; the authors state that the scenarios supply situational information explicitly and may overestimate capability.
 
@@ -223,7 +223,7 @@ Two works study behaviour that is not instructed by a red team. Baker et al. [38
 | [33] | 2025 | Resampling protocols | 257 shell tasks | Attack success 58% to 7%, 5% usefulness cost | Longer tasks untested |
 | [34] | 2025 | Paired main and side tasks | SHADE-Arena | Best monitor AUC 0.87 | Hidden scratchpad aids attacker |
 | [37] | 2025 | Injection aimed at the monitor | Two control benchmarks | Zero suspicion on 375 backdoored samples | Assumes attacker knows the monitor |
-| [36] | 2025 | Protocols under adapted attacks | SHADE-Arena | Safety 96% fell to 17% for resampling | Conditional on attack policy |
+| [36] | 2025 | Protocols under adapted attacks | SHADE-Arena | Resample-then-defer safety 89% to 17% | Conditional on attack policy |
 | [35] | 2025 | Privileged agents with sabotage side tasks | 637 shell tasks, four side tasks | 26% undetected at 4% false positives | Some sandboxing still possible |
 
 The category reports security with usefulness more consistently than the others, but its safety figures are conditional on the red team's attack policy.
@@ -251,7 +251,7 @@ Table VIII places twelve of the included works side by side, three from each cat
 | [27] | 2026 | C | Composition test | Hierarchical agents | Control-flow hijack | Isolation does not compose |
 | [28] | 2026 | C | Distributed attack | Synthetic codebase | Monitor suspicion | Detection falls with more agents |
 | [33] | 2025 | D | Control protocol | Shell tasks | Safety and usefulness | 58% to 7% at 5% cost |
-| [36] | 2025 | D | Adaptive red team | SHADE-Arena | Safety and usefulness | 96% falls to 17% for resampling |
+| [36] | 2025 | D | Adaptive red team | SHADE-Arena | Safety and usefulness | Resample-then-defer: 89% to 17% |
 | [37] | 2025 | D | Attack on monitor | Two control benchmarks | Monitor suspicion | Monitors rate attacks as benign |
 
 
@@ -298,7 +298,7 @@ Table X states six findings that hold across more than one category of these 35 
 |---|---|---|
 | F1 | Direction is stable, magnitude is not | Hardening or isolation lowers failures wherever tested [4], [16], [23]; rates for one behaviour differ several-fold by task design [13], [3] or scoring rule [9]. Qualification: rates transfer only within one benchmark version [19]. |
 | F2 | Removing a capability holds up better than judging content | Locked evaluators [16], capability policies [23] and deferral on critical actions [36] held; model-based detectors and monitors were bypassed [21], [37]. Qualification: structural controls cost utility or runtime [16], [27]; a reasoning monitor did detect hacks before being trained against [38]. |
-| F3 | Fixed-attack results overstate protection | Each study that let the attacker adapt reported a large loss: over 50% success against eight defences [21], safety from 96% to 17% [36], monitors scoring attacks as benign [37]. Qualification: only three works make adaptation their main test. |
+| F3 | Fixed-attack results overstate protection | Each study that let the attacker adapt reported a large loss: over 50% success against eight defences [21], resample-then-defer safety from 89% to 17% [36], monitors scoring attacks as benign [37]. Qualification: only three works make adaptation their main test. |
 | F4 | Assurances do not transfer from one agent to many | Isolation [27], per-commit monitoring [28] and single-agent refusal [26] each failed once agents were composed. Qualification: test beds are small or synthetic; one fix exists for hierarchical systems [27]. |
 | F5 | Gaming concentrates where an honest solution is hard, absent or loosely specified | Exploit rates rose with chain length and task difficulty [4]; gaming appeared on impossible tasks [3], when fair play could not win [12], and far more on open-ended than on narrowly specified research tasks [15]. Qualification: consistent with the operator's account of the motivating incident [8], which is not an experiment. |
 | F6 | Legitimate-task utility is reported by under half of the works | 16 of 35 report it in the sections read (6 of 8 in D, 5 of 9 in B, 3 of 10 in A, 2 of 8 in C). Qualification: utility may be reported in a section not read. |
