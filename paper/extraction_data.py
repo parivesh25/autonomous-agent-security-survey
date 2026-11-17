@@ -113,7 +113,7 @@ dict(key="camel", arxiv="2503.18813", category="B", secondary=[], behaviour_sour
  method="System design: privileged planner model, quarantined model for untrusted data, capability tags and security policies enforced by an interpreter.", testbed="AgentDojo",
  models="Eight model configurations from three providers", permissions="Tool calls mediated by the interpreter", budget=None,
  outcome_definition="AgentDojo utility and attack success, with and without policies.", denominator="AgentDojo task suites",
- result="Utility largely retained except in the travel suite; a cheaper quarantined model cost about 1% utility.", utility="Failure modes analysed (e.g. plans that depend on untrusted data)",
+ result="Utility largely retained except in the travel suite; a cheaper quarantined model cost about 1% utility.", utility="AgentDojo legitimate-task utility reported; largely retained except in the travel suite",
  uncertainty=None, limitation="Authors list side channels, user fatigue from approvals and attacks from classical security as open.",
  sections_read="Abstract; 3 Threat model; 6.1-6.2; 9 Discussion; 11 Conclusion"),
 dict(key="adaptive", arxiv="2503.00061", category="B", secondary=[], behaviour_source=EXT,
