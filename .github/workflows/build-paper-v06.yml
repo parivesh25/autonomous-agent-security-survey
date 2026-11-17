@@ -50,6 +50,7 @@ jobs:
         if: steps.gate.outputs.skip != 'true'
         run: |
           mkdir -p evidence/render_v06
+          find evidence/render_v06 -maxdepth 1 -type f -name "page-*.jpg" -delete
           libreoffice --headless --convert-to pdf --outdir paper paper/AgentSecuritySurvey_draft_v0.6.docx
           pdftoppm -jpeg -jpegopt quality=88 -r 130 paper/AgentSecuritySurvey_draft_v0.6.pdf evidence/render_v06/page
       - name: Verify page boundaries
