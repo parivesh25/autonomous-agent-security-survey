@@ -26,7 +26,6 @@ for e in X.E:
 for ax, (why, secs) in X.READ_NOT_INCLUDED.items():
     byax[ax].update(gate=5, screening_decision="read_not_included", full_text_read=True, screening_reason=why,
         agent_reading_status=f"read at reduced depth {TODAY} at {byax[ax]['version_checked']}: {secs}", coding_status="not extracted")
-byax["2403.04960"].update(screening_decision="include_for_reading", agent_reading_status=X.NOT_READ["2403.04960"])
 for r in matrix:
     if r["id"] == "P011": r.update(status="awaiting_full_text", screening_reason=X.NOT_READ["P011"])
 for r in matrix:
@@ -74,6 +73,16 @@ for sid, src, q, note in [
     log.append({"search_id": sid, "executed_date": TODAY, "source": src, "query": q, "retrieval_limit": None, "returned_count": 0, "total_database_hits": None,
                 "status": "not_executed" if q == "not executed" else "fulfilled", "notes": note})
 json.dump(matrix, open("literature_matrix.json", "w"), indent=1, ensure_ascii=False)
+# published-version lookup (Crossref exact-title match, non-preprint record); absence is not evidence of non-publication
+try:
+    V = json.load(open("evidence/venue_check/summary.json"))
+    for e in X.E:
+        v = V.get(e["key"], {}); w = byax[e["arxiv"]]
+        if v.get("status") == "published_record_found":
+            w.update(published_record={"doi": v["doi"], "container": v["container"].replace("&amp;", "&"), "year": v["year"], "type": v["type"], "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"},
+                     peer_review_status="published record found in Crossref (venue's review process not assessed)")
+        else: w["published_record"] = None
+except FileNotFoundError: pass
 json.dump(works, open("works.json", "w"), indent=1, ensure_ascii=False)
 json.dump(log, open("search_log.json", "w"), indent=1, ensure_ascii=False)
 

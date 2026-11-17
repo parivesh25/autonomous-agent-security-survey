@@ -1,6 +1,6 @@
 # Practitioner questionnaire on unauthorized actions by AI agents
 
-Version 0.1 | 17 November 2026 | **DRAFT - not administered; no responses exist**
+Version 0.2 | 17 November 2026 | **COMPLETE DRAFT awaiting supervisor approval - not administered; no responses exist**
 
 A side instrument to the literature review, not part of its evidence. It asks people who use or build AI agents what they do and expect, so that later versions of the review can compare practice with what the reviewed papers found. See `survey/README.md` for purpose, ethics, analysis plan and growth plan.
 

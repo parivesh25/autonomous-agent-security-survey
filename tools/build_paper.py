@@ -269,7 +269,7 @@ for t in d.tables:
         v = {"Works reviewed": f"{N['n_inc']} papers, first made public between 2023 and 2026",
              "Sources searched": "SciSpace, arXiv, Crossref (IEEE, ACM and Springer records), targeted title checks",
              "Repository URL": REPO, "Literature matrix file": "literature_matrix.json (one row per record), works.json (one per work), extraction_matrix.json (one per work read)",
-             "Reference library export": "references_candidates.bib", "Search log file": "search_log.json",
+             "Reference library export": "references.bib", "Search log file": "search_log.json",
              "Works identified, screened and included": f"{N['n_rec']} records identified, {N['n_works']} works screened, {N['n_inc']} included"}.get(k)
         if v: cell_set(row.cells[1]._tc, v)
 fill_para("Use of AI tools:", "Use of AI tools: [ DRAFT FOR THE TEAM TO CONFIRM OR CORRECT. ChatGPT with SciSpace was used for the pilot search. Claude (Anthropic) was used to verify metadata at arXiv and Crossref, run further searches, screen abstracts, read the full text of the included works, extract the matrix, and draft this paper. As of 16 November 2026 no team member has yet confirmed reading any included work; the declaration above must not be signed until each member has read the works in their categories and checked the numbers quoted from them. ]", keep_red=True)

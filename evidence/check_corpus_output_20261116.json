@@ -22,14 +22,13 @@
  "record_status": {
   "included_pending_human_reading": 43,
   "context_review": 1,
-  "read_not_included": 6,
+  "read_not_included": 7,
   "duplicate": 1,
   "awaiting_full_text": 2,
   "metadata_unverified": 4,
   "reserve": 43,
   "excluded_at_abstract": 34,
   "context_only": 9,
-  "include_for_reading": 1,
   "title_screened_not_selected": 82,
   "published_record_of_known_work": 6,
   "repeat_within_crossref": 2
@@ -50,18 +49,13 @@
  "unique_arxiv_works": 126,
  "work_screening_decisions": {
   "included_pending_human_reading": 35,
-  "read_not_included": 6,
+  "read_not_included": 7,
   "reserve": 42,
   "excluded_at_abstract": 33,
-  "context_only": 9,
-  "include_for_reading": 1
+  "context_only": 9
  },
- "include_for_reading_by_category": {
-  "B": 1
- },
- "include_for_reading_by_first_public_year": {
-  "2024": 1
- },
+ "include_for_reading_by_category": {},
+ "include_for_reading_by_first_public_year": {},
  "reserve_by_category": {
   "A": 1,
   "B": 23,
@@ -80,7 +74,7 @@
   ]
  ],
  "works_past_cutoff": [],
- "full_text_read_by_ai_reviewer": 41,
+ "full_text_read_by_ai_reviewer": 42,
  "human_reading_confirmed": 0,
  "caveat": "Full-text reading so far is by an AI reviewer only; no human reading or second-reader check is recorded. Counts describe this corpus, not the field."
 }

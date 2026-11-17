@@ -1,6 +1,6 @@
 PASS flow: records - duplicates - unverifiable = works  [234-18-4=212]
 PASS flow: works = excluded + context + reserve + awaiting + queue
-PASS flow: queue = included + read-not-included + not read  [35+6+2=43]
+PASS flow: queue = included + read-not-included + not read  [35+7+1=43]
 PASS records by source sum to total  [{'S': 118, 'W': 26, 'D': 90}]
 PASS utility counts by category sum to total  [16]
 PASS F3: exactly three works have an adaptive attacker as main test  [adaptive, evalcp, adaptmon (hand-coded; see extraction_matrix.json)]

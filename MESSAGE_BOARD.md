@@ -1,46 +1,58 @@
 # Research coordination message board
 
-Project AGENT-SEC-SURVEY | Version 0.1 | Updated 16 November 2026
+Project AGENT-SEC-SURVEY | Version 0.2 | Updated 17 November 2026
 
-**State:** pilot discovery complete; full-text screening and synthesis pending. This is a portable board snapshot. No external agents are connected automatically. Paarv or a designated coordinator is the single merge authority until a shared repository is configured.
+**State:** draft v0.4 of the paper exists; all reading so far is by an AI assistant. Human reading, second-reader checks and administrative details are outstanding. The canonical copy of this board is this file in the shared repository `parivesh25/autonomous-agent-security-survey`. New agents: read `AGENT_BRIEFING.md` first.
+
+Version 0.2 was written by claude-t02 on Paarv's instruction of 17 November 2026 to close open items. Entries below marked (17 Nov) were added then; Paarv, as coordinator, may reverse any of them. Messages remain append-only.
 
 ## Decisions
 
 | ID | Decision | Basis |
 |---|---|---|
-| D001 | Literature survey; no participant survey | Professor's template |
+| D001 | Literature survey; no participant survey | Professor's template. **Superseded in part by D007.** |
 | D002 | Incident is a motivating example, not the entire corpus | Need comparison across at least 25 works |
-| D003 | Pilot period 2023–16 Nov 2026; older exceptions documented | Keeps scope manageable; date verification required |
+| D003 | Review period 2023–16 Nov 2026; older exceptions documented | No pre-2023 work is cited in v0.4 |
 | D004 | Do not pool incomparable attack-success rates | Different tasks, threat models and denominators |
 | D005 | Separate agent-assisted reading from student reading | Template's declaration and viva requirements |
 | D006 | Keep stable paper IDs until final reference numbering | Prevent citation collisions across agents |
+| D007 | A short practitioner questionnaire is kept as a side instrument with a growth plan. The paper stays a literature survey and reports no questionnaire results until a real round is collected (17 Nov) | Paarv's instruction, 17 Nov 2026 |
+| D008 | Pinned versions: AgentDojo arXiv v3, Sycophancy to Subterfuge v3, Agent Security Bench v4 (17 Nov) | Titles/results changed between versions (handoff claude-t01-20261116-001) |
+| D009 | Category rulings: multi-agent AI control (W013) = C, secondary D; in-context scheming (W115) = D, secondary A; "Architecture Matters" (W015) = C with source "malicious user"; ToolEmu and AgentHarm fall outside A–D and are not included (17 Nov) | Principal boundary tested; closes Q004 |
+| D010 | At most 40 references. Works read but repeating a mechanism or test bed already represented are recorded as read, not included (17 Nov) | Template limit of 25–40 references |
+| D011 | Incident statements are attributed to a named report and date; the three accounts are treated as not independent (17 Nov) | METR worked from operator-supplied data and scope |
 
 ## Task queue
 
-All roles below are **unassigned**, not launched agents. Claim by posting a unique message ID. The coordinator acknowledges ownership before concurrent work on the same records.
-
-| Task | Suggested role | Scope | Deliverable | Status |
-|---|---|---|---|---|
-| T01 | Search and screening lead | Extend pilot, verify dates/versions and duplicates | Updated search log, decisions and eligible corpus | OPEN |
-| T02 | Objective-integrity reviewer | P001–P010, plus targeted foundational studies | Methods/results/limitations extraction and category comparison | OPEN |
-| T03 | Authorization reviewer | P011–P020; AgentDojo, ASB and isolation defenses | Extraction with attacker model and utility costs | OPEN |
-| T04 | Multi-agent/control reviewer | P021–P030; monitoring and coordination literature | Extraction distinguishing single-run and collective outcomes | OPEN |
-| T05 | Incident evidence reviewer | Operator, affected-platform and independent reports | Dated claim ledger; disagreements and visibility limits | OPEN |
-| T06 | Data and synthesis reviewer | Merged included corpus after T01–T04 | Valid comparison tables and three figure datasets | WAITING |
-| T07 | Manuscript editor | Evidence accepted by reviewer | Template-compliant draft, DOCX/PDF and reference cross-check | WAITING |
-
-For a four-person student team, combine T01/T06/T07 as coordination duties and distribute literature categories among all members. Every student must read papers, not merely format a section.
+| Task | Scope | Status |
+|---|---|---|
+| T01 | Search, metadata verification, screening | DONE by AI (PR 1 merged). Native IEEE Xplore / ACM / SpringerLink / Scholar searches NOT run: see T10 |
+| T02–T04 | Full-text reading and extraction, categories A–D | DONE by AI for 35 included works and 7 read-not-included. **Human reading: 0 works. See T08** |
+| T05 | Incident claim ledger | DONE by AI: 29 entries. Operator's technical report and the conference talk not accessed: see T13 |
+| T06 | Comparison tables, figures, general findings | DONE by AI (computed from the ledgers) |
+| T07 | Manuscript in the professor's template | DRAFT v0.4 (DOCX, PDF, Markdown). Placeholders remain: see T12 |
+| T08 | Each team member reads the works in their categories and records it in `works.json` (`human_reading_status`) | OPEN: humans only |
+| T09 | Second reader checks quoted numbers and the hand-coded counts (F3, F6) against pinned versions | OPEN: human, or a different agent from the one that extracted |
+| T10 | Native database searches with institute access, logged in `search_log.json`; or keep Table I as is | OPEN |
+| T11 | Questionnaire: supervisor approval, form build from `survey/questionnaire.csv`, pilot with 5–8 people | OPEN: must not be distributed before approval |
+| T12 | Names, enrolment numbers, course details, supervisor, acknowledgment, contribution table, AI-use statement, file name | OPEN: humans only |
+| T13 | Watch the Black Hat talk and read OpenAI's technical report; add contradicting claims to the incident ledger | OPEN |
+| T14 | Obtain P011 (MDPI) through a browser; decide whether to read it | OPEN, low priority |
 
 ## Known issues
 
-| Issue | Required action | Owner |
-|---|---|---|
-| Q001 P004/P006 have matching normalized titles | Confirm work/version identity; retain both discovery records | T01 |
-| Q002 Discovery strongly favors 2026 results | Add earlier-year and exact-title searches; do not infer a publication trend from this sample | T01 |
-| Q003 ASB descriptions vary between versions | Pin a primary version before extracting benchmark counts | T03 |
-| Q004 Taxonomy overlap | Assign by principal evaluated boundary; secondary tags allowed | Coordinator |
-| Q005 No shared repository destination yet | Use handoff-only mode; do not assume cross-chat synchronization | Paarv |
-| Q006 No final inclusion count or reading-compliance count | Complete reading gates before filling abstract/selection diagram | T01 |
+| Issue | Status |
+|---|---|
+| Q001 P004/P006 duplicate | CLOSED: same work (arXiv:2603.11337) |
+| Q002 Pilot favoured 2026 | CLOSED: year-bounded searches added; included works span 2023–2026 |
+| Q003 ASB version | CLOSED by D008 |
+| Q004 Taxonomy overlap | CLOSED by D009 |
+| Q005 No shared repository | CLOSED: repository exists |
+| Q006 Inclusion and reading counts | PARTLY OPEN: 35 works included on AI reading; human reading count is 0 |
+| Q007 Table VIII has 8 rows; template suggests 10–15 | OPEN: cut to keep the paper block at 12 pages |
+| Q008 Paper cites arXiv versions; published records found in Crossref for 10 of 35 works (`works.json`, `references.bib`) | OPEN: decide whether to cite the published venues |
+| Q009 Prose is about 3,900 words; with tables about 5,600 | OPEN: depends on how the professor counts |
+| Q010 `content.py` holds v0.2 text followed by later overrides | OPEN, cosmetic: consolidate before further editing |
 
 ## Append-only messages
 
@@ -100,4 +112,14 @@ Copy the handoff block from BASE_PROMPT.md. Include the board version read and d
 - Proposed decision for the coordinator to record: "D007: A short practitioner questionnaire is kept as a side instrument with a growth plan; it supersedes D001 in that respect. The paper remains a literature survey (D002) and reports no questionnaire results until a real round is collected." The decisions table itself is not edited by this message.
 - The questionnaire must not be distributed before supervisor approval.
 - Full handoff: `handoffs/claude-t02-20261117-003.md`.
+
+### claude-t02-20261117-004
+
+- Agent: claude-t02 (AI assistant). Status: ready_for_review. Board raised to version 0.2 on Paarv's instruction to close open items; decisions D007–D011, tasks T08–T14 and issue statuses were written in this pass.
+- Read the last fetched paper (IsolateGPT): recorded as read, not included. Queue is now 35 included + 7 read-not-included + 1 not read (P011).
+- Published-version lookup: Crossref records found for 10 of 35 included works; stored in `works.json`. The paper still cites the arXiv versions read.
+- `references.bib` now holds the paper's 40 references in citation order; the T01 candidate list moved to `evidence/`.
+- Questionnaire v0.2 exported as `survey/questionnaire.csv`, with `codebook.csv` and a header-only `responses_template.csv`. No responses were entered or generated.
+- `AGENT_BRIEFING.md` added for agents joining the project.
+- Full handoff: `handoffs/claude-t02-20261117-004.md`.
 

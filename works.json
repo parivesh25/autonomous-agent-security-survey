@@ -36,7 +36,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2605.02964v1: Abstract; 2.3; 3.1-3.3; 5.2; 5.5; 7 Discussion; 9 Conclusion",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#rhb"
+  "extraction": "extraction_matrix.json#rhb",
+  "published_record": null
  },
  {
   "work_id": "W002",
@@ -90,7 +91,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2406.10162v3: Abstract; 2.3 Threat model; 3; 4; 5 (5.4); 7 Discussion and conclusions (opening)",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#denison"
+  "extraction": "extraction_matrix.json#denison",
+  "published_record": null
  },
  {
   "work_id": "W003",
@@ -109,7 +111,7 @@
   "version_date": "2026-03-11",
   "venue_claim": null,
   "venue_claim_basis": null,
-  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "peer_review_status": "published record found in Crossref (venue's review process not assessed)",
   "in_review_window": true,
   "within_evidence_cutoff": true,
   "discovered_by": [
@@ -131,7 +133,14 @@
   "agent_reading_status": "sections read 2026-11-16 at 2603.11337v1: Abstract; III Threat model; V; VI (Table I, VI-A); VII Discussion and limitations (opening)",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#rha"
+  "extraction": "extraction_matrix.json#rha",
+  "published_record": {
+   "doi": "10.1109/icdew71238.2026.00009",
+   "container": "2026 IEEE 42nd International Conference on Data Engineering Workshops (ICDEW)",
+   "year": 2026,
+   "type": "proceedings-article",
+   "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
+  }
  },
  {
   "work_id": "W004",
@@ -214,7 +223,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2607.22368v1: Abstract; 5 (opening); 6 Discussion (opening); 7 Conclusion; Appendix G",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#hackdetect"
+  "extraction": "extraction_matrix.json#hackdetect",
+  "published_record": null
  },
  {
   "work_id": "W006",
@@ -269,7 +279,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2609.28614v1: Abstract; 3 Study design; 4; 5; 6 (openings)",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#huang"
+  "extraction": "extraction_matrix.json#huang",
+  "published_record": null
  },
  {
   "work_id": "W007",
@@ -310,7 +321,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2605.02269v1: Abstract; 3 (all setups, 3.7); 4.1; 5 Conclusion; Limitations",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#nishimura"
+  "extraction": "extraction_matrix.json#nishimura",
+  "published_record": null
  },
  {
   "work_id": "W008",
@@ -353,7 +365,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2511.21654v2: Abstract; 2 (2.2); 5 (5.1, 5.4); Comparison of results",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#evilgenie"
+  "extraction": "extraction_matrix.json#evilgenie",
+  "published_record": null
  },
  {
   "work_id": "W009",
@@ -482,7 +495,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2605.17986v3: Abstract; 3 (opening); 4.3 (Table 4); defence result sentence",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#livepi"
+  "extraction": "extraction_matrix.json#livepi",
+  "published_record": null
  },
  {
   "work_id": "W012",
@@ -523,7 +537,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2609.32691v1: Abstract; IV; VII-A; IX Limitations (opening)",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#silent"
+  "extraction": "extraction_matrix.json#silent",
+  "published_record": null
  },
  {
   "work_id": "W013",
@@ -544,7 +559,7 @@
   "version_date": "2026-10-12",
   "venue_claim": null,
   "venue_claim_basis": null,
-  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "peer_review_status": "published record found in Crossref (venue's review process not assessed)",
   "in_review_window": true,
   "within_evidence_cutoff": true,
   "discovered_by": [
@@ -567,7 +582,14 @@
   "agent_reading_status": "sections read 2026-11-16 at 2607.07368v2: Abstract; 3 (opening); 3.1; 3.1.1 (openings)",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#macontrol"
+  "extraction": "extraction_matrix.json#macontrol",
+  "published_record": {
+   "doi": "10.70777/si.v3i4.18890",
+   "container": "SuperIntelligence - Robotics - Safety & Alignment",
+   "year": 2026,
+   "type": "journal-article",
+   "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
+  }
  },
  {
   "work_id": "W014",
@@ -651,7 +673,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2604.23459v1: Abstract; 4 (threat statement); 5 (opening); 7 Conclusions",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#arch"
+  "extraction": "extraction_matrix.json#arch",
+  "published_record": null
  },
  {
   "work_id": "W016",
@@ -696,7 +719,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2610.05640v1: Abstract; attack description; VI Limitations; VII Conclusion; Appendix D table",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#camelstalk"
+  "extraction": "extraction_matrix.json#camelstalk",
+  "published_record": null
  },
  {
   "work_id": "W017",
@@ -738,7 +762,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2609.00267v1: Abstract; 5.1; 10 Threats to validity",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#delegation"
+  "extraction": "extraction_matrix.json#delegation",
+  "published_record": null
  },
  {
   "work_id": "W018",
@@ -908,7 +933,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2511.02997v1: Abstract; 2.2; 3.1; 4 (opening); 5 (with Table 2); 6 Discussion (opening)",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#evalcp"
+  "extraction": "extraction_matrix.json#evalcp",
+  "published_record": null
  },
  {
   "work_id": "W022",
@@ -1305,7 +1331,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2410.02644v4: Abstract; 3.2 Threat model; 6 Conclusion; C.2.3 Metrics",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#asb"
+  "extraction": "extraction_matrix.json#asb",
+  "published_record": null
  },
  {
   "work_id": "W031",
@@ -1353,7 +1380,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2510.05244v2: Abstract; 4.1; 5 (opening); 9 Discussion and conclusion",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#firewalls"
+  "extraction": "extraction_matrix.json#firewalls",
+  "published_record": null
  },
  {
   "work_id": "W032",
@@ -1464,7 +1492,7 @@
   "version_date": "2024-11-24",
   "venue_claim": null,
   "venue_claim_basis": null,
-  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "peer_review_status": "published record found in Crossref (venue's review process not assessed)",
   "in_review_window": true,
   "within_evidence_cutoff": true,
   "discovered_by": [
@@ -1485,7 +1513,14 @@
   "agent_reading_status": "sections read 2026-11-16 at 2406.13352v3: Abstract; 3 (3.4); 4 (opening); 5 Conclusion",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#agentdojo"
+  "extraction": "extraction_matrix.json#agentdojo",
+  "published_record": {
+   "doi": "10.52202/079017-2636",
+   "container": "Advances in Neural Information Processing Systems 37",
+   "year": 2024,
+   "type": "proceedings-article",
+   "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
+  }
  },
  {
   "work_id": "W035",
@@ -1949,7 +1984,7 @@
   "version_date": "2025-03-04",
   "venue_claim": "17 pages, 5 figures, 6 tables (NAACL 2025 Findings)",
   "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
-  "peer_review_status": "claimed by authors, unconfirmed",
+  "peer_review_status": "published record found in Crossref (venue's review process not assessed)",
   "in_review_window": true,
   "within_evidence_cutoff": true,
   "discovered_by": [
@@ -1972,7 +2007,14 @@
   "agent_reading_status": "sections read 2026-11-16 at 2503.00061v2: Abstract; 5.1; 5.2; 6.1 (opening)",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#adaptive"
+  "extraction": "extraction_matrix.json#adaptive",
+  "published_record": {
+   "doi": "10.18653/v1/2025.findings-naacl.395",
+   "container": "Findings of the Association for Computational Linguistics: NAACL 2025",
+   "year": 2025,
+   "type": "proceedings-article",
+   "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
+  }
  },
  {
   "work_id": "W046",
@@ -2250,7 +2292,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2511.18397v1: Abstract; 2 Methods (opening); 3 Results; 3.1 (table); 4.1; 6.1; Limitations",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#emergent"
+  "extraction": "extraction_matrix.json#emergent",
+  "published_record": null
  },
  {
   "work_id": "W052",
@@ -3033,7 +3076,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2503.11926v1: Abstract; 2.1; 5 Discussion (opening); 6 Conclusion",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#cot"
+  "extraction": "extraction_matrix.json#cot",
+  "published_record": null
  },
  {
   "work_id": "W069",
@@ -3096,7 +3140,7 @@
   "version_date": "2024-10-09",
   "venue_claim": null,
   "venue_claim_basis": null,
-  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "peer_review_status": "published record found in Crossref (venue's review process not assessed)",
   "in_review_window": true,
   "within_evidence_cutoff": true,
   "discovered_by": [
@@ -3121,7 +3165,14 @@
   "agent_reading_status": "sections read 2026-11-16 at 2410.07283v1: Abstract; results sentence (5); 7 Limitations; 8 Conclusion",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#infection"
+  "extraction": "extraction_matrix.json#infection",
+  "published_record": {
+   "doi": "10.1007/978-3-032-16092-8_28",
+   "container": "Lecture Notes in Computer Science",
+   "year": 2026,
+   "type": "book-chapter",
+   "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
+  }
  },
  {
   "work_id": "W071",
@@ -3610,7 +3661,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2503.12188v2: Abstract; 5 Experimental setup; 6 (opening)",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#masexec"
+  "extraction": "extraction_matrix.json#masexec",
+  "published_record": null
  },
  {
   "work_id": "W082",
@@ -4164,7 +4216,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2512.15688v1: Abstract; 2.1; 2.2; 2.4; 4.2; 4.3; 5 Limitations",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#basharena"
+  "extraction": "extraction_matrix.json#basharena",
+  "published_record": null
  },
  {
   "work_id": "W095",
@@ -4216,7 +4269,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2506.15740v2: Abstract; 3.1; 4.1; 6 (opening); Appendix F (opening)",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#shade"
+  "extraction": "extraction_matrix.json#shade",
+  "published_record": null
  },
  {
   "work_id": "W096",
@@ -4580,7 +4634,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2510.09462v2: Abstract; 2 Threat model; 3.1; 4.1; 6 Discussion; 7 Conclusion",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#adaptmon"
+  "extraction": "extraction_matrix.json#adaptmon",
+  "published_record": null
  },
  {
   "work_id": "W104",
@@ -4690,7 +4745,7 @@
   "version_date": "2023-05-05",
   "venue_claim": null,
   "venue_claim_basis": null,
-  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "peer_review_status": "published record found in Crossref (venue's review process not assessed)",
   "in_review_window": true,
   "within_evidence_cutoff": true,
   "discovered_by": [
@@ -4711,7 +4766,14 @@
   "agent_reading_status": "sections read 2026-11-16 at 2302.12173v2: Abstract; 3.2; 4.2 (opening); 5.2 Limitations; 6 Conclusion",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#greshake"
+  "extraction": "extraction_matrix.json#greshake",
+  "published_record": {
+   "doi": "10.1145/3605764.3623985",
+   "container": "Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security",
+   "year": 2023,
+   "type": "proceedings-article",
+   "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
+  }
  },
  {
   "work_id": "W107",
@@ -4732,7 +4794,7 @@
   "version_date": "2024-08-04",
   "venue_claim": "36 pages, 6 figures, 13 tables (ACL 2024 Findings)",
   "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
-  "peer_review_status": "claimed by authors, unconfirmed",
+  "peer_review_status": "published record found in Crossref (venue's review process not assessed)",
   "in_review_window": true,
   "within_evidence_cutoff": true,
   "discovered_by": [
@@ -4753,7 +4815,14 @@
   "agent_reading_status": "sections read 2026-11-16 at 2403.02691v3: Abstract; 3.1; 4.3; 6 Conclusion; 8 Limitations",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#injecagent"
+  "extraction": "extraction_matrix.json#injecagent",
+  "published_record": {
+   "doi": "10.18653/v1/2024.findings-acl.624",
+   "container": "Findings of the Association for Computational Linguistics ACL 2024",
+   "year": 2024,
+   "type": "proceedings-article",
+   "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
+  }
  },
  {
   "work_id": "W108",
@@ -4780,7 +4849,7 @@
   "version_date": "2025-06-24",
   "venue_claim": null,
   "venue_claim_basis": null,
-  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "peer_review_status": "published record found in Crossref (venue's review process not assessed)",
   "in_review_window": true,
   "within_evidence_cutoff": true,
   "discovered_by": [
@@ -4801,7 +4870,14 @@
   "agent_reading_status": "sections read 2026-11-16 at 2503.18813v2: Abstract; 3 Threat model; 6.1-6.2; 9 Discussion; 11 Conclusion",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#camel"
+  "extraction": "extraction_matrix.json#camel",
+  "published_record": {
+   "doi": "10.1109/satml68715.2026.00040",
+   "container": "2026 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
+   "year": 2026,
+   "type": "proceedings-article",
+   "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
+  }
  },
  {
   "work_id": "W109",
@@ -5078,18 +5154,18 @@
   "discovery_record_ids": [
    "P128"
   ],
-  "gate": 4,
-  "screening_decision": "include_for_reading",
+  "gate": 5,
+  "screening_decision": "read_not_included",
   "screening_basis": "title + abstract from arXiv API record",
-  "screening_reason": "Execution-isolation architecture; isolation defence named in T03 scope.",
+  "screening_reason": "Execution-isolation architecture compared with a non-isolated baseline; the isolation-by-design position is already represented by an included work.",
   "evidence_class": "primary",
   "proposed_primary_category": "B",
   "secondary_tags": [],
   "proposed_behaviour_source": "external attacker",
-  "coding_status": "provisional, from abstract only; confirm at full-text gate",
-  "agent_reading_status": "Full text fetched; only the outline was read. Remains in the queue.",
+  "coding_status": "not extracted",
+  "agent_reading_status": "read at reduced depth 2026-11-16 at 2403.04960v2: Abstract; IV-A; IV-B; V (opening, V-A opening); VI (opening); VII (opening) - read 17 Nov 2026",
   "human_reading_status": null,
-  "full_text_read": false,
+  "full_text_read": true,
   "extraction": null
  },
  {
@@ -5136,7 +5212,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2412.04984v2: Abstract; 2.1-2.3; 3.1 (opening); 4 Limitations; 5 Conclusion",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#scheming"
+  "extraction": "extraction_matrix.json#scheming",
+  "published_record": null
  },
  {
   "work_id": "W116",
@@ -5178,7 +5255,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2502.13295v3: Abstract; Introduction (findings list); Results (excerpts); Limitations; Conclusion (PDF text)",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#chess"
+  "extraction": "extraction_matrix.json#chess",
+  "published_record": null
  },
  {
   "work_id": "W117",
@@ -5221,7 +5299,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2510.20270v1: Abstract; 2.5; 4 (opening); 5 (opening); 6; 7 Conclusion",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#impossible"
+  "extraction": "extraction_matrix.json#impossible",
+  "published_record": null
  },
  {
   "work_id": "W118",
@@ -5291,7 +5370,7 @@
   "version_date": "2025-07-25",
   "venue_claim": null,
   "venue_claim_basis": null,
-  "peer_review_status": "preprint (no venue stated on arXiv)",
+  "peer_review_status": "published record found in Crossref (venue's review process not assessed)",
   "in_review_window": true,
   "within_evidence_cutoff": true,
   "discovered_by": [
@@ -5314,7 +5393,14 @@
   "agent_reading_status": "sections read 2026-11-16 at 2402.07510v5: Abstract; 4 (opening); 6 (opening, capability statements); 7 (opening); 8 Conclusion (opening)",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#collusion"
+  "extraction": "extraction_matrix.json#collusion",
+  "published_record": {
+   "doi": "10.52202/079017-2336",
+   "container": "Advances in Neural Information Processing Systems 37",
+   "year": 2024,
+   "type": "proceedings-article",
+   "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
+  }
  },
  {
   "work_id": "W120",
@@ -5419,7 +5505,7 @@
   "version_date": "2025-06-02",
   "venue_claim": "ACL 2025",
   "venue_claim_basis": "author-reported arXiv comment/journal-ref; not confirmed at publisher",
-  "peer_review_status": "claimed by authors, unconfirmed",
+  "peer_review_status": "published record found in Crossref (venue's review process not assessed)",
   "in_review_window": true,
   "within_evidence_cutoff": true,
   "discovered_by": [
@@ -5440,7 +5526,14 @@
   "agent_reading_status": "sections read 2026-11-16 at 2502.14847v2: Abstract; 3.2 Threat model; 4.1-4.2; 5 Conclusion; Limitations",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#aitm"
+  "extraction": "extraction_matrix.json#aitm",
+  "published_record": {
+   "doi": "10.18653/v1/2025.findings-acl.349",
+   "container": "Findings of the Association for Computational Linguistics: ACL 2025",
+   "year": 2025,
+   "type": "proceedings-article",
+   "basis": "Crossref exact-title match, 2026-11-17; publisher page not opened"
+  }
  },
  {
   "work_id": "W122",
@@ -5482,7 +5575,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2312.06942v5: Abstract; 2 Setting; 3 (opening, 3.6); 5.1; 6 Conclusion",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#aicontrol"
+  "extraction": "extraction_matrix.json#aicontrol",
+  "published_record": null
  },
  {
   "work_id": "W123",
@@ -5528,7 +5622,8 @@
   "agent_reading_status": "sections read 2026-11-16 at 2504.10374v1: Abstract; 2 Setting; 3 (opening); 7 Conclusion",
   "human_reading_status": null,
   "full_text_read": true,
-  "extraction": "extraction_matrix.json#ctrlz"
+  "extraction": "extraction_matrix.json#ctrlz",
+  "published_record": null
  },
  {
   "work_id": "W124",

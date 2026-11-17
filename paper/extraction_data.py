@@ -292,8 +292,8 @@ READ_NOT_INCLUDED = {
  "2604.03968": ("Single monitoring protocol on a test bed represented by an included work.", "Abstract; Limitations; 6 Conclusion (opening)"),
  "2504.18575": ("Web-agent injection benchmark; closest in purpose to an included live-environment benchmark.", "Abstract; Threat model; 4.1"),
 }
-NOT_READ = {"2403.04960": "Full text fetched; only the outline was read. Remains in the queue.",
-            "P011": "Publisher page returned HTTP 403 to automated requests. Remains awaiting full text."}
+READ_NOT_INCLUDED["2403.04960"] = ("Execution-isolation architecture compared with a non-isolated baseline; the isolation-by-design position is already represented by an included work.", "Abstract; IV-A; IV-B; V (opening, V-A opening); VI (opening); VII (opening) - read 17 Nov 2026")
+NOT_READ = {"P011": "Publisher page returned HTTP 403 to automated requests. Remains awaiting full text."}
 
 INCIDENT_SOURCES.update({
  "openai": dict(title="The Hugging Face incident and the road ahead", publisher="OpenAI", published="2026-08-26", url="https://openai.com/index/hugging-face-incident-and-the-road-ahead/",

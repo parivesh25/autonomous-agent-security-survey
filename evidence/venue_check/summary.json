@@ -1,0 +1,157 @@
+{
+ "denison": {
+  "status": "no_published_record_in_crossref"
+ },
+ "rhb": {
+  "status": "no_published_record_in_crossref"
+ },
+ "rha": {
+  "status": "published_record_found",
+  "doi": "10.1109/icdew71238.2026.00009",
+  "container": "2026 IEEE 42nd International Conference on Data Engineering Workshops (ICDEW)",
+  "year": 2026,
+  "type": "proceedings-article",
+  "publisher": "IEEE"
+ },
+ "hackdetect": {
+  "status": "no_published_record_in_crossref"
+ },
+ "huang": {
+  "status": "no_published_record_in_crossref"
+ },
+ "nishimura": {
+  "status": "no_published_record_in_crossref"
+ },
+ "evilgenie": {
+  "status": "no_published_record_in_crossref"
+ },
+ "impossible": {
+  "status": "no_published_record_in_crossref"
+ },
+ "chess": {
+  "status": "no_published_record_in_crossref"
+ },
+ "greshake": {
+  "status": "published_record_found",
+  "doi": "10.1145/3605764.3623985",
+  "container": "Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security",
+  "year": 2023,
+  "type": "proceedings-article",
+  "publisher": "ACM"
+ },
+ "injecagent": {
+  "status": "published_record_found",
+  "doi": "10.18653/v1/2024.findings-acl.624",
+  "container": "Findings of the Association for Computational Linguistics ACL 2024",
+  "year": 2024,
+  "type": "proceedings-article",
+  "publisher": "Association for Computational Linguistics"
+ },
+ "agentdojo": {
+  "status": "published_record_found",
+  "doi": "10.52202/079017-2636",
+  "container": "Advances in Neural Information Processing Systems 37",
+  "year": 2024,
+  "type": "proceedings-article",
+  "publisher": "Neural Information Processing Systems Foundation, Inc. (NeurIPS)"
+ },
+ "asb": {
+  "status": "no_published_record_in_crossref"
+ },
+ "camel": {
+  "status": "published_record_found",
+  "doi": "10.1109/satml68715.2026.00040",
+  "container": "2026 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)",
+  "year": 2026,
+  "type": "proceedings-article",
+  "publisher": "IEEE"
+ },
+ "adaptive": {
+  "status": "published_record_found",
+  "doi": "10.18653/v1/2025.findings-naacl.395",
+  "container": "Findings of the Association for Computational Linguistics: NAACL 2025",
+  "year": 2025,
+  "type": "proceedings-article",
+  "publisher": "Association for Computational Linguistics"
+ },
+ "firewalls": {
+  "status": "no_published_record_in_crossref"
+ },
+ "silent": {
+  "status": "no_published_record_in_crossref"
+ },
+ "livepi": {
+  "status": "no_published_record_in_crossref"
+ },
+ "infection": {
+  "status": "published_record_found",
+  "doi": "10.1007/978-3-032-16092-8_28",
+  "container": "Lecture Notes in Computer Science",
+  "year": 2026,
+  "type": "book-chapter",
+  "publisher": "Springer Nature Switzerland"
+ },
+ "aitm": {
+  "status": "published_record_found",
+  "doi": "10.18653/v1/2025.findings-acl.349",
+  "container": "Findings of the Association for Computational Linguistics: ACL 2025",
+  "year": 2025,
+  "type": "proceedings-article",
+  "publisher": "Association for Computational Linguistics"
+ },
+ "masexec": {
+  "status": "no_published_record_in_crossref"
+ },
+ "arch": {
+  "status": "no_published_record_in_crossref"
+ },
+ "camelstalk": {
+  "status": "no_published_record_in_crossref"
+ },
+ "macontrol": {
+  "status": "published_record_found",
+  "doi": "10.70777/si.v3i4.18890",
+  "container": "SuperIntelligence - Robotics - Safety &amp; Alignment",
+  "year": 2026,
+  "type": "journal-article",
+  "publisher": "Carlson Research LLC"
+ },
+ "delegation": {
+  "status": "no_published_record_in_crossref"
+ },
+ "aicontrol": {
+  "status": "no_published_record_in_crossref"
+ },
+ "ctrlz": {
+  "status": "no_published_record_in_crossref"
+ },
+ "shade": {
+  "status": "no_published_record_in_crossref"
+ },
+ "evalcp": {
+  "status": "no_published_record_in_crossref"
+ },
+ "adaptmon": {
+  "status": "no_published_record_in_crossref"
+ },
+ "cot": {
+  "status": "no_published_record_in_crossref"
+ },
+ "scheming": {
+  "status": "no_published_record_in_crossref"
+ },
+ "emergent": {
+  "status": "no_published_record_in_crossref"
+ },
+ "collusion": {
+  "status": "published_record_found",
+  "doi": "10.52202/079017-2336",
+  "container": "Advances in Neural Information Processing Systems 37",
+  "year": 2024,
+  "type": "proceedings-article",
+  "publisher": "Neural Information Processing Systems Foundation, Inc. (NeurIPS)"
+ },
+ "basharena": {
+  "status": "no_published_record_in_crossref"
+ }
+}

@@ -1,6 +1,6 @@
 # Practitioner questionnaire: purpose, safeguards and plan
 
-Status: **draft v0.1, not administered. No responses exist and none are reported anywhere in the review.**
+Status: **complete draft v0.2, awaiting supervisor approval. Not administered. No responses exist and none are reported anywhere in the review.**
 
 ## Why it exists
 
@@ -44,5 +44,8 @@ This reverses decision D001 on the message board ("no participant survey"), on t
 |---|---|
 | `QUESTIONNAIRE.md` | The questionnaire as participants would see it, plus the item map |
 | `questionnaire.json` | The same items in machine-readable form, for coding responses |
-| `build_questionnaire.py` | Single source for both files |
+| `questionnaire.csv` | One row per answer option (question, type, option code and text, response column, display condition); use it to build the form |
+| `codebook.csv` | One row per response column, with allowed values |
+| `responses_template.csv` | Header row only. It stays empty until real responses are exported; never type, estimate or generate rows |
+| `build_questionnaire.py` | Single source for all of the above |
 | `responses/` | Does not exist yet. Create only when real, anonymised responses are exported |

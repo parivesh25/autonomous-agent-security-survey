@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-"""Single source for the practitioner questionnaire (v0.1, not yet administered).
-Writes survey/QUESTIONNAIRE.md (for reading and for pasting into a form tool) and
-survey/questionnaire.json (machine-readable, used later to code responses).
+"""Single source for the practitioner questionnaire (v0.2, not yet administered).
+Writes survey/QUESTIONNAIRE.md (for reading), survey/questionnaire.json (machine-readable),
+survey/questionnaire.csv (one row per answer option, for building the form),
+survey/codebook.csv (one row per response column) and survey/responses_template.csv
+(header row only: it must stay empty until real responses are exported).
 Run from the repo root: python3 survey/build_questionnaire.py"""
 import json
 LIKERT = ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Strongly agree"]
@@ -53,7 +55,7 @@ Q = [
  # ---- E. Optional
  dict(id="E1", sec="E. Optional", type="text", text="Optional, one line: is there anything about agents acting without authorization that these questions missed?", maps="item generation for the next version"),
 ]
-META = dict(version="0.1", status="DRAFT - not administered; no responses exist", est_minutes="5-6", required_typing="none (one optional one-line answer)",
+META = dict(version="0.2", status="COMPLETE DRAFT awaiting supervisor approval - not administered; no responses exist", est_minutes="5-6", required_typing="none (one optional one-line answer)",
             n_items=len(Q), n_closed=sum(q["type"] != "text" for q in Q))
 json.dump(dict(meta=META, likert=LIKERT, questions=Q), open("survey/questionnaire.json", "w"), indent=1, ensure_ascii=False)
 
@@ -85,3 +87,38 @@ md += [f"| {q['id']} | {q['type']} | {q['maps']} |" for q in Q]
 md += ["", "Category letters, gap numbers (G1–G5) and finding numbers (F1–F6) refer to Sections III, V.E and VI of the review.", ""]
 open("survey/QUESTIONNAIRE.md", "w").write("\n".join(md))
 print(META)
+
+# ---------------- CSV exports
+import csv
+def slug(k): return str(k)
+form, book = [], [("response_id", "", "Sequential number assigned at export; not linked to a person", "integer", ""),
+                  ("consent", "consent", "Aged 18 or older and agrees to take part", "single", "1=Yes (required to continue)")]
+for n, q in enumerate(Q, 1):
+    base = dict(order=n, item_id=q["id"], section=q["sec"], type=q["type"], question=q["text"], show_if=q.get("show_if", "A2 is not 'Never'" if q["id"].startswith("B") and not q.get("show_if") else ""),
+                required="no", randomize_options="yes" if q["type"] in ("bestworst", "likert") else "no", relates_to=q["maps"])
+    if q["type"] == "single":
+        for i, o in enumerate(q["options"], 1): form.append(dict(base, option_code=i, option_text=o, response_column=q["id"]))
+        book.append((q["id"], q["id"], q["text"], "single", "; ".join(f"{i}={o}" for i, o in enumerate(q["options"], 1))))
+    elif q["type"] == "multi":
+        for i, o in enumerate(q["options"], 1):
+            col = f"{q['id']}_{i}"; form.append(dict(base, option_code=i, option_text=o, response_column=col))
+            book.append((col, q["id"], f"{q['text']} -- {o}", "multi", "0=not selected; 1=selected"))
+    elif q["type"] == "bestworst":
+        for k, v in q["items"].items(): form.append(dict(base, option_code=k, option_text=v, response_column=f"{q['id']}_most / {q['id']}_least"))
+        vals = "; ".join(f"{k}={v}" for k, v in q["items"].items())
+        book.append((f"{q['id']}_most", q["id"], q["text"] + " -- chosen as MOST", "bestworst", vals)); book.append((f"{q['id']}_least", q["id"], q["text"] + " -- chosen as LEAST", "bestworst", vals))
+    elif q["type"] == "likert":
+        for k, v in q["items"].items():
+            col = f"{q['id']}_{k}"; form.append(dict(base, option_code=k, option_text=v, response_column=col))
+            book.append((col, q["id"], v, "likert", "; ".join(f"{i}={o}" for i, o in enumerate(q["scale"], 1))))
+    else:
+        form.append(dict(base, option_code="", option_text="(optional one-line answer)", response_column=f"{q['id']}_text"))
+        book.append((f"{q['id']}_text", q["id"], q["text"], "text", "free text; remove anything that could identify a person before sharing"))
+cols = ["order", "item_id", "section", "type", "question", "option_code", "option_text", "response_column", "show_if", "required", "randomize_options", "relates_to"]
+with open("survey/questionnaire.csv", "w", newline="", encoding="utf-8") as f:
+    w = csv.DictWriter(f, fieldnames=cols); w.writeheader(); w.writerows(form)
+with open("survey/codebook.csv", "w", newline="", encoding="utf-8") as f:
+    w = csv.writer(f); w.writerow(["response_column", "item_id", "label", "type", "allowed_values"]); w.writerows(book)
+with open("survey/responses_template.csv", "w", newline="", encoding="utf-8") as f:
+    csv.writer(f).writerow([b[0] for b in book])          # header only, by design
+print("questionnaire.csv rows:", len(form), "| response columns:", len(book))
