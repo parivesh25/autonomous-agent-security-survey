@@ -36,7 +36,7 @@ def refentry(k):
     w = works[EX[k]["arxiv"]]; a = w["authors"]
     names = initials(a[0]) + " et al." if len(a) > 6 else (", ".join(initials(x) for x in a[:-1]) + (", and " if len(a) > 2 else " and ") + initials(a[-1]) if len(a) > 1 else initials(a[0]))
     d = w["version_date"]; mon = calendar.month_abbr[int(d[5:7])] + "." if int(d[5:7]) != 5 else "May"
-    pr = w.get("published_record"); extra = f" Published record: doi:{pr['doi']}." if pr else ""
+    pr = w.get("published_record"); extra = f" doi:{pr['doi']}." if pr else ""
     return f"{names}, “{w['title']},” arXiv preprint arXiv:{w['version_checked']}, {mon} {d[:4]}.{extra}"
 ORDER = []
 def cite(m):
