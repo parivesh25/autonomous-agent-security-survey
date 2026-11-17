@@ -390,7 +390,7 @@
   "outcome_definition": "AgentDojo utility and attack success, with and without policies.",
   "denominator": "AgentDojo task suites",
   "result": "Utility largely retained except in the travel suite; a cheaper quarantined model cost about 1% utility.",
-  "utility": "Failure modes analysed (e.g. plans that depend on untrusted data)",
+  "utility": "AgentDojo legitimate-task utility reported; largely retained except in the travel suite",
   "uncertainty": null,
   "limitation": "Authors list side channels, user fatigue from approvals and attacks from classical security as open.",
   "sections_read": "Abstract; 3 Threat model; 6.1-6.2; 9 Discussion; 11 Conclusion"
