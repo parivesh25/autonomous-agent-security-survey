@@ -18,4 +18,3 @@ evidence/render_v06/page-12.jpg
 evidence/render_v06/page-13.jpg
 evidence/render_v06/page-14.jpg
 evidence/render_v06/page-15.jpg
-evidence/render_v06/page-16.jpg
