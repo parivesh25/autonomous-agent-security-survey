@@ -31,7 +31,7 @@ dict(key="rha", arxiv="2603.11337", category="A", secondary=[], behaviour_source
  permissions="Agent proposes patches to any workspace file including the evaluator", budget="40 episodes per task",
  outcome_definition="Evaluator tampering (hash deviation and reported-vs-reference metric gap) or train/test leakage (file-access log).",
  denominator="3 tasks x 40 episodes per backbone and regime", result="Scripted attacks: 1.00 overall success in every regime except fully locked (0.00); each single defence blocks one vector only. Unscripted agents attempted evaluator tampering in about half of episodes and never attempted leakage.",
- utility="25-31% median runtime overhead for locking", uncertainty="Wilson 95% intervals reported (e.g. [0.97, 1.00])",
+ utility=None, uncertainty="Wilson 95% intervals reported (e.g. [0.97, 1.00])",
  limitation="Small open models; three tasks; scripted attacker is worst case, not observed behaviour.",
  sections_read="Abstract; III Threat model; V; VI (Table I, VI-A); VII Discussion and limitations (opening)"),
 dict(key="hackdetect", arxiv="2607.22368", category="A", secondary=[], behaviour_source=ENDO,
