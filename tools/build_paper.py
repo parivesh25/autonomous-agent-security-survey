@@ -337,9 +337,13 @@ checklist_tbl.autofit = False
 checklist_widths = (Cm(0.8), Cm(11.5), Cm(4.5))
 for grid_col, width in zip(checklist_tbl._tbl.tblGrid.gridCol_lst, checklist_widths):
     grid_col.set(qn("w:w"), str(width.twips))
-for row in checklist_tbl.rows:
+for row_index, row in enumerate(checklist_tbl.rows):
     for cell, width in zip(row.cells, checklist_widths):
         cell.width = width
+    tr_pr = row._tr.get_or_add_trPr()
+    flag = docx.oxml.OxmlElement("w:tblHeader" if row_index == 0 else "w:cantSplit")
+    flag.set(qn("w:val"), "1")
+    tr_pr.append(flag)
 check_status = {
     "1": "NO — acknowledgment and final submission fields remain",
     "2": "PARTIAL — supplied metadata and repository are complete; final submission details pending",
