@@ -1,0 +1,78 @@
+{
+ "n_rec": 234,
+ "n_dup": 18,
+ "n_unv": 4,
+ "n_works": 212,
+ "n_exc": 115,
+ "n_exc_abstract": 33,
+ "n_exc_title": 82,
+ "n_ctx": 10,
+ "n_res": 43,
+ "n_await": 1,
+ "n_inc": 35,
+ "n_rni": 7,
+ "n_notread": 1,
+ "work_decisions": {
+  "context_only": 10,
+  "excluded_at_abstract": 33,
+  "excluded_at_title": 82,
+  "included_pending_human_reading": 35,
+  "not_queued_awaiting_full_text": 1,
+  "queued_not_read_access_refused": 1,
+  "read_not_included": 7,
+  "reserve": 43
+ },
+ "by_search": {
+  "S": 118,
+  "W": 26,
+  "D": 90
+ },
+ "by_cat": {
+  "A": 10,
+  "B": 9,
+  "C": 8,
+  "D": 8
+ },
+ "by_year_cat": {
+  "2023": {
+   "B": 1,
+   "D": 1
+  },
+  "2024": {
+   "A": 1,
+   "B": 3,
+   "C": 2,
+   "D": 1
+  },
+  "2025": {
+   "A": 4,
+   "B": 3,
+   "C": 2,
+   "D": 6
+  },
+  "2026": {
+   "A": 5,
+   "B": 2,
+   "C": 4
+  }
+ },
+ "by_source": {
+  "endogenous optimization": 10,
+  "mixed": 3,
+  "external attacker": 14,
+  "malicious user": 1,
+  "prompted red-team agent": 7
+ },
+ "n_queue": 43,
+ "n_catA": 10,
+ "n_catB": 9,
+ "n_catC": 8,
+ "n_catD": 8,
+ "n_util": 16,
+ "n_utilA": 3,
+ "n_utilB": 5,
+ "n_utilC": 2,
+ "n_utilD": 6,
+ "n_a26": 5,
+ "n_c26": 4
+}

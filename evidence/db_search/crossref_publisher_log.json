@@ -1,0 +1,65 @@
+[
+ {
+  "pub": "IEEE",
+  "q": "indirect prompt injection LLM agent tool",
+  "url": "https://api.crossref.org/works?query.bibliographic=indirect+prompt+injection+LLM+agent+tool&filter=member%3A263%2Cfrom-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-11-16&rows=10&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Ctype",
+  "total": 31043,
+  "returned": 10
+ },
+ {
+  "pub": "IEEE",
+  "q": "reward hacking specification gaming language model agent",
+  "url": "https://api.crossref.org/works?query.bibliographic=reward+hacking+specification+gaming+language+model+agent&filter=member%3A263%2Cfrom-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-11-16&rows=10&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Ctype",
+  "total": 116796,
+  "returned": 10
+ },
+ {
+  "pub": "IEEE",
+  "q": "multi-agent LLM security collusion monitoring control",
+  "url": "https://api.crossref.org/works?query.bibliographic=multi-agent+LLM+security+collusion+monitoring+control&filter=member%3A263%2Cfrom-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-11-16&rows=10&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Ctype",
+  "total": 296379,
+  "returned": 10
+ },
+ {
+  "pub": "ACM",
+  "q": "indirect prompt injection LLM agent tool",
+  "url": "https://api.crossref.org/works?query.bibliographic=indirect+prompt+injection+LLM+agent+tool&filter=member%3A320%2Cfrom-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-11-16&rows=10&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Ctype",
+  "total": 8128,
+  "returned": 10
+ },
+ {
+  "pub": "ACM",
+  "q": "reward hacking specification gaming language model agent",
+  "url": "https://api.crossref.org/works?query.bibliographic=reward+hacking+specification+gaming+language+model+agent&filter=member%3A320%2Cfrom-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-11-16&rows=10&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Ctype",
+  "total": 18954,
+  "returned": 10
+ },
+ {
+  "pub": "ACM",
+  "q": "multi-agent LLM security collusion monitoring control",
+  "url": "https://api.crossref.org/works?query.bibliographic=multi-agent+LLM+security+collusion+monitoring+control&filter=member%3A320%2Cfrom-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-11-16&rows=10&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Ctype",
+  "total": 26701,
+  "returned": 10
+ },
+ {
+  "pub": "Springer",
+  "q": "indirect prompt injection LLM agent tool",
+  "url": "https://api.crossref.org/works?query.bibliographic=indirect+prompt+injection+LLM+agent+tool&filter=member%3A297%2Cfrom-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-11-16&rows=10&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Ctype",
+  "total": 35264,
+  "returned": 10
+ },
+ {
+  "pub": "Springer",
+  "q": "reward hacking specification gaming language model agent",
+  "url": "https://api.crossref.org/works?query.bibliographic=reward+hacking+specification+gaming+language+model+agent&filter=member%3A297%2Cfrom-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-11-16&rows=10&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Ctype",
+  "total": 150452,
+  "returned": 10
+ },
+ {
+  "pub": "Springer",
+  "q": "multi-agent LLM security collusion monitoring control",
+  "url": "https://api.crossref.org/works?query.bibliographic=multi-agent+LLM+security+collusion+monitoring+control&filter=member%3A297%2Cfrom-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-11-16&rows=10&select=DOI%2Ctitle%2Cauthor%2Cissued%2Ccontainer-title%2Ctype",
+  "total": 213604,
+  "returned": 10
+ }
+]

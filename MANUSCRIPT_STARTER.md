@@ -1,3 +1,5 @@
+> Superseded by `MANUSCRIPT.md` (draft v0.5). Kept unchanged below as the v0.1 starting point.
+
 # Security Failures in Autonomous AI Agents
 
 ## A Survey Motivated by the OpenAI–Hugging Face Incident
