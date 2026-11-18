@@ -4,7 +4,7 @@ Updated 17 November 2026 for the author-edited LaTeX v0.7 release. The user has 
 
 ## Canonical v0.7 source
 
-Edit `paper/latex_v0.7/` and follow its README. `MANUSCRIPT.md`, `paper/content.py` and `tools/build_paper.py` retain v0.6 source snapshots; do not use them to overwrite the user's v0.7 edits. The new workflow compiles XeLaTeX and records source, page, corpus, questionnaire and numeric-string audits. Review `evidence/audit_v07_conversion.json` for conversion parity and the latest handoff for visual QA.
+Edit `paper/latex_v0.7/` and follow its README. The current release is recorded in `handoffs/claude-release-v07-20261118.md`; the CI release job cannot yet install TeX reliably, so build locally or in Overleaf and commit generated files with `[skip release]`. `MANUSCRIPT.md`, `paper/content.py` and `tools/build_paper.py` retain v0.6 source snapshots; do not use them to overwrite the user's v0.7 edits. The new workflow compiles XeLaTeX and records source, page, corpus, questionnaire and numeric-string audits. Review `evidence/audit_v07_conversion.json` for conversion parity and the latest handoff for visual QA.
 
 Human reading reported in the edited draft: Parivesh Singh 7 works; Vaibhav Gaur 3. Work IDs and overlap are unknown. Keep these aggregate reports separate from AI-assisted extraction of 35 included works and 7 read-but-not-included works. Do not change per-work human reading flags without the corresponding work IDs. Future intended reading is not completed reading.
 

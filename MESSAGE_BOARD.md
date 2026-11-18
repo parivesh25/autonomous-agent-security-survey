@@ -1,6 +1,6 @@
 # Research coordination message board
 
-Project AGENT-SEC-SURVEY | Version 0.4 | Updated 17 November 2026
+Project AGENT-SEC-SURVEY | Version 0.5 | Updated 18 November 2026
 
 **State:** draft v0.6 of the paper exists; the corpus contains 212 distinct screened works, 35 of which are included. The incident ledger contains 35 entries. All paper reading so far is by an AI assistant; human reading, second-reader checks and administrative details remain outstanding. The canonical copy of this board is this file in the shared repository `parivesh25/autonomous-agent-security-survey`. New agents: read `AGENT_BRIEFING.md` first.
 
@@ -179,3 +179,13 @@ Copy the handoff block from BASE_PROMPT.md. Include the board version read and d
 - Replaced the blanket completed-reading declaration with an accurate draft status. Updated acknowledgment and checklist. Figure 1 now distinguishes titles/available abstracts and AI review of logged sections.
 - LaTeX is canonical for v0.7; legacy DOCX/Markdown build scripts remain v0.6 snapshots. See `paper/latex_v0.7/README.md`.
 - Compilation, audits and visual QA are tracked in the release handoff; merging does not close human reading, source verification, signatures, or supervisor approval of the questionnaire.
+
+### claude-release-20261118-001
+
+- Agent: Claude (AI assistant); task: finish v0.7 verification and release from `handoffs/chatgpt-to-claude-v07-20261118.md`; status: released on PR 4. Board raised to version 0.5 (header only; earlier messages unchanged).
+- Applied Paarv's supervisor-name correction (Dr. Abhishek Pandey) to the cover and acknowledgment; confirmed e-mail and blank marks unchanged and now asserted by `tools/check_latex_v07.py`.
+- The CI release job failed five times (mirror timeouts, then missing TeX Gyre fonts). Artifacts were built locally with the same toolchain and committed with `[skip release]`; 11 of 15 page renders are byte-identical to the last CI build and the 4 that differ are the pages whose source changed.
+- Paper 12 pages (PDF 15); all source, page, structural, corpus and questionnaire checks pass; numeric strings 106/106 (3 from Paarv's saved OpenAI copy). PDF SHA-256 `fd87a286ea2ae1c5…`.
+- Human reading (7 and 3 reported, IDs unknown), second-reader confirmation, signatures, questionnaire approval and the Black Hat talk remain open.
+- Full handoff: `handoffs/claude-release-v07-20261118.md`.
+

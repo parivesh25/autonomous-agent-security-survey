@@ -3,3 +3,5 @@ evidence/incident/*.html
 evidence/incident/*.txt
 __pycache__/
 evidence/incident/*.pdf
+paper/latex_v0.7/main.*
+!paper/latex_v0.7/main.tex
