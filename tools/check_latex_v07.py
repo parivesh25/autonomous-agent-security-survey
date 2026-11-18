@@ -16,10 +16,13 @@ assert 150<=len(abstract.split())<=250
 assert '15 of 35' in s
 assert '89\\%' in s and '17\\%' in s
 assert 'abhishek.pandey@iilm.edu' in (p/'cover.tex').read_text(encoding='utf-8')
+cover=(p/'cover.tex').read_text(encoding='utf-8')
+assert 'Name & Dr. Abhishek Pandey' in cover and 'Sharma' not in cover and 'Sharma' not in s, 'supervisor name must match the user-confirmed Dr. Abhishek Pandey'
+assert 'Marks)' in cover and '\\_\\_\\_ Marks' in cover, 'assessment marks must stay blank'
 assert '___' not in (p/'cover.tex').read_text(encoding='utf-8') # escaped underscores only
 print('PASS canonical LaTeX: 40 resolved references, 11 tables, 3 figures, 8 sections')
 print('PASS abstract length:',len(abstract.split()),'words')
-print('PASS retained corrected F6 and W021 figures; confirmed supervisor email')
+print('PASS retained corrected F6 and W021 figures; supervisor Dr. Abhishek Pandey with confirmed email; marks blank')
 pdf=Path('paper/AgentSecuritySurvey_v0.7.pdf')
 if pdf.exists():
     info=subprocess.check_output(['pdfinfo',str(pdf)],text=True)

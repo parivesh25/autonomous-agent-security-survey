@@ -8,7 +8,7 @@ Edit `paper/latex_v0.7/` and follow its README. `MANUSCRIPT.md`, `paper/content.
 
 Human reading reported in the edited draft: Parivesh Singh 7 works; Vaibhav Gaur 3. Work IDs and overlap are unknown. Keep these aggregate reports separate from AI-assisted extraction of 35 included works and 7 read-but-not-included works. Do not change per-work human reading flags without the corresponding work IDs. Future intended reading is not completed reading.
 
-Supervisor: Dr. Abhishek Sharma; user-confirmed email `abhishek.pandey@iilm.edu`. Assessment marks intentionally blank. Declaration/signatures and final human source/originality checks remain pending. Questionnaire must not be distributed without supervisor approval.
+Supervisor: Dr. Abhishek Pandey (name corrected by the user on 18 Nov 2026); user-confirmed email `abhishek.pandey@iilm.edu`. Assessment marks intentionally blank. Declaration/signatures and final human source/originality checks remain pending. Questionnaire must not be distributed without supervisor approval.
 
 ## Prior v0.6 briefing (historical snapshot)
 
