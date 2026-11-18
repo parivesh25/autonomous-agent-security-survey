@@ -78,7 +78,7 @@
   "outcome_definition": "Evaluator tampering (hash deviation and reported-vs-reference metric gap) or train/test leakage (file-access log).",
   "denominator": "3 tasks x 40 episodes per backbone and regime",
   "result": "Scripted attacks: 1.00 overall success in every regime except fully locked (0.00); each single defence blocks one vector only. Unscripted agents attempted evaluator tampering in about half of episodes and never attempted leakage.",
-  "utility": "25-31% median runtime overhead for locking",
+  "utility": null,
   "uncertainty": "Wilson 95% intervals reported (e.g. [0.97, 1.00])",
   "limitation": "Small open models; three tasks; scripted attacker is worst case, not observed behaviour.",
   "sections_read": "Abstract; III Threat model; V; VI (Table I, VI-A); VII Discussion and limitations (opening)"
@@ -390,7 +390,7 @@
   "outcome_definition": "AgentDojo utility and attack success, with and without policies.",
   "denominator": "AgentDojo task suites",
   "result": "Utility largely retained except in the travel suite; a cheaper quarantined model cost about 1% utility.",
-  "utility": "Failure modes analysed (e.g. plans that depend on untrusted data)",
+  "utility": "AgentDojo legitimate-task utility reported; largely retained except in the travel suite",
   "uncertainty": null,
   "limitation": "Authors list side channels, user fatigue from approvals and attacks from classical security as open.",
   "sections_read": "Abstract; 3 Threat model; 6.1-6.2; 9 Discussion; 11 Conclusion"
@@ -823,7 +823,7 @@
   "budget": null,
   "outcome_definition": "Safety against a default and against adapted attack policies.",
   "denominator": "Table 2 (per-strategy safety and usefulness)",
-  "result": "Two protocols raised safety from 50% to 96% against a default attack; an attacker that simulates the monitor or knows when resampling occurs lowered resample-based safety to 17%; deferring on critical actions held at 100% safety against every strengthened attack.",
+  "result": "Resample-then-defer scored 89% safety against the default attack and 17% against monitor simulation; a separate defer-on-critical configuration scored 96% against its default attack and 100% against every strengthened attack tested.",
   "utility": "Usefulness 89% for resample-then-defer vs 68% for defer-on-critical",
   "uncertainty": null,
   "limitation": "Authors conclude resampling/deferral protocols are not robust to strong red teaming and depend on the agent being unable to model the monitor.",

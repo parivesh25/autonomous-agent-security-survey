@@ -1,0 +1,8 @@
+{
+  "source_docx_sha256": "e2a9d47ef8b750d6df9ee16ba69795077e996bf81255778eda21c5fc71d784b7",
+  "narrative_paragraphs_preserved": 46,
+  "tables_checked_cell_by_cell": 11,
+  "references_preserved": 40,
+  "abstract_change": "Defenses -> Defences only",
+  "status": "PASS: research text and numeric values retained from edited DOCX"
+}

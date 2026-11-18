@@ -1,0 +1,11 @@
+PASS item count matches metadata
+PASS item IDs are unique
+PASS CSV has one row per answer option
+PASS CSV items match JSON items in order
+PASS codebook has one row per response column
+PASS responses template header equals codebook columns
+PASS responses template holds no answer rows
+PASS no responses directory with files
+PASS every most/least item offers at least four options
+PASS status says not administered
+17 items, 79 option rows, 42 response columns, 0 answer rows

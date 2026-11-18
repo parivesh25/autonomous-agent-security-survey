@@ -1,0 +1,92 @@
+name: build-paper-v07
+on:
+  pull_request:
+    paths:
+      - 'paper/latex_v0.7/**'
+      - 'tools/check_latex_v07.py'
+      - '.github/workflows/build-paper-v07.yml'
+permissions:
+  contents: write
+jobs:
+  build-gate:
+    runs-on: ubuntu-latest
+    outputs:
+      build: ${{ steps.gate.outputs.build }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+      - id: gate
+        shell: bash
+        run: |
+          if git log -1 --pretty=%B | grep -Fq '[skip release]'; then
+            echo 'build=false' >> "$GITHUB_OUTPUT"
+          else
+            echo 'build=true' >> "$GITHUB_OUTPUT"
+          fi
+  latex-and-audits:
+    needs: build-gate
+    if: needs.build-gate.outputs.build == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install XeLaTeX and audit dependencies
+        # TeX Gyre fonts are listed explicitly: with --no-install-recommends they are not pulled in by
+        # texlive-fonts-recommended, and format.tex falls back to TeX Gyre Termes by family name, which XeTeX
+        # resolves through fontconfig. fonts-texgyre registers them with fontconfig; tex-gyre alone does not
+        # (runs 44224339405 and 44224827004 failed without it).
+        # The runner's Ubuntu mirror has served these ~130 MB slowly (run 44218655741 timed out after
+        # 6 minutes mid-download), so allow up to 20 minutes before giving up.
+        timeout-minutes: 25
+        env:
+          DEBIAN_FRONTEND: noninteractive
+        run: |
+          sudo -E timeout 300 apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=60 -o Acquire::https::Timeout=60 update -qq
+          sudo -E timeout 1200 apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=60 -o Acquire::https::Timeout=60 install -y --no-install-recommends texlive-xetex texlive-fonts-recommended tex-gyre fonts-texgyre latexmk poppler-utils
+          pip install requests beautifulsoup4 pillow
+      - name: Compile canonical LaTeX
+        run: |
+          cd paper/latex_v0.7
+          latexmk -xelatex -interaction=nonstopmode -halt-on-error main.tex
+          cp main.pdf ../AgentSecuritySurvey_v0.7.pdf
+      - name: Source, corpus, questionnaire and page audits
+        run: |
+          set -o pipefail
+          python tools/check_latex_v07.py | tee evidence/audit_v07_latex.txt
+          python tools/audit_paper.py --structural | tee evidence/audit_v07_structural.txt
+          python tools/check_corpus.py | tee evidence/audit_v07_corpus.txt
+          python tools/check_questionnaire.py | tee evidence/audit_v07_questionnaire.txt
+      - name: Fetch pinned primary-source text
+        run: python tools/fetch_v07_audit_sources.py
+      - name: Numeric-source audit
+        run: |
+          set -o pipefail
+          python tools/audit_paper.py | tee evidence/audit_v07_numeric.txt
+      - name: Render pages and package editable project
+        run: |
+          mkdir -p evidence/render_v07
+          pdftoppm -jpeg -jpegopt quality=88 -r 110 paper/AgentSecuritySurvey_v0.7.pdf evidence/render_v07/page
+          cp paper/latex_v0.7/main.log evidence/v07_latex.log
+          python - <<'PY'
+          import zipfile,pathlib
+          root=pathlib.Path('paper/latex_v0.7')
+          with zipfile.ZipFile('paper/AgentSecuritySurvey_v0.7_Overleaf.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for p in sorted(root.rglob('*')):
+                  if p.is_file() and p.suffix in {'.tex','.png','.md','.json'}:
+                      z.write(p,p.relative_to(root))
+          PY
+      - name: Commit generated release and QA evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add paper/AgentSecuritySurvey_v0.7.pdf paper/AgentSecuritySurvey_v0.7_Overleaf.zip evidence/audit_v07_*.txt evidence/render_v07/ evidence/v07_latex.log
+          if ! git diff --cached --quiet; then
+            git commit -m 'build: compile v0.7 LaTeX and record audits [skip release]'
+            git push origin HEAD:${{ github.event.pull_request.head.ref }}
+          fi

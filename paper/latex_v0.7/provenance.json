@@ -1,0 +1,24 @@
+{
+  "version": "0.7",
+  "date": "2026-11-17",
+  "source_name": "AgentSecuritySurvey_draft_v0.6-edited(1).docx",
+  "source_sha256": "e2a9d47ef8b750d6df9ee16ba69795077e996bf81255778eda21c5fc71d784b7",
+  "template_sha256": "74f61f5ed7596c4e7cc92ae75a25faad2b6fdfdadd7701436134759b11a43af3",
+  "included_ai_assisted_reviews": 35,
+  "human_reading_reported": {
+    "Parivesh Singh": 7,
+    "Vaibhav Gaur": 3
+  },
+  "human_distinct_works_read": null,
+  "human_work_ids": null,
+  "tables": 11,
+  "figures": 3,
+  "references": 40,
+  "corrections": [
+    "Two student authors; supervisor retained on cover with user-confirmed email",
+    "Blank assessment marks preserved",
+    "Acknowledgment placeholder replaced",
+    "Declaration and checklist distinguish completed AI-assisted review from incomplete human verification",
+    "No reported research numbers or references changed"
+  ]
+}

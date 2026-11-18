@@ -1,10 +1,10 @@
 # Research coordination message board
 
-Project AGENT-SEC-SURVEY | Version 0.3 | Updated 17 November 2026
+Project AGENT-SEC-SURVEY | Version 0.5 | Updated 18 November 2026
 
-**State:** draft v0.5 of the paper exists; the corpus contains 212 distinct screened works, 35 of which are included. The incident ledger contains 35 entries. All paper reading so far is by an AI assistant; human reading, second-reader checks and administrative details remain outstanding. The canonical copy of this board is this file in the shared repository `parivesh25/autonomous-agent-security-survey`. New agents: read `AGENT_BRIEFING.md` first.
+**State:** draft v0.6 of the paper exists; the corpus contains 212 distinct screened works, 35 of which are included. The incident ledger contains 35 entries. All paper reading so far is by an AI assistant; human reading, second-reader checks and administrative details remain outstanding. The canonical copy of this board is this file in the shared repository `parivesh25/autonomous-agent-security-survey`. New agents: read `AGENT_BRIEFING.md` first.
 
-Version 0.2 was written by claude-t02 on Paarv's instruction of 17 November 2026 to close open items. Version 0.3 synchronizes the accepted PR 2 state after independent reconciliation. Entries below marked (17 Nov) were added then; Paarv, as coordinator, may reverse any of them. Messages remain append-only.
+Version 0.2 was written by claude-t02 on Paarv's instruction of 17 November 2026 to close open items. Version 0.3 synchronizes the accepted PR 2 state after independent reconciliation. Version 0.4 records the v0.6 rebuild, author/course metadata, T09 F6 review and visual/audit results. Entries below marked (17 Nov) were added then; Paarv, as coordinator, may reverse any of them. Messages remain append-only.
 
 ## Decisions
 
@@ -30,12 +30,12 @@ Version 0.2 was written by claude-t02 on Paarv's instruction of 17 November 2026
 | T02–T04 | Full-text reading and extraction, categories A–D | DONE by AI for 35 included works and 7 read-not-included. **Human reading: 0 works. See T08** |
 | T05 | Incident claim ledger | DONE by AI: 35 entries. OpenAI's technical report was read in part; the Black Hat talk was not accessed: see T13 |
 | T06 | Comparison tables, figures, general findings | DONE by AI (computed from the ledgers) |
-| T07 | Manuscript in the professor's template | DRAFT v0.5 (DOCX, PDF, Markdown). Placeholders remain: see T12 |
+| T07 | Manuscript in the professor's template | DRAFT v0.6 (DOCX, PDF, Markdown). The paper block is 12 pages; author/course metadata is filled. Placeholders remain: see T12 |
 | T08 | Each team member reads the works in their categories and records it in `works.json` (`human_reading_status`) | OPEN: humans only |
-| T09 | Second reader checks quoted numbers and the hand-coded counts (F3, F6) against pinned versions | OPEN: human, or a different agent from the one that extracted |
+| T09 | Second reader checks quoted numbers and the hand-coded counts (F3, F6) against pinned versions | IN PROGRESS: AI batch 1 checked F3, four high-impact claims, OpenAI's 198/898/93 figures and all F6 utility semantics. W021 was corrected; F6 is 15/35 (A 2, B 5, C 2, D 6). Human confirmation and remaining claim checks are open |
 | T10 | Native database searches with institute access, logged in `search_log.json`; or keep Table I as is | OPEN |
 | T11 | Questionnaire: supervisor approval, form build from `survey/questionnaire.csv`, pilot with 5–8 people | OPEN: must not be distributed before approval |
-| T12 | Names, enrolment numbers, course details, supervisor, acknowledgment, contribution table, AI-use statement, file name | OPEN: humans only |
+| T12 | Names, enrolment numbers, course details, supervisor, acknowledgment, contribution table, AI-use statement, file name | PARTLY DONE: author names/URNs/emails, course, supervisor, coordinator and AI-use draft are filled. Acknowledgment, contributions, signatures, final filename and remaining cover fields require humans |
 | T13 | Watch the Black Hat talk and read OpenAI's technical report; add contradicting claims to the incident ledger | PARTLY DONE: technical report read in part, no contradiction with the operator's post found on statements the paper uses (ledger I30–I35). Black Hat talk still not accessed; a cover-to-cover read of the report is still owed |
 | T14 | Obtain P011 (MDPI) through a browser; decide whether to read it | OPEN, low priority |
 
@@ -150,3 +150,42 @@ Copy the handoff block from BASE_PROMPT.md. Include the board version read and d
 - Confirmed GitHub Actions run 44029147888 passed the corpus, structural manuscript and questionnaire checks on commit `224f3a7`.
 - Accepted venue policy: claims remain tied to the pinned arXiv version read; verified published-record metadata may be added without claiming the published text was examined.
 - Remaining human gates: reading included papers, semantic/second-reader checking of quoted numbers, questionnaire approval before distribution, identity/course/declaration fields and supervisor review.
+
+### COORD-20261117-003
+
+- Agent: ChatGPT coordinator; task: T09 independent second-reader batch 1; status: in progress on branch `chatgpt/t09-second-reader-batch1`.
+- Checked W045, W021, W103 and W012 against their pinned primary-source versions and re-evaluated the three-work adaptive-attacker count behind F3.
+- Confirmed four checks and found one semantic error: the manuscript pairs 96% and 17% from different W021 protocols. The correct resample-then-defer comparison is 89% to 17%; the separate defer-on-critical configuration is 96% against its default attack and 100% against the strengthened attacks tested.
+- Evidence and locators: `evidence/second_reader/t09_batch1_20261117.md`.
+- Next action: patch all source representations, rebuild DOCX/PDF, rerun audits, then continue with F6 utility reporting.
+
+
+### COORD-20261117-004
+
+- Agent: ChatGPT coordinator; task: v0.6 rebuild, T09 F6 semantics, metadata, checklist and QA; status: ready for review on draft PR 4.
+- Added Parivesh Singh (URN 2581138) and Vaibhav Gaur (URN 2581149), both college emails, Foundations of Cybersecurity (CSE25305), Dr. Abhishek Sharma, Assistant Professor in the School of Computer Science and Engineering, and course coordinator Dr. Preetisha.
+- Re-evaluated F6 from the extraction evidence. W003 reports runtime overhead rather than legitimate-task utility and was removed from the count; F6 is now 15 of 35, split A 2/10, B 5/9, C 2/8 and D 6/8.
+- The OpenAI incident figures 198, 898 and 93% were manually checked against the official primary source because the automated fetch could not retrieve that page. The numeric audit found 103 of 106 strings automatically; these three account for the remainder.
+- Regenerated v0.6 DOCX/PDF, rendered and visually inspected all 15 output pages. The cover, title page, paper body, references, annexure and checklist are legible with no clipping or overlap. Long paper tables continue across page breaks; checklist rows are kept intact and its header repeats.
+- Page boundary audit: paper starts on PDF page 2, annexure starts on page 14, so the paper block is exactly 12 pages. Structural, corpus, questionnaire and build checks pass.
+- The checklist is completed honestly: human reading, originality review, acknowledgment, contributions, signatures, final filename and final submission fields remain incomplete or partial. The declaration must not be signed yet.
+
+
+### COORD-20261117-005
+
+- Task: convert the author's edited DOCX to canonical LaTeX v0.7 and integrate outstanding PRs, explicitly authorized by the user.
+- Preserved research text, 11 tables, 3 figures and 40 reference entries. Corrected the author block, retained Dr. Abhishek Sharma and the user-confirmed supervisor email, and kept assessment marks blank.
+- Contribution counts remain the reported 7 and 3 human readings; work IDs and overlap are unreported. The review includes 35 AI-assisted extraction records. Planned catch-up reading is not recorded as completed.
+- Replaced the blanket completed-reading declaration with an accurate draft status. Updated acknowledgment and checklist. Figure 1 now distinguishes titles/available abstracts and AI review of logged sections.
+- LaTeX is canonical for v0.7; legacy DOCX/Markdown build scripts remain v0.6 snapshots. See `paper/latex_v0.7/README.md`.
+- Compilation, audits and visual QA are tracked in the release handoff; merging does not close human reading, source verification, signatures, or supervisor approval of the questionnaire.
+
+### claude-release-20261118-001
+
+- Agent: Claude (AI assistant); task: finish v0.7 verification and release from `handoffs/chatgpt-to-claude-v07-20261118.md`; status: released on PR 4. Board raised to version 0.5 (header only; earlier messages unchanged).
+- Applied Paarv's supervisor-name correction (Dr. Abhishek Pandey) to the cover and acknowledgment; confirmed e-mail and blank marks unchanged and now asserted by `tools/check_latex_v07.py`.
+- The CI release job failed five times (mirror timeouts, then missing TeX Gyre fonts). Artifacts were built locally with the same toolchain and committed with `[skip release]`; 11 of 15 page renders are byte-identical to the last CI build and the 4 that differ are the pages whose source changed.
+- Paper 12 pages (PDF 15); all source, page, structural, corpus and questionnaire checks pass; numeric strings 106/106 (3 from Paarv's saved OpenAI copy). PDF SHA-256 `fd87a286ea2ae1c5…`.
+- Human reading (7 and 3 reported, IDs unknown), second-reader confirmation, signatures, questionnaire approval and the Black Hat talk remain open.
+- Full handoff: `handoffs/claude-release-v07-20261118.md`.
+

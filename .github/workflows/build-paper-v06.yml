@@ -1,0 +1,151 @@
+name: build-paper-v06
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/build-paper-v06.yml"
+      - "tools/build_paper.py"
+      - "tools/build_t02.py"
+      - "paper/content.py"
+      - "paper/extraction_data.py"
+      - "extraction_matrix.json"
+      - "template/IILM_Survey_Paper_Template.docx"
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+      - name: Avoid rebuilding generated commit
+        id: gate
+        shell: bash
+        run: |
+          if [ -f paper/latex_v0.7/main.tex ] || git log -1 --pretty=%B | grep -Fq "[skip release]"; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.skip != 'true'
+        with:
+          python-version: "3.12"
+      - name: Install document and rendering dependencies
+        if: steps.gate.outputs.skip != 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libreoffice poppler-utils fonts-liberation
+          pip install python-docx matplotlib requests beautifulsoup4 pillow
+      - name: Rebuild ledgers, manuscript and DOCX
+        if: steps.gate.outputs.skip != 'true'
+        run: |
+          python tools/build_t02.py
+          python tools/build_paper.py
+      - name: Convert DOCX to PDF and render every page
+        if: steps.gate.outputs.skip != 'true'
+        run: |
+          mkdir -p evidence/render_v06
+          find evidence/render_v06 -maxdepth 1 -type f -name "page-*.jpg" -delete
+          libreoffice --headless --convert-to pdf --outdir paper paper/AgentSecuritySurvey_draft_v0.6.docx
+          pdftoppm -jpeg -jpegopt quality=88 -r 130 paper/AgentSecuritySurvey_draft_v0.6.pdf evidence/render_v06/page
+      - name: Verify page boundaries
+        if: steps.gate.outputs.skip != 'true'
+        run: |
+          set -o pipefail
+          python - <<'PY' | tee evidence/audit_v06_pagecount.txt
+          import re, subprocess
+          pdf="paper/AgentSecuritySurvey_draft_v0.6.pdf"
+          info=subprocess.check_output(["pdfinfo",pdf],text=True)
+          total=int(re.search(r"^Pages:\s+(\d+)",info,re.M).group(1))
+          pages=[]
+          for p in range(1,total+1):
+              t=subprocess.check_output(["pdftotext","-f",str(p),"-l",str(p),pdf,"-"],text=True,errors="replace")
+              pages.append(t)
+          starts=[i+1 for i,t in enumerate(pages) if "Abstract—" in t or "Abstract-" in t]
+          annex=[i+1 for i,t in enumerate(pages) if "ANNEXURE: SEARCH LOG" in t]
+          if len(starts)!=1 or len(annex)!=1:
+              raise SystemExit(f"Could not identify unique paper/annexure boundary: starts={starts}, annex={annex}")
+          paper_pages=annex[0]-starts[0]
+          print(f"total_pdf_pages={total}")
+          print(f"paper_block_start_page={starts[0]}")
+          print(f"annexure_start_page={annex[0]}")
+          print(f"paper_block_pages={paper_pages}")
+          print(f"rendered_page_images={len(pages)}")
+          if paper_pages>12: raise SystemExit("Paper block exceeds 12 pages")
+          if len(list(__import__("pathlib").Path("evidence/render_v06").glob("page-*.jpg"))) != total:
+              raise SystemExit("Rendered image count does not equal PDF page count")
+          PY
+      - name: Structural, corpus and questionnaire audits
+        if: steps.gate.outputs.skip != 'true'
+        run: |
+          set -o pipefail
+          python tools/audit_paper.py --structural | tee evidence/audit_v06_structural.txt
+          python tools/check_corpus.py | tee evidence/audit_v06_corpus.txt
+          python survey/build_questionnaire.py
+          git diff --exit-code -- survey/
+          python tools/check_questionnaire.py | tee evidence/audit_v06_questionnaire.txt
+      - name: Fetch pinned primary-source text for numeric audit
+        if: steps.gate.outputs.skip != 'true'
+        run: |
+          mkdir -p evidence/fulltext evidence/incident /tmp/v06_sources
+          python - <<'PY'
+          import json, pathlib, re, requests, subprocess
+          works={w["work_id"]:w for w in json.load(open("works.json"))}
+          ext=json.load(open("extraction_matrix.json"))
+          headers={"User-Agent":"Mozilla/5.0 research audit"}
+          for e in ext:
+              version=e["version_read"]; out=pathlib.Path("evidence/fulltext")/(version+".txt")
+              pdf=pathlib.Path("/tmp/v06_sources")/(version+".pdf")
+              url=f"https://arxiv.org/pdf/{version}"
+              try:
+                  r=requests.get(url,headers=headers,timeout=90); r.raise_for_status(); pdf.write_bytes(r.content)
+                  subprocess.run(["pdftotext",str(pdf),str(out)],check=True)
+                  print("FETCHED",version,len(out.read_text(errors="replace")))
+              except Exception as exc: print("FETCH_FAIL",version,type(exc).__name__,exc)
+          incident={
+            "hf_disclosure.txt":"https://huggingface.co/blog/security-incident-july-2026",
+            "hf_timeline.txt":"https://huggingface.co/blog/agent-intrusion-technical-timeline",
+            "metr_2025.txt":"https://metr.org/blog/2025-06-05-recent-reward-hacking/",
+            "openai_post.txt":"https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+            "metr_2026.txt":"https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+          }
+          from bs4 import BeautifulSoup
+          for name,url in incident.items():
+              try:
+                  r=requests.get(url,headers=headers,timeout=90); r.raise_for_status()
+                  text=BeautifulSoup(r.text,"html.parser").get_text("\n")
+                  pathlib.Path("evidence/incident",name).write_text(text,encoding="utf-8")
+                  print("FETCHED",name,len(text))
+              except Exception as exc: print("FETCH_FAIL",name,type(exc).__name__,exc)
+          PY
+      - name: Numeric-source audit
+        if: steps.gate.outputs.skip != 'true'
+        run: |
+          set -o pipefail
+          python tools/audit_paper.py | tee evidence/audit_v06_numeric.txt
+      - name: Record render inventory
+        if: steps.gate.outputs.skip != 'true'
+        run: |
+          {
+            echo "# Draft v0.6 render inventory"
+            echo
+            echo "Generated 17 November 2026 from AgentSecuritySurvey_draft_v0.6.docx."
+            echo "Every PDF page was rendered at 130 dpi for visual inspection."
+            echo
+            ls -1 evidence/render_v06/page-*.jpg
+          } > evidence/render_v06/README.md
+      - name: Commit generated v0.6 and QA evidence
+        if: steps.gate.outputs.skip != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add MANUSCRIPT.md extraction_matrix.json incident_claim_ledger.json literature_matrix.json search_log.json works.json paper/counts.json paper/fig1_selection_flow.png paper/fig2_taxonomy.png paper/fig3_trend.png paper/AgentSecuritySurvey_draft_v0.6.docx paper/AgentSecuritySurvey_draft_v0.6.pdf evidence/audit_v06_pagecount.txt evidence/audit_v06_structural.txt evidence/audit_v06_corpus.txt evidence/audit_v06_questionnaire.txt evidence/audit_v06_numeric.txt evidence/render_v06/
+          if ! git diff --cached --quiet; then
+            git commit -m "build: generate v0.6 paper and QA evidence [skip release]"
+            git push origin HEAD:${{ github.event.pull_request.head.ref }}
+          fi
