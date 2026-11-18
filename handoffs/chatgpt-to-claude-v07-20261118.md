@@ -29,7 +29,7 @@ Produce corrected v0.7 in LaTeX from the user's manually edited v0.6 DOCX, follo
 - Parivesh Singh, URN 2581138, parivesh.singh.ug25@iilm.edu
 - Vaibhav Gaur, URN 2581149, vaibhav.gaur.ug25@iilm.edu
 - Course: Foundations of Cybersecurity; CSE25305
-- Supervisor: Dr. Abhishek Sharma
+- Supervisor: Dr. Abhishek Pandey
 - Supervisor email: abhishek.pandey@iilm.edu — explicitly confirmed by the user despite the surname mismatch
 - Designation: Assistant Professor, School of Computer Science and Engineering
 - Course coordinator: Dr. Preetisha
